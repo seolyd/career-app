@@ -1,0 +1,636 @@
+{
+  "generatedAt": "2026-09-04T15:57:20.619Z",
+  "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "August newsletter is out",
+      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "publishedAt": "2026-09-04T05:54:40.000Z",
+      "excerpt": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-p…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "GPT‑6 Astra",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "publishedAt": "2026-09-03T20:18:41.000Z",
+      "excerpt": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p> GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Pl…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
+      "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
+      "publishedAt": "2026-09-03T19:34:20.000Z",
+      "excerpt": "Watch now | &#127897;&#65039; My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn&#8217;t match, and a hardware hack I&#8217;ve chased for month…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "publishedAt": "2026-09-02T16:39:38.000Z",
+      "excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovat…"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "US Workforce In 2035: A Few More Workers, A Lot More Output",
+      "url": "https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
+      "publishedAt": "2026-09-02T14:35:11.000Z",
+      "excerpt": "Despite the talk about job losses from AI, we now know the opposite is true. The new Bureau of Labor Statistics Employment Projections: 2025-2035 . shows that we are likely to have labor shortages in the future, despite …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "publishedAt": "2026-09-02T14:16:42.000Z",
+      "excerpt": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the C…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/ai-evals-test-harness/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "publishedAt": "2026-09-02T13:05:45.000Z",
+      "excerpt": "My in-depth AI evals guide explains what evals are and how to build them. This post gives you the tool I use to run them. Here&apos;s the practical problem. To get a baseline, you have to run every input through your pro…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/ai-evals/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "AI Evals: A Hands-On Guide for Product Teams",
+      "url": "https://www.producttalk.org/ai-evals/",
+      "publishedAt": "2026-09-02T13:00:59.000Z",
+      "excerpt": "AI evals tell you whether your AI product or workflow is any good. A hands-on guide to error analysis, the four types of evals, and your first experiment."
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+      "publishedAt": "2026-09-02T12:03:39.000Z",
+      "excerpt": "Watch now | &#127897;&#65039; I&#8217;ve been running Grok Bot for several weeks, and I&#8217;ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids&#8217; school pickups, my PR q…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "publishedAt": "2026-09-02T05:50:57.000Z",
+      "excerpt": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will n…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "publishedAt": "2026-09-01T23:57:28.000Z",
+      "excerpt": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-so…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Codex bundles LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "publishedAt": "2026-09-01T19:03:01.000Z",
+      "excerpt": "<p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://hel…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/1/geojson/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "GeoJSON Map Viewer",
+      "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "publishedAt": "2026-09-01T18:05:45.000Z",
+      "excerpt": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Gra…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "How to turn your AI into a world-class designer",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "publishedAt": "2026-09-01T12:45:59.000Z",
+      "excerpt": "An end-to-end process for tapping into AI&#8217;s hidden creativity"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
+      "publishedAt": "2026-08-31T15:01:58.000Z",
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
+      "publishedAt": "2026-08-31T12:04:18.000Z",
+      "excerpt": "Listen now | &#127897;&#65039; PM Daniel Blum walks through the exact Cowork and Claude setup that manages his Notion, tracks his tasks across Slack and email, and self-improves every week without him lifting a finger"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)",
+      "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "publishedAt": "2026-08-30T12:31:30.000Z",
+      "excerpt": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-building-without",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
+      "publishedAt": "2026-08-29T18:59:48.000Z",
+      "excerpt": "Community Wisdom 199"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "The Great Decoupling: How Workers Became Disconnected From Companies And AI Will Accelerate This Trend",
+      "url": "https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
+      "publishedAt": "2026-08-27T14:41:10.000Z",
+      "excerpt": "I have spent almost 30 years studying organizations, work, jobs, and HR, and every year there’s a new theme. There was digital transformation, employee wellbeing, hybrid work, diversity and inclusion, women’s rights, and…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "How to figure out your next career move",
+      "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+      "publishedAt": "2026-08-25T13:04:15.000Z",
+      "excerpt": "Six essential questions to help you navigate change"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "Despite Massive AI Investments, HR Jobs Are Booming. Why?",
+      "url": "https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
+      "publishedAt": "2026-08-13T13:48:06.000Z",
+      "excerpt": "I’ve been an HR analyst and consultant for 30 years and there’s always a story that HR is “useless” or “a waste of time” or “going away.” And this will always continue, because most managers really do believe they are al…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/designing-better-working-relationships/",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "Designing Better Working Relationships",
+      "url": "https://www.bringthedonuts.com/essays/designing-better-working-relationships/",
+      "publishedAt": "2026-08-11T07:00:00.000Z",
+      "excerpt": "Being intentional about how we relate with coworkers - Some years ago, I was in session with a newish client. This leader was expressing their frustration with a peer. This off-screen co-worker—I’ll call him Jacob—had be…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/a-fresh-definition-of-the-product-role/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "A Fresh Definition of The Product Role",
+      "url": "https://www.svpg.com/a-fresh-definition-of-the-product-role/",
+      "publishedAt": "2026-08-10T12:49:18.000Z",
+      "excerpt": "I’m just guessing here, but I’d say over the years I’ve seen at least one hundred different definitions of the product role (i.e. product manager/product owner).&#160; I’m pretty sure that anyone reading this would have …"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/the-call-to-adventure/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "The Call to Adventure",
+      "url": "https://www.producttalk.org/the-call-to-adventure/",
+      "publishedAt": "2026-08-05T13:00:55.000Z",
+      "excerpt": "In June, I returned to Product at Heart in Hamburg, Germany. I love this event. Arne Kittler and Petra Wille do such an amazing job of curating a thoughtful lineup of speakers and they obsess over the attendee experience…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/cdh-book-club-august-2026/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "Ch. 9: Identifying Hidden Assumptions",
+      "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
+      "publishedAt": "2026-08-03T13:00:27.000Z",
+      "excerpt": "Continuous Discovery Habits turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the mo…"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "How &#8220;No Tax On Tips&#8221; Disrupts Frontline-First Companies and Workers",
+      "url": "https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
+      "publishedAt": "2026-07-29T16:53:48.000Z",
+      "excerpt": "Wages play a huge role in frontline work. The 70%+ of employees who work in these roles often jump from job to job, employer to employer, just to make a few more dollars per hour. Here’s the dynamic: a typical restaurant…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/the-ai-productivity-paradox/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "The AI Productivity Paradox",
+      "url": "https://www.svpg.com/the-ai-productivity-paradox/",
+      "publishedAt": "2026-07-23T18:22:04.000Z",
+      "excerpt": "We’ve been writing a lot lately about product teams that are clearly leveraging AI to deliver faster, yet their outcomes are not improving. Today, this phenomenon, known as the “AI Productivity Paradox,” has been recogni…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
+      "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
+      "publishedAt": "2026-07-23T13:00:17.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine&apos;s most historically under-researched areas? In this episode of&#xA0; Just Now Possible , Teresa…"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "Affordability Is Not Just Inflation: It&#8217;s Time For A Historic Shift In Wages.",
+      "url": "https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
+      "publishedAt": "2026-07-16T19:01:28.000Z",
+      "excerpt": "Fuel, transportation, housing, and food costs go up, but wage growth is far behind. Is this episodic or is there something bigger going on? A NYT article explains that in San Francisco a combined salary of $370,000 is no…"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "Multi-Agent AI For Talent Acquisition Arrives: Eightfold, Paradox, Maki, Radancy, And More",
+      "url": "https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
+      "publishedAt": "2026-07-15T17:57:39.000Z",
+      "excerpt": "Today Eightfold introduced its AI powered Candidate Agent , which fits together with its AI Interview agent. Not only is this an important announcement for Eightfold as it goes after the red-hot high volume hiring market…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "Quality of Evidence - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-07-14T13:00:09.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts You&apos;ve got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actuall…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
+      "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
+      "publishedAt": "2026-07-09T13:00:43.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to reinvent a 14-year-old company&#x2014;not once, but twice? In this episode of Just Now Possible , Teresa Torres talks with Sam Eitzen (Co-founder &…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "Stepping Into Leadership - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-07-07T13:00:28.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Every product manager wants to move into leadership &#x2014; but nobody wants to hire a leader without leadership experience. So how do you break the cycle? In this epi…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/great-products-bad-companies/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "Great Products, Bad Companies",
+      "url": "https://www.svpg.com/great-products-bad-companies/",
+      "publishedAt": "2026-06-30T23:09:59.000Z",
+      "excerpt": "I have long argued that great products are what powers great companies. And while I still believe that great products are necessary for great companies, it’s become quite clear over the years that great products are not …"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/06/handshake-acquires-uplimit-ai-skilling-takes-a-new-direction/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "Handshake Acquires Uplimit: AI Skilling Takes A New Direction",
+      "url": "https://joshbersin.com/2026/06/handshake-acquires-uplimit-ai-skilling-takes-a-new-direction/",
+      "publishedAt": "2026-06-30T15:17:59.000Z",
+      "excerpt": "The explosive AI market is changing everything, and even Handshake , the leader in university recruiting and early career growth, is taking the bait. Today Handshake acquired Uplimit , one of the pioneers in AI-native co…"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/06/are-frontier-models-becoming-a-commodity/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "title": "Are Frontier Models Becoming A Commodity?",
+      "url": "https://joshbersin.com/2026/06/are-frontier-models-becoming-a-commodity/",
+      "publishedAt": "2026-06-29T17:23:39.000Z",
+      "excerpt": "While Anthropic and OpenAI have massive valuations, the ROI from enterprise AI is coming from applications and data, not the model itself. It&#8217;s not unlike the relational database market, which went through a simila…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/build-to-learn-faq/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "Build To Learn FAQ",
+      "url": "https://www.svpg.com/build-to-learn-faq/",
+      "publishedAt": "2026-04-27T21:16:33.000Z",
+      "excerpt": "In our last article, we argued that especially in the age of AI, we are all builders, but that there is a very meaningful difference between building to learn (known as product discovery) versus building to earn (known a…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/build-to-learn-vs-build-to-earn/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "Build to Learn vs Build to Earn",
+      "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
+      "publishedAt": "2026-04-16T18:48:19.000Z",
+      "excerpt": "We have long argued that there have always been at least two major ways to develop product.&#160;&#160; The most common way, even today in the age of AI, is the project model, which is all about output.&#160; This is whe…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/commercial-vs-internal-products/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "Commercial vs Internal Products",
+      "url": "https://www.svpg.com/commercial-vs-internal-products/",
+      "publishedAt": "2026-04-09T19:52:26.000Z",
+      "excerpt": "Internal Products Are Hard; Commercial Products Are Harder We have spent a lot of time trying to convince product people and especially product leaders of the importance of internal products. We’re talking about services…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/product-coaching-and-ai/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "Product Coaching and AI",
+      "url": "https://www.svpg.com/product-coaching-and-ai/",
+      "publishedAt": "2026-02-04T19:28:20.000Z",
+      "excerpt": "This article represents a significant change to what we have been advocating for the past two decades.&#160; But hopefully you will agree it is necessary, and that it also represents a substantial step forward. We have b…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/books-for-product-managers.html",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "Best Books for Product Managers [2026]",
+      "url": "https://www.bringthedonuts.com/essays/books-for-product-managers.html",
+      "publishedAt": "2026-01-07T08:00:00.000Z",
+      "excerpt": "Essential product management reading - Updated for 2026. There are lots of excellent books about product management and product leadership, but these are the 44 books I&#8217;d consider essential to any PM’s bookshelf. B…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/the-product-model-at-google/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "title": "The Product Model at Google",
+      "url": "https://www.svpg.com/the-product-model-at-google/",
+      "publishedAt": "2025-12-19T12:32:20.000Z",
+      "excerpt": "By Marty Cagan and Elias Lieberich&#160; Marty’s Note:&#160; Recently I co-authored articles on The Product Model at Spotify, and The Product Model at Amazon.&#160; In this article, we hope to do the same by describing h…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/how-to-hire-a-pm-retrospective/",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "A How to Hire a Product Manager Retrospective",
+      "url": "https://www.bringthedonuts.com/essays/how-to-hire-a-pm-retrospective/",
+      "publishedAt": "2025-06-09T07:00:00.000Z",
+      "excerpt": "My perspective twenty years later - That&apos;s me in the JotSpot office in Palo Alto, Summer 2005, a few months before we were acquired by Google. This is my retrospective on my classic essay, How to Hire a Product Mana…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/why-great-leaders-embrace-humor-and-playfulness/",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "Why Great Leaders Embrace Humor and Playfulness",
+      "url": "https://www.bringthedonuts.com/essays/why-great-leaders-embrace-humor-and-playfulness/",
+      "publishedAt": "2025-05-05T07:00:00.000Z",
+      "excerpt": "The case for humor, play, and letting go - Gregg Popovich. Photograph by Soobum Im, USA TODAY Sports Gregg Popovich, the legendary basketball coach, has retired from coaching and will be moving into a new role as the San…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/product-leadership-is-lonely.html",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "Product Leadership is Lonely",
+      "url": "https://www.bringthedonuts.com/essays/product-leadership-is-lonely.html",
+      "publishedAt": "2025-04-10T07:00:00.000Z",
+      "excerpt": "Why this job feels so isolating and what you can do about it - Product leadership is lonely. While you may be surrounded by other people, it often feels like there’s no one to turn to who really gets what you’re up again…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/power-of-not-knowing.html",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "The Power of Not Knowing",
+      "url": "https://www.bringthedonuts.com/essays/power-of-not-knowing.html",
+      "publishedAt": "2025-04-02T07:00:00.000Z",
+      "excerpt": "Embracing uncertainty by confronting our inner stories - &#8220;I don’t know.&#8221; When were you last willing to say that in front of your team? How does it make you feel to even consider saying that? For most leaders,…"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/storytelling-for-leaders.html",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "Storytelling for Product Leaders",
+      "url": "https://www.bringthedonuts.com/essays/storytelling-for-leaders.html",
+      "publishedAt": "2025-01-29T08:00:00.000Z",
+      "excerpt": "Learning to be a better storyteller in the workplace - My coaching clients often ask for help becoming better storytellers, one of the most important skills for product leaders. What follows is everything I’ve collected …"
+    },
+    {
+      "id": "donuts:https://www.bringthedonuts.com/essays/the-drama-triangle/",
+      "sourceId": "donuts",
+      "sourceName": "Bring the Donuts — Ken Norton",
+      "group": "guru",
+      "title": "The Drama Triangle – The Roles We Play in Conflict",
+      "url": "https://www.bringthedonuts.com/essays/the-drama-triangle/",
+      "publishedAt": "2023-06-14T07:00:00.000Z",
+      "excerpt": "What it is and how to use it - In the last newsletter, I introduced the concepts of Reactive and Creative leadership. I want to continue to explore that today. As we saw last time, the majority of leaders and organizatio…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/ask-gib-what-specifics-in-a-daily-routine-separate-a-good-product-manager-from-a-great-product-77044395c57?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "Ask Gib: “What specifics in a daily routine separate a good Product Manager from a great Product…",
+      "url": "https://gibsonbiddle.medium.com/ask-gib-what-specifics-in-a-daily-routine-separate-a-good-product-manager-from-a-great-product-77044395c57?source=rss-370100ca0fe1------2",
+      "publishedAt": "2022-05-01T00:13:14.000Z",
+      "excerpt": "Ask Gib: “What specifics in a daily routine separate a good Product Manager from a great Product Manager?” Short answer: Begin your day with intent, minimize meetings, spend time with customers, manage your own career, b…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/what-do-you-think-about-project-based-roadmaps-versus-outcome-based-metric-based-roadmaps-4c087f59ebe8?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "What do you think about project-based roadmaps versus outcome-based (metric-based) roadmaps?",
+      "url": "https://gibsonbiddle.medium.com/what-do-you-think-about-project-based-roadmaps-versus-outcome-based-metric-based-roadmaps-4c087f59ebe8?source=rss-370100ca0fe1------2",
+      "publishedAt": "2021-12-20T18:09:44.000Z",
+      "excerpt": "Short answer: Both require you articulate product strategies (problems to be solved), metrics (lead indicators), then guess which projects will move your metrics, over time. Choose what works for you. A hypothetical outc…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/a-brief-history-of-netflix-personalization-1f2debf010a1?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "A Brief History of Netflix Personalization",
+      "url": "https://gibsonbiddle.medium.com/a-brief-history-of-netflix-personalization-1f2debf010a1?source=rss-370100ca0fe1------2",
+      "publishedAt": "2021-06-01T15:55:58.000Z",
+      "excerpt": "From its startup in 1998 to today, a detailed history of the strategy, metrics, and experiments Netflix executes to develop a personalized experience focused on delivering its members movies they love Photo: freestocks v…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/dear-gib-what-leader-s-over-your-product-career-truly-changed-how-you-approach-product-management-f9f9ee6420d2?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "Dear Gib: What Leader(s) Over Your Product Career Truly Changed How You Approach Product Management?",
+      "url": "https://gibsonbiddle.medium.com/dear-gib-what-leader-s-over-your-product-career-truly-changed-how-you-approach-product-management-f9f9ee6420d2?source=rss-370100ca0fe1------2",
+      "publishedAt": "2021-02-17T19:43:03.000Z",
+      "excerpt": "Me at Netflix in 2005 (Photo by Michael Rubin) Short answer: I learned from bosses & peers, including famous peeps like Reed Hastings, Patty McCord, and Dan Rosensweig. But mainly, I learned by doing, supercharged by fee…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/how-to-delight-customers-in-hard-to-copy-margin-enhancing-ways-ee53e77b214d?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "How to Balance Customer Delight & Profits",
+      "url": "https://gibsonbiddle.medium.com/how-to-delight-customers-in-hard-to-copy-margin-enhancing-ways-ee53e77b214d?source=rss-370100ca0fe1------2",
+      "publishedAt": "2020-12-07T21:57:16.000Z",
+      "excerpt": "Two Netflix cases illustrate how the DHM strategy model helps product leaders balance delight and margin. Over two decades, Netflix improved its subscribers’ monthly cancel rate from 10% to 2%. They did this by balancing…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/why-wont-netflix-party-fb932399c2?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "Why won’t Netflix party?",
+      "url": "https://gibsonbiddle.medium.com/why-wont-netflix-party-fb932399c2?source=rss-370100ca0fe1------2",
+      "publishedAt": "2020-12-01T17:58:31.000Z",
+      "excerpt": "Why Won’t Netflix Party? Disney+ has a shared viewing mode. So do Amazon Prime Video and Hulu. There’s even a “Netflix Party” Chrome extension available in the Google Play store. So, why won’t Netflix launch the feature?…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/you-can-clap-more-than-once-1d0c0250ff4d?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "You Can Clap More Than Once",
+      "url": "https://gibsonbiddle.medium.com/you-can-clap-more-than-once-1d0c0250ff4d?source=rss-370100ca0fe1------2",
+      "publishedAt": "2020-09-04T13:51:50.000Z",
+      "excerpt": "(I’m not convinced that all Medium readers know this.) Hum. I wonder If she clapped just once. (I doubt it.) I look through my data, and there are so many single claps. I recognize that the clap on Medium borrows from re…"
+    },
+    {
+      "id": "biddle:https://gibsonbiddle.medium.com/netflix-today-64fe91e2c693?source=rss-370100ca0fe1------2",
+      "sourceId": "biddle",
+      "sourceName": "Gibson Biddle",
+      "group": "guru",
+      "authorId": "biddle",
+      "title": "#11: A Case Study: Netflix 2020",
+      "url": "https://gibsonbiddle.medium.com/netflix-today-64fe91e2c693?source=rss-370100ca0fe1------2",
+      "publishedAt": "2020-08-31T11:35:49.000Z",
+      "excerpt": "Applying my strategy frameworks to Netflix today. Black Mirror’s “Bandersnatch” is one of Netflix’s new interactive stories. As companies grow, product strategies evolve. Here’s how Netflix might communicate its product …"
+    }
+  ],
+  "report": {
+    "ok": [
+      {
+        "id": "svpg",
+        "count": 8
+      },
+      {
+        "id": "producttalk",
+        "count": 8
+      },
+      {
+        "id": "bersin",
+        "count": 8
+      },
+      {
+        "id": "biddle",
+        "count": 8
+      },
+      {
+        "id": "lenny",
+        "count": 8
+      },
+      {
+        "id": "donuts",
+        "count": 8
+      },
+      {
+        "id": "simonw",
+        "count": 8
+      }
+    ],
+    "failed": [
+      {
+        "id": "cutlefish",
+        "url": "https://cutlefish.substack.com/feed",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}
