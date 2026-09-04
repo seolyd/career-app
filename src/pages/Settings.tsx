@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { buildBackup, downloadJSON, estimateStorage, importBackup } from '../lib/backup'
-import { loadRedactions, saveRedactions, type Redaction } from '../lib/ask'
+import { loadRedactions, saveRedactions, setAskProfile, type Redaction } from '../lib/ask'
 import { isoFromTs, relativeKo } from '../lib/date'
-import { Button, Card, Input, SectionTitle } from '../components/ui'
+import { Button, Card, Input, Label, SectionTitle, Textarea } from '../components/ui'
 import { Header } from '../components/Header'
 
 export function Settings() {
@@ -21,6 +21,20 @@ export function Settings() {
     asks: await db.asks.count(),
   }))
   const recentAsks = useLiveQuery(() => db.asks.orderBy('createdAt').reverse().limit(8).toArray(), []) ?? []
+  const profile = useLiveQuery(() => db.profile.get('profile'), [])
+
+  async function patchProfile(next: Partial<{ role: string; context: string; situation: string }>) {
+    const updated = {
+      id: 'profile' as const,
+      role: profile?.role ?? '',
+      context: profile?.context ?? '',
+      situation: profile?.situation ?? '',
+      ...next,
+      updatedAt: Date.now(),
+    }
+    await db.profile.put(updated)
+    setAskProfile(updated)
+  }
 
   useEffect(() => {
     void estimateStorage().then(setUsage)
@@ -72,6 +86,44 @@ export function Settings() {
             {message}
           </div>
         )}
+
+        {/* 프롬프트 페르소나 — 코드가 아니라 기기에 있습니다 */}
+        <section>
+          <SectionTitle>Who the LLM is answering</SectionTitle>
+          <Card className="space-y-3">
+            <p className="text-[14px] leading-6 text-slate-600 dark:text-slate-300">
+              Every prompt this app builds opens with this. It lives on this device only — not in the
+              deployed code — so nobody with the URL can read it. It is included in backups.
+            </p>
+            <div>
+              <Label>Your role</Label>
+              <Textarea
+                rows={2}
+                value={profile?.role ?? ''}
+                onChange={(e) => void patchProfile({ role: e.target.value })}
+                placeholder="a product manager responsible for …"
+              />
+            </div>
+            <div>
+              <Label>Company and product context</Label>
+              <Textarea
+                rows={3}
+                value={profile?.context ?? ''}
+                onChange={(e) => void patchProfile({ context: e.target.value })}
+                placeholder="Where you work, what the product is, what stage it is at."
+              />
+            </div>
+            <div>
+              <Label>Anything else it should know</Label>
+              <Textarea
+                rows={4}
+                value={profile?.situation ?? ''}
+                onChange={(e) => void patchProfile({ situation: e.target.value })}
+                placeholder="Team size, constraints, what occupies you, your background."
+              />
+            </div>
+          </Card>
+        </section>
 
         {/* LLM으로 나가는 내용 치환 */}
         <section>

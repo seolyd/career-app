@@ -31,6 +31,11 @@ export function Plan() {
   const [newWeekGoal, setNewWeekGoal] = useState('')
   const [criteria, setCriteria] = useState(() => localStorage.getItem(CRITERIA_KEY) ?? '')
   const [editVision, setEditVision] = useState(false)
+  const [editPhase, setEditPhase] = useState<string | null>(null)
+  const [addingGoal, setAddingGoal] = useState(false)
+  const [goalTitleDraft, setGoalTitleDraft] = useState('')
+  const [goalDoneDraft, setGoalDoneDraft] = useState('')
+  const [goalPhase, setGoalPhase] = useState('')
 
   const monday = weekOf()
   const vision = useLiveQuery(() => db.vision.get('vision'), [])
@@ -125,13 +130,73 @@ export function Plan() {
                     <span className="text-[11px] font-semibold tracking-wide text-blue-600 dark:text-blue-400">
                       P{p.order}
                     </span>
-                    <span className="font-semibold">{p.name}</span>
+                    <span className="font-semibold">{p.name || 'Unnamed phase'}</span>
                     <span className="ml-auto text-[12px] tabular-nums text-slate-400 dark:text-slate-500">
                       {p.startYear}–{p.endYear}
                     </span>
+                    <button
+                      type="button"
+                      onClick={() => setEditPhase(editPhase === p.id ? null : p.id)}
+                      className="shrink-0 text-[13px] font-medium text-blue-600 dark:text-blue-400"
+                    >
+                      {editPhase === p.id ? 'Done' : 'Edit'}
+                    </button>
                   </div>
-                  <p className="mt-1.5 text-[14px] text-slate-600 dark:text-slate-300">{p.question}</p>
-                  <p className="mt-1 text-[13px] text-slate-500 dark:text-slate-400">Done when: {p.doneWhen}</p>
+                  {editPhase === p.id ? (
+                    <div className="mt-3 space-y-3">
+                      <div>
+                        <Label>Name</Label>
+                        <Input
+                          value={p.name}
+                          placeholder="What this stage is called"
+                          onChange={(e) => void db.phases.update(p.id, { name: e.target.value, updatedAt: Date.now() })}
+                        />
+                      </div>
+                      <div>
+                        <Label>The question this stage answers</Label>
+                        <Textarea
+                          rows={2}
+                          value={p.question}
+                          placeholder="What has to become true?"
+                          onChange={(e) => void db.phases.update(p.id, { question: e.target.value, updatedAt: Date.now() })}
+                        />
+                      </div>
+                      <div>
+                        <Label>Done when</Label>
+                        <Textarea
+                          rows={2}
+                          value={p.doneWhen}
+                          placeholder="How you will know this stage is over"
+                          onChange={(e) => void db.phases.update(p.id, { doneWhen: e.target.value, updatedAt: Date.now() })}
+                        />
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Input
+                          type="number"
+                          className="min-w-0 flex-1"
+                          value={String(p.startYear)}
+                          onChange={(e) => void db.phases.update(p.id, { startYear: Number(e.target.value) || p.startYear, updatedAt: Date.now() })}
+                        />
+                        <span className="shrink-0 text-slate-400">–</span>
+                        <Input
+                          type="number"
+                          className="min-w-0 flex-1"
+                          value={String(p.endYear)}
+                          onChange={(e) => void db.phases.update(p.id, { endYear: Number(e.target.value) || p.endYear, updatedAt: Date.now() })}
+                        />
+                      </div>
+                    </div>
+                  ) : (
+                    <>
+                      {p.question && <p className="mt-1.5 text-[14px] text-slate-600 dark:text-slate-300">{p.question}</p>}
+                      {p.doneWhen && <p className="mt-1 text-[13px] text-slate-500 dark:text-slate-400">Done when: {p.doneWhen}</p>}
+                      {!p.name && !p.question && (
+                        <p className="mt-1.5 text-[14px] text-slate-400 dark:text-slate-500">
+                          Not filled in yet. Tap Edit — the far years can stay blank for now.
+                        </p>
+                      )}
+                    </>
+                  )}
                   {active && (
                     <div className="mt-2.5">
                       <span className="block h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
@@ -223,7 +288,74 @@ export function Plan() {
 
         {/* 연 목표 */}
         <section>
-          <SectionTitle>{thisYear} goals</SectionTitle>
+          <SectionTitle
+            action={
+              <button
+                type="button"
+                onClick={() => setAddingGoal((v) => !v)}
+                className="text-[13px] font-medium text-blue-600 dark:text-blue-400"
+              >
+                {addingGoal ? 'Cancel' : 'Add a goal'}
+              </button>
+            }
+          >
+            {thisYear} goals
+          </SectionTitle>
+
+          {addingGoal && (
+            <Card className="mb-2 space-y-3">
+              <div>
+                <Label>Goal</Label>
+                <Input
+                  value={goalTitleDraft}
+                  onChange={(e) => setGoalTitleDraft(e.target.value)}
+                  placeholder="Something that produces a result this year"
+                  autoFocus
+                />
+              </div>
+              <div>
+                <Label>Done when</Label>
+                <Textarea
+                  rows={2}
+                  value={goalDoneDraft}
+                  onChange={(e) => setGoalDoneDraft(e.target.value)}
+                  placeholder="How you will know you got there"
+                />
+              </div>
+              <div>
+                <Label>Which phase</Label>
+                <div className="flex flex-wrap gap-1.5">
+                  {phases.map((p) => (
+                    <Chip key={p.id} active={goalPhase === p.id} onClick={() => setGoalPhase(p.id)}>
+                      P{p.order}
+                      {p.name ? ` · ${p.name}` : ''}
+                    </Chip>
+                  ))}
+                </div>
+              </div>
+              <Button
+                variant="primary"
+                className="w-full"
+                disabled={!goalTitleDraft.trim()}
+                onClick={async () => {
+                  await db.yearGoals.add({
+                    id: newId(),
+                    phaseId: goalPhase || phases[0]?.id || 'p1',
+                    year: thisYear,
+                    title: goalTitleDraft.trim(),
+                    doneWhen: goalDoneDraft.trim(),
+                    status: 'Active',
+                    updatedAt: Date.now(),
+                  })
+                  setGoalTitleDraft('')
+                  setGoalDoneDraft('')
+                  setAddingGoal(false)
+                }}
+              >
+                Add
+              </Button>
+            </Card>
+          )}
           {currentGoals.length ? (
             <div className="space-y-2">
               {currentGoals.map((g) => {
@@ -313,7 +445,7 @@ export function Plan() {
                 setCriteria(e.target.value)
                 localStorage.setItem(CRITERIA_KEY, e.target.value)
               }}
-              placeholder="List what L6-2 expects. Paste the company rubric, or write what your manager told you."
+              placeholder="List what the next level expects. Paste the company rubric, or write what your manager told you."
             />
             <p className="mt-2 text-[13px] leading-6 text-slate-500 dark:text-slate-400">
               Each item gets judged against evidence in your entries. For evidence you cannot produce without a team, you get substitutes.

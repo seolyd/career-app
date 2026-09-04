@@ -6,13 +6,14 @@ import type {
   Entry,
   FeedState,
   Phase,
+  Profile,
   Session,
   Vision,
   WeekGoal,
   YearGoal,
 } from './types'
 import { SEED_ADVISORS } from './seed/advisors'
-import { SEED_PHASES, SEED_VISION, SEED_YEAR_GOALS } from './seed/plan'
+import { SEED_PHASES } from './seed/plan'
 
 /**
  * 전부 이 기기 안에만 저장됩니다. 서버는 없습니다.
@@ -20,6 +21,7 @@ import { SEED_PHASES, SEED_VISION, SEED_YEAR_GOALS } from './seed/plan'
  */
 export const db = new Dexie('career-app') as Dexie & {
   entries: EntityTable<Entry, 'id'>
+  profile: EntityTable<Profile, 'id'>
   vision: EntityTable<Vision, 'id'>
   phases: EntityTable<Phase, 'id'>
   yearGoals: EntityTable<YearGoal, 'id'>
@@ -72,12 +74,14 @@ db.version(2)
 /** v3: 읽은 피드 항목의 흔적 */
 db.version(3).stores({ feedStates: 'feedItemId, readAt' })
 
+/** v4: LLM 페르소나를 코드에서 빼고 기기 안으로 */
+db.version(4).stores({ profile: 'id' })
+
 /** 첫 실행에 좌석과 플래너 초안을 깔아둡니다. 이미 있으면 건드리지 않습니다. */
 export async function seedIfEmpty(): Promise<void> {
   if ((await db.advisors.count()) === 0) await db.advisors.bulkAdd(SEED_ADVISORS)
   if ((await db.phases.count()) === 0) await db.phases.bulkAdd(SEED_PHASES)
-  if (!(await db.vision.get('vision'))) await db.vision.add(SEED_VISION)
-  if ((await db.yearGoals.count()) === 0) await db.yearGoals.bulkAdd(SEED_YEAR_GOALS)
+  // 연 목표는 비워둡니다 — 본인 것을 앱에서 직접 적는 게 맞습니다.
 }
 
 export function newId(): string {
