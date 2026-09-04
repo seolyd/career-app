@@ -2,8 +2,13 @@ name: CI
 
 on:
   push:
-    branches: ['**']
+    branches: [main]
   pull_request:
+
+# PR 브랜치에 연달아 푸시하면 이전 실행은 취소합니다.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
