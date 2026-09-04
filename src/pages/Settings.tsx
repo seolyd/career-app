@@ -2,40 +2,46 @@ import { useEffect, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db'
 import { buildBackup, downloadJSON, estimateStorage, importBackup } from '../lib/backup'
-import { Button, Card, SectionTitle } from '../components/ui'
+import { loadRedactions, saveRedactions, type Redaction } from '../lib/ask'
+import { isoFromTs, relativeKo } from '../lib/date'
+import { Button, Card, Input, SectionTitle } from '../components/ui'
 import { Header } from '../components/Header'
 
 export function Settings() {
   const [usage, setUsage] = useState('…')
   const [persisted, setPersisted] = useState<boolean | null>(null)
   const [message, setMessage] = useState<string | null>(null)
+  const [redactions, setRedactions] = useState<Redaction[]>(() => loadRedactions())
   const fileRef = useRef<HTMLInputElement>(null)
 
   const counts = useLiveQuery(async () => ({
     entries: await db.entries.count(),
-    goals: await db.goals.count(),
+    weekGoals: await db.weekGoals.count(),
+    sessions: await db.sessions.count(),
+    asks: await db.asks.count(),
   }))
+  const recentAsks = useLiveQuery(() => db.asks.orderBy('createdAt').reverse().limit(8).toArray(), []) ?? []
 
   useEffect(() => {
     void estimateStorage().then(setUsage)
     void navigator.storage?.persisted?.().then(setPersisted)
   }, [])
 
-  async function exportBackup() {
-    const data = await buildBackup()
-    downloadJSON(data, `career-backup-${new Date().toISOString().slice(0, 10)}.json`)
+  function updateRedactions(next: Redaction[]) {
+    setRedactions(next)
+    saveRedactions(next.filter((r) => r.from.trim()))
   }
 
   async function onFile(file: File) {
     try {
       const result = await importBackup(await file.text())
       setMessage(
-        `기록 ${result.entries}건, 목표 ${result.goals}건을 넣었습니다.` +
-          (result.skipped ? ` (형식이 안 맞는 ${result.skipped}건은 건너뜀)` : ''),
+        `Restored ${result.restored} items.` +
+          (result.skipped ? ` (skipped ${result.skipped} malformed)` : ''),
       )
       void estimateStorage().then(setUsage)
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : '가져오기에 실패했습니다.')
+      setMessage(err instanceof Error ? err.message : 'Import failed.')
     }
   }
 
@@ -44,24 +50,21 @@ export function Settings() {
     setPersisted(ok ?? false)
     setMessage(
       ok
-        ? '이 기기에서 저장소가 보호됩니다.'
-        : '브라우저가 거절했습니다. 홈 화면에 추가하고 자주 열면 유지 확률이 올라갑니다.',
+        ? 'Storage is now persisted on this device.'
+        : 'The browser declined. Adding to the Home Screen and opening it often improves the odds.',
     )
   }
 
   async function wipe() {
-    if (!confirm('모든 기록과 목표를 지웁니다. 백업이 없으면 복구할 수 없습니다. 계속할까요?')) return
-    if (!confirm('정말로 전부 지울까요?')) return
-    await db.transaction('rw', db.entries, db.goals, async () => {
-      await db.entries.clear()
-      await db.goals.clear()
-    })
-    setMessage('전부 지웠습니다.')
+    if (!confirm('This deletes every entry. Without a backup it cannot be recovered. Continue?')) return
+    if (!confirm('Really delete everything?')) return
+    await db.delete()
+    location.reload()
   }
 
   return (
     <>
-      <Header title="설정" back />
+      <Header title="Settings" back />
 
       <div className="space-y-6 p-4">
         {message && (
@@ -70,19 +73,101 @@ export function Settings() {
           </div>
         )}
 
+        {/* LLM으로 나가는 내용 치환 */}
         <section>
-          <SectionTitle>백업</SectionTitle>
+          <SectionTitle>Redactions before sending</SectionTitle>
           <Card className="space-y-3">
             <p className="text-[14px] leading-6 text-slate-600 dark:text-slate-300">
-              이 앱은 서버가 없습니다. 모든 기록은 이 기기 안에만 있습니다. 브라우저 저장소를 비우거나
-              기기를 잃으면 그대로 사라지니, 가끔 내보내서 iCloud Drive 같은 곳에 두세요.
+              Swap proper nouns right before a prompt leaves the app. Register internal system names or people once and stop thinking about it.
+            </p>
+            {redactions.map((r, i) => (
+              <div key={i} className="flex items-center gap-2">
+                <Input
+                  className="min-w-0 flex-1"
+                  value={r.from}
+                  placeholder="Original"
+                  onChange={(e) =>
+                    updateRedactions(redactions.map((x, j) => (i === j ? { ...x, from: e.target.value } : x)))
+                  }
+                />
+                <span className="shrink-0 text-slate-400">→</span>
+                <Input
+                  className="min-w-0 flex-1"
+                  value={r.to}
+                  placeholder="Replace with"
+                  onChange={(e) =>
+                    updateRedactions(redactions.map((x, j) => (i === j ? { ...x, to: e.target.value } : x)))
+                  }
+                />
+                <button
+                  type="button"
+                  aria-label="Remove rule"
+                  onClick={() => updateRedactions(redactions.filter((_, j) => j !== i))}
+                  className="shrink-0 p-1 text-slate-300 dark:text-slate-600"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="h-4 w-4">
+                    <path d="M6 6l12 12M18 6L6 18" />
+                  </svg>
+                </button>
+              </div>
+            ))}
+            <Button className="w-full" onClick={() => updateRedactions([...redactions, { from: '', to: '' }])}>
+              Add a rule
+            </Button>
+            <p className="text-[12px] text-slate-400 dark:text-slate-500">
+              Rules stay on this device and are not included in backups.
+            </p>
+          </Card>
+        </section>
+
+        {/* 주고받은 프롬프트 이력 */}
+        <section>
+          <SectionTitle>LLM round-trips · {counts?.asks ?? 0}</SectionTitle>
+          <Card>
+            {recentAsks.length ? (
+              <div className="space-y-2.5">
+                {recentAsks.map((a) => (
+                  <div key={a.id} className="flex items-baseline gap-2">
+                    <span
+                      className={`shrink-0 rounded px-1.5 py-0.5 text-[11px] font-semibold ${
+                        a.status === 'Answered'
+                          ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400'
+                          : 'bg-slate-200 text-slate-500 dark:bg-slate-800 dark:text-slate-400'
+                      }`}
+                    >
+                      {a.status}
+                    </span>
+                    <span className="min-w-0 flex-1 truncate text-[14px]">{a.title}</span>
+                    <span className="shrink-0 text-[12px] text-slate-400 dark:text-slate-500">
+                      {relativeKo(isoFromTs(a.createdAt))}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-[14px] text-slate-500 dark:text-slate-400">Nothing yet.</p>
+            )}
+          </Card>
+        </section>
+
+        <section>
+          <SectionTitle>Backup</SectionTitle>
+          <Card className="space-y-3">
+            <p className="text-[14px] leading-6 text-slate-600 dark:text-slate-300">
+              There is no server. Everything lives on this device only. Clear the browser storage or lose the phone and it is gone — export now and then, and keep the file somewhere like iCloud Drive.
             </p>
             <div className="flex gap-2">
-              <Button variant="primary" className="flex-1" onClick={() => void exportBackup()}>
-                JSON 내보내기
+              <Button
+                variant="primary"
+                className="flex-1"
+                onClick={async () =>
+                  downloadJSON(await buildBackup(), `career-backup-${new Date().toISOString().slice(0, 10)}.json`)
+                }
+              >
+                Export JSON
               </Button>
               <Button className="flex-1" onClick={() => fileRef.current?.click()}>
-                가져오기
+                Import
               </Button>
             </div>
             <input
@@ -97,61 +182,59 @@ export function Settings() {
               }}
             />
             <p className="text-[13px] text-slate-400 dark:text-slate-500">
-              가져오기는 덮어쓰지 않고 병합합니다. 같은 항목은 더 최근에 고친 쪽이 남습니다.
+              Import merges rather than overwrites. For the same item, the more recently edited version wins.
             </p>
           </Card>
         </section>
 
         <section>
-          <SectionTitle>저장소</SectionTitle>
+          <SectionTitle>Storage</SectionTitle>
           <Card className="space-y-3">
             <dl className="space-y-1.5 text-[14px]">
-              <div className="flex justify-between">
-                <dt className="text-slate-500 dark:text-slate-400">기록</dt>
-                <dd className="tabular-nums">{counts?.entries ?? 0}건</dd>
-              </div>
-              <div className="flex justify-between">
-                <dt className="text-slate-500 dark:text-slate-400">목표·스킬</dt>
-                <dd className="tabular-nums">{counts?.goals ?? 0}건</dd>
-              </div>
-              <div className="flex justify-between">
-                <dt className="text-slate-500 dark:text-slate-400">사용량</dt>
-                <dd className="tabular-nums">{usage}</dd>
-              </div>
-              <div className="flex justify-between">
-                <dt className="text-slate-500 dark:text-slate-400">저장소 보호</dt>
-                <dd>{persisted === null ? '확인 중' : persisted ? '켜짐' : '꺼짐'}</dd>
-              </div>
+              <Row label="Entries" value={String(counts?.entries ?? 0)} />
+              <Row label="Weekly goals" value={String(counts?.weekGoals ?? 0)} />
+              <Row label="Board sessions" value={String(counts?.sessions ?? 0)} />
+              <Row label="Used" value={usage} />
+              <Row label="Storage persisted" value={persisted === null ? 'Checking' : persisted ? 'On' : 'Off'} />
             </dl>
             {!persisted && (
               <Button className="w-full" onClick={() => void requestPersist()}>
-                저장소 보호 요청
+                Request persistent storage
               </Button>
             )}
           </Card>
         </section>
 
         <section>
-          <SectionTitle>아이폰에 설치</SectionTitle>
+          <SectionTitle>Install on iPhone</SectionTitle>
           <Card>
             <ol className="list-decimal space-y-1.5 pl-5 text-[14px] leading-6 text-slate-600 dark:text-slate-300">
-              <li>Safari로 이 주소를 엽니다.</li>
-              <li>하단 공유 버튼을 누릅니다.</li>
-              <li>홈 화면에 추가를 고릅니다.</li>
+              <li>Open this URL in Safari.</li>
+              <li>Tap the Share button.</li>
+              <li>Choose Add to Home Screen.</li>
             </ol>
             <p className="mt-3 text-[13px] text-slate-400 dark:text-slate-500">
-              설치하면 주소창 없이 전체 화면으로 열리고, 저장소가 지워질 위험이 줄어듭니다.
+              Installing gives you full screen without an address bar, and lowers the risk of storage being cleared.
             </p>
           </Card>
         </section>
 
         <section>
-          <SectionTitle>위험 구역</SectionTitle>
+          <SectionTitle>Danger zone</SectionTitle>
           <Button variant="danger" className="w-full" onClick={() => void wipe()}>
-            모든 데이터 삭제
+            Delete everything
           </Button>
         </section>
       </div>
     </>
+  )
+}
+
+function Row({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex justify-between">
+      <dt className="text-slate-500 dark:text-slate-400">{label}</dt>
+      <dd className="tabular-nums">{value}</dd>
+    </div>
   )
 }

@@ -35,9 +35,7 @@ export function InstallBanner() {
   return (
     <div className="mx-4 mt-3 rounded-2xl border border-blue-200 bg-blue-50 p-3.5 dark:border-blue-900 dark:bg-blue-950/50">
       <p className="text-[14px] leading-6 text-blue-900 dark:text-blue-200">
-        <strong className="font-semibold">홈 화면에 추가하세요.</strong> Safari 하단{' '}
-        <span className="font-semibold">공유</span> → <span className="font-semibold">홈 화면에 추가</span>.
-        설치하지 않으면 오래 안 쓸 때 Safari가 기록을 지울 수 있습니다.
+        <strong className="font-semibold">Add this to your Home Screen.</strong> In Safari: <span className="font-semibold">Share</span> → <span className="font-semibold">Add to Home Screen</span>. Without installing, Safari may clear your entries after a stretch of not using it.
       </p>
       <button
         type="button"
@@ -47,7 +45,7 @@ export function InstallBanner() {
           setShow(false)
         }}
       >
-        다시 보지 않기
+        Don't show again
       </button>
     </div>
   )

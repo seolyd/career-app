@@ -1,60 +1,76 @@
-# 커리어 기록
+# Career Log
 
-성과·회고·학습·피드백을 기록하고, 그 기록을 모아 경력기술서 초안으로 뽑아내는 개인용 PWA.
-아이폰 홈 화면에 설치해서 쓰는 것을 전제로 만들었습니다.
+A personal PM career system, built as a local-first PWA for iPhone. Five pillars, one loop.
 
-## 원칙
-
-- **서버가 없습니다.** 모든 데이터는 기기의 IndexedDB에만 있습니다. 계정도 로그인도 없습니다.
-- **저장 버튼이 없습니다.** 입력이 멈추면 0.5초 뒤 자동 저장됩니다.
-- **백업이 유일한 안전장치입니다.** 설정 화면에서 JSON을 내보내 iCloud Drive 같은 곳에 두세요.
-
-## 화면
-
-| 탭 | 하는 일 |
+| Tab | What it does |
 | --- | --- |
-| 홈 | "오늘 한 일" 한 줄 빠른 기록, 이번 주·연속 기록 수, 최근 글 |
-| 기록 | 전체 목록, 검색, 종류·태그 필터 |
-| 회고 | 주간/월간 기간을 고르면 그 기간 기록을 채운 회고 초안을 만들어 줌 |
-| 목표 | 목표·스킬 등록, 진행중/완료/보류, 연결된 기록 수 |
-| 문서 | 기간·종류·태그로 고른 기록을 경력기술서 마크다운으로 출력 |
+| **Today** | This week's goals, decisions whose review date arrived, one drill, one read, one-line capture |
+| **Journal** | Six entry types, axis distribution, prediction calibration, principle extraction |
+| **Board** | Seven PM thinkers seated as your C-level. Answer their questions yourself first; escalate to an LLM only if stuck |
+| **Reading** | Two RSS groups (PM gurus, PM·AI media). Auto-feed lands after deployment |
+| **Plan** | 10-year vision → 4 phases → yearly goals → weekly goals, plus "declared vs done" |
 
-## 개발
+## Principles
+
+- **No server.** Everything lives in IndexedDB on the device. No account, no login.
+- **No save button.** Input stops, it saves 500ms later.
+- **Hybrid LLM, no API.** The app assembles prompts; you run them in the LLM on your phone and paste the answer back. Ten round-trips a day should feel like nothing.
+- **Scripts do assembly, the LLM does judgment.** Aggregation, calibration stats, challenge selection, feed parsing — all plain code. The model is only called where quality genuinely differs.
+- **Backup is the only safety net.** Export JSON from Settings and keep it somewhere like iCloud Drive.
+
+## The wiring
+
+Five pillars only become one app through five connections:
+
+1. **Plan → Today** — weekly goals sit at the top of Today, every day.
+2. **Today → Journal** — drills, decisions and captures all land as entries.
+3. **Journal → Board** — a stuck decision goes to the board.
+4. **Board → Plan** — action items from a session get promoted to weekly goals.
+5. **RSS → Board** — a guru's new post badges their seat, so the lens stays current.
+
+## Where the LLM is called
+
+| Round-trip | Why a model, not code |
+| --- | --- |
+| Classify a note | Inferring type, axis and a good title from free text |
+| Board session | Applying a known thinking frame to a specific problem |
+| Weekly coaching | Spotting patterns and avoidance across a week of entries |
+| Decision autopsy | Naming a repeated bias from predictions vs outcomes |
+| Digest a read | Separating what applies from what doesn't |
+| Break down a goal | Sizing work to fit a week |
+| Extract principles | Finding rules already implicit in past decisions |
+| Promotion gap | Judging evidence against a rubric |
+| Career narrative | Turning entries into STAR and résumé bullets |
+| Build vs Buy | Building the strongest counter-case |
+
+Everything else — axis counts, hit rates, streaks, challenge rotation, date math, search — is plain code.
+
+## Board of Advisors
+
+Seven seats: Marty Cagan (CPO), Shreyas Doshi (Chief of Staff), Teresa Torres (VP Discovery),
+Gibson Biddle (Chief Strategy), John Cutler (COO), Josh Bersin (CHRO · Domain), Annie Duke (Decision Advisor).
+
+These are **not quotes from real people**. They are thinking frames drawn from public writing, and every
+prompt carries an explicit instruction not to invent their words. Seats are data, not code — swap them freely.
+
+## Develop
 
 ```bash
 npm install
-npm run dev      # 개발 서버
-npm run build    # 타입체크 + 프로덕션 빌드 (dist/)
-npm run preview  # 빌드 결과 확인
+npm run dev      # dev server
+npm run build    # typecheck + production build to dist/
+npm run preview  # serve the build
 ```
 
-## 배포
+## Deploy
 
-`dist/`를 정적 호스팅에 올리면 끝입니다 (Vercel, Netlify, Cloudflare Pages 등).
-SPA이므로 **모든 경로를 `/index.html`로 넘기는 rewrite**가 필요합니다.
-서비스워커와 홈 화면 설치는 **HTTPS에서만** 동작합니다.
+Upload `dist/` to any static host (Vercel, Netlify, Cloudflare Pages). Two requirements:
+a SPA rewrite sending all routes to `/index.html`, and **HTTPS** — without it neither the service
+worker nor Home Screen install works.
 
-## 아이폰 설치
+Then in Safari: Share → **Add to Home Screen**.
 
-Safari로 배포 주소를 열고 → 하단 공유 → **홈 화면에 추가**.
+## Not built yet
 
-설치해야 하는 이유:
-- 주소창 없이 전체 화면으로 열립니다.
-- 미설치 사이트의 저장소는 Safari가 장기간 미사용 시 정리할 수 있습니다.
-- 웹 푸시(iOS 16.4+)는 홈 화면에 설치된 상태에서만 쓸 수 있습니다.
-
-## 데이터 모델
-
-```
-Entry  { id, type(성과|회고|학습|피드백), title, body(markdown),
-         tags[], goalIds[], occurredAt, createdAt, updatedAt }
-Goal   { id, kind(목표|스킬), title, detail, status, targetDate, ... }
-```
-
-백업 JSON은 이 두 테이블을 그대로 담습니다. 가져오기는 덮어쓰기가 아니라 병합이며,
-같은 `id`는 `updatedAt`이 더 최신인 쪽이 남습니다.
-
-## 다음에 붙일 것
-
-- 회고 리마인더 (웹 푸시, 설치 상태에서만)
-- Supabase 동기화 — 스키마가 그대로 테이블 두 개로 옮겨가고, `updatedAt` 비교 로직은 이미 있습니다
+- RSS ingestion (a GitHub Action writing `public/feed.json`, wired to Board seats by author)
+- Weekly review reminders (web push, iOS 16.4+, installed only)
