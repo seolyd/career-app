@@ -1,4 +1,4 @@
-import type { Advisor, Ask, AskKind, Entry, WeekGoal, YearGoal } from '../types'
+import type { Advisor, Ask, AskKind, Entry, Profile, WeekGoal, YearGoal } from '../types'
 import { formatKo, formatRange } from './date'
 
 /**
@@ -7,12 +7,26 @@ import { formatKo, formatRange } from './date'
  * 집계·정렬·통계·선택처럼 코드로 정확히 되는 일에는 모델을 부르지 않습니다.
  */
 
-const ME = `I am a product manager at Coupang, responsible for HR products — the recruiting and people
-platforms and the AI features built on top of them. I have no team and no engineers; I write the code
-myself. There is one manager above me. I am currently building and internalizing company-wide systems
-with AI. Three questions occupy me: what to build versus what to buy, how to unify scattered internal
-tools into a single data model, and how to turn that data into intelligence that raises productivity.
-I started as a PM, spent five years in recruiting, and came back to product.`
+/**
+ * 페르소나는 코드가 아니라 기기에 있습니다 — 배포된 번들에 개인 정보가 남지 않고,
+ * 자리가 바뀌어도 앱에서 고치면 됩니다. App이 부팅 때 한 번 물려줍니다.
+ */
+let profile: Profile | null = null
+
+export function setAskProfile(next: Profile | null): void {
+  profile = next
+}
+
+function me(): string {
+  const lines = [
+    profile?.role?.trim() && `I am ${profile.role.trim()}.`,
+    profile?.context?.trim(),
+    profile?.situation?.trim(),
+  ].filter(Boolean)
+  return lines.length
+    ? lines.join('\n')
+    : 'I am a product manager keeping a career journal. (No profile set yet — answer generally.)'
+}
 
 const BREVITY = `Answer tersely. No praise, no preamble, no restating my question. Go straight to the substance.`
 
@@ -89,7 +103,7 @@ export function askClassify(text: string): Draft {
   return {
     kind: 'classify',
     title: 'Classify this note',
-    prompt: `${ME}
+    prompt: `${me()}
 
 Below is a note I just jotted down. Turn it into a journal entry in my format.
 
@@ -139,7 +153,7 @@ export function askBoard(
     title: `Board — ${advisors.map((a) => a.name).join(', ')}`,
     originType: 'session',
     originId,
-    prompt: `${ME}
+    prompt: `${me()}
 
 I use the publicly known thinking frames of the people below as seats on my personal advisory board.
 **Important: do not invent things they said. Do not quote them.**
@@ -175,7 +189,7 @@ export function askWeekly(
     title: `Weekly coaching — ${formatRange(range)}`,
     originType: 'week',
     originId: range[0],
-    prompt: `${ME}
+    prompt: `${me()}
 
 # This week (${formatRange(range)})
 
@@ -188,8 +202,8 @@ ${done}
 ## Axis distribution
 ${dist || '(none)'}
 
-You are a senior PM coach who has watched me for a long time. I have no team, so nobody pushes back on
-me day to day. Take that seat. I do not need encouragement.
+You are a senior PM coach who has watched me for a long time. Take that seat and push back the way a
+peer would. I do not need encouragement.
 
 1. **The gap between declared and actual** — if I spent time on things that were not on my list, what does that signal? Am I undisciplined, or was the goal wrong?
 2. **Repeating patterns** — any behavior or avoidance that carries over from previous weeks?
@@ -218,7 +232,7 @@ export function askAutopsy(reviewed: Entry[]): Draft {
   return {
     kind: 'autopsy',
     title: `Decision autopsy — ${reviewed.length} decisions`,
-    prompt: `${ME}
+    prompt: `${me()}
 
 Below are decisions I made, the predictions I wrote at the time, and what actually happened.
 
@@ -239,7 +253,7 @@ export function askDigest(title: string, url: string, note: string): Draft {
   return {
     kind: 'digest',
     title: `Digest — ${title}`,
-    prompt: `${ME}
+    prompt: `${me()}
 
 I read the following piece.
 
@@ -249,7 +263,7 @@ ${note.trim() ? `My note after reading:\n"""\n${note.trim()}\n"""` : '(I have no
 
 After opening it:
 1. Summarize the core argument in three lines.
-2. Separate what **applies** to my situation (a PM building internal HR systems alone) from what **does not**.
+2. Separate what **applies** to my situation from what **does not**.
 3. Propose one sentence of the form "So I will ___" — something I can actually do this week.
 
 If you cannot access the link, say so and do step 3 from my note alone. Do not guess at the contents.
@@ -264,7 +278,7 @@ export function askBreakdown(goal: YearGoal, recent: Entry[]): Draft {
     title: `Break down — ${goal.title}`,
     originType: 'yearGoal',
     originId: goal.id,
-    prompt: `${ME}
+    prompt: `${me()}
 
 # This year's goal
 ${goal.title}
@@ -280,12 +294,12 @@ ${BREVITY}${JSON_TAIL(`{ "weekGoals": ["...", "...", "..."] }`)}`,
   }
 }
 
-/** 리더십 원칙은 선언이 아니라 내가 내린 결정에서 추출하는 것입니다. (2026 목표 3) */
+/** 리더십 원칙은 선언이 아니라 내가 내린 결정에서 추출하는 것입니다. */
 export function askPrinciples(decisions: Entry[], people: Entry[]): Draft {
   return {
     kind: 'principles',
     title: 'Extract principles from my decisions',
-    prompt: `${ME}
+    prompt: `${me()}
 
 One of my goals this year is to **establish leadership principles.**
 But I do not want to invent them in my head. I want them extracted from decisions I actually made.
@@ -299,24 +313,24 @@ ${people.length ? people.map(entryLine).join('\n') : '(none)'}
 1. Find rules I am **already following consistently** in these entries. Phrase each as "I ___ when ___." Three to five of them.
 2. Point to the entries that back each principle. If a principle rests on only one entry, tell me it is a coincidence, not a principle.
 3. Show me where my entries **contradict each other**. Those are the principles I have not settled yet.
-4. Name the areas where my position (no team, HR domain, AI internalization) will soon demand a principle I show no trace of yet.
+4. Name the areas where my position will soon demand a principle I show no trace of yet.
 
 Invent nothing. If the evidence is thin, say it is thin.
 ${BREVITY}${JSON_TAIL(`{ "principles": [{ "text": "I ... when ...", "evidence": ["entry title"] }], "contradictions": ["..."] }`)}`,
   }
 }
 
-/** L6-1 → L6-2 역량 갭 진단. (2026 목표 2) */
+/** 다음 레벨 승진 역량 갭 진단. */
 export function askGap(criteria: string, entries: Entry[], axisCounts: Array<[string, number]>): Draft {
   return {
     kind: 'gap',
     title: 'Promotion gap diagnosis',
-    prompt: `${ME}
+    prompt: `${me()}
 
-I am currently L6-1 and working toward L6-2.
+I am working toward the next level up.
 
 # What I understand the next level to expect
-${criteria.trim() || '(I have not written this down. Use the general senior PM to lead PM transition as the bar.)'}
+${criteria.trim() || '(I have not written this down. Use a general senior-to-lead PM transition as the bar.)'}
 
 # My recent entries
 ${entries.length ? entries.map(entryLine).join('\n') : '(none)'}
@@ -326,7 +340,7 @@ ${axisCounts.map(([a, n]) => `${a} ${n}`).join(' · ') || '(none)'}
 
 1. For each expectation, judge whether my entries contain **evidence** — strong / thin / none.
 2. Where evidence is missing, separate a real capability gap from a lack of opportunity.
-   (I have no direct reports, so evidence of leading people is structurally hard for me to produce.)
+   (Take my situation above into account — some evidence may be structurally hard for me to produce.)
 3. For the ones blocked by opportunity, propose **substitute evidence I can create from where I sit.**
 4. If I had to prioritize for the rest of the year, which two?
 
@@ -348,7 +362,7 @@ export function askNarrative(entries: Entry[], goals: YearGoal[], label: string)
   return {
     kind: 'narrative',
     title: `Career narrative — ${label}`,
-    prompt: `${ME}
+    prompt: `${me()}
 
 # ${label} entries, grouped by goal
 ${byGoal}
@@ -373,7 +387,7 @@ export function askBuildBuy(entry: Entry): Draft {
     title: `Build vs Buy counter-case — ${entry.title}`,
     originType: 'entry',
     originId: entry.id,
-    prompt: `${ME}
+    prompt: `${me()}
 
 I have a decision I have not committed to yet. Build the **strongest possible case against my conclusion.**
 

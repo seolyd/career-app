@@ -78,6 +78,20 @@ export const BUILD_BUY_FIELDS: Array<{ key: keyof BuildBuy; label: string; hint:
   { key: 'reversalCost', label: 'Cost to reverse', hint: 'What would it take to flip this decision a year from now?' },
 ]
 
+/* ── 프로필 ───────────────────────────────────────────── */
+
+/**
+ * LLM 프롬프트의 페르소나. 코드에 박아두면 배포된 번들에서 누구나 읽을 수 있고,
+ * 자리가 바뀔 때마다 코드를 고쳐야 하므로 기기 안에만 둡니다.
+ */
+export interface Profile {
+  id: 'profile'
+  role: string
+  context: string
+  situation: string
+  updatedAt: number
+}
+
 /* ── 10년 플래너 ──────────────────────────────────────── */
 
 export interface Vision {
@@ -230,6 +244,7 @@ export interface BackupFile {
   version: 2
   exportedAt: string
   entries: Entry[]
+  profile: Profile[]
   vision: Vision[]
   phases: Phase[]
   yearGoals: YearGoal[]
