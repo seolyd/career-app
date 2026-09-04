@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, newId } from '../db'
 import type { Advisor, Session } from '../types'
 import { SEAT_HINTS } from '../seed/advisors'
 import { isoFromTs, relativeKo } from '../lib/date'
+import { loadFeed, type FeedItem } from '../lib/feed'
 import { askBoard, type Draft } from '../lib/ask'
 import { useDebouncedEffect } from '../lib/hooks'
 import { Button, Card, Chip, Empty, Label, SectionTitle, Textarea, cx } from '../components/ui'
@@ -20,6 +21,23 @@ export function Board() {
 
   const advisors = useLiveQuery(() => db.advisors.orderBy('order').toArray(), []) ?? []
   const sessions = useLiveQuery(() => db.sessions.orderBy('createdAt').reverse().toArray(), []) ?? []
+  const readIds = useLiveQuery(async () => new Set((await db.feedStates.toArray()).map((s) => s.feedItemId)), [])
+
+  // 좌석의 렌즈가 박제되지 않도록, 그 사람의 새 글을 좌석에 붙입니다.
+  const [feedItems, setFeedItems] = useState<FeedItem[]>([])
+  useEffect(() => {
+    void loadFeed().then((f) => setFeedItems(f?.items ?? []))
+  }, [])
+  const latestByAuthor = useMemo(() => {
+    const map = new Map<string, FeedItem>()
+    for (const item of feedItems) {
+      if (!item.authorId) continue
+      if (readIds?.has(item.id)) continue
+      const held = map.get(item.authorId)
+      if (!held || item.publishedAt > held.publishedAt) map.set(item.authorId, item)
+    }
+    return map
+  }, [feedItems, readIds])
 
   if (composing || openSession) {
     return (
@@ -69,13 +87,20 @@ export function Board() {
         <section>
           <SectionTitle>Seats</SectionTitle>
           <div className="space-y-2">
-            {advisors.map((a) => (
+            {advisors.map((a) => {
+              const fresh = latestByAuthor.get(a.id)
+              return (
               <Card key={a.id}>
-                <div className="flex items-baseline gap-2">
+                <div className="flex flex-wrap items-baseline gap-2">
                   <span className="text-[11px] font-semibold tracking-wide text-blue-600 uppercase dark:text-blue-400">
                     {a.seat}
                   </span>
                   <span className="font-semibold">{a.name}</span>
+                  {fresh && (
+                    <span className="rounded-md bg-blue-100 px-1.5 py-0.5 text-[11px] font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-300">
+                      New post
+                    </span>
+                  )}
                 </div>
                 <p className="mt-1 text-[14px] text-slate-600 dark:text-slate-300">{a.lens}</p>
                 <ul className="mt-2 space-y-1">
@@ -85,8 +110,21 @@ export function Board() {
                     </li>
                   ))}
                 </ul>
+                {fresh && (
+                  <a
+                    href={fresh.url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="mt-2.5 block rounded-xl bg-slate-50 p-3 dark:bg-slate-800/60"
+                  >
+                    <p className="text-[12px] text-slate-400 dark:text-slate-500">
+                      What they are thinking about · {relativeKo(fresh.publishedAt.slice(0, 10))}
+                    </p>
+                    <p className="mt-0.5 text-[14px] font-medium text-blue-700 dark:text-blue-300">{fresh.title}</p>
+                  </a>
+                )}
               </Card>
-            ))}
+            )})}
           </div>
         </section>
 

@@ -1,0 +1,17 @@
+{
+  "comment": "authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결됩니다. 그 사람의 새 글이 좌석에 배지로 뜹니다. 주소가 바뀌거나 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지 소스는 그대로 갱신합니다.",
+  "sources": [
+    { "id": "svpg", "group": "guru", "authorId": "cagan", "name": "SVPG — Marty Cagan", "url": "https://www.svpg.com/articles/feed/" },
+    { "id": "producttalk", "group": "guru", "authorId": "torres", "name": "Product Talk — Teresa Torres", "url": "https://www.producttalk.org/feed/" },
+    { "id": "cutlefish", "group": "guru", "authorId": "cutler", "name": "The Beautiful Mess — John Cutler", "url": "https://cutlefish.substack.com/feed" },
+    { "id": "bersin", "group": "guru", "authorId": "bersin", "name": "Josh Bersin", "url": "https://joshbersin.com/feed/" },
+    { "id": "biddle", "group": "guru", "authorId": "biddle", "name": "Gibson Biddle", "url": "https://gibsonbiddle.medium.com/feed" },
+    { "id": "lenny", "group": "guru", "name": "Lenny's Newsletter", "url": "https://www.lennysnewsletter.com/feed" },
+    { "id": "donuts", "group": "guru", "name": "Bring the Donuts — Ken Norton", "url": "https://www.bringthedonuts.com/feed.xml" },
+    { "id": "hrbrew", "group": "hrtech", "name": "HR Brew", "url": "https://www.hr-brew.com/feed" },
+    { "id": "greenhouse", "group": "hrtech", "name": "Greenhouse blog", "url": "https://www.greenhouse.io/blog/rss.xml" },
+    { "id": "a16z", "group": "ai", "name": "a16z enterprise", "url": "https://a16z.com/feed/" },
+    { "id": "simonw", "group": "ai", "name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/" },
+    { "id": "anthropic-eng", "group": "ai", "name": "Anthropic engineering", "url": "https://www.anthropic.com/engineering/rss.xml" }
+  ]
+}

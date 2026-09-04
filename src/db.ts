@@ -4,6 +4,7 @@ import type {
   Ask,
   ChallengeLog,
   Entry,
+  FeedState,
   Phase,
   Session,
   Vision,
@@ -27,6 +28,7 @@ export const db = new Dexie('career-app') as Dexie & {
   sessions: EntityTable<Session, 'id'>
   asks: EntityTable<Ask, 'id'>
   challengeLogs: EntityTable<ChallengeLog, 'id'>
+  feedStates: EntityTable<FeedState, 'feedItemId'>
 }
 
 /** v1: 성과/회고/학습/피드백 4타입 + goals 테이블 (첫 프로토타입) */
@@ -66,6 +68,9 @@ db.version(2)
         delete e.goalIds
       })
   })
+
+/** v3: 읽은 피드 항목의 흔적 */
+db.version(3).stores({ feedStates: 'feedItemId, readAt' })
 
 /** 첫 실행에 좌석과 플래너 초안을 깔아둡니다. 이미 있으면 건드리지 않습니다. */
 export async function seedIfEmpty(): Promise<void> {

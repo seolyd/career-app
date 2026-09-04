@@ -1,17 +1,23 @@
-import { useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { Link, useNavigate } from 'react-router-dom'
 import { db, newId } from '../db'
 import type { Entry, WeekGoal } from '../types'
-import { daysLeftInWeek, formatKo, today, weekOf } from '../lib/date'
+import { daysLeftInWeek, formatKo, relativeKo, today, weekOf } from '../lib/date'
 import { dueToday, oneYearAgo, weakestAxes } from '../lib/stats'
 import { pickChallenge } from '../lib/challenge'
-import { askClassify, type Draft } from '../lib/ask'
+import { askClassify, askDigest, type Draft } from '../lib/ask'
+import { loadFeed, type FeedItem } from '../lib/feed'
 import { Button, Card, SectionTitle, Textarea } from '../components/ui'
 import { EntryCard, TypeBadge } from '../components/EntryCard'
 import { Header } from '../components/Header'
 import { InstallBanner } from '../components/InstallBanner'
 import { AskButton, AskSheet } from '../components/AskSheet'
+
+interface DigestSuggestion {
+  summary?: string
+  soWhat?: string
+}
 
 interface ClassifySuggestion {
   type?: string
@@ -33,6 +39,20 @@ export function Today() {
   const logs = useLiveQuery(() => db.challengeLogs.toArray(), []) ?? []
   const weekGoals = useLiveQuery(() => db.weekGoals.where('weekOf').equals(weekOf()).toArray(), []) ?? []
   const yearGoals = useLiveQuery(() => db.yearGoals.toArray(), []) ?? []
+  const readIds = useLiveQuery(async () => new Set((await db.feedStates.toArray()).map((f) => f.feedItemId)), [])
+
+  // 하루 한 편만. 날짜로 고정해서 앱을 몇 번 열어도 같은 글이 나옵니다.
+  const [feedItems, setFeedItems] = useState<FeedItem[]>([])
+  useEffect(() => {
+    void loadFeed().then((f) => setFeedItems(f?.items ?? []))
+  }, [])
+  const todaysRead = useMemo(() => {
+    const unread = feedItems.filter((i) => !readIds?.has(i.id))
+    if (!unread.length) return undefined
+    let hash = 0
+    for (let i = 0; i < iso.length; i += 1) hash = (hash * 31 + iso.charCodeAt(i)) >>> 0
+    return unread[hash % unread.length]
+  }, [feedItems, readIds, iso])
 
   const recent30 = entries.filter((e) => e.occurredAt >= isoDaysAgo(30))
   const weak = weakestAxes(recent30)
@@ -178,11 +198,45 @@ export function Today() {
           >
             Today's read
           </SectionTitle>
-          <Card>
-            <p className="text-[14px] text-slate-500 dark:text-slate-400">
-              The guru and AI-media feeds fill themselves every morning once this is deployed. Until then, add links yourself from the Reading tab.
-            </p>
-          </Card>
+          {todaysRead ? (
+            <Card>
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                  {todaysRead.sourceName}
+                </span>
+                <span className="text-[12px] text-slate-400 dark:text-slate-500">
+                  {relativeKo(todaysRead.publishedAt.slice(0, 10))}
+                </span>
+              </div>
+              <a
+                href={todaysRead.url}
+                target="_blank"
+                rel="noreferrer noopener"
+                onClick={() => void db.feedStates.put({ feedItemId: todaysRead.id, readAt: Date.now() })}
+                className="mt-1.5 block font-semibold"
+              >
+                {todaysRead.title}
+              </a>
+              {todaysRead.excerpt && (
+                <p className="mt-1 line-clamp-3 text-[14px] text-slate-500 dark:text-slate-400">
+                  {todaysRead.excerpt}
+                </p>
+              )}
+              <AskButton
+                className="mt-3"
+                label="Digest it"
+                onClick={() => setAsk(askDigest(todaysRead.title, todaysRead.url, ''))}
+              />
+            </Card>
+          ) : (
+            <Card>
+              <p className="text-[14px] text-slate-500 dark:text-slate-400">
+                {feedItems.length
+                  ? 'Nothing unread. One a day is enough.'
+                  : 'The feed lands once this is deployed and the Refresh feed Action runs. Until then, log reads from the Reading tab.'}
+              </p>
+            </Card>
+          )}
         </section>
 
         {/* 5. 한 줄 기록 */}
@@ -224,7 +278,29 @@ export function Today() {
       <AskSheet
         draft={ask}
         onClose={() => setAsk(null)}
-        onResult={async (_reply, parsed) => {
+        onResult={async (reply, parsed, record) => {
+          // 오늘 화면에서는 두 종류가 나갑니다 — 한 줄 기록 분류와 오늘의 글 정리.
+          if (record.kind === 'digest') {
+            const d = (parsed ?? {}) as DigestSuggestion
+            if (!todaysRead) return
+            const now = Date.now()
+            const id = newId()
+            await db.entries.add({
+              id,
+              type: 'Input',
+              title: todaysRead.title,
+              body: d.summary ?? reply,
+              axis: 'Product Sense',
+              tags: [],
+              occurredAt: iso,
+              createdAt: now,
+              updatedAt: now,
+              sourceUrl: todaysRead.url,
+              soWhat: d.soWhat,
+            })
+            await db.feedStates.put({ feedItemId: todaysRead.id, readAt: now, entryId: id })
+            return navigate(`/entry/${id}`)
+          }
           const s = (parsed ?? {}) as ClassifySuggestion
           const id = await quickSave(draft, {
             type: (s.type as Entry['type']) ?? 'Reflection',
