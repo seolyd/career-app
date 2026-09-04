@@ -4,3 +4,7 @@ dev-dist
 .DS_Store
 *.local
 node_modules/.tmp
+
+# 아이콘은 favicon.svg에서 빌드 시 생성됩니다 (npm run icons)
+public/icons/
+public/apple-touch-icon.png
