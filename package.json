@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit false --emitDeclarationOnly false || tsc -b",
-    "lint": "tsc -b"
+    "lint": "tsc -b",
+    "prebuild": "node scripts/make-icons.mjs",
+    "icons": "node scripts/make-icons.mjs"
   },
   "dependencies": {
     "dexie": "^4.0.11",
@@ -27,6 +29,7 @@
     "tailwindcss": "^4.0.6",
     "typescript": "^5.7.3",
     "vite": "^6.1.0",
-    "vite-plugin-pwa": "^0.21.1"
+    "vite-plugin-pwa": "^0.21.1",
+    "sharp": "^0.33.5"
   }
 }
