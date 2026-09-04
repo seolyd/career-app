@@ -7,7 +7,7 @@ A personal PM career system, built as a local-first PWA for iPhone. Five pillars
 | **Today** | This week's goals, decisions whose review date arrived, one drill, one read, one-line capture |
 | **Journal** | Six entry types, axis distribution, prediction calibration, principle extraction |
 | **Board** | Seven PM thinkers seated as your C-level. Answer their questions yourself first; escalate to an LLM only if stuck |
-| **Reading** | Two RSS groups (PM gurus, PM·AI media). Auto-feed lands after deployment |
+| **Reading** | Three feed groups (PM gurus, HR tech, PM·AI), refreshed daily by a GitHub Action |
 | **Plan** | 10-year vision → 4 phases → yearly goals → weekly goals, plus "declared vs done" |
 
 ## Principles
@@ -27,6 +27,18 @@ Five pillars only become one app through five connections:
 3. **Journal → Board** — a stuck decision goes to the board.
 4. **Board → Plan** — action items from a session get promoted to weekly goals.
 5. **RSS → Board** — a guru's new post badges their seat, so the lens stays current.
+
+## The feed
+
+A static PWA cannot read external RSS (CORS), and standing up a server would break the
+local-first premise. So it happens at build time instead: `.github/workflows/feed.yml` runs
+`npm run feed` every morning, which fetches everything in `feed-sources.json` and commits
+`public/feed.json`. The app reads that one same-origin file.
+
+Only title, link, date and a short excerpt are stored — reading goes to the original. A source
+that dies keeps its previous items and gets listed in `report.failed`, which the Reading tab
+surfaces; feeds break eventually, so that report is permanent furniture. Sources carrying an
+`authorId` are matched to Board seats by id.
 
 ## Where the LLM is called
 
@@ -64,13 +76,11 @@ npm run preview  # serve the build
 
 ## Deploy
 
-Upload `dist/` to any static host (Vercel, Netlify, Cloudflare Pages). Two requirements:
-a SPA rewrite sending all routes to `/index.html`, and **HTTPS** — without it neither the service
-worker nor Home Screen install works.
-
-Then in Safari: Share → **Add to Home Screen**.
+Upload `dist/` to any static host. `vercel.json` carries the SPA rewrite and cache headers;
+on Vercel the framework preset is Vite and no other configuration is needed. HTTPS is required
+— without it neither the service worker nor Home Screen install works.
 
 ## Not built yet
 
-- RSS ingestion (a GitHub Action writing `public/feed.json`, wired to Board seats by author)
 - Weekly review reminders (web push, iOS 16.4+, installed only)
+- Expanding the drill library past its current 42

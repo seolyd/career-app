@@ -213,6 +213,16 @@ export interface ChallengeLog {
   completedAt: number
 }
 
+/* ── 읽기 ─────────────────────────────────────────────── */
+
+/** 피드 항목의 읽음 상태. 항목 자체는 feed.json에 있고 여기엔 내 흔적만 남습니다. */
+export interface FeedState {
+  feedItemId: string
+  readAt: number
+  note?: string
+  entryId?: string
+}
+
 /* ── 백업 ─────────────────────────────────────────────── */
 
 export interface BackupFile {
@@ -228,4 +238,5 @@ export interface BackupFile {
   sessions: Session[]
   asks: Ask[]
   challengeLogs: ChallengeLog[]
+  feedStates: FeedState[]
 }

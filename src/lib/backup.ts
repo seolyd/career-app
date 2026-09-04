@@ -3,7 +3,7 @@ import type { BackupFile, Entry } from '../types'
 import { ENTRY_TYPES, AXES } from '../types'
 
 export async function buildBackup(): Promise<BackupFile> {
-  const [entries, vision, phases, yearGoals, weekGoals, advisors, sessions, asks, challengeLogs] =
+  const [entries, vision, phases, yearGoals, weekGoals, advisors, sessions, asks, challengeLogs, feedStates] =
     await Promise.all([
       db.entries.toArray(),
       db.vision.toArray(),
@@ -14,6 +14,7 @@ export async function buildBackup(): Promise<BackupFile> {
       db.sessions.toArray(),
       db.asks.toArray(),
       db.challengeLogs.toArray(),
+      db.feedStates.toArray(),
     ])
   return {
     app: 'career-app',
@@ -28,6 +29,7 @@ export async function buildBackup(): Promise<BackupFile> {
     sessions,
     asks,
     challengeLogs,
+    feedStates,
   }
 }
 
@@ -65,6 +67,9 @@ function isEntry(v: unknown): v is Entry {
 const hasId = (v: unknown): v is { id: string; updatedAt?: number } =>
   !!v && typeof (v as { id?: unknown }).id === 'string'
 
+const hasFeedKey = (v: unknown): v is { feedItemId: string } =>
+  !!v && typeof (v as { feedItemId?: unknown }).feedItemId === 'string'
+
 export interface ImportResult {
   restored: number
   skipped: number
@@ -100,6 +105,7 @@ export async function importBackup(raw: string): Promise<ImportResult> {
     db.sessions,
     db.asks,
     db.challengeLogs,
+    db.feedStates,
   ] as const
   const payloads: unknown[][] = [
     file.entries ?? [],
@@ -111,19 +117,22 @@ export async function importBackup(raw: string): Promise<ImportResult> {
     file.sessions ?? [],
     file.asks ?? [],
     file.challengeLogs ?? [],
+    file.feedStates ?? [],
   ]
 
   await db.transaction('rw', tables, async () => {
     for (let i = 0; i < tables.length; i += 1) {
       const table = tables[i] as { get: (id: string) => Promise<unknown>; put: (v: never) => Promise<unknown> }
       for (const row of payloads[i]) {
-        const valid = i === 0 ? isEntry(row) : hasId(row)
+        const isFeedState = i === tables.length - 1
+        const valid = i === 0 ? isEntry(row) : isFeedState ? hasFeedKey(row) : hasId(row)
         if (!valid) {
           skipped += 1
           continue
         }
-        const record = row as { id: string; updatedAt?: number }
-        const existing = (await table.get(record.id)) as { updatedAt?: number } | undefined
+        const record = row as { id?: string; feedItemId?: string; updatedAt?: number }
+        const key = (isFeedState ? record.feedItemId : record.id) as string
+        const existing = (await table.get(key)) as { updatedAt?: number } | undefined
         if (existing && (existing.updatedAt ?? 0) >= (record.updatedAt ?? 0)) continue
         await table.put(record as never)
         restored += 1
