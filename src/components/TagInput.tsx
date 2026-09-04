@@ -38,7 +38,7 @@ export function TagInput({
       <Input
         className={value.length ? 'mt-2' : ''}
         value={draft}
-        placeholder="태그 추가 (엔터)"
+        placeholder="Add a tag (Enter)"
         enterKeyHint="done"
         onChange={(e) => setDraft(e.target.value)}
         onBlur={() => add(draft)}
