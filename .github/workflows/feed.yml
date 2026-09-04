@@ -13,8 +13,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -22,7 +22,9 @@ jobs:
       - run: npm run feed
       - name: Commit if changed
         run: |
-          if git diff --quiet public/feed.json; then
+          # git diff는 추적되지 않는 새 파일을 "변경 없음"으로 봅니다.
+          # 첫 실행에서 feed.json이 커밋되지 않는 원인이었습니다.
+          if [ -z "$(git status --porcelain public/feed.json)" ]; then
             echo "no change"
             exit 0
           fi

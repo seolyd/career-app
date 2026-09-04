@@ -18,7 +18,13 @@ const CONFIG_PATH = process.env.FEED_SOURCES ?? 'feed-sources.json'
 const OUT_PATH = process.env.FEED_OUT ?? 'public/feed.json'
 
 const config = JSON.parse(readFileSync(CONFIG_PATH, 'utf8'))
-const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' })
+// processEntities를 끕니다. 켜두면 엔티티가 많은 피드(예: simonwillison.net)가
+// 파서의 확장 한도에 걸려 통째로 실패합니다. 엔티티는 stripHtml에서 직접 풉니다.
+const parser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: '@_',
+  processEntities: false,
+})
 
 const asArray = (v) => (v == null ? [] : Array.isArray(v) ? v : [v])
 
@@ -78,7 +84,11 @@ function readItems(xml) {
 
 async function fetchSource(source) {
   const res = await fetch(source.url, {
-    headers: { 'user-agent': 'career-app-feed/1.0 (+https://github.com/seolyd/career-app)' },
+    headers: {
+      'user-agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36',
+      accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+    },
     signal: AbortSignal.timeout(TIMEOUT_MS),
     redirect: 'follow',
   })
