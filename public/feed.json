@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-09-04T22:03:37.093Z",
+  "generatedAt": "2026-09-05T21:52:09.583Z",
   "items": [
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
+      "publishedAt": "2026-09-05T17:00:46.000Z",
+      "excerpt": "Community Wisdom 200"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Using Blender with coding agents on macOS",
+      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "publishedAt": "2026-09-05T15:51:09.000Z",
+      "excerpt": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p> <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "publishedAt": "2026-09-04T23:59:05.000Z",
+      "excerpt": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and …"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
       "sourceId": "simonw",
@@ -115,26 +145,6 @@
       "excerpt": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will n…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "publishedAt": "2026-09-01T23:57:28.000Z",
-      "excerpt": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-so…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Codex bundles LibreOffice",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "publishedAt": "2026-09-01T19:03:01.000Z",
-      "excerpt": "<p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://hel…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -194,16 +204,6 @@
       "url": "https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
       "publishedAt": "2026-08-27T14:41:10.000Z",
       "excerpt": "I have spent almost 30 years studying organizations, work, jobs, and HR, and every year there’s a new theme. There was digital transformation, employee wellbeing, hybrid work, diversity and inclusion, women’s rights, and…"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "title": "How to figure out your next career move",
-      "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
-      "publishedAt": "2026-08-25T13:04:15.000Z",
-      "excerpt": "Six essential questions to help you navigate change"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
