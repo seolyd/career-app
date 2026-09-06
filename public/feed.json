@@ -1,6 +1,56 @@
 {
-  "generatedAt": "2026-09-05T21:52:09.583Z",
+  "generatedAt": "2026-09-06T21:55:21.591Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "The purpose of DNS is to spread scams",
+      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "publishedAt": "2026-09-06T14:40:07.000Z",
+      "excerpt": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p> Terence Eden shares some daunting statistics in support of his take that…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
+      "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
+      "publishedAt": "2026-09-06T12:32:00.000Z",
+      "excerpt": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "There's No Limit to How Bad Code Can Get",
+      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "publishedAt": "2026-09-06T09:08:06.000Z",
+      "excerpt": "<p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There&#x27;s No Limit to How Bad Code Ca…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/6/zach-kehs/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Quoting Zach Kehs",
+      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+      "publishedAt": "2026-09-06T08:42:49.000Z",
+      "excerpt": "<blockquote cite=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Introducing GPT-6 Astra for developers",
+      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "publishedAt": "2026-09-05T23:27:48.000Z",
+      "excerpt": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p> Blink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch…"
+    },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
       "sourceId": "lenny",
@@ -52,16 +102,6 @@
       "excerpt": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-p…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "GPT‑6 Astra",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-      "publishedAt": "2026-09-03T20:18:41.000Z",
-      "excerpt": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p> GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Pl…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -70,16 +110,6 @@
       "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
       "publishedAt": "2026-09-03T19:34:20.000Z",
       "excerpt": "Watch now | &#127897;&#65039; My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn&#8217;t match, and a hardware hack I&#8217;ve chased for month…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "llm-gemini 0.34",
-      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "publishedAt": "2026-09-02T16:39:38.000Z",
-      "excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovat…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
@@ -91,16 +121,6 @@
       "url": "https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
       "publishedAt": "2026-09-02T14:35:11.000Z",
       "excerpt": "Despite the talk about job losses from AI, we now know the opposite is true. The new Bureau of Labor Statistics Employment Projections: 2025-2035 . shows that we are likely to have labor shortages in the future, despite …"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-      "publishedAt": "2026-09-02T14:16:42.000Z",
-      "excerpt": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the C…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/ai-evals-test-harness/",
@@ -133,16 +153,6 @@
       "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
       "publishedAt": "2026-09-02T12:03:39.000Z",
       "excerpt": "Watch now | &#127897;&#65039; I&#8217;ve been running Grok Bot for several weeks, and I&#8217;ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids&#8217; school pickups, my PR q…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/2/rick-brewster/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Quoting Rick Brewster",
-      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-      "publishedAt": "2026-09-02T05:50:57.000Z",
-      "excerpt": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will n…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
@@ -183,16 +193,6 @@
       "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
       "publishedAt": "2026-08-30T12:31:30.000Z",
       "excerpt": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-building-without",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
-      "publishedAt": "2026-08-29T18:59:48.000Z",
-      "excerpt": "Community Wisdom 199"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
@@ -625,12 +625,6 @@
         "count": 8
       }
     ],
-    "failed": [
-      {
-        "id": "cutlefish",
-        "url": "https://cutlefish.substack.com/feed",
-        "error": "HTTP 403"
-      }
-    ]
+    "failed": []
   }
 }
