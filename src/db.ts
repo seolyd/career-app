@@ -14,6 +14,7 @@ import type {
 } from './types'
 import { SEED_ADVISORS } from './seed/advisors'
 import { SEED_PHASES } from './seed/plan'
+import { defaultProfile } from './seed/profile'
 
 /**
  * 전부 이 기기 안에만 저장됩니다. 서버는 없습니다.
@@ -81,6 +82,9 @@ db.version(4).stores({ profile: 'id' })
 export async function seedIfEmpty(): Promise<void> {
   if ((await db.advisors.count()) === 0) await db.advisors.bulkAdd(SEED_ADVISORS)
   if ((await db.phases.count()) === 0) await db.phases.bulkAdd(SEED_PHASES)
+  // 프로필은 기본값으로 깔아둡니다. 첫 실행에 뭘 묻지 않고 바로 쓰기 위해서고,
+  // 회사·직급 같은 건 설정에서 본인이 적으면 이 기기에만 남습니다.
+  if (!(await db.profile.get('profile'))) await db.profile.put(defaultProfile())
   // 연 목표는 비워둡니다 — 본인 것을 앱에서 직접 적는 게 맞습니다.
 }
 
