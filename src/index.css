@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+/*
+ * 이 앱은 밝은 화면 하나로 갑니다. OLED에서 흰 글자가 번져 읽기 어렵다는
+ * 판단이었습니다. dark: 클래스 217개를 지우는 대신 변형 자체를 클래스 기반으로
+ * 바꿔 둡니다 — .dark를 아무 데도 붙이지 않으므로 전부 죽고, 나중에 다시
+ * 켜고 싶으면 <html class="dark">만 달면 됩니다.
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   --app-vh: 100dvh;
 }
 
@@ -15,7 +23,6 @@ body {
   margin: 0;
   overscroll-behavior-y: none;
   -webkit-tap-highlight-color: transparent;
-  -webkit-font-smoothing: antialiased;
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
     system-ui, "Segoe UI", sans-serif;
   @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100;
