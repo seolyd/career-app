@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-09-06T21:55:21.591Z",
+  "generatedAt": "2026-09-07T22:28:10.758Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Quoting Jakub Pachocki",
+      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "publishedAt": "2026-09-07T22:26:25.000Z",
+      "excerpt": "<blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers p…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Video compressor",
+      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "publishedAt": "2026-09-07T18:29:07.000Z",
+      "excerpt": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/video-compressor\">Video compressor</a></p> <p>I recorded a short demo video of <a href=\"https://simonwillison.net/2026/Sep/7/equal-earth/\">my Equal Earth…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Mercator ↔ Equal Earth",
+      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "publishedAt": "2026-09-07T16:24:16.000Z",
+      "excerpt": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p> <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+      "publishedAt": "2026-09-07T15:02:41.000Z",
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+      "publishedAt": "2026-09-07T12:04:19.000Z",
+      "excerpt": "Watch now | &#127897;&#65039; Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "publishedAt": "2026-09-06T23:57:40.000Z",
+      "excerpt": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p> Apparently today is RSI day at OpenAI, for Recursive Self-Improvement…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
       "sourceId": "simonw",
@@ -60,46 +120,6 @@
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
       "publishedAt": "2026-09-05T17:00:46.000Z",
       "excerpt": "Community Wisdom 200"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Using Blender with coding agents on macOS",
-      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-      "publishedAt": "2026-09-05T15:51:09.000Z",
-      "excerpt": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p> <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "The Pelican comparison grid for Astra is pretty interesting",
-      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-      "publishedAt": "2026-09-04T23:59:05.000Z",
-      "excerpt": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and …"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "OpenAI's rogue agents were caught communicating via public wikis",
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "publishedAt": "2026-09-04T17:38:48.000Z",
-      "excerpt": "<p>Here we go again... <a href=\"https://collusion.wiki\">Discovery of a new OpenAI agent message board</a> by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the <em>latest</em> <a href=\"http…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "August newsletter is out",
-      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "publishedAt": "2026-09-04T05:54:40.000Z",
-      "excerpt": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-p…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
@@ -173,26 +193,6 @@
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
       "publishedAt": "2026-08-31T15:01:58.000Z",
       "excerpt": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
-      "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
-      "publishedAt": "2026-08-31T12:04:18.000Z",
-      "excerpt": "Listen now | &#127897;&#65039; PM Daniel Blum walks through the exact Cowork and Claude setup that manages his Notion, tracks his tasks across Slack and email, and self-improves every week without him lifting a finger"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)",
-      "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
-      "publishedAt": "2026-08-30T12:31:30.000Z",
-      "excerpt": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
