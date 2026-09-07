@@ -8,6 +8,7 @@ import { dueToday, oneYearAgo, weakestAxes } from '../lib/stats'
 import { pickChallenge } from '../lib/challenge'
 import { askClassify, askDigest, type Draft } from '../lib/ask'
 import { loadFeed, type FeedItem } from '../lib/feed'
+import { isDefaultProfile } from '../seed/profile'
 import { Button, Card, SectionTitle, Textarea } from '../components/ui'
 import { EntryCard, TypeBadge } from '../components/EntryCard'
 import { Header } from '../components/Header'
@@ -40,6 +41,7 @@ export function Today() {
   const weekGoals = useLiveQuery(() => db.weekGoals.where('weekOf').equals(weekOf()).toArray(), []) ?? []
   const yearGoals = useLiveQuery(() => db.yearGoals.toArray(), []) ?? []
   const readIds = useLiveQuery(async () => new Set((await db.feedStates.toArray()).map((f) => f.feedItemId)), [])
+  const profile = useLiveQuery(() => db.profile.get('profile'), [])
 
   // 하루 한 편만. 날짜로 고정해서 앱을 몇 번 열어도 같은 글이 나옵니다.
   const [feedItems, setFeedItems] = useState<FeedItem[]>([])
@@ -97,6 +99,16 @@ export function Today() {
       />
 
       <InstallBanner />
+
+      {/* 아직 기본 프로필이면 한 줄만 안내합니다. 막지는 않습니다 */}
+      {profile !== undefined && isDefaultProfile(profile) && (
+        <Link
+          to="/settings"
+          className="mx-4 mt-4 block rounded-xl bg-slate-100 px-4 py-3 text-[13px] leading-6 text-slate-600 dark:bg-slate-800/60 dark:text-slate-300"
+        >
+          Prompts are using a generic profile. Tell it who you are for sharper answers →
+        </Link>
+      )}
 
       <div className="space-y-6 p-4">
         {/* 1. 이번 주 목표 — 플래너에서 내려옵니다 */}

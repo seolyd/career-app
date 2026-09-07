@@ -9,7 +9,6 @@ import { Board } from './pages/Board'
 import { Reading } from './pages/Reading'
 import { Plan } from './pages/Plan'
 import { Settings } from './pages/Settings'
-import { Setup } from './pages/Setup'
 import { BottomNav } from './components/BottomNav'
 import { UpdatePrompt } from './components/UpdatePrompt'
 
@@ -18,23 +17,21 @@ const FULLSCREEN = ['/entry/', '/settings']
 export function App() {
   const { pathname } = useLocation()
   const [ready, setReady] = useState(false)
-  const [needsSetup, setNeedsSetup] = useState(false)
   const hideNav = FULLSCREEN.some((p) => pathname.startsWith(p))
 
-  // 좌석과 페이즈 뼈대는 첫 실행에 한 번만 깔리고,
-  // 프롬프트 페르소나는 기기에 저장된 프로필에서 읽어옵니다.
+  // 좌석·페이즈·프로필 뼈대는 첫 실행에 한 번만 깔립니다. 아무것도 묻지 않고
+  // 바로 쓸 수 있어야 해서, 프롬프트 페르소나도 기본값으로 시작해 설정에서 고칩니다.
   useEffect(() => {
     void (async () => {
       await seedIfEmpty()
-      const profile = await db.profile.get('profile')
-      setAskProfile(profile ?? null)
-      setNeedsSetup(!profile)
+      setAskProfile((await db.profile.get('profile')) ?? null)
       setReady(true)
+      // iOS가 저장소를 비워버리면 기록이 통째로 날아갑니다. 조용히 한 번 요청해 둡니다.
+      void navigator.storage?.persist?.().catch(() => {})
     })()
   }, [])
 
   if (!ready) return null
-  if (needsSetup) return <Setup onDone={() => setNeedsSetup(false)} />
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-2xl flex-col">
