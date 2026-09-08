@@ -1,6 +1,47 @@
 {
-  "generatedAt": "2026-09-07T22:28:10.758Z",
+  "generatedAt": "2026-09-08T22:19:21.541Z",
   "items": [
+    {
+      "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "title": "Facilitation Skills - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-09-08T13:00:35.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn&apos;t a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle …"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "publishedAt": "2026-09-08T12:31:49.000Z",
+      "excerpt": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world&#8217;s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/7/llm/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "publishedAt": "2026-09-07T23:54:54.000Z",
+      "excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\"…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "title": "Creepy crawlies",
+      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "publishedAt": "2026-09-07T23:08:58.000Z",
+      "excerpt": "<p><strong><a href=\"https://people.kernel.org/monsieuricon/creepy-crawlies\">Creepy crawlies</a></strong></p> Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the persp…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
       "sourceId": "simonw",
@@ -92,26 +133,6 @@
       "excerpt": "<p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There&#x27;s No Limit to How Bad Code Ca…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/6/zach-kehs/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Quoting Zach Kehs",
-      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
-      "publishedAt": "2026-09-06T08:42:49.000Z",
-      "excerpt": "<blockquote cite=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code …"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Introducing GPT-6 Astra for developers",
-      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "publishedAt": "2026-09-05T23:27:48.000Z",
-      "excerpt": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p> Blink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -183,16 +204,6 @@
       "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
       "publishedAt": "2026-09-01T12:45:59.000Z",
       "excerpt": "An end-to-end process for tapping into AI&#8217;s hidden creativity"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
-      "publishedAt": "2026-08-31T15:01:58.000Z",
-      "excerpt": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
@@ -335,17 +346,6 @@
       "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
       "publishedAt": "2026-07-09T13:00:43.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to reinvent a 14-year-old company&#x2014;not once, but twice? In this episode of Just Now Possible , Teresa Torres talks with Sam Eitzen (Co-founder &…"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "title": "Stepping Into Leadership - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "publishedAt": "2026-07-07T13:00:28.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Every product manager wants to move into leadership &#x2014; but nobody wants to hire a leader without leadership experience. So how do you break the cycle? In this epi…"
     },
     {
       "id": "svpg:https://www.svpg.com/great-products-bad-companies/",
