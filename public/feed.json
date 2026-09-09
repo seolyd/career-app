@@ -1,156 +1,256 @@
 {
-  "generatedAt": "2026-09-08T22:19:21.541Z",
+  "generatedAt": "2026-09-09T22:12:38.421Z",
   "items": [
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+      "publishedAt": "2026-09-09T05:04:51.000Z",
+      "excerpt": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/9/terence-tao/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Terence Tao",
+      "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+      "publishedAt": "2026-09-09T00:20:17.000Z",
+      "excerpt": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that ev…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "publishedAt": "2026-09-08T23:55:12.000Z",
+      "excerpt": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "publishedAt": "2026-09-08T22:46:33.000Z",
+      "excerpt": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-f…"
+    },
     {
       "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "Facilitation Skills - All Things Product Podcast with Teresa Torres & Petra Wille",
       "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-08T13:00:35.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn&apos;t a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle …"
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn't a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle a que…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "episode",
       "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
       "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
       "publishedAt": "2026-09-08T12:31:49.000Z",
-      "excerpt": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world&#8217;s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever"
+      "excerpt": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
+      "audioUrl": "https://api.substack.com/feed/podcast/214070217/74500da2d21a92872afb94e2f2b9094d.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/7/llm/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
       "group": "ai",
+      "kind": "article",
       "title": "llm 0.35",
       "url": "https://simonwillison.net/2026/Sep/7/llm/",
       "publishedAt": "2026-09-07T23:54:54.000Z",
-      "excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\"…"
+      "excerpt": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
       "group": "ai",
+      "kind": "article",
       "title": "Creepy crawlies",
       "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
       "publishedAt": "2026-09-07T23:08:58.000Z",
-      "excerpt": "<p><strong><a href=\"https://people.kernel.org/monsieuricon/creepy-crawlies\">Creepy crawlies</a></strong></p> Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the persp…"
+      "excerpt": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend …"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
       "group": "ai",
+      "kind": "article",
       "title": "Quoting Jakub Pachocki",
       "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
       "publishedAt": "2026-09-07T22:26:25.000Z",
-      "excerpt": "<blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers p…"
+      "excerpt": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secur…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/aeo",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "url": "https://www.latent.space/p/aeo",
+      "publishedAt": "2026-09-07T21:32:37.000Z",
+      "excerpt": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to."
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/7/video-compressor/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
       "group": "ai",
+      "kind": "article",
       "title": "Video compressor",
       "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
       "publishedAt": "2026-09-07T18:29:07.000Z",
-      "excerpt": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/video-compressor\">Video compressor</a></p> <p>I recorded a short demo video of <a href=\"https://simonwillison.net/2026/Sep/7/equal-earth/\">my Equal Earth…"
+      "excerpt": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code fo…"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/7/equal-earth/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
       "group": "ai",
+      "kind": "article",
       "title": "Mercator ↔ Equal Earth",
       "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
       "publishedAt": "2026-09-07T16:24:16.000Z",
-      "excerpt": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p> <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/…"
+      "excerpt": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Eq…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "article",
       "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
       "publishedAt": "2026-09-07T15:02:41.000Z",
-      "excerpt": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network"
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "episode",
       "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
       "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
       "publishedAt": "2026-09-07T12:04:19.000Z",
-      "excerpt": "Watch now | &#127897;&#65039; Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "publishedAt": "2026-09-06T23:57:40.000Z",
-      "excerpt": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p> Apparently today is RSI day at OpenAI, for Recursive Self-Improvement…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "The purpose of DNS is to spread scams",
-      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "publishedAt": "2026-09-06T14:40:07.000Z",
-      "excerpt": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p> Terence Eden shares some daunting statistics in support of his take that…"
+      "excerpt": "Watch now | &#127897;&#65039; Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
+      "audioUrl": "https://api.substack.com/feed/podcast/214090220/4cccdb9b806152e3e331d85f76bfe4ca.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "episode",
       "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
       "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
       "publishedAt": "2026-09-06T12:32:00.000Z",
-      "excerpt": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "title": "There's No Limit to How Bad Code Can Get",
-      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "publishedAt": "2026-09-06T09:08:06.000Z",
-      "excerpt": "<p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There&#x27;s No Limit to How Bad Code Ca…"
+      "excerpt": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
+      "audioUrl": "https://api.substack.com/feed/podcast/213044770/4eea366175d335a312e305ba284a8e6c.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "article",
       "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
       "publishedAt": "2026-09-05T17:00:46.000Z",
       "excerpt": "Community Wisdom 200"
     },
     {
+      "id": "latentspace:https://www.latent.space/p/grok-bot",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "publishedAt": "2026-09-05T15:01:02.000Z",
+      "excerpt": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+      "url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
+      "publishedAt": "2026-09-05T04:32:00.000Z",
+      "excerpt": "AI News for 9/2/2026-9/3/2026."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "publishedAt": "2026-09-04T05:18:11.000Z",
+      "excerpt": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/astra",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "publishedAt": "2026-09-03T21:09:41.000Z",
+      "excerpt": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings."
+    },
+    {
       "id": "lenny:https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "episode",
       "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
       "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
       "publishedAt": "2026-09-03T19:34:20.000Z",
-      "excerpt": "Watch now | &#127897;&#65039; My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn&#8217;t match, and a hardware hack I&#8217;ve chased for month…"
+      "excerpt": "Watch now | &#127897;&#65039; My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn’t match, and a hardware hack I’ve chased for months",
+      "audioUrl": "https://api.substack.com/feed/podcast/214048522/4ae3ffadb011dee13d0f3ad8895f4c9d.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "publishedAt": "2026-09-03T04:38:33.000Z",
+      "excerpt": "an epic comeback story for Meta"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
@@ -158,6 +258,7 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "US Workforce In 2035: A Few More Workers, A Lot More Output",
       "url": "https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
       "publishedAt": "2026-09-02T14:35:11.000Z",
@@ -169,10 +270,11 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "Get My Eval Test Harness and Run Your First Experiment",
       "url": "https://www.producttalk.org/ai-evals-test-harness/",
       "publishedAt": "2026-09-02T13:05:45.000Z",
-      "excerpt": "My in-depth AI evals guide explains what evals are and how to build them. This post gives you the tool I use to run them. Here&apos;s the practical problem. To get a baseline, you have to run every input through your pro…"
+      "excerpt": "My in-depth AI evals guide explains what evals are and how to build them. This post gives you the tool I use to run them. Here's the practical problem. To get a baseline, you have to run every input through your prompt, …"
     },
     {
       "id": "producttalk:https://www.producttalk.org/ai-evals/",
@@ -180,6 +282,7 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "AI Evals: A Hands-On Guide for Product Teams",
       "url": "https://www.producttalk.org/ai-evals/",
       "publishedAt": "2026-09-02T13:00:59.000Z",
@@ -190,20 +293,35 @@
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "episode",
       "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
       "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
       "publishedAt": "2026-09-02T12:03:39.000Z",
-      "excerpt": "Watch now | &#127897;&#65039; I&#8217;ve been running Grok Bot for several weeks, and I&#8217;ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids&#8217; school pickups, my PR q…"
+      "excerpt": "Watch now | &#127897;&#65039; I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardr…",
+      "audioUrl": "https://api.substack.com/feed/podcast/213644454/8861b59cd21a6007b0237aaf5f590ad2.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "publishedAt": "2026-09-02T07:46:08.000Z",
+      "excerpt": "Queue the usual rush of model launches..."
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
       "group": "guru",
+      "kind": "article",
       "title": "How to turn your AI into a world-class designer",
       "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
       "publishedAt": "2026-09-01T12:45:59.000Z",
-      "excerpt": "An end-to-end process for tapping into AI&#8217;s hidden creativity"
+      "excerpt": "An end-to-end process for tapping into AI’s hidden creativity"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
@@ -211,6 +329,7 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "The Great Decoupling: How Workers Became Disconnected From Companies And AI Will Accelerate This Trend",
       "url": "https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
       "publishedAt": "2026-08-27T14:41:10.000Z",
@@ -222,6 +341,7 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "Despite Massive AI Investments, HR Jobs Are Booming. Why?",
       "url": "https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
       "publishedAt": "2026-08-13T13:48:06.000Z",
@@ -232,6 +352,7 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "Designing Better Working Relationships",
       "url": "https://www.bringthedonuts.com/essays/designing-better-working-relationships/",
       "publishedAt": "2026-08-11T07:00:00.000Z",
@@ -243,6 +364,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "A Fresh Definition of The Product Role",
       "url": "https://www.svpg.com/a-fresh-definition-of-the-product-role/",
       "publishedAt": "2026-08-10T12:49:18.000Z",
@@ -254,6 +376,7 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "The Call to Adventure",
       "url": "https://www.producttalk.org/the-call-to-adventure/",
       "publishedAt": "2026-08-05T13:00:55.000Z",
@@ -265,6 +388,7 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "Ch. 9: Identifying Hidden Assumptions",
       "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
       "publishedAt": "2026-08-03T13:00:27.000Z",
@@ -276,6 +400,7 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "How &#8220;No Tax On Tips&#8221; Disrupts Frontline-First Companies and Workers",
       "url": "https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
       "publishedAt": "2026-07-29T16:53:48.000Z",
@@ -287,6 +412,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "The AI Productivity Paradox",
       "url": "https://www.svpg.com/the-ai-productivity-paradox/",
       "publishedAt": "2026-07-23T18:22:04.000Z",
@@ -298,10 +424,11 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
       "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
       "publishedAt": "2026-07-23T13:00:17.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine&apos;s most historically under-researched areas? In this episode of&#xA0; Just Now Possible , Teresa…"
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine's most historically under-researched areas? In this episode of&#xA0; Just Now Possible , Teresa Torr…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
@@ -309,7 +436,8 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
-      "title": "Affordability Is Not Just Inflation: It&#8217;s Time For A Historic Shift In Wages.",
+      "kind": "article",
+      "title": "Affordability Is Not Just Inflation: It’s Time For A Historic Shift In Wages.",
       "url": "https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
       "publishedAt": "2026-07-16T19:01:28.000Z",
       "excerpt": "Fuel, transportation, housing, and food costs go up, but wage growth is far behind. Is this episodic or is there something bigger going on? A NYT article explains that in San Francisco a combined salary of $370,000 is no…"
@@ -320,6 +448,7 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "Multi-Agent AI For Talent Acquisition Arrives: Eightfold, Paradox, Maki, Radancy, And More",
       "url": "https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
       "publishedAt": "2026-07-15T17:57:39.000Z",
@@ -331,10 +460,11 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "Quality of Evidence - All Things Product Podcast with Teresa Torres & Petra Wille",
       "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-07-14T13:00:09.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts You&apos;ve got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actuall…"
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts You've got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actually sti…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
@@ -342,6 +472,7 @@
       "sourceName": "Product Talk — Teresa Torres",
       "group": "guru",
       "authorId": "torres",
+      "kind": "article",
       "title": "From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
       "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
       "publishedAt": "2026-07-09T13:00:43.000Z",
@@ -353,6 +484,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "Great Products, Bad Companies",
       "url": "https://www.svpg.com/great-products-bad-companies/",
       "publishedAt": "2026-06-30T23:09:59.000Z",
@@ -364,6 +496,7 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "Handshake Acquires Uplimit: AI Skilling Takes A New Direction",
       "url": "https://joshbersin.com/2026/06/handshake-acquires-uplimit-ai-skilling-takes-a-new-direction/",
       "publishedAt": "2026-06-30T15:17:59.000Z",
@@ -375,10 +508,11 @@
       "sourceName": "Josh Bersin",
       "group": "guru",
       "authorId": "bersin",
+      "kind": "article",
       "title": "Are Frontier Models Becoming A Commodity?",
       "url": "https://joshbersin.com/2026/06/are-frontier-models-becoming-a-commodity/",
       "publishedAt": "2026-06-29T17:23:39.000Z",
-      "excerpt": "While Anthropic and OpenAI have massive valuations, the ROI from enterprise AI is coming from applications and data, not the model itself. It&#8217;s not unlike the relational database market, which went through a simila…"
+      "excerpt": "While Anthropic and OpenAI have massive valuations, the ROI from enterprise AI is coming from applications and data, not the model itself. It’s not unlike the relational database market, which went through a similar shif…"
     },
     {
       "id": "svpg:https://www.svpg.com/build-to-learn-faq/",
@@ -386,6 +520,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "Build To Learn FAQ",
       "url": "https://www.svpg.com/build-to-learn-faq/",
       "publishedAt": "2026-04-27T21:16:33.000Z",
@@ -397,6 +532,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "Build to Learn vs Build to Earn",
       "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
       "publishedAt": "2026-04-16T18:48:19.000Z",
@@ -408,6 +544,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "Commercial vs Internal Products",
       "url": "https://www.svpg.com/commercial-vs-internal-products/",
       "publishedAt": "2026-04-09T19:52:26.000Z",
@@ -419,6 +556,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "Product Coaching and AI",
       "url": "https://www.svpg.com/product-coaching-and-ai/",
       "publishedAt": "2026-02-04T19:28:20.000Z",
@@ -429,6 +567,7 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "Best Books for Product Managers [2026]",
       "url": "https://www.bringthedonuts.com/essays/books-for-product-managers.html",
       "publishedAt": "2026-01-07T08:00:00.000Z",
@@ -440,6 +579,7 @@
       "sourceName": "SVPG — Marty Cagan",
       "group": "guru",
       "authorId": "cagan",
+      "kind": "article",
       "title": "The Product Model at Google",
       "url": "https://www.svpg.com/the-product-model-at-google/",
       "publishedAt": "2025-12-19T12:32:20.000Z",
@@ -450,16 +590,18 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "A How to Hire a Product Manager Retrospective",
       "url": "https://www.bringthedonuts.com/essays/how-to-hire-a-pm-retrospective/",
       "publishedAt": "2025-06-09T07:00:00.000Z",
-      "excerpt": "My perspective twenty years later - That&apos;s me in the JotSpot office in Palo Alto, Summer 2005, a few months before we were acquired by Google. This is my retrospective on my classic essay, How to Hire a Product Mana…"
+      "excerpt": "My perspective twenty years later - That's me in the JotSpot office in Palo Alto, Summer 2005, a few months before we were acquired by Google. This is my retrospective on my classic essay, How to Hire a Product Manager, …"
     },
     {
       "id": "donuts:https://www.bringthedonuts.com/essays/why-great-leaders-embrace-humor-and-playfulness/",
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "Why Great Leaders Embrace Humor and Playfulness",
       "url": "https://www.bringthedonuts.com/essays/why-great-leaders-embrace-humor-and-playfulness/",
       "publishedAt": "2025-05-05T07:00:00.000Z",
@@ -470,6 +612,7 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "Product Leadership is Lonely",
       "url": "https://www.bringthedonuts.com/essays/product-leadership-is-lonely.html",
       "publishedAt": "2025-04-10T07:00:00.000Z",
@@ -480,6 +623,7 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "The Power of Not Knowing",
       "url": "https://www.bringthedonuts.com/essays/power-of-not-knowing.html",
       "publishedAt": "2025-04-02T07:00:00.000Z",
@@ -490,6 +634,7 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "Storytelling for Product Leaders",
       "url": "https://www.bringthedonuts.com/essays/storytelling-for-leaders.html",
       "publishedAt": "2025-01-29T08:00:00.000Z",
@@ -500,6 +645,7 @@
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
       "group": "guru",
+      "kind": "article",
       "title": "The Drama Triangle – The Roles We Play in Conflict",
       "url": "https://www.bringthedonuts.com/essays/the-drama-triangle/",
       "publishedAt": "2023-06-14T07:00:00.000Z",
@@ -511,6 +657,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "Ask Gib: “What specifics in a daily routine separate a good Product Manager from a great Product…",
       "url": "https://gibsonbiddle.medium.com/ask-gib-what-specifics-in-a-daily-routine-separate-a-good-product-manager-from-a-great-product-77044395c57?source=rss-370100ca0fe1------2",
       "publishedAt": "2022-05-01T00:13:14.000Z",
@@ -522,6 +669,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "What do you think about project-based roadmaps versus outcome-based (metric-based) roadmaps?",
       "url": "https://gibsonbiddle.medium.com/what-do-you-think-about-project-based-roadmaps-versus-outcome-based-metric-based-roadmaps-4c087f59ebe8?source=rss-370100ca0fe1------2",
       "publishedAt": "2021-12-20T18:09:44.000Z",
@@ -533,6 +681,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "A Brief History of Netflix Personalization",
       "url": "https://gibsonbiddle.medium.com/a-brief-history-of-netflix-personalization-1f2debf010a1?source=rss-370100ca0fe1------2",
       "publishedAt": "2021-06-01T15:55:58.000Z",
@@ -544,6 +693,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "Dear Gib: What Leader(s) Over Your Product Career Truly Changed How You Approach Product Management?",
       "url": "https://gibsonbiddle.medium.com/dear-gib-what-leader-s-over-your-product-career-truly-changed-how-you-approach-product-management-f9f9ee6420d2?source=rss-370100ca0fe1------2",
       "publishedAt": "2021-02-17T19:43:03.000Z",
@@ -555,6 +705,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "How to Balance Customer Delight & Profits",
       "url": "https://gibsonbiddle.medium.com/how-to-delight-customers-in-hard-to-copy-margin-enhancing-ways-ee53e77b214d?source=rss-370100ca0fe1------2",
       "publishedAt": "2020-12-07T21:57:16.000Z",
@@ -566,6 +717,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "Why won’t Netflix party?",
       "url": "https://gibsonbiddle.medium.com/why-wont-netflix-party-fb932399c2?source=rss-370100ca0fe1------2",
       "publishedAt": "2020-12-01T17:58:31.000Z",
@@ -577,6 +729,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "You Can Clap More Than Once",
       "url": "https://gibsonbiddle.medium.com/you-can-clap-more-than-once-1d0c0250ff4d?source=rss-370100ca0fe1------2",
       "publishedAt": "2020-09-04T13:51:50.000Z",
@@ -588,6 +741,7 @@
       "sourceName": "Gibson Biddle",
       "group": "guru",
       "authorId": "biddle",
+      "kind": "article",
       "title": "#11: A Case Study: Netflix 2020",
       "url": "https://gibsonbiddle.medium.com/netflix-today-64fe91e2c693?source=rss-370100ca0fe1------2",
       "publishedAt": "2020-08-31T11:35:49.000Z",
@@ -598,31 +752,43 @@
     "ok": [
       {
         "id": "svpg",
-        "count": 8
+        "count": 8,
+        "episodes": 0
       },
       {
         "id": "producttalk",
-        "count": 8
+        "count": 8,
+        "episodes": 0
       },
       {
         "id": "bersin",
-        "count": 8
+        "count": 8,
+        "episodes": 0
       },
       {
         "id": "biddle",
-        "count": 8
+        "count": 8,
+        "episodes": 0
       },
       {
         "id": "lenny",
-        "count": 8
+        "count": 8,
+        "episodes": 5
       },
       {
         "id": "donuts",
-        "count": 8
+        "count": 8,
+        "episodes": 0
       },
       {
         "id": "simonw",
-        "count": 8
+        "count": 8,
+        "episodes": 0
+      },
+      {
+        "id": "latentspace",
+        "count": 8,
+        "episodes": 0
       }
     ],
     "failed": []
