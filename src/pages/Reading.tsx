@@ -238,11 +238,13 @@ export function Reading() {
               ) : (
                 <Card>
                   <p className="text-[14px] text-slate-500 dark:text-slate-400">
-                    {kind === 'episode' && length
-                      ? 'No episodes that length. Podcast feeds are the only ones that report duration.'
-                      : hideRead
-                        ? 'Nothing unread. One a day is enough.'
-                        : 'Nothing here yet.'}
+                    {kind === 'episode' && episodeCount === 0
+                      ? 'No podcast sources yet. Episodes appear here once a show with an audio feed is added to feed-sources.json — nothing in the current sources publishes audio.'
+                      : kind === 'episode' && length
+                        ? 'No episodes that length. Podcast feeds are the only ones that report duration.'
+                        : hideRead
+                          ? 'Nothing unread. One a day is enough.'
+                          : 'Nothing here yet.'}
                   </p>
                 </Card>
               )}
