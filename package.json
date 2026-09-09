@@ -11,7 +11,8 @@
     "lint": "tsc -b",
     "prebuild": "node scripts/make-icons.mjs",
     "icons": "node scripts/make-icons.mjs",
-    "feed": "node scripts/fetch-feed.mjs"
+    "feed": "node scripts/fetch-feed.mjs",
+    "find-podcast": "node scripts/find-podcast.mjs"
   },
   "dependencies": {
     "dexie": "^4.0.11",

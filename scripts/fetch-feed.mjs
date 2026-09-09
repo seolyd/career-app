@@ -4,6 +4,8 @@
  *
  * 원칙 둘:
  *  - 제목·링크·발행일·발췌만 담습니다. 본문은 복제하지 않고 읽기는 원문으로 보냅니다.
+ *  - 팟캐스트는 별도 파이프라인을 두지 않습니다. 오디오 첨부(enclosure)가 붙은 항목을
+ *    episode로 표시할 뿐이라, 글과 에피소드를 같이 내는 피드도 소스 하나로 끝납니다.
  *  - 한 소스가 죽어도 나머지는 갱신하고, 실패는 report에 남깁니다. 피드는 언젠가 깨지니까요.
  */
 import { XMLParser } from 'fast-xml-parser'
@@ -28,15 +30,22 @@ const parser = new XMLParser({
 
 const asArray = (v) => (v == null ? [] : Array.isArray(v) ? v : [v])
 
+/**
+ * 엔티티를 먼저 풀고 나서 태그를 벗깁니다. 순서가 중요합니다 — 팟캐스트 쇼노트는
+ * 보통 HTML을 &lt;p&gt; 형태로 escape해서 보내는데, 태그부터 벗기면 그게 그대로 남습니다.
+ * &amp;만 마지막에 푸는 이유는 &amp;lt;가 태그로 되살아나는 걸 막기 위해서입니다.
+ */
 function stripHtml(s) {
   return String(s ?? '')
-    .replace(/<[^>]*>/g, ' ')
     .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
+    .replace(/&#0?39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&#8217;/g, '\u2019')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&amp;/g, '&')
     .replace(/\s+/g, ' ')
     .trim()
 }
@@ -44,6 +53,30 @@ function stripHtml(s) {
 function excerpt(s, max = 220) {
   const flat = stripHtml(s)
   return flat.length > max ? `${flat.slice(0, max)}…` : flat
+}
+
+/** itunes:duration은 "3600" · "45:30" · "1:02:03" 세 형태로 옵니다. */
+function parseDuration(value) {
+  const raw = String(value ?? '').trim()
+  if (!raw) return undefined
+  if (/^\d+$/.test(raw)) return Number(raw)
+  const parts = raw.split(':').map((p) => Number(p.trim()))
+  if (!parts.length || parts.some((p) => !Number.isFinite(p))) return undefined
+  const sec = parts.reduce((acc, p) => acc * 60 + p, 0)
+  return sec > 0 ? Math.round(sec) : undefined
+}
+
+/** 오디오 enclosure가 있으면 에피소드입니다. type이 없는 피드도 있어 확장자로 한 번 더 봅니다. */
+function pickAudio(item) {
+  const encs = asArray(item.enclosure)
+  const byType = encs.find((e) => String(e?.['@_type'] ?? '').toLowerCase().startsWith('audio'))
+  const byExt = encs.find((e) => /\.(mp3|m4a|aac|ogg|wav)(\?|$)/i.test(String(e?.['@_url'] ?? '')))
+  return (byType ?? byExt)?.['@_url'] || undefined
+}
+
+function pickImage(item, channelImage) {
+  const ep = item['itunes:image']?.['@_href']
+  return ep || channelImage || undefined
 }
 
 /** Atom의 link는 배열이거나 속성에 들어 있습니다. */
@@ -62,14 +95,26 @@ function toISO(value) {
 
 function readItems(xml) {
   const doc = parser.parse(xml)
-  const rss = asArray(doc?.rss?.channel?.item)
+  const channel = doc?.rss?.channel
+  const rss = asArray(channel?.item)
   if (rss.length) {
-    return rss.map((i) => ({
-      title: stripHtml(i.title),
-      url: typeof i.link === 'string' ? i.link : pickLink(i),
-      publishedAt: toISO(i.pubDate ?? i['dc:date']),
-      excerpt: excerpt(i.description ?? i['content:encoded']),
-    }))
+    const channelImage = channel?.['itunes:image']?.['@_href'] ?? channel?.image?.url ?? undefined
+    return rss.map((i) => {
+      const audioUrl = pickAudio(i)
+      return {
+        title: stripHtml(i.title),
+        url: typeof i.link === 'string' ? i.link : pickLink(i),
+        publishedAt: toISO(i.pubDate ?? i['dc:date']),
+        excerpt: excerpt(i.description ?? i['content:encoded'] ?? i['itunes:summary']),
+        ...(audioUrl
+          ? {
+              audioUrl,
+              durationSec: parseDuration(i['itunes:duration']),
+              imageUrl: pickImage(i, channelImage),
+            }
+          : {}),
+      }
+    })
   }
   const atom = asArray(doc?.feed?.entry)
   return atom.map((e) => ({
@@ -104,10 +149,14 @@ async function fetchSource(source) {
       sourceName: source.name,
       group: source.group,
       ...(source.authorId ? { authorId: source.authorId } : {}),
+      kind: i.audioUrl ? 'episode' : 'article',
       title: i.title,
       url: i.url,
       publishedAt: i.publishedAt ?? new Date().toISOString(),
       excerpt: i.excerpt,
+      ...(i.audioUrl ? { audioUrl: i.audioUrl } : {}),
+      ...(i.durationSec ? { durationSec: i.durationSec } : {}),
+      ...(i.imageUrl ? { imageUrl: i.imageUrl } : {}),
     }))
 }
 
@@ -144,7 +193,11 @@ writeFileSync(
       generatedAt: new Date().toISOString(),
       items,
       report: {
-        ok: ok.map((r) => ({ id: r.source.id, count: r.items.length })),
+        ok: ok.map((r) => ({
+          id: r.source.id,
+          count: r.items.length,
+          episodes: r.items.filter((i) => i.kind === 'episode').length,
+        })),
         failed: failed.map((r) => ({ id: r.source.id, url: r.source.url, error: r.error })),
       },
     },
@@ -153,7 +206,14 @@ writeFileSync(
   )}\n`,
 )
 
-console.log(`${items.length} items from ${ok.length}/${config.sources.length} sources`)
+const episodes = items.filter((i) => i.kind === 'episode').length
+console.log(
+  `${items.length} items (${episodes} episodes) from ${ok.length}/${config.sources.length} sources`,
+)
+for (const r of ok) {
+  const eps = r.items.filter((i) => i.kind === 'episode').length
+  if (eps) console.log(`  ${r.source.id}: ${eps} episode(s)`)
+}
 for (const r of failed) console.warn(`  FAILED ${r.source.id} (${r.source.url}): ${r.error}`)
 if (!ok.length) {
   console.error(`every source failed — check ${CONFIG_PATH}`)
