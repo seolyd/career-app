@@ -4,11 +4,24 @@ import { useNavigate } from 'react-router-dom'
 import { db, newId } from '../db'
 import { relativeKo, today } from '../lib/date'
 import { askDigest, type Draft } from '../lib/ask'
-import { FEED_GROUPS, GROUP_LABEL, loadFeed, type FeedFile, type FeedGroup, type FeedItem } from '../lib/feed'
+import {
+  FEED_GROUPS,
+  GROUP_LABEL,
+  LENGTH_BUCKETS,
+  formatDuration,
+  kindOf,
+  loadFeed,
+  type FeedFile,
+  type FeedGroup,
+  type FeedItem,
+  type FeedKind,
+  type LengthBucket,
+} from '../lib/feed'
 import { Button, Card, Chip, Input, Label, SectionTitle, Textarea } from '../components/ui'
 import { EntryCard } from '../components/EntryCard'
 import { Header } from '../components/Header'
 import { AskButton, AskSheet } from '../components/AskSheet'
+import { EpisodePlayer } from '../components/EpisodePlayer'
 
 interface DigestReply {
   summary?: string
@@ -20,6 +33,9 @@ export function Reading() {
   const [feed, setFeed] = useState<FeedFile | null>(null)
   const [loading, setLoading] = useState(true)
   const [group, setGroup] = useState<FeedGroup | null>(null)
+  const [kind, setKind] = useState<FeedKind | null>(null)
+  const [length, setLength] = useState<LengthBucket | null>(null)
+  const [playing, setPlaying] = useState<string | null>(null)
   const [hideRead, setHideRead] = useState(true)
   const [manual, setManual] = useState(false)
   const [title, setTitle] = useState('')
@@ -28,7 +44,12 @@ export function Reading() {
   const [ask, setAsk] = useState<Draft | null>(null)
 
   const states = useLiveQuery(() => db.feedStates.toArray(), []) ?? []
-  const readIds = useMemo(() => new Set(states.map((s) => s.feedItemId)), [states])
+  // readAt 0인 행은 "듣다 만 것"입니다. 행이 있다는 이유만으로 읽음 처리하면
+  // 재생을 누르는 순간 항목이 목록에서 사라집니다.
+  const readIds = useMemo(
+    () => new Set(states.filter((s) => s.readAt > 0).map((s) => s.feedItemId)),
+    [states],
+  )
   const inputs = useLiveQuery(() => db.entries.where('type').equals('Input').reverse().sortBy('occurredAt'), []) ?? []
 
   useEffect(() => {
@@ -39,10 +60,22 @@ export function Reading() {
   }, [])
 
   const items = (feed?.items ?? []).filter((i) => {
+    // 지금 재생 중인 건 어떤 필터로도 숨기지 않습니다. 듣는 도중에 카드가 사라지면 안 됩니다.
+    if (playing === i.id) return true
     if (group && i.group !== group) return false
+    if (kind && kindOf(i) !== kind) return false
+    if (length) {
+      // 길이를 아는 항목에만 적용합니다. 유튜브 RSS처럼 길이가 없는 건 이 필터에서 빠집니다.
+      const b = LENGTH_BUCKETS.find((x) => x.id === length)
+      const sec = i.durationSec
+      if (!b || !sec) return false
+      if ('min' in b && b.min !== undefined && sec < b.min) return false
+      if ('max' in b && b.max !== undefined && sec >= b.max) return false
+    }
     if (hideRead && readIds.has(i.id)) return false
     return true
   })
+  const episodeCount = (feed?.items ?? []).filter((i) => kindOf(i) === 'episode').length
   const unreadCount = (feed?.items ?? []).filter((i) => !readIds.has(i.id)).length
   const failed = feed?.report?.failed ?? []
 
@@ -135,6 +168,29 @@ export function Reading() {
 
           {feed && (
             <>
+              {/* 무엇을 볼지 먼저 고르고, 그 다음에 주제와 길이로 좁힙니다 */}
+              <div className="flex rounded-xl bg-slate-100 p-1">
+                {([
+                  [null, 'All'],
+                  ['article', 'Read'],
+                  ['episode', episodeCount ? `Listen · ${episodeCount}` : 'Listen'],
+                ] as const).map(([k, label]) => (
+                  <button
+                    key={label}
+                    type="button"
+                    onClick={() => {
+                      setKind(k)
+                      if (k !== 'episode') setLength(null)
+                    }}
+                    className={`flex-1 rounded-lg py-1.5 text-[13px] font-semibold ${
+                      kind === k ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500'
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+
               <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4">
                 <Chip active={group === null} onClick={() => setGroup(null)}>All</Chip>
                 {FEED_GROUPS.map((g) => (
@@ -145,6 +201,17 @@ export function Reading() {
                 <Chip active={hideRead} onClick={() => setHideRead(!hideRead)}>Unread only</Chip>
               </div>
 
+              {kind === 'episode' && (
+                <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4">
+                  <Chip active={length === null} onClick={() => setLength(null)}>Any length</Chip>
+                  {LENGTH_BUCKETS.map((b) => (
+                    <Chip key={b.id} active={length === b.id} onClick={() => setLength(length === b.id ? null : b.id)}>
+                      {b.label}
+                    </Chip>
+                  ))}
+                </div>
+              )}
+
               {items.length ? (
                 <div className="space-y-2">
                   {items.slice(0, 40).map((item) => (
@@ -152,6 +219,8 @@ export function Reading() {
                       key={item.id}
                       item={item}
                       read={readIds.has(item.id)}
+                      playing={playing === item.id}
+                      onPlay={() => setPlaying(item.id)}
                       onOpen={() => void db.feedStates.put({ feedItemId: item.id, readAt: Date.now() })}
                       onLog={async () => {
                         const id = await saveInput({
@@ -169,7 +238,11 @@ export function Reading() {
               ) : (
                 <Card>
                   <p className="text-[14px] text-slate-500 dark:text-slate-400">
-                    {hideRead ? 'Nothing unread. One a day is enough.' : 'Nothing in this group yet.'}
+                    {kind === 'episode' && length
+                      ? 'No episodes that length. Podcast feeds are the only ones that report duration.'
+                      : hideRead
+                        ? 'Nothing unread. One a day is enough.'
+                        : 'Nothing here yet.'}
                   </p>
                 </Card>
               )}
@@ -224,42 +297,87 @@ export function Reading() {
 function FeedCard({
   item,
   read,
+  playing,
+  onPlay,
   onOpen,
   onLog,
   onDigest,
 }: {
   item: FeedItem
   read: boolean
+  playing: boolean
+  onPlay: () => void
   onOpen: () => void
   onLog: () => void
   onDigest: () => void
 }) {
+  const episode = kindOf(item) === 'episode'
+  const length = formatDuration(item.durationSec)
+
   return (
     <Card className={read ? 'opacity-60' : undefined}>
-      <div className="flex flex-wrap items-center gap-2">
-        <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-          {item.sourceName}
-        </span>
-        <span className="text-[12px] text-slate-400 dark:text-slate-500">
-          {relativeKo(item.publishedAt.slice(0, 10))}
-        </span>
+      <div className="flex gap-3">
+        {episode && item.imageUrl && (
+          <img
+            src={item.imageUrl}
+            alt=""
+            loading="lazy"
+            className="h-14 w-14 shrink-0 rounded-lg bg-slate-100 object-cover"
+          />
+        )}
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+              {item.sourceName}
+            </span>
+            {length && (
+              <span className="rounded-md bg-blue-50 px-1.5 py-0.5 text-[11px] font-semibold text-blue-700">
+                {length}
+              </span>
+            )}
+            <span className="text-[12px] text-slate-400 dark:text-slate-500">
+              {relativeKo(item.publishedAt.slice(0, 10))}
+            </span>
+          </div>
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noreferrer noopener"
+            onClick={onOpen}
+            className="mt-1.5 block font-semibold text-slate-900 dark:text-slate-100"
+          >
+            {item.title}
+          </a>
+        </div>
       </div>
-      <a
-        href={item.url}
-        target="_blank"
-        rel="noreferrer noopener"
-        onClick={onOpen}
-        className="mt-1.5 block font-semibold text-slate-900 dark:text-slate-100"
-      >
-        {item.title}
-      </a>
+
       {item.excerpt && (
-        <p className="mt-1 line-clamp-3 text-[14px] text-slate-500 dark:text-slate-400">{item.excerpt}</p>
+        <p className="mt-1.5 line-clamp-3 text-[14px] text-slate-500 dark:text-slate-400">{item.excerpt}</p>
       )}
+
+      {episode && playing && item.audioUrl && <EpisodePlayer item={item} />}
+
       <div className="mt-3 flex flex-wrap gap-2">
+        {episode && item.audioUrl && !playing && (
+          <Button variant="primary" className="flex-1" onClick={onPlay}>
+            Play here
+          </Button>
+        )}
         <Button className="flex-1" onClick={onLog}>Log with a note</Button>
         <AskButton label="Digest" onClick={onDigest} />
       </div>
+
+      {episode && (
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noreferrer noopener"
+          onClick={onOpen}
+          className="mt-2 block text-center text-[13px] font-medium text-blue-600"
+        >
+          Open in Podcasts ↗
+        </a>
+      )}
     </Card>
   )
 }

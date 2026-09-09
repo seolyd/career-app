@@ -1,5 +1,5 @@
 {
-  "comment": "authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결됩니다. 그 사람의 새 글이 좌석에 배지로 뜹니다. 주소가 바뀌거나 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지 소스는 그대로 갱신하므로, 여기에 한 줄 추가·삭제하는 것만으로 소스를 관리할 수 있습니다. group은 guru | hrtech | ai 중 하나입니다.",
+  "comment": "authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결됩니다. 그 사람의 새 글이 좌석에 배지로 뜹니다. 주소가 바뀌거나 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지 소스는 그대로 갱신하므로, 여기에 한 줄 추가·삭제하는 것만으로 소스를 관리할 수 있습니다. group은 guru | hrtech | ai 중 하나입니다. 팟캐스트도 그냥 RSS라 여기에 같이 넣습니다 — 오디오 첨부가 있는 항목은 fetcher가 알아서 episode로 표시합니다. 주소를 모르면 npm run find-podcast \"쇼 이름\" 으로 찾으세요.",
   "sources": [
     {
       "id": "svpg",
@@ -46,6 +46,12 @@
       "group": "ai",
       "name": "Simon Willison",
       "url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "id": "latentspace",
+      "group": "ai",
+      "name": "Latent Space",
+      "url": "https://www.latent.space/feed"
     }
   ]
 }

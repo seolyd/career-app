@@ -235,6 +235,8 @@ export interface FeedState {
   readAt: number
   note?: string
   entryId?: string
+  /** 팟캐스트 이어듣기 위치(초). 색인이 없는 필드라 스키마 변경은 필요 없습니다. */
+  positionSec?: number
 }
 
 /* ── 백업 ─────────────────────────────────────────────── */

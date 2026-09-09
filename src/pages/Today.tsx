@@ -40,7 +40,10 @@ export function Today() {
   const logs = useLiveQuery(() => db.challengeLogs.toArray(), []) ?? []
   const weekGoals = useLiveQuery(() => db.weekGoals.where('weekOf').equals(weekOf()).toArray(), []) ?? []
   const yearGoals = useLiveQuery(() => db.yearGoals.toArray(), []) ?? []
-  const readIds = useLiveQuery(async () => new Set((await db.feedStates.toArray()).map((f) => f.feedItemId)), [])
+  const readIds = useLiveQuery(
+    async () => new Set((await db.feedStates.toArray()).filter((f) => f.readAt > 0).map((f) => f.feedItemId)),
+    [],
+  )
   const profile = useLiveQuery(() => db.profile.get('profile'), [])
 
   // 하루 한 편만. 날짜로 고정해서 앱을 몇 번 열어도 같은 글이 나옵니다.
