@@ -1,0 +1,35 @@
+name: Find podcast feeds
+
+# 팟캐스트 RSS 주소를 한 번 찾기 위한 수동 실행 워크플로입니다.
+# 매일 도는 "Refresh feed"와는 무관하고, 여기서 찾은 주소를 feed-sources.json에
+# 손으로 넣은 뒤에야 수집에 들어갑니다 — 파이프라인은 정적 주소만 읽습니다.
+#
+# 쓰는 법: Actions 탭 → Find podcast feeds → Run workflow → 로그의 주소를 복사.
+on:
+  workflow_dispatch:
+    inputs:
+      shows:
+        description: '쇼 이름들 (쉼표로 구분)'
+        required: true
+        default: "Lenny's Podcast, Product Thinking with Melissa Perri, The Twenty Minute VC, Intercom on Product, The Product Podcast"
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Look each show up
+        env:
+          SHOWS: ${{ inputs.shows }}
+        run: |
+          IFS=',' read -ra NAMES <<< "$SHOWS"
+          for name in "${NAMES[@]}"; do
+            trimmed="$(echo "$name" | sed 's/^ *//; s/ *$//')"
+            [ -z "$trimmed" ] && continue
+            echo "══════════════════════════════════════════"
+            echo "검색: $trimmed"
+            node scripts/find-podcast.mjs "$trimmed" || echo "  (찾지 못함)"
+          done
