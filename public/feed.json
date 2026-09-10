@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-09-09T22:12:38.421Z",
+  "generatedAt": "2026-09-10T22:13:12.204Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "publishedAt": "2026-09-10T21:11:15.000Z",
+      "excerpt": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from nativ…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+      "publishedAt": "2026-09-10T03:33:12.000Z",
+      "excerpt": "a quiet day"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/10/calif-research/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Calif Research",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "publishedAt": "2026-09-10T00:56:41.000Z",
+      "excerpt": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if th…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": ".blend URL Viewer",
+      "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "publishedAt": "2026-09-09T23:58:32.000Z",
+      "excerpt": "Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that ce…"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-openai-reports-navier-stokes",
       "sourceId": "latentspace",
@@ -93,17 +137,6 @@
       "excerpt": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend …"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Jakub Pachocki",
-      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "publishedAt": "2026-09-07T22:26:25.000Z",
-      "excerpt": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secur…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/aeo",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -113,28 +146,6 @@
       "url": "https://www.latent.space/p/aeo",
       "publishedAt": "2026-09-07T21:32:37.000Z",
       "excerpt": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Video compressor",
-      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "publishedAt": "2026-09-07T18:29:07.000Z",
-      "excerpt": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code fo…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Mercator ↔ Equal Earth",
-      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "publishedAt": "2026-09-07T16:24:16.000Z",
-      "excerpt": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Eq…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
@@ -300,17 +311,6 @@
       "excerpt": "Watch now | &#127897;&#65039; I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardr…",
       "audioUrl": "https://api.substack.com/feed/podcast/213644454/8861b59cd21a6007b0237aaf5f590ad2.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "publishedAt": "2026-09-02T07:46:08.000Z",
-      "excerpt": "Queue the usual rush of model launches..."
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
