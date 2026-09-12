@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-09-11T22:11:13.131Z",
+  "generatedAt": "2026-09-12T21:54:15.322Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/12/paul-ford/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+      "publishedAt": "2026-09-12T18:00:21.000Z",
+      "excerpt": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still …"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+      "publishedAt": "2026-09-12T17:45:34.000Z",
+      "excerpt": "Community Wisdom 298"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/forward-deployed-engineer-best-practices",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+      "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+      "publishedAt": "2026-09-12T15:01:19.000Z",
+      "excerpt": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline &#8212; a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "publishedAt": "2026-09-12T05:56:05.000Z",
+      "excerpt": "We agree with Sebastian: this should have been DeepSeek v5"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "publishedAt": "2026-09-12T00:42:25.000Z",
+      "excerpt": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis (…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "So you want to use OpenRouter?",
+      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "publishedAt": "2026-09-11T22:49:18.000Z",
+      "excerpt": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model …"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/11/boris-cherny/",
       "sourceId": "simonw",
@@ -11,6 +77,17 @@
       "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
       "publishedAt": "2026-09-11T17:47:11.000Z",
       "excerpt": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-drive…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Feeling sad about AI",
+      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+      "publishedAt": "2026-09-11T17:28:37.000Z",
+      "excerpt": "My comment on Feeling sad about AI &mdash; Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis an…"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/11/hugging-face-security/",
@@ -58,39 +135,6 @@
       "excerpt": "Graham Dumpleton's new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it! Graham has been posting new tutorials for it al…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/11/datasette-security/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Datasette 1.0a39 and 0.65.4 security releases",
-      "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
-      "publishedAt": "2026-09-11T03:27:16.000Z",
-      "excerpt": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are secur…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/10/trynix/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Any Nix package, live in your browser",
-      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
-      "publishedAt": "2026-09-10T23:44:15.000Z",
-      "excerpt": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser thro…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/10/shopify-react-native/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Native is now the future of mobile at Shopify",
-      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
-      "publishedAt": "2026-09-10T21:11:15.000Z",
-      "excerpt": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from nativ…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-d3b",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -100,17 +144,6 @@
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
       "publishedAt": "2026-09-10T03:33:12.000Z",
       "excerpt": "a quiet day"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/10/calif-research/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Calif Research",
-      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
-      "publishedAt": "2026-09-10T00:56:41.000Z",
-      "excerpt": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if th…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-openai-reports-navier-stokes",
@@ -205,7 +238,7 @@
       "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
       "publishedAt": "2026-09-05T17:00:46.000Z",
-      "excerpt": "Community Wisdom 200"
+      "excerpt": "Community Wisdom 297"
     },
     {
       "id": "latentspace:https://www.latent.space/p/grok-bot",
@@ -241,17 +274,6 @@
       "excerpt": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
     },
     {
-      "id": "latentspace:https://www.latent.space/p/astra",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-      "url": "https://www.latent.space/p/astra",
-      "publishedAt": "2026-09-03T21:09:41.000Z",
-      "excerpt": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings."
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -263,17 +285,6 @@
       "excerpt": "Watch now | &#127897;&#65039; My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn’t match, and a hardware hack I’ve chased for months",
       "audioUrl": "https://api.substack.com/feed/podcast/214048522/4ae3ffadb011dee13d0f3ad8895f4c9d.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "publishedAt": "2026-09-03T04:38:33.000Z",
-      "excerpt": "an epic comeback story for Meta"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
@@ -323,17 +334,6 @@
       "excerpt": "Watch now | &#127897;&#65039; I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardr…",
       "audioUrl": "https://api.substack.com/feed/podcast/213644454/8861b59cd21a6007b0237aaf5f590ad2.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "How to turn your AI into a world-class designer",
-      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-      "publishedAt": "2026-09-01T12:45:59.000Z",
-      "excerpt": "An end-to-end process for tapping into AI’s hidden creativity"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
