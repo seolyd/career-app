@@ -74,6 +74,21 @@ function pickAudio(item) {
   return (byType ?? byExt)?.['@_url'] || undefined
 }
 
+/**
+ * 유튜브 채널 RSS. 키도 할당량도 없지만 길이가 없고 최신 15개만 옵니다.
+ * media:statistics는 한때 조회수가 실려 오던 자리라, 지금도 오는지 리포트로 확인합니다.
+ */
+function readYouTube(entry) {
+  const g = entry['media:group'] ?? {}
+  const thumb = asArray(g['media:thumbnail'])[0]?.['@_url']
+  const views = Number(g['media:community']?.['media:statistics']?.['@_views'])
+  return {
+    imageUrl: thumb || undefined,
+    excerpt: excerpt(typeof g['media:description'] === 'object' ? '' : g['media:description']),
+    ...(Number.isFinite(views) && views > 0 ? { viewCount: views } : {}),
+  }
+}
+
 function pickImage(item, channelImage) {
   const ep = item['itunes:image']?.['@_href']
   return ep || channelImage || undefined
@@ -117,14 +132,20 @@ function readItems(xml) {
     })
   }
   const atom = asArray(doc?.feed?.entry)
-  return atom.map((e) => ({
-    title: stripHtml(typeof e.title === 'object' ? e.title['#text'] : e.title),
-    url: pickLink(e),
-    publishedAt: toISO(e.published ?? e.updated),
-    excerpt: excerpt(
-      typeof e.summary === 'object' ? e.summary['#text'] : (e.summary ?? (typeof e.content === 'object' ? e.content['#text'] : e.content)),
-    ),
-  }))
+  return atom.map((e) => {
+    const video = e['yt:videoId'] ? readYouTube(e) : null
+    return {
+      title: stripHtml(typeof e.title === 'object' ? e.title['#text'] : e.title),
+      url: pickLink(e),
+      publishedAt: toISO(e.published ?? e.updated),
+      excerpt:
+        video?.excerpt ||
+        excerpt(
+          typeof e.summary === 'object' ? e.summary['#text'] : (e.summary ?? (typeof e.content === 'object' ? e.content['#text'] : e.content)),
+        ),
+      ...(video ? { isVideo: true, imageUrl: video.imageUrl, viewCount: video.viewCount } : {}),
+    }
+  })
 }
 
 async function fetchSource(source) {
@@ -149,13 +170,14 @@ async function fetchSource(source) {
       sourceName: source.name,
       group: source.group,
       ...(source.authorId ? { authorId: source.authorId } : {}),
-      kind: i.audioUrl ? 'episode' : 'article',
+      kind: i.audioUrl ? 'episode' : i.isVideo ? 'video' : 'article',
       title: i.title,
       url: i.url,
       publishedAt: i.publishedAt ?? new Date().toISOString(),
       excerpt: i.excerpt,
       ...(i.audioUrl ? { audioUrl: i.audioUrl } : {}),
       ...(i.durationSec ? { durationSec: i.durationSec } : {}),
+      ...(i.viewCount ? { viewCount: i.viewCount } : {}),
       ...(i.imageUrl ? { imageUrl: i.imageUrl } : {}),
     }))
 }
@@ -197,6 +219,9 @@ writeFileSync(
           id: r.source.id,
           count: r.items.length,
           episodes: r.items.filter((i) => i.kind === 'episode').length,
+          videos: r.items.filter((i) => i.kind === 'video').length,
+          // 유튜브 RSS가 조회수를 아직 싣는지 확인용. 0이면 안 싣는 것입니다.
+          withViews: r.items.filter((i) => i.viewCount).length,
         })),
         failed: failed.map((r) => ({ id: r.source.id, url: r.source.url, error: r.error })),
       },
@@ -206,13 +231,16 @@ writeFileSync(
   )}\n`,
 )
 
-const episodes = items.filter((i) => i.kind === 'episode').length
+const count = (k) => items.filter((i) => i.kind === k).length
 console.log(
-  `${items.length} items (${episodes} episodes) from ${ok.length}/${config.sources.length} sources`,
+  `${items.length} items (${count('article')} articles, ${count('episode')} episodes, ${count('video')} videos)` +
+    ` from ${ok.length}/${config.sources.length} sources`,
 )
 for (const r of ok) {
   const eps = r.items.filter((i) => i.kind === 'episode').length
-  if (eps) console.log(`  ${r.source.id}: ${eps} episode(s)`)
+  const vids = r.items.filter((i) => i.kind === 'video').length
+  const views = r.items.filter((i) => i.viewCount).length
+  if (eps || vids) console.log(`  ${r.source.id}: ${eps} episode(s), ${vids} video(s), ${views} with view counts`)
 }
 for (const r of failed) console.warn(`  FAILED ${r.source.id} (${r.source.url}): ${r.error}`)
 if (!ok.length) {

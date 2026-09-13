@@ -1,5 +1,5 @@
 {
-  "comment": "authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결됩니다. 그 사람의 새 글이 좌석에 배지로 뜹니다. 주소가 바뀌거나 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지 소스는 그대로 갱신하므로, 여기에 한 줄 추가·삭제하는 것만으로 소스를 관리할 수 있습니다. group은 guru | hrtech | ai 중 하나입니다. 팟캐스트도 그냥 RSS라 여기에 같이 넣습니다 — 오디오 첨부가 있는 항목은 fetcher가 알아서 episode로 표시합니다. 주소를 모르면 npm run find-podcast \"쇼 이름\" 으로 찾으세요.",
+  "comment": "group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트와 유튜브 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요.",
   "sources": [
     {
       "id": "svpg",
@@ -52,6 +52,24 @@
       "group": "ai",
       "name": "Latent Space",
       "url": "https://www.latent.space/feed"
+    },
+    {
+      "id": "openai",
+      "group": "ai",
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "huggingface",
+      "group": "ai",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "importai",
+      "group": "ai",
+      "name": "Import AI — Jack Clark",
+      "url": "https://importai.substack.com/feed"
     }
   ]
 }
