@@ -1,17 +1,18 @@
-name: Find podcast feeds
+name: Find feeds
 
-# 팟캐스트 RSS 주소를 한 번 찾기 위한 수동 실행 워크플로입니다.
+# 팟캐스트 RSS 주소와 유튜브 채널 ID를 한 번 찾기 위한 수동 실행 워크플로입니다.
 # 매일 도는 "Refresh feed"와는 무관하고, 여기서 찾은 주소를 feed-sources.json에
 # 손으로 넣은 뒤에야 수집에 들어갑니다 — 파이프라인은 정적 주소만 읽습니다.
 #
-# 쓰는 법: Actions 탭 → Find podcast feeds → Run workflow → 로그의 주소를 복사.
+# 쓰는 법: Actions 탭 → Find feeds → Run workflow → 로그의 주소를 복사.
+# 팟캐스트는 쇼 이름으로, 유튜브는 @핸들로 넣으면 됩니다 — 섞어서 한 번에 돌려도 됩니다.
 on:
   workflow_dispatch:
     inputs:
       shows:
-        description: '쇼 이름들 (쉼표로 구분)'
+        description: '쇼 이름 또는 @유튜브핸들 (쉼표로 구분)'
         required: true
-        default: "Lenny's Podcast, Product Thinking with Melissa Perri, The Twenty Minute VC, Intercom on Product, The Product Podcast"
+        default: "Lenny's Podcast, Product Thinking with Melissa Perri, The Twenty Minute VC, Intercom on Product, The Product Podcast, @LennysPodcast, @ProductSchool, @ycombinator, @a16z, @TwoMinutePapers"
 
 jobs:
   find:

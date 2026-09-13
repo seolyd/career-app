@@ -5,8 +5,9 @@ import { db, newId } from '../db'
 import { relativeKo, today } from '../lib/date'
 import { askDigest, type Draft } from '../lib/ask'
 import {
-  FEED_GROUPS,
   GROUP_LABEL,
+  KIND_LABEL,
+  SECTIONS,
   LENGTH_BUCKETS,
   formatDuration,
   kindOf,
@@ -16,6 +17,7 @@ import {
   type FeedItem,
   type FeedKind,
   type LengthBucket,
+  type SectionId,
 } from '../lib/feed'
 import { Button, Card, Chip, Input, Label, SectionTitle, Textarea } from '../components/ui'
 import { EntryCard } from '../components/EntryCard'
@@ -28,8 +30,9 @@ interface DigestReply {
   soWhat?: string
 }
 
-export function Reading() {
+export function Feed({ section }: { section: SectionId }) {
   const navigate = useNavigate()
+  const { label, groups } = SECTIONS[section]
   const [feed, setFeed] = useState<FeedFile | null>(null)
   const [loading, setLoading] = useState(true)
   const [group, setGroup] = useState<FeedGroup | null>(null)
@@ -59,7 +62,10 @@ export function Reading() {
     })
   }, [])
 
-  const items = (feed?.items ?? []).filter((i) => {
+  // 섹션 경계가 먼저입니다. PM 탭에 AI 소스가, AI 탭에 PM 소스가 새는 일은 없어야 합니다.
+  const mine = (feed?.items ?? []).filter((i) => groups.includes(i.group))
+
+  const items = mine.filter((i) => {
     // 지금 재생 중인 건 어떤 필터로도 숨기지 않습니다. 듣는 도중에 카드가 사라지면 안 됩니다.
     if (playing === i.id) return true
     if (group && i.group !== group) return false
@@ -75,8 +81,9 @@ export function Reading() {
     if (hideRead && readIds.has(i.id)) return false
     return true
   })
-  const episodeCount = (feed?.items ?? []).filter((i) => kindOf(i) === 'episode').length
-  const unreadCount = (feed?.items ?? []).filter((i) => !readIds.has(i.id)).length
+  const countOf = (k: FeedKind) => mine.filter((i) => kindOf(i) === k).length
+  const episodeCount = countOf('episode')
+  const unreadCount = mine.filter((i) => !readIds.has(i.id)).length
   const failed = feed?.report?.failed ?? []
 
   async function saveInput(fields: { title: string; url: string; body: string; soWhat?: string; feedItemId?: string }) {
@@ -105,7 +112,7 @@ export function Reading() {
   return (
     <>
       <Header
-        title="Reading"
+        title={label}
         action={
           <button
             type="button"
@@ -152,7 +159,7 @@ export function Reading() {
 
         <section className="space-y-3">
           <SectionTitle>
-            {loading ? 'Loading feed' : feed ? `Feed · ${unreadCount} unread` : 'Feed not published yet'}
+            {loading ? 'Loading feed' : feed ? `${unreadCount} unread` : 'Feed not published yet'}
           </SectionTitle>
 
           {!loading && !feed && (
@@ -170,34 +177,38 @@ export function Reading() {
             <>
               {/* 무엇을 볼지 먼저 고르고, 그 다음에 주제와 길이로 좁힙니다 */}
               <div className="flex rounded-xl bg-slate-100 p-1">
-                {([
-                  [null, 'All'],
-                  ['article', 'Read'],
-                  ['episode', episodeCount ? `Listen · ${episodeCount}` : 'Listen'],
-                ] as const).map(([k, label]) => (
-                  <button
-                    key={label}
-                    type="button"
-                    onClick={() => {
-                      setKind(k)
-                      if (k !== 'episode') setLength(null)
-                    }}
-                    className={`flex-1 rounded-lg py-1.5 text-[13px] font-semibold ${
-                      kind === k ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500'
-                    }`}
-                  >
-                    {label}
-                  </button>
-                ))}
+                {([null, 'article', 'episode', 'video'] as const).map((k) => {
+                  const n = k ? countOf(k) : mine.length
+                  const text = k === null ? 'All' : n ? `${KIND_LABEL[k]} · ${n}` : KIND_LABEL[k]
+                  return (
+                    <button
+                      key={text}
+                      type="button"
+                      onClick={() => {
+                        setKind(k)
+                        if (k !== 'episode') setLength(null)
+                      }}
+                      className={`flex-1 rounded-lg py-1.5 text-[12px] font-semibold ${
+                        kind === k ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500'
+                      }`}
+                    >
+                      {text}
+                    </button>
+                  )
+                })}
               </div>
 
               <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4">
-                <Chip active={group === null} onClick={() => setGroup(null)}>All</Chip>
-                {FEED_GROUPS.map((g) => (
-                  <Chip key={g} active={group === g} onClick={() => setGroup(group === g ? null : g)}>
-                    {GROUP_LABEL[g]}
-                  </Chip>
-                ))}
+                {groups.length > 1 && (
+                  <>
+                    <Chip active={group === null} onClick={() => setGroup(null)}>All</Chip>
+                    {groups.map((g) => (
+                      <Chip key={g} active={group === g} onClick={() => setGroup(group === g ? null : g)}>
+                        {GROUP_LABEL[g]}
+                      </Chip>
+                    ))}
+                  </>
+                )}
                 <Chip active={hideRead} onClick={() => setHideRead(!hideRead)}>Unread only</Chip>
               </div>
 
@@ -239,12 +250,14 @@ export function Reading() {
                 <Card>
                   <p className="text-[14px] text-slate-500 dark:text-slate-400">
                     {kind === 'episode' && episodeCount === 0
-                      ? 'No podcast sources yet. Episodes appear here once a show with an audio feed is added to feed-sources.json — nothing in the current sources publishes audio.'
+                      ? 'No podcast sources in this feed yet. Episodes show up once a source that publishes audio is added to feed-sources.json.'
                       : kind === 'episode' && length
                         ? 'No episodes that length. Podcast feeds are the only ones that report duration.'
-                        : hideRead
-                          ? 'Nothing unread. One a day is enough.'
-                          : 'Nothing here yet.'}
+                        : kind === 'video' && countOf('video') === 0
+                          ? 'No YouTube sources in this feed yet. Channel feeds need the UC… channel id — the “Find feeds” Action looks them up.'
+                          : hideRead
+                            ? 'Nothing unread. One a day is enough.'
+                            : 'Nothing here yet.'}
                   </p>
                 </Card>
               )}
@@ -257,6 +270,7 @@ export function Reading() {
           )}
         </section>
 
+        {section === 'pm' && (
         <section>
           <SectionTitle>Logged · {inputs.length}</SectionTitle>
           {inputs.length ? (
@@ -273,6 +287,7 @@ export function Reading() {
             </Card>
           )}
         </section>
+        )}
       </div>
 
       <AskSheet
@@ -313,11 +328,24 @@ function FeedCard({
   onLog: () => void
   onDigest: () => void
 }) {
-  const episode = kindOf(item) === 'episode'
+  const k = kindOf(item)
+  const episode = k === 'episode'
+  const video = k === 'video'
   const length = formatDuration(item.durationSec)
 
   return (
     <Card className={read ? 'opacity-60' : undefined}>
+      {video && item.imageUrl && (
+        <a href={item.url} target="_blank" rel="noreferrer noopener" onClick={onOpen} className="mb-2.5 block">
+          <img
+            src={item.imageUrl}
+            alt=""
+            loading="lazy"
+            className="aspect-video w-full rounded-lg bg-slate-100 object-cover"
+          />
+        </a>
+      )}
+
       <div className="flex gap-3">
         {episode && item.imageUrl && (
           <img
@@ -332,9 +360,21 @@ function FeedCard({
             <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
               {item.sourceName}
             </span>
+            {video && (
+              <span className="rounded-md bg-red-50 px-1.5 py-0.5 text-[11px] font-semibold text-red-700">
+                YouTube
+              </span>
+            )}
             {length && (
               <span className="rounded-md bg-blue-50 px-1.5 py-0.5 text-[11px] font-semibold text-blue-700">
                 {length}
+              </span>
+            )}
+            {item.viewCount && (
+              <span className="text-[11px] font-medium text-slate-500">
+                {item.viewCount >= 1_000_000
+                  ? `${(item.viewCount / 1_000_000).toFixed(1)}M views`
+                  : `${Math.round(item.viewCount / 1000)}K views`}
               </span>
             )}
             <span className="text-[12px] text-slate-400 dark:text-slate-500">
@@ -369,7 +409,7 @@ function FeedCard({
         <AskButton label="Digest" onClick={onDigest} />
       </div>
 
-      {episode && (
+      {(episode || video) && (
         <a
           href={item.url}
           target="_blank"
@@ -377,7 +417,7 @@ function FeedCard({
           onClick={onOpen}
           className="mt-2 block text-center text-[13px] font-medium text-blue-600"
         >
-          Open in Podcasts ↗
+          {video ? 'Watch on YouTube ↗' : 'Open in Podcasts ↗'}
         </a>
       )}
     </Card>

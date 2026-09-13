@@ -15,7 +15,7 @@ export const GROUP_LABEL: Record<FeedGroup, string> = {
  * 소스가 선언하는 값이 아니라 항목에서 판별합니다 — 오디오 첨부가 있으면 episode.
  * Substack처럼 글과 팟캐스트를 같은 피드로 내는 곳이 하나의 소스로 둘 다 만들어냅니다.
  */
-export type FeedKind = 'article' | 'episode'
+export type FeedKind = 'article' | 'episode' | 'video'
 
 export interface FeedItem {
   id: string
@@ -34,11 +34,29 @@ export interface FeedItem {
   /** itunes:duration에서 옴. 유튜브 RSS에는 없어서 영상에는 안 붙습니다 */
   durationSec?: number
   imageUrl?: string
+  /** 유튜브 RSS가 실어줄 때만 있습니다. 대부분 없습니다 — 없으면 안 보여줍니다. */
+  viewCount?: number
 }
 
 /** 아직 kind가 없던 시절의 feed.json도 읽습니다 — Action이 한 번 더 돌면 채워집니다. */
 export function kindOf(item: FeedItem): FeedKind {
   return item.kind ?? (item.audioUrl ? 'episode' : 'article')
+}
+
+/**
+ * 탭 두 개로 갈립니다. PM 피드는 일에 직접 걸리는 것만, AI 피드는 PM과 무관해도
+ * 최신 AI면 다 받습니다 — 성격이 달라서 한 목록에 섞으면 둘 다 탁해집니다.
+ */
+export const SECTIONS = {
+  pm: { label: 'PM Feed', groups: ['guru', 'hrtech'] as FeedGroup[] },
+  ai: { label: 'AI Feed', groups: ['ai'] as FeedGroup[] },
+} as const
+export type SectionId = keyof typeof SECTIONS
+
+export const KIND_LABEL: Record<FeedKind, string> = {
+  article: 'Read',
+  episode: 'Listen',
+  video: 'Watch',
 }
 
 export function formatDuration(sec: number | undefined): string | null {
