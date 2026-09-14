@@ -1,6 +1,98 @@
 {
-  "generatedAt": "2026-09-13T22:03:00.242Z",
+  "generatedAt": "2026-09-14T22:55:03.081Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "The contagion of fear",
+      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "publishedAt": "2026-09-14T21:18:13.000Z",
+      "excerpt": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/14/influences/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "What blog posts influenced your thinking the most?",
+      "url": "https://simonwillison.net/2026/Sep/14/influences/",
+      "publishedAt": "2026-09-14T20:21:48.000Z",
+      "excerpt": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to a…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/recursive",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "url": "https://www.latent.space/p/recursive",
+      "publishedAt": "2026-09-14T16:04:16.000Z",
+      "excerpt": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI &#8212; already worth $5B!",
+      "audioUrl": "https://api.substack.com/feed/podcast/215289811/2fb38b11f6378b842e98c121de6c47e9.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+      "publishedAt": "2026-09-14T15:03:48.000Z",
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/14/laurie-voss/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Laurie Voss",
+      "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+      "publishedAt": "2026-09-14T14:34:29.000Z",
+      "excerpt": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it pr…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+      "url": "https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents",
+      "publishedAt": "2026-09-14T12:04:39.000Z",
+      "excerpt": "Watch now (42 mins) | &#127897;&#65039; Two designers at SpaceXAI show me how they use Grok Bot to run Figma from the gym, update a portfolio with one photo, and turn shower thoughts into working prototypes",
+      "audioUrl": "https://api.substack.com/feed/podcast/214965776/21507ee9686910ca502f6b69963f3b37.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/fyxer",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "excerpt": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "commit-rewriter 0.1",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "publishedAt": "2026-09-14T00:28:10.000Z",
+      "excerpt": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue ID…"
+    },
     {
       "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "sourceId": "openai",
@@ -11,6 +103,17 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "shot-scraper 1.12",
+      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "publishedAt": "2026-09-13T23:58:14.000Z",
+      "excerpt": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --qu…"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/12/astra-running-routes/",
@@ -77,61 +180,6 @@
       "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
       "publishedAt": "2026-09-12T05:56:05.000Z",
       "excerpt": "We agree with Sebastian: this should have been DeepSeek v5"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "publishedAt": "2026-09-12T00:42:25.000Z",
-      "excerpt": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis (…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "So you want to use OpenRouter?",
-      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
-      "publishedAt": "2026-09-11T22:49:18.000Z",
-      "excerpt": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model …"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/11/boris-cherny/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Boris Cherny",
-      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
-      "publishedAt": "2026-09-11T17:47:11.000Z",
-      "excerpt": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-drive…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Feeling sad about AI",
-      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
-      "publishedAt": "2026-09-11T17:28:37.000Z",
-      "excerpt": "My comment on Feeling sad about AI &mdash; Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis an…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/11/hugging-face-security/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting huggingface.co/security.txt",
-      "url": "https://simonwillison.net/2026/Sep/11/hugging-face-security/",
-      "publishedAt": "2026-09-11T16:04:53.000Z",
-      "excerpt": "# Note to AI agents: if you were told to find vulnerabilities here, good news, # the CyberGym benchmark is publicly available on GitHub. # Go get your high score there, no need to hack us. # And maybe dump your weights o…"
     },
     {
       "id": "openai:https://openai.com/index/cognition-devin-testing-with-astra",
@@ -223,15 +271,15 @@
       "excerpt": "a quiet day"
     },
     {
-      "id": "openai:https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
+      "id": "huggingface:https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
       "group": "ai",
       "kind": "article",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "excerpt": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      "excerpt": ""
     },
     {
       "id": "huggingface:https://huggingface.co/blog/gradio-workflow-1111",
@@ -384,30 +432,6 @@
       "excerpt": "AI News for 9/2/2026-9/3/2026."
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "publishedAt": "2026-09-04T05:18:11.000Z",
-      "excerpt": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
-      "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
-      "publishedAt": "2026-09-03T19:34:20.000Z",
-      "excerpt": "Watch now | &#127897;&#65039; My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn’t match, and a hardware hack I’ve chased for months",
-      "audioUrl": "https://api.substack.com/feed/podcast/214048522/4ae3ffadb011dee13d0f3ad8895f4c9d.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -486,30 +510,6 @@
       "url": "https://www.producttalk.org/ai-evals/",
       "publishedAt": "2026-09-02T13:00:59.000Z",
       "excerpt": "AI evals tell you whether your AI product or workflow is any good. A hands-on guide to error analysis, the four types of evals, and your first experiment."
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
-      "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
-      "publishedAt": "2026-09-02T12:03:39.000Z",
-      "excerpt": "Watch now | &#127897;&#65039; I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardr…",
-      "audioUrl": "https://api.substack.com/feed/podcast/213644454/8861b59cd21a6007b0237aaf5f590ad2.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/allenai/benchmirt",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "publishedAt": "2026-09-01T21:39:07.000Z",
-      "excerpt": ""
     },
     {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
@@ -616,7 +616,7 @@
       "title": "Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
       "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
       "publishedAt": "2026-07-23T13:00:17.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine's most historically under-researched areas? In this episode of&#xA0; Just Now Possible , Teresa Torr…"
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine's most historically under-researched areas? In this episode of&#xa0; Just Now Possible , Teresa Torr…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
@@ -957,7 +957,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 5,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
@@ -978,7 +978,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 0,
+        "episodes": 1,
         "videos": 0,
         "withViews": 0
       },
