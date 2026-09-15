@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-14T22:55:03.081Z",
+  "generatedAt": "2026-09-15T22:40:36.572Z",
   "items": [
+    {
+      "id": "latentspace:https://www.latent.space/p/good-start-labs",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+      "url": "https://www.latent.space/p/good-start-labs",
+      "publishedAt": "2026-09-15T20:11:54.000Z",
+      "excerpt": "Good Start Labs trained an AI on a railroad game &#8212; and one version improved at financial research. The difference was the training design."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "publishedAt": "2026-09-15T16:00:44.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Delivery Isn’t Free - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-09-15T13:00:58.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Everyone's saying it: \"Now that AI makes delivery free&#x2026;\" But is it? In this episode of All Things Product, Petra Wille and Teresa Torres pull apart one of the mo…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "60+ new creative growth ideas",
+      "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+      "publishedAt": "2026-09-15T12:45:28.000Z",
+      "excerpt": "How to stand out when everyone is running the same playbook"
+    },
+    {
+      "id": "bersin:https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "kind": "article",
+      "title": "HR Intelligence Goes Enterprise: The Galileo Jupiter Release",
+      "url": "https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
+      "publishedAt": "2026-09-15T11:59:14.000Z",
+      "excerpt": "Today we introduce the Jupiter release of Galileo® , the world’s AI intelligence for HR. For the firsts time companies can embed Galileo’s massive intelligence into any AI agent, unleashing its insights, data, and proble…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "publishedAt": "2026-09-15T04:50:36.000Z",
+      "excerpt": "Pacing gathers pace."
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
       "sourceId": "simonw",
@@ -293,17 +361,6 @@
       "excerpt": ""
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "publishedAt": "2026-09-09T15:36:24.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/ainews-openai-reports-navier-stokes",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -397,39 +454,6 @@
       "excerpt": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
       "audioUrl": "https://api.substack.com/feed/podcast/213044770/4eea366175d335a312e305ba284a8e6c.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
-      "publishedAt": "2026-09-05T17:00:46.000Z",
-      "excerpt": "Community Wisdom 297"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/grok-bot",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-      "url": "https://www.latent.space/p/grok-bot",
-      "publishedAt": "2026-09-05T15:01:02.000Z",
-      "excerpt": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction."
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
-      "url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
-      "publishedAt": "2026-09-05T04:32:00.000Z",
-      "excerpt": "AI News for 9/2/2026-9/3/2026."
     },
     {
       "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
@@ -655,18 +679,6 @@
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts You've got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actually sti…"
     },
     {
-      "id": "producttalk:https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
-      "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
-      "publishedAt": "2026-07-09T13:00:43.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to reinvent a 14-year-old company&#x2014;not once, but twice? In this episode of Just Now Possible , Teresa Torres talks with Sam Eitzen (Co-founder &…"
-    },
-    {
       "id": "svpg:https://www.svpg.com/great-products-bad-companies/",
       "sourceId": "svpg",
       "sourceName": "SVPG — Marty Cagan",
@@ -689,18 +701,6 @@
       "url": "https://joshbersin.com/2026/06/handshake-acquires-uplimit-ai-skilling-takes-a-new-direction/",
       "publishedAt": "2026-06-30T15:17:59.000Z",
       "excerpt": "The explosive AI market is changing everything, and even Handshake , the leader in university recruiting and early career growth, is taking the bait. Today Handshake acquired Uplimit , one of the pioneers in AI-native co…"
-    },
-    {
-      "id": "bersin:https://joshbersin.com/2026/06/are-frontier-models-becoming-a-commodity/",
-      "sourceId": "bersin",
-      "sourceName": "Josh Bersin",
-      "group": "guru",
-      "authorId": "bersin",
-      "kind": "article",
-      "title": "Are Frontier Models Becoming A Commodity?",
-      "url": "https://joshbersin.com/2026/06/are-frontier-models-becoming-a-commodity/",
-      "publishedAt": "2026-06-29T17:23:39.000Z",
-      "excerpt": "While Anthropic and OpenAI have massive valuations, the ROI from enterprise AI is coming from applications and data, not the model itself. It’s not unlike the relational database market, which went through a similar shif…"
     },
     {
       "id": "svpg:https://www.svpg.com/build-to-learn-faq/",
