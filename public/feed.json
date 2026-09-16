@@ -1,6 +1,143 @@
 {
-  "generatedAt": "2026-09-15T22:40:36.572Z",
+  "generatedAt": "2026-09-16T22:36:39.688Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/16/one-claude/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Claude Cowork and chat are now one Claude",
+      "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+      "publishedAt": "2026-09-16T18:09:49.000Z",
+      "excerpt": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Clau…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/aiuc",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "publishedAt": "2026-09-16T18:07:45.000Z",
+      "excerpt": "We sit down with AIUC’s CEO on their Series A!",
+      "audioUrl": "https://api.substack.com/feed/podcast/215893904/498e50787a4f6e12e12b40465b0792de.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "excerpt": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Mustafa Suleyman",
+      "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+      "publishedAt": "2026-09-16T16:00:54.000Z",
+      "excerpt": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to s…"
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "excerpt": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely."
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "publishedAt": "2026-09-16T13:00:36.000Z",
+      "excerpt": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this p…"
+    },
+    {
+      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "excerpt": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Muse review: The personal AI agent that gets consumer UX right",
+      "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+      "publishedAt": "2026-09-16T12:02:14.000Z",
+      "excerpt": "Watch now (38 mins) | &#127897;&#65039; I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
+      "audioUrl": "https://api.substack.com/feed/podcast/215710078/f0a34674483a4a7ee6a05d4ec88e3ffe.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "excerpt": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "publishedAt": "2026-09-16T11:09:53.000Z",
+      "excerpt": "congrats to TypeSafe!"
+    },
+    {
+      "id": "openai:https://openai.com/index/unlocking-new-ways-of-working",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "publishedAt": "2026-09-16T09:00:00.000Z",
+      "excerpt": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Gemini Live audio",
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "publishedAt": "2026-09-15T22:47:07.000Z",
+      "excerpt": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the…"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/good-start-labs",
       "sourceId": "latentspace",
@@ -184,39 +321,6 @@
       "excerpt": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --qu…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "publishedAt": "2026-09-12T23:56:42.000Z",
-      "excerpt": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes an…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "California Brown Pelican",
-      "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "publishedAt": "2026-09-12T21:16:09.000Z",
-      "excerpt": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelica…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/12/paul-ford/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Paul Ford",
-      "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
-      "publishedAt": "2026-09-12T18:00:21.000Z",
-      "excerpt": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still …"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -250,17 +354,6 @@
       "excerpt": "We agree with Sebastian: this should have been DeepSeek v5"
     },
     {
-      "id": "openai:https://openai.com/index/cognition-devin-testing-with-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "publishedAt": "2026-09-11T16:00:00.000Z",
-      "excerpt": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more."
-    },
-    {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
       "sourceId": "svpg",
       "sourceName": "SVPG — Marty Cagan",
@@ -282,50 +375,6 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "excerpt": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
-    },
-    {
-      "id": "openai:https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "excerpt": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
-    },
-    {
-      "id": "openai:https://openai.com/index/put-data-to-work",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "publishedAt": "2026-09-10T15:00:00.000Z",
-      "excerpt": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
-    },
-    {
-      "id": "openai:https://openai.com/index/introducing-chatgpt-financial-services",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "excerpt": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials."
-    },
-    {
-      "id": "openai:https://openai.com/index/expanding-ai-access-us-government",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "excerpt": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-d3b",
@@ -359,17 +408,6 @@
       "url": "https://huggingface.co/blog/gradio-workflow-1111",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
-      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-      "publishedAt": "2026-09-09T05:04:51.000Z",
-      "excerpt": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI."
     },
     {
       "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
@@ -408,17 +446,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/aeo",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "url": "https://www.latent.space/p/aeo",
-      "publishedAt": "2026-09-07T21:32:37.000Z",
-      "excerpt": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to."
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -440,19 +467,6 @@
       "publishedAt": "2026-09-07T12:04:19.000Z",
       "excerpt": "Watch now | &#127897;&#65039; Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
       "audioUrl": "https://api.substack.com/feed/podcast/214090220/4cccdb9b806152e3e331d85f76bfe4ca.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
-      "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
-      "publishedAt": "2026-09-06T12:32:00.000Z",
-      "excerpt": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
-      "audioUrl": "https://api.substack.com/feed/podcast/213044770/4eea366175d335a312e305ba284a8e6c.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
@@ -665,18 +679,6 @@
       "url": "https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
       "publishedAt": "2026-07-15T17:57:39.000Z",
       "excerpt": "Today Eightfold introduced its AI powered Candidate Agent , which fits together with its AI Interview agent. Not only is this an important announcement for Eightfold as it goes after the red-hot high volume hiring market…"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "Quality of Evidence - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "publishedAt": "2026-07-14T13:00:09.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts You've got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actually sti…"
     },
     {
       "id": "svpg:https://www.svpg.com/great-products-bad-companies/",
@@ -978,7 +980,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 1,
+        "episodes": 2,
         "videos": 0,
         "withViews": 0
       },
