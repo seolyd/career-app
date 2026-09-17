@@ -1,6 +1,73 @@
 {
-  "generatedAt": "2026-09-16T22:36:39.688Z",
+  "generatedAt": "2026-09-17T22:36:58.245Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "publishedAt": "2026-09-17T20:57:55.000Z",
+      "excerpt": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". Th…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Creating Aha! Builder: Concept to Code, No Engineers Required",
+      "url": "https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
+      "publishedAt": "2026-09-17T13:00:52.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI app builder specifically for product managers&#x2014;not engineers&#x2014;inside an already crowded market? In this episode of Just Now…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "publishedAt": "2026-09-17T07:28:25.000Z",
+      "excerpt": "A dash of cold water keeps the foomers away."
+    },
+    {
+      "id": "openai:https://openai.com/index/astra-for-law",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "excerpt": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/16/datasette/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette 1.0a40",
+      "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+      "publishedAt": "2026-09-16T23:51:43.000Z",
+      "excerpt": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Gar…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/16/datasette-2/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette 0.65.5",
+      "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+      "publishedAt": "2026-09-16T23:51:08.000Z",
+      "excerpt": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: securit…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/16/one-claude/",
       "sourceId": "simonw",
@@ -253,17 +320,6 @@
       "excerpt": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/14/laurie-voss/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Laurie Voss",
-      "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-      "publishedAt": "2026-09-14T14:34:29.000Z",
-      "excerpt": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it pr…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -288,17 +344,6 @@
       "excerpt": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "commit-rewriter 0.1",
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "publishedAt": "2026-09-14T00:28:10.000Z",
-      "excerpt": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue ID…"
-    },
-    {
       "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -308,17 +353,6 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "shot-scraper 1.12",
-      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "publishedAt": "2026-09-13T23:58:14.000Z",
-      "excerpt": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --qu…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
@@ -364,28 +398,6 @@
       "url": "https://www.svpg.com/strong-opinions-loosely-held/",
       "publishedAt": "2026-09-11T14:56:15.000Z",
       "excerpt": "Note: This is the narrative version of a keynote talk for the Lenny &#38; Friends Summit. Recently I was asked a question that I haven’t been able to get out of my head: “In light of all that has changed, what are the th…"
-    },
-    {
-      "id": "openai:https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "excerpt": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-d3b",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
-      "publishedAt": "2026-09-10T03:33:12.000Z",
-      "excerpt": "a quiet day"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
@@ -643,18 +655,6 @@
       "url": "https://www.svpg.com/the-ai-productivity-paradox/",
       "publishedAt": "2026-07-23T18:22:04.000Z",
       "excerpt": "We’ve been writing a lot lately about product teams that are clearly leveraging AI to deliver faster, yet their outcomes are not improving. Today, this phenomenon, known as the “AI Productivity Paradox,” has been recogni…"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
-      "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
-      "publishedAt": "2026-07-23T13:00:17.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine's most historically under-researched areas? In this episode of&#xa0; Just Now Possible , Teresa Torr…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
