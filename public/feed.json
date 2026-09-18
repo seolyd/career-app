@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-09-17T22:36:58.245Z",
+  "generatedAt": "2026-09-18T22:13:45.547Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Note on 18th September 2026",
+      "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+      "publishedAt": "2026-09-18T19:21:32.000Z",
+      "excerpt": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Tags: llms , ai …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Thariq Shihipar",
+      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+      "publishedAt": "2026-09-18T19:09:27.000Z",
+      "excerpt": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "The Creative Spirit of Who Framed Roger Rabbit",
+      "url": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+      "publishedAt": "2026-09-18T14:36:41.000Z",
+      "excerpt": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from ea…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "publishedAt": "2026-09-18T06:28:43.000Z",
+      "excerpt": "a quiet day"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+      "publishedAt": "2026-09-17T23:59:19.000Z",
+      "excerpt": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates th…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "How To Write With An LLM",
+      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "publishedAt": "2026-09-17T23:37:27.000Z",
+      "excerpt": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/17/compaction-summaries/",
       "sourceId": "simonw",
@@ -23,6 +89,17 @@
       "url": "https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
       "publishedAt": "2026-09-17T13:00:52.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI app builder specifically for product managers&#x2014;not engineers&#x2014;inside an already crowded market? In this episode of Just Now…"
+    },
+    {
+      "id": "openai:https://openai.com/index/cooley-gopublic",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "excerpt": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-reality-checks-on-ai-news",
@@ -69,17 +146,6 @@
       "excerpt": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: securit…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/16/one-claude/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Claude Cowork and chat are now one Claude",
-      "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
-      "publishedAt": "2026-09-16T18:09:49.000Z",
-      "excerpt": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Clau…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/aiuc",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -102,17 +168,6 @@
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "excerpt": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Mustafa Suleyman",
-      "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-      "publishedAt": "2026-09-16T16:00:54.000Z",
-      "excerpt": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to s…"
     },
     {
       "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
@@ -195,17 +250,6 @@
       "excerpt": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/15/gemini-live/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Gemini Live audio",
-      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
-      "publishedAt": "2026-09-15T22:47:07.000Z",
-      "excerpt": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/good-start-labs",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -274,28 +318,6 @@
       "excerpt": "Pacing gathers pace."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "publishedAt": "2026-09-14T21:18:13.000Z",
-      "excerpt": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/14/influences/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "What blog posts influenced your thinking the most?",
-      "url": "https://simonwillison.net/2026/Sep/14/influences/",
-      "publishedAt": "2026-09-14T20:21:48.000Z",
-      "excerpt": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to a…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/recursive",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -344,17 +366,6 @@
       "excerpt": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
     },
     {
-      "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -375,17 +386,6 @@
       "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
       "publishedAt": "2026-09-12T15:01:19.000Z",
       "excerpt": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline &#8212; a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs."
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "publishedAt": "2026-09-12T05:56:05.000Z",
-      "excerpt": "We agree with Sebastian: this should have been DeepSeek v5"
     },
     {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
