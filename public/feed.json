@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-09-18T22:13:45.547Z",
+  "generatedAt": "2026-09-19T22:04:40.099Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette-auth-github 1.0",
+      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "publishedAt": "2026-09-19T19:52:02.000Z",
+      "excerpt": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cook…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+      "publishedAt": "2026-09-19T19:42:24.000Z",
+      "excerpt": "Community Wisdom 299"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "California Sea Lion, Brandt's Cormorant",
+      "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "publishedAt": "2026-09-19T17:10:08.000Z",
+      "excerpt": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "publishedAt": "2026-09-19T05:48:28.000Z",
+      "excerpt": "Imitation is the sincerest form of Flattery"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+      "publishedAt": "2026-09-18T23:57:57.000Z",
+      "excerpt": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irreg…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
       "sourceId": "simonw",
@@ -10,7 +65,7 @@
       "title": "Note on 18th September 2026",
       "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
       "publishedAt": "2026-09-18T19:21:32.000Z",
-      "excerpt": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Tags: llms , ai …"
+      "excerpt": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti…"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
@@ -33,6 +88,17 @@
       "url": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
       "publishedAt": "2026-09-18T14:36:41.000Z",
       "excerpt": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from ea…"
+    },
+    {
+      "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "excerpt": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-612",
@@ -66,17 +132,6 @@
       "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
       "publishedAt": "2026-09-17T23:37:27.000Z",
       "excerpt": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Self-generated prompt injections in compaction summaries",
-      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-      "publishedAt": "2026-09-17T20:57:55.000Z",
-      "excerpt": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". Th…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
@@ -122,28 +177,6 @@
       "url": "https://openai.com/index/astra-for-law",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "excerpt": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/16/datasette/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "datasette 1.0a40",
-      "url": "https://simonwillison.net/2026/Sep/16/datasette/",
-      "publishedAt": "2026-09-16T23:51:43.000Z",
-      "excerpt": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Gar…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/16/datasette-2/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "datasette 0.65.5",
-      "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
-      "publishedAt": "2026-09-16T23:51:08.000Z",
-      "excerpt": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: securit…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/aiuc",
@@ -217,6 +250,17 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
+      "id": "openai:https://openai.com/index/hex-gpt-6-astra",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "excerpt": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share."
+    },
+    {
       "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -237,17 +281,6 @@
       "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
       "publishedAt": "2026-09-16T11:09:53.000Z",
       "excerpt": "congrats to TypeSafe!"
-    },
-    {
-      "id": "openai:https://openai.com/index/unlocking-new-ways-of-working",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "publishedAt": "2026-09-16T09:00:00.000Z",
-      "excerpt": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work."
     },
     {
       "id": "latentspace:https://www.latent.space/p/good-start-labs",
@@ -355,17 +388,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "openai:https://openai.com/index/fyxer",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "publishedAt": "2026-09-14T12:00:00.000Z",
-      "excerpt": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -375,17 +397,6 @@
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
       "publishedAt": "2026-09-12T17:45:34.000Z",
       "excerpt": "Community Wisdom 298"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/forward-deployed-engineer-best-practices",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
-      "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
-      "publishedAt": "2026-09-12T15:01:19.000Z",
-      "excerpt": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline &#8212; a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs."
     },
     {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
@@ -467,19 +478,6 @@
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
       "publishedAt": "2026-09-07T15:02:41.000Z",
       "excerpt": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
-      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
-      "publishedAt": "2026-09-07T12:04:19.000Z",
-      "excerpt": "Watch now | &#127897;&#65039; Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
-      "audioUrl": "https://api.substack.com/feed/podcast/214090220/4cccdb9b806152e3e331d85f76bfe4ca.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
@@ -959,7 +957,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 4,
+        "episodes": 3,
         "videos": 0,
         "withViews": 0
       },
