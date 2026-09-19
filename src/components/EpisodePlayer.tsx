@@ -63,7 +63,7 @@ export function EpisodePlayer({ item, onFinished }: { item: FeedItem; onFinished
 
   if (failed) {
     return (
-      <p className="mt-3 text-[13px] leading-6 text-slate-500">
+      <p className="mt-3 text-[15px] leading-6 text-slate-700">
         This episode won’t play in the app — its host blocks direct playback. Open it in Podcasts below.
       </p>
     )
@@ -116,10 +116,10 @@ export function EpisodePlayer({ item, onFinished }: { item: FeedItem; onFinished
           )}
         </button>
 
-        <button type="button" aria-label="Back 15 seconds" onClick={() => skip(-15)} className="shrink-0 text-[13px] font-semibold text-slate-600">−15s</button>
-        <button type="button" aria-label="Forward 30 seconds" onClick={() => skip(30)} className="shrink-0 text-[13px] font-semibold text-slate-600">+30s</button>
+        <button type="button" aria-label="Back 15 seconds" onClick={() => skip(-15)} className="shrink-0 text-[15px] font-semibold text-slate-700">−15s</button>
+        <button type="button" aria-label="Forward 30 seconds" onClick={() => skip(30)} className="shrink-0 text-[15px] font-semibold text-slate-700">+30s</button>
 
-        <span className="ml-auto shrink-0 tabular-nums text-[12px] text-slate-500">
+        <span className="ml-auto shrink-0 tabular-nums text-[14px] text-slate-700">
           {formatDuration(pos) ?? '0:00'} / {formatDuration(len) ?? '—'}
         </span>
       </div>

@@ -29,7 +29,7 @@ export function TagInput({
             key={tag}
             type="button"
             onClick={() => onChange(value.filter((t) => t !== tag))}
-            className="rounded-full bg-blue-100 px-3 py-1.5 text-[13px] font-medium text-blue-700 dark:bg-blue-950 dark:text-blue-300"
+            className="rounded-full bg-blue-100 px-3 py-1.5 text-[15px] font-medium text-blue-700 dark:bg-blue-950 dark:text-blue-300"
           >
             #{tag} <span className="ml-0.5 opacity-50">×</span>
           </button>

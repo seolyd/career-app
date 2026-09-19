@@ -64,7 +64,7 @@ export function Board() {
           <button
             type="button"
             onClick={() => setComposing(true)}
-            className="px-2 py-1 text-[15px] font-semibold text-blue-600 dark:text-blue-400"
+            className="px-2 py-1 text-[17px] font-semibold text-blue-600 dark:text-blue-400"
           >
             Ask
           </button>
@@ -73,10 +73,10 @@ export function Board() {
 
       <div className="space-y-6 p-4">
         <Card>
-          <p className="text-[14px] leading-6 text-slate-600 dark:text-slate-300">
+          <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
             Seven people occupy your C-level seats. When you are stuck, pick a seat and look again through "where would this person look?"
           </p>
-          <p className="mt-2 text-[13px] leading-6 text-slate-500 dark:text-slate-400">
+          <p className="mt-2 text-[15px] leading-6 text-slate-700 dark:text-slate-400">
             These are not quotes from real people — they are thinking frames from their public writing. The prompt carries an explicit "do not invent their words" constraint.
           </p>
           <Button variant="primary" className="mt-3 w-full" onClick={() => setComposing(true)}>
@@ -92,20 +92,20 @@ export function Board() {
               return (
               <Card key={a.id}>
                 <div className="flex flex-wrap items-baseline gap-2">
-                  <span className="text-[11px] font-semibold tracking-wide text-blue-600 uppercase dark:text-blue-400">
+                  <span className="text-[13px] font-semibold tracking-wide text-blue-600 uppercase dark:text-blue-400">
                     {a.seat}
                   </span>
                   <span className="font-semibold">{a.name}</span>
                   {fresh && (
-                    <span className="rounded-md bg-blue-100 px-1.5 py-0.5 text-[11px] font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-300">
+                    <span className="rounded-md bg-blue-100 px-1.5 py-0.5 text-[13px] font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-300">
                       New post
                     </span>
                   )}
                 </div>
-                <p className="mt-1 text-[14px] text-slate-600 dark:text-slate-300">{a.lens}</p>
+                <p className="mt-1 text-[16px] text-slate-700 dark:text-slate-300">{a.lens}</p>
                 <ul className="mt-2 space-y-1">
                   {a.questions.map((q) => (
-                    <li key={q} className="text-[13px] leading-6 text-slate-500 dark:text-slate-400">
+                    <li key={q} className="text-[15px] leading-6 text-slate-700 dark:text-slate-400">
                       · {q}
                     </li>
                   ))}
@@ -117,10 +117,10 @@ export function Board() {
                     rel="noreferrer noopener"
                     className="mt-2.5 block rounded-xl bg-slate-50 p-3 dark:bg-slate-800/60"
                   >
-                    <p className="text-[12px] text-slate-400 dark:text-slate-500">
+                    <p className="text-[14px] text-slate-600 dark:text-slate-500">
                       What they are thinking about · {relativeKo(fresh.publishedAt.slice(0, 10))}
                     </p>
-                    <p className="mt-0.5 text-[14px] font-medium text-blue-700 dark:text-blue-300">{fresh.title}</p>
+                    <p className="mt-0.5 text-[16px] font-medium text-blue-700 dark:text-blue-300">{fresh.title}</p>
                   </a>
                 )}
               </Card>
@@ -139,7 +139,7 @@ export function Board() {
                   onClick={() => setOpenSession(s.id)}
                   className="block w-full rounded-2xl border border-slate-200 bg-white p-4 text-left active:bg-slate-50 dark:border-slate-800 dark:bg-slate-900"
                 >
-                  <p className="text-[12px] text-slate-400 dark:text-slate-500">
+                  <p className="text-[14px] text-slate-600 dark:text-slate-500">
                     {relativeKo(isoFromTs(s.createdAt))} ·{' '}
                     {s.advisorIds
                       .map((id) => advisors.find((a) => a.id === id)?.name)
@@ -148,7 +148,7 @@ export function Board() {
                   </p>
                   <p className="mt-1 line-clamp-2 font-medium">{s.problem || '(empty)'}</p>
                   {s.actionItems.length > 0 && (
-                    <p className="mt-1 text-[13px] text-blue-600 dark:text-blue-400">
+                    <p className="mt-1 text-[15px] text-blue-600 dark:text-blue-400">
                       {s.actionItems.length} action items
                     </p>
                   )}
@@ -252,7 +252,7 @@ function SessionView({
       <Header
         title="Session"
         action={
-          <button type="button" onClick={onClose} className="px-2 py-1 text-[15px] font-medium text-blue-600 dark:text-blue-400">
+          <button type="button" onClick={onClose} className="px-2 py-1 text-[17px] font-medium text-blue-600 dark:text-blue-400">
             Close
           </button>
         }
@@ -278,7 +278,7 @@ function SessionView({
               </Chip>
             ))}
           </div>
-          <p className="mt-1.5 text-[12px] text-slate-400 dark:text-slate-500">
+          <p className="mt-1.5 text-[14px] text-slate-600 dark:text-slate-500">
             Tap one to preselect fitting seats, or choose them yourself.
           </p>
         </div>
@@ -303,20 +303,20 @@ function SessionView({
         {chosen.length > 0 && (
           <section className="space-y-4">
             <SectionTitle>Answer these yourself first</SectionTitle>
-            <p className="-mt-1 text-[13px] text-slate-500 dark:text-slate-400">
+            <p className="-mt-1 text-[15px] text-slate-700 dark:text-slate-400">
               This much runs without any LLM. Half the time it resolves right here.
             </p>
             {chosen.map((a) => (
               <Card key={a.id} className="space-y-3">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-[11px] font-semibold tracking-wide text-blue-600 uppercase dark:text-blue-400">
+                  <span className="text-[13px] font-semibold tracking-wide text-blue-600 uppercase dark:text-blue-400">
                     {a.seat}
                   </span>
                   <span className="font-semibold">{a.name}</span>
                 </div>
                 {a.questions.map((q, i) => (
                   <div key={q}>
-                    <p className="mb-1.5 text-[14px] leading-6">{q}</p>
+                    <p className="mb-1.5 text-[16px] leading-6">{q}</p>
                     <Textarea
                       rows={2}
                       value={answers[`${a.id}:${i}`] ?? ''}
@@ -348,8 +348,8 @@ function SessionView({
             <div className="space-y-2">
               {replies.map((a) => (
                 <Card key={a.id}>
-                  <p className="text-[12px] text-slate-400 dark:text-slate-500">{a.title}</p>
-                  <p className="mt-1.5 text-[14px] leading-7 whitespace-pre-wrap">{a.reply}</p>
+                  <p className="text-[14px] text-slate-600 dark:text-slate-500">{a.title}</p>
+                  <p className="mt-1.5 text-[16px] leading-7 whitespace-pre-wrap">{a.reply}</p>
                 </Card>
               ))}
             </div>
@@ -361,9 +361,9 @@ function SessionView({
             <SectionTitle>Action items</SectionTitle>
             <Card className="space-y-2">
               {existing.actionItems.map((it) => (
-                <p key={it} className="text-[14px] leading-6">· {it}</p>
+                <p key={it} className="text-[16px] leading-6">· {it}</p>
               ))}
-              <p className="pt-1 text-[12px] text-slate-400 dark:text-slate-500">
+              <p className="pt-1 text-[14px] text-slate-600 dark:text-slate-500">
                 You can promote these to weekly goals from the Plan tab.
               </p>
             </Card>
