@@ -61,7 +61,7 @@ export function Journal() {
       <Header
         title="Journal"
         action={
-          <Link to="/entry/new" className="px-2 py-1 text-[17px] font-semibold text-blue-600 dark:text-blue-400">
+          <Link to="/entry/new" className="px-2 py-1 text-[19px] font-semibold text-blue-600 dark:text-blue-400">
             New
           </Link>
         }
@@ -79,11 +79,11 @@ export function Journal() {
                 onClick={() => setAxis(axis === a ? null : a)}
                 className="flex w-full items-center gap-3 text-left"
               >
-                <span className={`w-20 shrink-0 text-[15px] font-medium ${AXIS_COLOR[a]}`}>{a}</span>
+                <span className={`w-20 shrink-0 text-[17px] font-medium ${AXIS_COLOR[a]}`}>{a}</span>
                 <span className="h-2 flex-1 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
                   <span className={`block h-full rounded-full ${AXIS_BAR[a]}`} style={{ width: `${(n / max) * 100}%` }} />
                 </span>
-                <span className="w-6 shrink-0 text-right text-[15px] tabular-nums text-slate-600">{n}</span>
+                <span className="w-6 shrink-0 text-right text-[17px] tabular-nums text-slate-600">{n}</span>
               </button>
             ))}
           </Card>
@@ -102,7 +102,7 @@ export function Journal() {
           </SectionTitle>
           <Card>
             {cal.reviewed === 0 ? (
-              <p className="text-[16px] text-slate-700 dark:text-slate-400">
+              <p className="text-[18px] text-slate-700 dark:text-slate-400">
                 No reviewed decisions yet. Add a prediction and a review date to a decision, and the app will ask you again on that day.
               </p>
             ) : (
@@ -112,7 +112,7 @@ export function Journal() {
                   <Stat value={cal.reviewed} label="Reviewed" />
                   <Stat value={cal.overdue} label="Overdue" />
                 </div>
-                <p className="mt-3 text-[15px] text-slate-700 dark:text-slate-400">
+                <p className="mt-3 text-[17px] text-slate-700 dark:text-slate-400">
                   Hit {cal.hit} · Partial {cal.partial} · Miss {cal.miss}. The goal is not a higher hit rate — it is noticing whether you miss in a consistent direction.
                 </p>
               </>
@@ -125,7 +125,7 @@ export function Journal() {
           <section>
             <SectionTitle>Leadership principles</SectionTitle>
             <Card>
-              <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
+              <p className="text-[18px] leading-6 text-slate-700 dark:text-slate-300">
                 Principles are extracted from decisions you already made, not invented. {decisions.length} decisions and {people.length} people entries are ready as material.
               </p>
               <AskButton
@@ -179,7 +179,7 @@ export function Journal() {
 
           {filtered.length > 0 ? (
             <>
-              <p className="pt-1 text-[15px] text-slate-600 dark:text-slate-500">{filtered.length} entries</p>
+              <p className="pt-1 text-[17px] text-slate-600 dark:text-slate-500">{filtered.length} entries</p>
               <div className="space-y-2">
                 {filtered.map((e) => (
                   <EntryCard key={e.id} entry={e} />
@@ -204,7 +204,7 @@ function Stat({ value, label }: { value: string | number; label: string }) {
   return (
     <div className="flex-1">
       <div className="text-2xl font-bold tabular-nums">{value}</div>
-      <div className="mt-0.5 text-[14px] text-slate-700 dark:text-slate-400">{label}</div>
+      <div className="mt-0.5 text-[16px] text-slate-700 dark:text-slate-400">{label}</div>
     </div>
   )
 }

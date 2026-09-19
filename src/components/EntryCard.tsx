@@ -23,7 +23,7 @@ export const AXIS_COLOR: Record<Axis, string> = {
 }
 
 export function TypeBadge({ type }: { type: EntryType }) {
-  return <span className={`rounded-md px-1.5 py-0.5 text-[13px] font-semibold ${TYPE_STYLE[type]}`}>{type}</span>
+  return <span className={`rounded-md px-1.5 py-0.5 text-[15px] font-semibold ${TYPE_STYLE[type]}`}>{type}</span>
 }
 
 export function EntryCard({ entry }: { entry: Entry }) {
@@ -36,21 +36,21 @@ export function EntryCard({ entry }: { entry: Entry }) {
     >
       <div className="flex flex-wrap items-center gap-2">
         <TypeBadge type={entry.type} />
-        <span className={`text-[14px] font-medium ${AXIS_COLOR[entry.axis]}`}>{entry.axis}</span>
-        <span className="text-[14px] text-slate-600 dark:text-slate-500">{relativeKo(entry.occurredAt)}</span>
-        {entry.publishable && <span className="text-[14px] text-blue-600 dark:text-blue-400">Publishable</span>}
+        <span className={`text-[16px] font-medium ${AXIS_COLOR[entry.axis]}`}>{entry.axis}</span>
+        <span className="text-[16px] text-slate-600 dark:text-slate-500">{relativeKo(entry.occurredAt)}</span>
+        {entry.publishable && <span className="text-[16px] text-blue-600 dark:text-blue-400">Publishable</span>}
       </div>
       <h3 className="mt-1.5 font-semibold text-slate-900 dark:text-slate-100">{entry.title || '(untitled)'}</h3>
-      {preview && <p className="mt-1 line-clamp-2 text-[16px] text-slate-700 dark:text-slate-400">{preview}</p>}
+      {preview && <p className="mt-1 line-clamp-2 text-[18px] text-slate-700 dark:text-slate-400">{preview}</p>}
       <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
         {entry.tags.map((t) => (
-          <span key={t} className="text-[14px] text-blue-600 dark:text-blue-400">#{t}</span>
+          <span key={t} className="text-[16px] text-blue-600 dark:text-blue-400">#{t}</span>
         ))}
         {awaitingReview && (
-          <span className="text-[14px] text-amber-700 dark:text-amber-500">Review {entry.reviewDate}</span>
+          <span className="text-[16px] text-amber-700 dark:text-amber-500">Review {entry.reviewDate}</span>
         )}
         {entry.verdict && (
-          <span className="text-[14px] text-slate-600 dark:text-slate-500">Prediction: {entry.verdict}</span>
+          <span className="text-[16px] text-slate-600 dark:text-slate-500">Prediction: {entry.verdict}</span>
         )}
       </div>
     </Link>

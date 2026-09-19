@@ -124,7 +124,7 @@ export function AskSheet({
         <div className="mx-auto mb-4 h-1 w-10 shrink-0 rounded-full bg-slate-300 dark:bg-slate-700" />
 
         <div className="mb-1 flex items-start gap-3">
-          <h2 className="flex-1 text-[19px] font-bold">{draft.title}</h2>
+          <h2 className="flex-1 text-[21px] font-bold">{draft.title}</h2>
           <button
             type="button"
             onClick={onClose}
@@ -136,7 +136,7 @@ export function AskSheet({
             </svg>
           </button>
         </div>
-        <p className="mb-4 text-[15px] text-slate-700 dark:text-slate-400">
+        <p className="mb-4 text-[17px] text-slate-700 dark:text-slate-400">
           Copy this into the LLM on your phone, then paste the answer back below.
           {changed && <span className="text-amber-700 dark:text-amber-500"> · redactions applied</span>}
         </p>
@@ -148,17 +148,17 @@ export function AskSheet({
         <button
           type="button"
           onClick={() => setShowPrompt((v) => !v)}
-          className="mt-2.5 self-start text-[15px] font-medium text-blue-600 dark:text-blue-400"
+          className="mt-2.5 self-start text-[17px] font-medium text-blue-600 dark:text-blue-400"
         >
           {showPrompt ? 'Hide what gets sent' : `See what gets sent (${finalPrompt.length.toLocaleString()} chars)`}
         </button>
         {showPrompt && (
-          <pre className="mt-2 max-h-64 overflow-auto rounded-xl bg-slate-100 p-3 text-[14px] leading-6 whitespace-pre-wrap text-slate-700 dark:bg-slate-800 dark:text-slate-300">
+          <pre className="mt-2 max-h-64 overflow-auto rounded-xl bg-slate-100 p-3 text-[16px] leading-6 whitespace-pre-wrap text-slate-700 dark:bg-slate-800 dark:text-slate-300">
             {finalPrompt}
           </pre>
         )}
 
-        <label className="mt-5 mb-1.5 block text-[15px] font-medium text-slate-700 dark:text-slate-400">
+        <label className="mt-5 mb-1.5 block text-[17px] font-medium text-slate-700 dark:text-slate-400">
           Answer from the LLM
         </label>
         <textarea
@@ -201,7 +201,7 @@ export function AskButton({
       type="button"
       onClick={onClick}
       className={cx(
-        'inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-blue-50 px-2.5 text-[15px] font-medium text-blue-700 active:bg-blue-100 dark:bg-blue-950 dark:text-blue-300',
+        'inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-blue-50 px-2.5 text-[17px] font-medium text-blue-700 active:bg-blue-100 dark:bg-blue-950 dark:text-blue-300',
         className,
       )}
     >
