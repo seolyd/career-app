@@ -107,7 +107,7 @@ export function Today() {
       {profile !== undefined && isDefaultProfile(profile) && (
         <Link
           to="/settings"
-          className="mx-4 mt-4 block rounded-xl bg-slate-100 px-4 py-3 text-[15px] leading-6 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300"
+          className="mx-4 mt-4 block rounded-xl bg-slate-100 px-4 py-3 text-[17px] leading-6 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300"
         >
           Prompts are using a generic profile. Tell it who you are for sharper answers →
         </Link>
@@ -118,7 +118,7 @@ export function Today() {
         <section>
           <SectionTitle
             action={
-              <Link to="/plan" className="text-[15px] font-medium text-blue-600 dark:text-blue-400">
+              <Link to="/plan" className="text-[17px] font-medium text-blue-600 dark:text-blue-400">
                 Plan
               </Link>
             }
@@ -133,7 +133,7 @@ export function Today() {
             </Card>
           ) : (
             <Card>
-              <p className="text-[16px] text-slate-700 dark:text-slate-400">
+              <p className="text-[18px] text-slate-700 dark:text-slate-400">
                 No goals this week. A week without goals just accumulates entries.
               </p>
               <Button variant="primary" className="mt-3 w-full" onClick={() => navigate('/plan')}>
@@ -156,22 +156,22 @@ export function Today() {
                 >
                   <div className="flex items-center gap-2">
                     <TypeBadge type={e.type} />
-                    <span className="text-[14px] font-medium text-amber-800 dark:text-amber-500">
+                    <span className="text-[16px] font-medium text-amber-800 dark:text-amber-500">
                       Review due {formatKo(e.reviewDate!)}
                     </span>
                   </div>
                   <h3 className="mt-1.5 font-semibold">{e.title}</h3>
-                  <p className="mt-1 text-[16px] text-slate-700 dark:text-slate-300">
+                  <p className="mt-1 text-[18px] text-slate-700 dark:text-slate-300">
                     You predicted: {e.prediction || '(not recorded)'}
                   </p>
-                  <p className="mt-2 text-[15px] font-medium text-amber-800 dark:text-amber-500">
+                  <p className="mt-2 text-[17px] font-medium text-amber-800 dark:text-amber-500">
                     What actually happened? →
                   </p>
                 </Link>
               ))}
               {lastYear && (
                 <div>
-                  <p className="mb-1.5 text-[14px] text-slate-600 dark:text-slate-500">One year ago today</p>
+                  <p className="mb-1.5 text-[16px] text-slate-600 dark:text-slate-500">One year ago today</p>
                   <EntryCard entry={lastYear} />
                 </div>
               )}
@@ -184,7 +184,7 @@ export function Today() {
           <section>
             <SectionTitle>Today's drill · {daily.minutes} min</SectionTitle>
             <Card>
-              <p className="text-[17px] leading-7">{daily.prompt}</p>
+              <p className="text-[19px] leading-7">{daily.prompt}</p>
               <Button
                 variant="primary"
                 className="mt-3 w-full"
@@ -206,7 +206,7 @@ export function Today() {
         <section>
           <SectionTitle
             action={
-              <Link to="/reading" className="text-[15px] font-medium text-blue-600 dark:text-blue-400">
+              <Link to="/reading" className="text-[17px] font-medium text-blue-600 dark:text-blue-400">
                 Reading
               </Link>
             }
@@ -216,10 +216,10 @@ export function Today() {
           {todaysRead ? (
             <Card>
               <div className="flex flex-wrap items-center gap-2">
-                <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[13px] font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
+                <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[15px] font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
                   {todaysRead.sourceName}
                 </span>
-                <span className="text-[14px] text-slate-600 dark:text-slate-500">
+                <span className="text-[16px] text-slate-600 dark:text-slate-500">
                   {relativeKo(todaysRead.publishedAt.slice(0, 10))}
                 </span>
               </div>
@@ -233,7 +233,7 @@ export function Today() {
                 {todaysRead.title}
               </a>
               {todaysRead.excerpt && (
-                <p className="mt-1 line-clamp-3 text-[16px] text-slate-700 dark:text-slate-400">
+                <p className="mt-1 line-clamp-3 text-[18px] text-slate-700 dark:text-slate-400">
                   {todaysRead.excerpt}
                 </p>
               )}
@@ -245,7 +245,7 @@ export function Today() {
             </Card>
           ) : (
             <Card>
-              <p className="text-[16px] text-slate-700 dark:text-slate-400">
+              <p className="text-[18px] text-slate-700 dark:text-slate-400">
                 {feedItems.length
                   ? 'Nothing unread. One a day is enough.'
                   : 'The feed lands once this is deployed and the Refresh feed Action runs. Until then, log reads from the Reading tab.'}
@@ -283,7 +283,7 @@ export function Today() {
                 onClick={() => draft.trim() && setAsk(askClassify(draft))}
               />
             </div>
-            <p className="mt-2 text-[14px] text-slate-600 dark:text-slate-500">
+            <p className="mt-2 text-[16px] text-slate-600 dark:text-slate-500">
               Classifying fills in type, axis and title for you. In a hurry, just save and fix it later.
             </p>
           </Card>
@@ -359,11 +359,11 @@ function WeekGoalRow({ goal, goalTitle }: { goal: WeekGoal; goalTitle: string })
         )}
       </button>
       <div className="min-w-0 flex-1">
-        <p className={`text-[17px] ${done ? 'text-slate-600 line-through dark:text-slate-600' : ''}`}>
+        <p className={`text-[19px] ${done ? 'text-slate-600 line-through dark:text-slate-600' : ''}`}>
           {goal.title}
         </p>
         {goalTitle && (
-          <p className="mt-0.5 text-[14px] text-slate-600 dark:text-slate-500">{goalTitle}</p>
+          <p className="mt-0.5 text-[16px] text-slate-600 dark:text-slate-500">{goalTitle}</p>
         )}
       </div>
     </div>

@@ -117,7 +117,7 @@ export function Feed({ section }: { section: SectionId }) {
           <button
             type="button"
             onClick={() => setManual((v) => !v)}
-            className="px-2 py-1 text-[17px] font-semibold text-blue-600 dark:text-blue-400"
+            className="px-2 py-1 text-[19px] font-semibold text-blue-600 dark:text-blue-400"
           >
             {manual ? 'Close' : 'Add'}
           </button>
@@ -164,7 +164,7 @@ export function Feed({ section }: { section: SectionId }) {
 
           {!loading && !feed && (
             <Card>
-              <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
+              <p className="text-[18px] leading-6 text-slate-700 dark:text-slate-300">
                 No <code className="rounded bg-slate-100 px-1 dark:bg-slate-800">feed.json</code> yet. The
                 “Refresh feed” Action writes it every morning once this is deployed — or run{' '}
                 <code className="rounded bg-slate-100 px-1 dark:bg-slate-800">npm run feed</code> locally.
@@ -177,9 +177,11 @@ export function Feed({ section }: { section: SectionId }) {
             <>
               {/* 무엇을 볼지 먼저 고르고, 그 다음에 주제와 길이로 좁힙니다 */}
               <div className="flex rounded-xl bg-slate-100 p-1">
+                {/* 개수는 붙이지 않습니다. 실제 피드에서 두 자리가 되면("Read · 44")
+                    커진 글자로는 88px 칸에 안 들어가 잘립니다. 개수는 위의 N unread가,
+                    빈 선반의 이유는 빈 상태 문구가 이미 말해줍니다. */}
                 {([null, 'article', 'episode', 'video'] as const).map((k) => {
-                  const n = k ? countOf(k) : mine.length
-                  const text = k === null ? 'All' : n ? `${KIND_LABEL[k]} · ${n}` : KIND_LABEL[k]
+                  const text = k === null ? 'All' : KIND_LABEL[k]
                   return (
                     <button
                       key={text}
@@ -188,7 +190,9 @@ export function Feed({ section }: { section: SectionId }) {
                         setKind(k)
                         if (k !== 'episode') setLength(null)
                       }}
-                      className={`flex-1 rounded-lg py-1.5 text-[14px] font-semibold ${
+                      // 줄바꿈 금지 — 본문을 키우면 "Listen · 1"이 두 줄로 접힙니다.
+                      // 세그먼트만 한 단계 작게 둡니다.
+                      className={`flex-1 rounded-lg py-1.5 text-[16px] font-semibold whitespace-nowrap ${
                         kind === k ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-700'
                       }`}
                     >
@@ -248,7 +252,7 @@ export function Feed({ section }: { section: SectionId }) {
                 </div>
               ) : (
                 <Card>
-                  <p className="text-[16px] text-slate-700 dark:text-slate-400">
+                  <p className="text-[18px] text-slate-700 dark:text-slate-400">
                     {kind === 'episode' && episodeCount === 0
                       ? 'No podcast sources in this feed yet. Episodes show up once a source that publishes audio is added to feed-sources.json.'
                       : kind === 'episode' && length
@@ -262,7 +266,7 @@ export function Feed({ section }: { section: SectionId }) {
                 </Card>
               )}
 
-              <p className="text-[14px] text-slate-600 dark:text-slate-500">
+              <p className="text-[16px] text-slate-600 dark:text-slate-500">
                 Updated {relativeKo(feed.generatedAt.slice(0, 10))}
                 {failed.length > 0 && ` · ${failed.length} source${failed.length > 1 ? 's' : ''} failing: ${failed.map((f) => f.id).join(', ')}`}
               </p>
@@ -281,7 +285,7 @@ export function Feed({ section }: { section: SectionId }) {
             </div>
           ) : (
             <Card>
-              <p className="text-[16px] text-slate-700 dark:text-slate-400">
+              <p className="text-[18px] text-slate-700 dark:text-slate-400">
                 Nothing logged yet. Reading without a note is consumption, not digestion.
               </p>
             </Card>
@@ -357,27 +361,27 @@ function FeedCard({
         )}
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[13px] font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
+            <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[15px] font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
               {item.sourceName}
             </span>
             {video && (
-              <span className="rounded-md bg-red-50 px-1.5 py-0.5 text-[13px] font-semibold text-red-700">
+              <span className="rounded-md bg-red-50 px-1.5 py-0.5 text-[15px] font-semibold text-red-700">
                 YouTube
               </span>
             )}
             {length && (
-              <span className="rounded-md bg-blue-50 px-1.5 py-0.5 text-[13px] font-semibold text-blue-700">
+              <span className="rounded-md bg-blue-50 px-1.5 py-0.5 text-[15px] font-semibold text-blue-700">
                 {length}
               </span>
             )}
             {item.viewCount && (
-              <span className="text-[13px] font-medium text-slate-700">
+              <span className="text-[15px] font-medium text-slate-700">
                 {item.viewCount >= 1_000_000
                   ? `${(item.viewCount / 1_000_000).toFixed(1)}M views`
                   : `${Math.round(item.viewCount / 1000)}K views`}
               </span>
             )}
-            <span className="text-[14px] text-slate-600 dark:text-slate-500">
+            <span className="text-[16px] text-slate-600 dark:text-slate-500">
               {relativeKo(item.publishedAt.slice(0, 10))}
             </span>
           </div>
@@ -394,7 +398,7 @@ function FeedCard({
       </div>
 
       {item.excerpt && (
-        <p className="mt-1.5 line-clamp-3 text-[16px] text-slate-700 dark:text-slate-400">{item.excerpt}</p>
+        <p className="mt-1.5 line-clamp-3 text-[18px] text-slate-700 dark:text-slate-400">{item.excerpt}</p>
       )}
 
       {episode && playing && item.audioUrl && <EpisodePlayer item={item} />}
@@ -415,7 +419,7 @@ function FeedCard({
           target="_blank"
           rel="noreferrer noopener"
           onClick={onOpen}
-          className="mt-2 block text-center text-[15px] font-medium text-blue-600"
+          className="mt-2 block text-center text-[17px] font-medium text-blue-600"
         >
           {video ? 'Watch on YouTube ↗' : 'Open in Podcasts ↗'}
         </a>

@@ -33,7 +33,7 @@ export function Button({ variant = 'ghost', className, ...rest }: ButtonProps) {
       type="button"
       {...rest}
       className={cx(
-        'inline-flex min-h-11 items-center justify-center gap-1.5 rounded-xl px-4 text-[17px] font-medium transition-colors disabled:opacity-50',
+        'inline-flex min-h-11 items-center justify-center gap-1.5 rounded-xl px-4 text-[19px] font-medium transition-colors disabled:opacity-50',
         styles,
         className,
       )}
@@ -66,7 +66,7 @@ export function Chip({
       type="button"
       onClick={onClick}
       className={cx(
-        'shrink-0 rounded-full px-3 py-1.5 text-[15px] font-medium transition-colors',
+        'shrink-0 rounded-full px-3 py-1.5 text-[17px] font-medium transition-colors',
         active
           ? 'bg-blue-600 text-white'
           : 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300',
@@ -79,7 +79,7 @@ export function Chip({
 
 export function Label({ children }: { children: ReactNode }) {
   return (
-    <span className="mb-1.5 block text-[15px] font-medium text-slate-700 dark:text-slate-400">
+    <span className="mb-1.5 block text-[17px] font-medium text-slate-700 dark:text-slate-400">
       {children}
     </span>
   )
@@ -88,8 +88,8 @@ export function Label({ children }: { children: ReactNode }) {
 export function Empty({ title, hint }: { title: string; hint?: string }) {
   return (
     <div className="px-6 py-14 text-center">
-      <p className="text-[17px] font-medium text-slate-700 dark:text-slate-400">{title}</p>
-      {hint && <p className="mt-1.5 text-[15px] text-slate-600 dark:text-slate-500">{hint}</p>}
+      <p className="text-[19px] font-medium text-slate-700 dark:text-slate-400">{title}</p>
+      {hint && <p className="mt-1.5 text-[17px] text-slate-600 dark:text-slate-500">{hint}</p>}
     </div>
   )
 }
@@ -97,7 +97,7 @@ export function Empty({ title, hint }: { title: string; hint?: string }) {
 export function SectionTitle({ children, action }: { children: ReactNode; action?: ReactNode }) {
   return (
     <div className="mb-2 flex items-baseline justify-between">
-      <h2 className="text-[15px] font-semibold tracking-wide text-slate-700 uppercase dark:text-slate-400">
+      <h2 className="text-[17px] font-semibold tracking-wide text-slate-700 uppercase dark:text-slate-400">
         {children}
       </h2>
       {action}

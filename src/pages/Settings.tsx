@@ -82,7 +82,7 @@ export function Settings() {
 
       <div className="space-y-6 p-4">
         {message && (
-          <div className="rounded-xl bg-blue-50 px-4 py-3 text-[16px] text-blue-800 dark:bg-blue-950/60 dark:text-blue-200">
+          <div className="rounded-xl bg-blue-50 px-4 py-3 text-[18px] text-blue-800 dark:bg-blue-950/60 dark:text-blue-200">
             {message}
           </div>
         )}
@@ -91,7 +91,7 @@ export function Settings() {
         <section>
           <SectionTitle>Who the LLM is answering</SectionTitle>
           <Card className="space-y-3">
-            <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
+            <p className="text-[18px] leading-6 text-slate-700 dark:text-slate-300">
               Every prompt this app builds opens with this. It lives on this device only — not in the
               deployed code — so nobody with the URL can read it. It is included in backups.
             </p>
@@ -129,7 +129,7 @@ export function Settings() {
         <section>
           <SectionTitle>Redactions before sending</SectionTitle>
           <Card className="space-y-3">
-            <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
+            <p className="text-[18px] leading-6 text-slate-700 dark:text-slate-300">
               Swap proper nouns right before a prompt leaves the app. Register internal system names or people once and stop thinking about it.
             </p>
             {redactions.map((r, i) => (
@@ -166,7 +166,7 @@ export function Settings() {
             <Button className="w-full" onClick={() => updateRedactions([...redactions, { from: '', to: '' }])}>
               Add a rule
             </Button>
-            <p className="text-[14px] text-slate-600 dark:text-slate-500">
+            <p className="text-[16px] text-slate-600 dark:text-slate-500">
               Rules stay on this device and are not included in backups.
             </p>
           </Card>
@@ -181,7 +181,7 @@ export function Settings() {
                 {recentAsks.map((a) => (
                   <div key={a.id} className="flex items-baseline gap-2">
                     <span
-                      className={`shrink-0 rounded px-1.5 py-0.5 text-[13px] font-semibold ${
+                      className={`shrink-0 rounded px-1.5 py-0.5 text-[15px] font-semibold ${
                         a.status === 'Answered'
                           ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400'
                           : 'bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-slate-400'
@@ -189,15 +189,15 @@ export function Settings() {
                     >
                       {a.status}
                     </span>
-                    <span className="min-w-0 flex-1 truncate text-[16px]">{a.title}</span>
-                    <span className="shrink-0 text-[14px] text-slate-600 dark:text-slate-500">
+                    <span className="min-w-0 flex-1 truncate text-[18px]">{a.title}</span>
+                    <span className="shrink-0 text-[16px] text-slate-600 dark:text-slate-500">
                       {relativeKo(isoFromTs(a.createdAt))}
                     </span>
                   </div>
                 ))}
               </div>
             ) : (
-              <p className="text-[16px] text-slate-700 dark:text-slate-400">Nothing yet.</p>
+              <p className="text-[18px] text-slate-700 dark:text-slate-400">Nothing yet.</p>
             )}
           </Card>
         </section>
@@ -205,7 +205,7 @@ export function Settings() {
         <section>
           <SectionTitle>Backup</SectionTitle>
           <Card className="space-y-3">
-            <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
+            <p className="text-[18px] leading-6 text-slate-700 dark:text-slate-300">
               There is no server. Everything lives on this device only. Clear the browser storage or lose the phone and it is gone — export now and then, and keep the file somewhere like iCloud Drive.
             </p>
             <div className="flex gap-2">
@@ -233,7 +233,7 @@ export function Settings() {
                 e.target.value = ''
               }}
             />
-            <p className="text-[15px] text-slate-600 dark:text-slate-500">
+            <p className="text-[17px] text-slate-600 dark:text-slate-500">
               Import merges rather than overwrites. For the same item, the more recently edited version wins.
             </p>
           </Card>
@@ -242,7 +242,7 @@ export function Settings() {
         <section>
           <SectionTitle>Storage</SectionTitle>
           <Card className="space-y-3">
-            <dl className="space-y-1.5 text-[16px]">
+            <dl className="space-y-1.5 text-[18px]">
               <Row label="Entries" value={String(counts?.entries ?? 0)} />
               <Row label="Weekly goals" value={String(counts?.weekGoals ?? 0)} />
               <Row label="Board sessions" value={String(counts?.sessions ?? 0)} />
@@ -260,12 +260,12 @@ export function Settings() {
         <section>
           <SectionTitle>Install on iPhone</SectionTitle>
           <Card>
-            <ol className="list-decimal space-y-1.5 pl-5 text-[16px] leading-6 text-slate-700 dark:text-slate-300">
+            <ol className="list-decimal space-y-1.5 pl-5 text-[18px] leading-6 text-slate-700 dark:text-slate-300">
               <li>Open this URL in Safari.</li>
               <li>Tap the Share button.</li>
               <li>Choose Add to Home Screen.</li>
             </ol>
-            <p className="mt-3 text-[15px] text-slate-600 dark:text-slate-500">
+            <p className="mt-3 text-[17px] text-slate-600 dark:text-slate-500">
               Installing gives you full screen without an address bar, and lowers the risk of storage being cleared.
             </p>
           </Card>
