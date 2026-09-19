@@ -34,12 +34,12 @@ export function InstallBanner() {
 
   return (
     <div className="mx-4 mt-3 rounded-2xl border border-blue-200 bg-blue-50 p-3.5 dark:border-blue-900 dark:bg-blue-950/50">
-      <p className="text-[14px] leading-6 text-blue-900 dark:text-blue-200">
+      <p className="text-[16px] leading-6 text-blue-900 dark:text-blue-200">
         <strong className="font-semibold">Add this to your Home Screen.</strong> In Safari: <span className="font-semibold">Share</span> → <span className="font-semibold">Add to Home Screen</span>. Without installing, Safari may clear your entries after a stretch of not using it.
       </p>
       <button
         type="button"
-        className="mt-2 text-[13px] font-medium text-blue-700 underline dark:text-blue-300"
+        className="mt-2 text-[15px] font-medium text-blue-700 underline dark:text-blue-300"
         onClick={() => {
           localStorage.setItem(DISMISS_KEY, '1')
           setShow(false)

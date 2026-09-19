@@ -26,7 +26,7 @@ export function Header({
             </svg>
           </button>
         )}
-        <h1 className="flex-1 truncate text-[19px] font-bold">{title}</h1>
+        <h1 className="flex-1 truncate text-[21px] font-bold">{title}</h1>
         {action}
       </div>
     </header>

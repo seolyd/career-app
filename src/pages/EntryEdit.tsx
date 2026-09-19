@@ -151,13 +151,13 @@ export function EntryEdit() {
         back
         action={
           <div className="flex items-center gap-3">
-            <span className="text-[12px] text-slate-400 dark:text-slate-500">
+            <span className="text-[14px] text-slate-600 dark:text-slate-500">
               {savedAt ? 'Saved' : dirty ? 'Typing' : ''}
             </span>
             <button
               type="button"
               onClick={() => setPreview((p) => !p)}
-              className="text-[15px] font-medium text-blue-600 dark:text-blue-400"
+              className="text-[17px] font-medium text-blue-600 dark:text-blue-400"
             >
               {preview ? 'Edit' : 'Preview'}
             </button>
@@ -178,7 +178,7 @@ export function EntryEdit() {
           value={entry.title}
           onChange={(e) => patch({ title: e.target.value })}
           placeholder="Title — specific enough to find later"
-          className="text-[19px] font-semibold"
+          className="text-[21px] font-semibold"
         />
 
         {preview ? (
@@ -210,21 +210,21 @@ export function EntryEdit() {
         {/* ── 결정 전용 ─────────────────────────────── */}
         {isDecision && (
           <section className="space-y-4 rounded-2xl border border-violet-200 bg-violet-50/60 p-4 dark:border-violet-900 dark:bg-violet-950/30">
-            <h2 className="text-[15px] font-bold">Prediction — without this it is just a diary</h2>
+            <h2 className="text-[17px] font-bold">Prediction — without this it is just a diary</h2>
             <Field label="Alternatives dropped" value={entry.alternatives} onChange={(v) => patch({ alternatives: v })} placeholder="What you chose not to do" />
             <Field label="Prediction" value={entry.prediction} onChange={(v) => patch({ prediction: v })} placeholder="In six weeks, what has to be true for this to be right?" />
             <Field label="What would prove me wrong" value={entry.failCondition} onChange={(v) => patch({ failCondition: v })} placeholder="What signal means you got this wrong?" />
             <div>
               <Label>Review date</Label>
               <Input type="date" value={entry.reviewDate ?? ''} onChange={(e) => patch({ reviewDate: e.target.value })} />
-              <p className="mt-1 text-[12px] text-slate-500 dark:text-slate-400">
+              <p className="mt-1 text-[14px] text-slate-700 dark:text-slate-400">
                 On that day this prediction comes back to the top of Today.
               </p>
             </div>
 
             {(reviewing || entry.verdict) && (
               <div className="space-y-4 border-t border-violet-200 pt-4 dark:border-violet-900">
-                <h3 className="text-[15px] font-bold">Review</h3>
+                <h3 className="text-[17px] font-bold">Review</h3>
                 <Field label="What actually happened" value={entry.result} onChange={(v) => patch({ result: v })} placeholder="Use numbers if you have them" />
                 <div>
                   <Label>Verdict</Label>
@@ -251,7 +251,7 @@ export function EntryEdit() {
 
             <div className="border-t border-violet-200 pt-4 dark:border-violet-900">
               <div className="mb-2 flex items-center justify-between gap-2">
-                <span className="text-[15px] font-bold">Build vs Buy</span>
+                <span className="text-[17px] font-bold">Build vs Buy</span>
                 {id && <AskButton label="Get the counter-case" onClick={() => setAsk(askBuildBuy({ id, createdAt: 0, updatedAt: 0, ...entry }))} />}
               </div>
               {BUILD_BUY_FIELDS.map((f) => (
@@ -283,7 +283,7 @@ export function EntryEdit() {
                 onChange={(e) => patch({ howWeKnowItsWrong: e.target.value })}
                 placeholder="Who finds out, when, and from what signal?"
               />
-              <p className="mt-1 text-[12px] text-slate-600 dark:text-slate-400">
+              <p className="mt-1 text-[14px] text-slate-700 dark:text-slate-400">
                 HR AI fails quietly. If you cannot fill this in, it is not ready to ship.
               </p>
             </div>
@@ -346,8 +346,8 @@ export function EntryEdit() {
             )}
           </span>
           <span>
-            <span className="block text-[15px] font-medium">Publishable material</span>
-            <span className="mt-0.5 block text-[13px] text-slate-500 dark:text-slate-400">
+            <span className="block text-[17px] font-medium">Publishable material</span>
+            <span className="mt-0.5 block text-[15px] text-slate-700 dark:text-slate-400">
               Strip the proper nouns and this could be an article. Thought leadership in ten years starts with this checkbox today.
             </span>
           </span>

@@ -79,7 +79,7 @@ export function Plan() {
               <button
                 type="button"
                 onClick={() => setEditVision((v) => !v)}
-                className="text-[13px] font-medium text-blue-600 dark:text-blue-400"
+                className="text-[15px] font-medium text-blue-600 dark:text-blue-400"
               >
                 {editVision ? 'Done' : 'Edit'}
               </button>
@@ -105,10 +105,10 @@ export function Plan() {
               </div>
             ) : (
               <>
-                <p className="text-[16px] leading-7 font-medium">{vision?.text || '(not written yet)'}</p>
-                {vision?.why && <p className="mt-2 text-[14px] leading-6 text-slate-500 dark:text-slate-400">{vision.why}</p>}
+                <p className="text-[18px] leading-7 font-medium">{vision?.text || '(not written yet)'}</p>
+                {vision?.why && <p className="mt-2 text-[16px] leading-6 text-slate-700 dark:text-slate-400">{vision.why}</p>}
                 {vision && (
-                  <p className="mt-2 text-[12px] text-slate-400 dark:text-slate-500">
+                  <p className="mt-2 text-[14px] text-slate-600 dark:text-slate-500">
                     Last edited {relativeKo(isoFromTs(vision.updatedAt))}
                   </p>
                 )}
@@ -127,17 +127,17 @@ export function Plan() {
               return (
                 <Card key={p.id} className={active ? 'border-blue-400 dark:border-blue-700' : undefined}>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-[11px] font-semibold tracking-wide text-blue-600 dark:text-blue-400">
+                    <span className="text-[13px] font-semibold tracking-wide text-blue-600 dark:text-blue-400">
                       P{p.order}
                     </span>
                     <span className="font-semibold">{p.name || 'Unnamed phase'}</span>
-                    <span className="ml-auto text-[12px] tabular-nums text-slate-400 dark:text-slate-500">
+                    <span className="ml-auto text-[14px] tabular-nums text-slate-600 dark:text-slate-500">
                       {p.startYear}–{p.endYear}
                     </span>
                     <button
                       type="button"
                       onClick={() => setEditPhase(editPhase === p.id ? null : p.id)}
-                      className="shrink-0 text-[13px] font-medium text-blue-600 dark:text-blue-400"
+                      className="shrink-0 text-[15px] font-medium text-blue-600 dark:text-blue-400"
                     >
                       {editPhase === p.id ? 'Done' : 'Edit'}
                     </button>
@@ -177,7 +177,7 @@ export function Plan() {
                           value={String(p.startYear)}
                           onChange={(e) => void db.phases.update(p.id, { startYear: Number(e.target.value) || p.startYear, updatedAt: Date.now() })}
                         />
-                        <span className="shrink-0 text-slate-400">–</span>
+                        <span className="shrink-0 text-slate-600">–</span>
                         <Input
                           type="number"
                           className="min-w-0 flex-1"
@@ -188,10 +188,10 @@ export function Plan() {
                     </div>
                   ) : (
                     <>
-                      {p.question && <p className="mt-1.5 text-[14px] text-slate-600 dark:text-slate-300">{p.question}</p>}
-                      {p.doneWhen && <p className="mt-1 text-[13px] text-slate-500 dark:text-slate-400">Done when: {p.doneWhen}</p>}
+                      {p.question && <p className="mt-1.5 text-[16px] text-slate-700 dark:text-slate-300">{p.question}</p>}
+                      {p.doneWhen && <p className="mt-1 text-[15px] text-slate-700 dark:text-slate-400">Done when: {p.doneWhen}</p>}
                       {!p.name && !p.question && (
-                        <p className="mt-1.5 text-[14px] text-slate-400 dark:text-slate-500">
+                        <p className="mt-1.5 text-[16px] text-slate-600 dark:text-slate-500">
                           Not filled in yet. Tap Edit — the far years can stay blank for now.
                         </p>
                       )}
@@ -202,7 +202,7 @@ export function Plan() {
                       <span className="block h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
                         <span className="block h-full rounded-full bg-blue-600 dark:bg-blue-400" style={{ width: `${pct * 100}%` }} />
                       </span>
-                      <p className="mt-1 text-[12px] tabular-nums text-slate-400 dark:text-slate-500">
+                      <p className="mt-1 text-[14px] tabular-nums text-slate-600 dark:text-slate-500">
                         {Math.round(pct * 100)}% through this phase
                       </p>
                     </div>
@@ -226,24 +226,24 @@ export function Plan() {
 
           {/* 말한 것 vs 한 것 — 이 기둥의 핵심 */}
           <Card>
-            <h3 className="text-[15px] font-bold">Declared vs done</h3>
+            <h3 className="text-[17px] font-bold">Declared vs done</h3>
             <div className="mt-2 flex gap-4">
               <div className="flex-1">
                 <div className="text-2xl font-bold tabular-nums">{weekGoals.filter((g) => g.status === 'Done').length}/{weekGoals.length}</div>
-                <div className="mt-0.5 text-[12px] text-slate-500 dark:text-slate-400">Declared</div>
+                <div className="mt-0.5 text-[14px] text-slate-700 dark:text-slate-400">Declared</div>
               </div>
               <div className="flex-1">
                 <div className="text-2xl font-bold tabular-nums">{weekEntries.length}</div>
-                <div className="mt-0.5 text-[12px] text-slate-500 dark:text-slate-400">Entries</div>
+                <div className="mt-0.5 text-[14px] text-slate-700 dark:text-slate-400">Entries</div>
               </div>
               <div className="flex-1">
                 <div className="text-2xl font-bold tabular-nums">
                   {weekEntries.filter((e) => !e.yearGoalId).length}
                 </div>
-                <div className="mt-0.5 text-[12px] text-slate-500 dark:text-slate-400">Off-goal</div>
+                <div className="mt-0.5 text-[14px] text-slate-700 dark:text-slate-400">Off-goal</div>
               </div>
             </div>
-            <p className="mt-3 text-[13px] leading-6 text-slate-500 dark:text-slate-400">
+            <p className="mt-3 text-[15px] leading-6 text-slate-700 dark:text-slate-400">
               If all your time went to things that were not on the list, that is the real signal this week. When the gap keeps leaning the same way, the goal is wrong — not you.
             </p>
             <AskButton
@@ -270,12 +270,12 @@ export function Plan() {
             <Card className="space-y-2.5">
               {pendingActions.slice(0, 6).map((a) => (
                 <div key={`${a.sessionId}-${a.text}`} className="flex items-start gap-2">
-                  <p className="flex-1 text-[14px] leading-6">{a.text}</p>
+                  <p className="flex-1 text-[16px] leading-6">{a.text}</p>
                   {currentGoals[0] && (
                     <button
                       type="button"
                       onClick={() => void addWeekGoal(currentGoals[0].id, a.text)}
-                      className="shrink-0 text-[13px] font-medium text-blue-600 dark:text-blue-400"
+                      className="shrink-0 text-[15px] font-medium text-blue-600 dark:text-blue-400"
                     >
                       To this week
                     </button>
@@ -293,7 +293,7 @@ export function Plan() {
               <button
                 type="button"
                 onClick={() => setAddingGoal((v) => !v)}
-                className="text-[13px] font-medium text-blue-600 dark:text-blue-400"
+                className="text-[15px] font-medium text-blue-600 dark:text-blue-400"
               >
                 {addingGoal ? 'Cancel' : 'Add a goal'}
               </button>
@@ -377,10 +377,10 @@ export function Plan() {
                         {g.status}
                       </Chip>
                     </div>
-                    <p className="mt-1 text-[13px] text-slate-500 dark:text-slate-400">
+                    <p className="mt-1 text-[15px] text-slate-700 dark:text-slate-400">
                       Done when: {g.doneWhen || '(not written)'}
                     </p>
-                    <p className="mt-2 text-[12px] text-slate-400 dark:text-slate-500">
+                    <p className="mt-2 text-[14px] text-slate-600 dark:text-slate-500">
                       {mine.length} entries linked · {wk.length} goals this week
                     </p>
 
@@ -388,7 +388,7 @@ export function Plan() {
                       <button
                         type="button"
                         onClick={() => setAddingFor(addingFor === g.id ? null : g.id)}
-                        className="text-[13px] font-medium text-blue-600 dark:text-blue-400"
+                        className="text-[15px] font-medium text-blue-600 dark:text-blue-400"
                       >
                         Add a weekly goal
                       </button>
@@ -447,7 +447,7 @@ export function Plan() {
               }}
               placeholder="List what the next level expects. Paste the company rubric, or write what your manager told you."
             />
-            <p className="mt-2 text-[13px] leading-6 text-slate-500 dark:text-slate-400">
+            <p className="mt-2 text-[15px] leading-6 text-slate-700 dark:text-slate-400">
               Each item gets judged against evidence in your entries. For evidence you cannot produce without a team, you get substitutes.
             </p>
             <AskButton
@@ -464,7 +464,7 @@ export function Plan() {
         <section>
           <SectionTitle>Career narrative</SectionTitle>
           <Card>
-            <p className="text-[14px] leading-6 text-slate-600 dark:text-slate-300">
+            <p className="text-[16px] leading-6 text-slate-700 dark:text-slate-300">
               {quarterEntries.length} entries from {quarterLabel()}, grouped by goal. The prompt carries a constraint against inventing anything your entries do not show.
             </p>
             <AskButton
@@ -516,14 +516,14 @@ function WeekRow({ goal, goalTitle }: { goal: WeekGoal; goalTitle: string }) {
         )}
       </button>
       <div className="min-w-0 flex-1">
-        <p className={`text-[15px] ${done ? 'text-slate-400 line-through dark:text-slate-600' : ''}`}>{goal.title}</p>
-        {goalTitle && <p className="mt-0.5 text-[12px] text-slate-400 dark:text-slate-500">{goalTitle}</p>}
+        <p className={`text-[17px] ${done ? 'text-slate-600 line-through dark:text-slate-600' : ''}`}>{goal.title}</p>
+        {goalTitle && <p className="mt-0.5 text-[14px] text-slate-600 dark:text-slate-500">{goalTitle}</p>}
       </div>
       <button
         type="button"
         aria-label="Delete"
         onClick={() => void db.weekGoals.delete(goal.id)}
-        className="shrink-0 p-1 text-slate-300 dark:text-slate-600"
+        className="shrink-0 p-1 text-slate-500 dark:text-slate-600"
       >
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="h-4 w-4">
           <path d="M6 6l12 12M18 6L6 18" />

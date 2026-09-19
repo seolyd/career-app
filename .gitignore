@@ -8,3 +8,11 @@ node_modules/.tmp
 # 아이콘은 favicon.svg에서 빌드 시 생성됩니다 (npm run icons)
 public/icons/
 public/apple-touch-icon.png
+
+# 검증용 임시 스크립트와 스크린샷 (세션에서만 씁니다)
+*.tmp.mjs
+/after.png
+/before.png
+/compare.png
+/nav6.png
+/light-mode.png
