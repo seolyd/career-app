@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-09-19T22:04:40.099Z",
+  "generatedAt": "2026-09-20T22:08:32.571Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/20/voxium/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting voxium",
+      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "publishedAt": "2026-09-20T21:06:43.000Z",
+      "excerpt": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobo…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "publishedAt": "2026-09-20T12:32:17.000Z",
+      "excerpt": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "audioUrl": "https://api.substack.com/feed/podcast/213758597/ba2cef9af77bdcfe4be1afa2634bdbe6.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
       "sourceId": "simonw",
@@ -121,17 +145,6 @@
       "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
       "publishedAt": "2026-09-17T23:59:19.000Z",
       "excerpt": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates th…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "How To Write With An LLM",
-      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-      "publishedAt": "2026-09-17T23:37:27.000Z",
-      "excerpt": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
@@ -467,17 +480,6 @@
       "excerpt": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
       "audioUrl": "https://api.substack.com/feed/podcast/214070217/74500da2d21a92872afb94e2f2b9094d.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
-      "publishedAt": "2026-09-07T15:02:41.000Z",
-      "excerpt": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
@@ -957,7 +959,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 3,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
