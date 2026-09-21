@@ -1,6 +1,143 @@
 {
-  "generatedAt": "2026-09-20T22:08:32.571Z",
+  "generatedAt": "2026-09-21T22:58:47.629Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Cloudflare Python Workers are now generally available",
+      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "publishedAt": "2026-09-21T22:25:44.000Z",
+      "excerpt": "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully suppor…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/jev",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "publishedAt": "2026-09-21T22:13:49.000Z",
+      "excerpt": "The definitive Jev podcast with its lead creator.",
+      "audioUrl": "https://api.substack.com/feed/podcast/216783460/cdf8e02436aa264178bb2aa2c85db57c.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+      "publishedAt": "2026-09-21T15:03:51.000Z",
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "publishedAt": "2026-09-21T13:44:34.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/ch-10-testing-assumptions/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Ch. 10: Testing Assumptions",
+      "url": "https://www.producttalk.org/ch-10-testing-assumptions/",
+      "publishedAt": "2026-09-21T13:00:42.000Z",
+      "excerpt": "Continuous Discovery Habits* turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the m…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+      "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+      "publishedAt": "2026-09-21T12:04:11.000Z",
+      "excerpt": "Watch now (47 mins) | &#127897;&#65039; Warp CEO Zach Lloyd shows how his team turns requests from Slack, Linear, and GitHub into tracked, tested pull requests, then measures and improves its cloud-based AI software fact…",
+      "audioUrl": "https://api.substack.com/feed/podcast/215710129/8d665b46d4581cf6b5b5d6a46f95ddc6.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "excerpt": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+    },
+    {
+      "id": "openai:https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "excerpt": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+    },
+    {
+      "id": "openai:https://openai.com/index/building-standards-next-phase-ai",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "excerpt": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety."
+    },
+    {
+      "id": "openai:https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "publishedAt": "2026-09-21T07:00:00.000Z",
+      "excerpt": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills."
+    },
+    {
+      "id": "openai:https://openai.com/index/v7",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "excerpt": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/tokenizers-v1",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "excerpt": ""
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/20/voxium/",
       "sourceId": "simonw",
@@ -11,6 +148,28 @@
       "url": "https://simonwillison.net/2026/Sep/20/voxium/",
       "publishedAt": "2026-09-20T21:06:43.000Z",
       "excerpt": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobo…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/20/hn-49779718/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "MCP was always a bad idea?",
+      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+      "publishedAt": "2026-09-20T20:24:41.000Z",
+      "excerpt": "My comment on MCP was always a bad idea? &mdash; Hacker News. This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claud…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "llm-keys-ui 0.1",
+      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "publishedAt": "2026-09-20T19:22:19.000Z",
+      "excerpt": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
@@ -24,6 +183,17 @@
       "excerpt": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
       "audioUrl": "https://api.substack.com/feed/podcast/213758597/ba2cef9af77bdcfe4be1afa2634bdbe6.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/20/datasette-explain/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette-explain 0.2.2",
+      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+      "publishedAt": "2026-09-20T00:22:04.000Z",
+      "excerpt": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: s…"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
@@ -81,39 +251,6 @@
       "excerpt": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irreg…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Note on 18th September 2026",
-      "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-      "publishedAt": "2026-09-18T19:21:32.000Z",
-      "excerpt": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Thariq Shihipar",
-      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-      "publishedAt": "2026-09-18T19:09:27.000Z",
-      "excerpt": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "The Creative Spirit of Who Framed Roger Rabbit",
-      "url": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
-      "publishedAt": "2026-09-18T14:36:41.000Z",
-      "excerpt": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from ea…"
-    },
-    {
       "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -134,17 +271,6 @@
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
       "publishedAt": "2026-09-18T06:28:43.000Z",
       "excerpt": "a quiet day"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Be alert: targeted attacks on prominent Rustaceans",
-      "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
-      "publishedAt": "2026-09-17T23:59:19.000Z",
-      "excerpt": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates th…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
@@ -205,28 +331,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
-      "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "publishedAt": "2026-09-16T17:00:00.000Z",
-      "excerpt": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
-    },
-    {
-      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "publishedAt": "2026-09-16T16:00:00.000Z",
-      "excerpt": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely."
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -237,17 +341,6 @@
       "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
       "publishedAt": "2026-09-16T13:00:36.000Z",
       "excerpt": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this p…"
-    },
-    {
-      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "excerpt": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
@@ -261,28 +354,6 @@
       "excerpt": "Watch now (38 mins) | &#127897;&#65039; I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
       "audioUrl": "https://api.substack.com/feed/podcast/215710078/f0a34674483a4a7ee6a05d4ec88e3ffe.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "openai:https://openai.com/index/hex-gpt-6-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "url": "https://openai.com/index/hex-gpt-6-astra",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "excerpt": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share."
-    },
-    {
-      "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How to connect AI usage to business value",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "excerpt": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-jev-a-system-one-model-that",
@@ -364,19 +435,6 @@
       "excerpt": "Pacing gathers pace."
     },
     {
-      "id": "latentspace:https://www.latent.space/p/recursive",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
-      "url": "https://www.latent.space/p/recursive",
-      "publishedAt": "2026-09-14T16:04:16.000Z",
-      "excerpt": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI &#8212; already worth $5B!",
-      "audioUrl": "https://api.substack.com/feed/podcast/215289811/2fb38b11f6378b842e98c121de6c47e9.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -399,17 +457,6 @@
       "excerpt": "Watch now (42 mins) | &#127897;&#65039; Two designers at SpaceXAI show me how they use Grok Bot to run Figma from the gym, update a portfolio with one photo, and turn shower thoughts into working prototypes",
       "audioUrl": "https://api.substack.com/feed/podcast/214965776/21507ee9686910ca502f6b69963f3b37.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
-      "publishedAt": "2026-09-12T17:45:34.000Z",
-      "excerpt": "Community Wisdom 298"
     },
     {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
@@ -446,17 +493,6 @@
       "excerpt": ""
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "publishedAt": "2026-09-08T14:23:07.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -467,19 +503,6 @@
       "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-08T13:00:35.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn't a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle a que…"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
-      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
-      "publishedAt": "2026-09-08T12:31:49.000Z",
-      "excerpt": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
-      "audioUrl": "https://api.substack.com/feed/podcast/214070217/74500da2d21a92872afb94e2f2b9094d.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
@@ -511,17 +534,6 @@
       "kind": "article",
       "title": "Give Your Coding Agents a Memory You Own",
       "url": "https://huggingface.co/blog/funes",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "excerpt": ""
     },
@@ -619,18 +631,6 @@
       "url": "https://www.producttalk.org/the-call-to-adventure/",
       "publishedAt": "2026-08-05T13:00:55.000Z",
       "excerpt": "In June, I returned to Product at Heart in Hamburg, Germany. I love this event. Arne Kittler and Petra Wille do such an amazing job of curating a thoughtful lineup of speakers and they obsess over the attendee experience…"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/cdh-book-club-august-2026/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "Ch. 9: Identifying Hidden Assumptions",
-      "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
-      "publishedAt": "2026-08-03T13:00:27.000Z",
-      "excerpt": "Continuous Discovery Habits turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the mo…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
