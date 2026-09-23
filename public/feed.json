@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-09-22T22:40:55.141Z",
+  "generatedAt": "2026-09-23T22:39:06.718Z",
   "items": [
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "publishedAt": "2026-09-23T18:41:40.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Gemini 3.8 TTS Playground",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "publishedAt": "2026-09-23T17:12:27.000Z",
+      "excerpt": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Shadow roots, explained with live examples",
+      "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "publishedAt": "2026-09-23T16:37:18.000Z",
+      "excerpt": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css"
+    },
+    {
+      "id": "openai:https://openai.com/index/two-years-of-openai-academy",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "excerpt": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "publishedAt": "2026-09-23T13:27:18.000Z",
+      "excerpt": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "audioUrl": "https://api.substack.com/feed/podcast/216723291/8511fc2825689ad610a1ca70864be49f.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "excerpt": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
+    },
+    {
+      "id": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "excerpt": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+    },
+    {
+      "id": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "excerpt": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+    },
+    {
+      "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "excerpt": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+    },
+    {
+      "id": "openai:https://openai.com/index/ringg",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "excerpt": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-mentalhealthbench",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Introducing MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "excerpt": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "publishedAt": "2026-09-23T06:41:41.000Z",
+      "excerpt": "overshadowing more efficient GPT6 models from OpenAI"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "publishedAt": "2026-09-23T02:53:19.000Z",
+      "excerpt": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things wit…"
+    },
+    {
+      "id": "openai:https://openai.com/index/airbnb-gpt-6-astra",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "publishedAt": "2026-09-23T01:00:00.000Z",
+      "excerpt": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "publishedAt": "2026-09-22T23:46:41.000Z",
+      "excerpt": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to …"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "publishedAt": "2026-09-22T23:12:49.000Z",
+      "excerpt": "Watch now (39 mins) | &#127897;&#65039; I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
+      "audioUrl": "https://api.substack.com/feed/podcast/216986081/4e28f684cb755ce703f7e39c9b492e85.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/john-platt",
       "sourceId": "latentspace",
@@ -13,17 +193,6 @@
       "excerpt": "We talked to Google’s Oscar winning &#8220;Giganerd&#8221; about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
       "audioUrl": "https://api.substack.com/feed/podcast/216845528/5d04ab99938b8bf3aee2b0e2099bfa53.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
-      "id": "openai:https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Better prompt caching for GPT-6",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "publishedAt": "2026-09-22T21:00:00.000Z",
-      "excerpt": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
@@ -39,6 +208,17 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
+      "id": "simonw:https://simonwillison.net/2026/Sep/22/llm/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "llm 0.36",
+      "url": "https://simonwillison.net/2026/Sep/22/llm/",
+      "publishedAt": "2026-09-22T18:48:37.000Z",
+      "excerpt": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises l…"
+    },
+    {
       "id": "simonw:https://simonwillison.net/2026/Sep/22/therealcornpop/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
@@ -50,15 +230,15 @@
       "excerpt": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird bro…"
     },
     {
-      "id": "openai:https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
+      "id": "simonw:https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
       "group": "ai",
       "kind": "article",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "publishedAt": "2026-09-22T18:00:00.000Z",
-      "excerpt": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "publishedAt": "2026-09-22T17:14:55.000Z",
+      "excerpt": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/22/llm-typesafe/",
@@ -95,17 +275,6 @@
       "excerpt": "Why you should never skip error discovery"
     },
     {
-      "id": "openai:https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "excerpt": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models."
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -115,17 +284,6 @@
       "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
       "publishedAt": "2026-09-22T06:30:56.000Z",
       "excerpt": "crowning a new Chinese frontier lab"
-    },
-    {
-      "id": "openai:https://openai.com/index/priorities-principles-third-party-assessments",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Priorities and principles for effective third party assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "excerpt": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards."
     },
     {
       "id": "huggingface:https://huggingface.co/blog/evaleval-aisi",
@@ -159,28 +317,6 @@
       "url": "https://huggingface.co/blog/omlx",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/21/jev/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
-      "publishedAt": "2026-09-21T23:09:20.000Z",
-      "excerpt": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Cloudflare Python Workers are now generally available",
-      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
-      "publishedAt": "2026-09-21T22:25:44.000Z",
-      "excerpt": "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully suppor…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/jev",
@@ -243,50 +379,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "openai:https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "excerpt": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-    },
-    {
-      "id": "openai:https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "excerpt": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-    },
-    {
-      "id": "openai:https://openai.com/index/building-standards-next-phase-ai",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Building standards for the next phase of AI",
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
-      "publishedAt": "2026-09-21T10:00:00.000Z",
-      "excerpt": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety."
-    },
-    {
-      "id": "openai:https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "excerpt": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills."
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/tokenizers-v1",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -296,39 +388,6 @@
       "url": "https://huggingface.co/blog/tokenizers-v1",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/20/voxium/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting voxium",
-      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
-      "publishedAt": "2026-09-20T21:06:43.000Z",
-      "excerpt": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobo…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "MCP was always a bad idea?",
-      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "publishedAt": "2026-09-20T20:24:41.000Z",
-      "excerpt": "My comment on MCP was always a bad idea? &mdash; Hacker News. This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claud…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "llm-keys-ui 0.1",
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "publishedAt": "2026-09-20T19:22:19.000Z",
-      "excerpt": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
@@ -342,17 +401,6 @@
       "excerpt": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
       "audioUrl": "https://api.substack.com/feed/podcast/213758597/ba2cef9af77bdcfe4be1afa2634bdbe6.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "datasette-explain 0.2.2",
-      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "publishedAt": "2026-09-20T00:22:04.000Z",
-      "excerpt": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: s…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
@@ -411,19 +459,6 @@
       "excerpt": "A dash of cold water keeps the foomers away."
     },
     {
-      "id": "latentspace:https://www.latent.space/p/aiuc",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "publishedAt": "2026-09-16T18:07:45.000Z",
-      "excerpt": "We sit down with AIUC’s CEO on their Series A!",
-      "audioUrl": "https://api.substack.com/feed/podcast/215893904/498e50787a4f6e12e12b40465b0792de.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -449,17 +484,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-jev-a-system-one-model-that",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
-      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
-      "publishedAt": "2026-09-16T11:09:53.000Z",
-      "excerpt": "congrats to TypeSafe!"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -481,17 +505,6 @@
       "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-15T13:00:58.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Everyone's saying it: \"Now that AI makes delivery free&#x2026;\" But is it? In this episode of All Things Product, Petra Wille and Teresa Torres pull apart one of the mo…"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "60+ new creative growth ideas",
-      "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
-      "publishedAt": "2026-09-15T12:45:28.000Z",
-      "excerpt": "How to stand out when everyone is running the same playbook"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
@@ -525,17 +538,6 @@
       "kind": "article",
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/gradio-workflow-1111",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "excerpt": ""
     },
@@ -961,7 +963,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 4,
+        "episodes": 5,
         "videos": 0,
         "withViews": 0
       },
