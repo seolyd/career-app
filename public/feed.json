@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-09-23T22:39:06.718Z",
+  "generatedAt": "2026-09-24T22:58:08.461Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "commit-rewriter 0.2",
+      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "publishedAt": "2026-09-24T20:06:53.000Z",
+      "excerpt": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/24/datasette/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette 1.0a41",
+      "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "publishedAt": "2026-09-24T19:15:23.000Z",
+      "excerpt": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugi…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "publishedAt": "2026-09-24T15:03:16.000Z",
+      "excerpt": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "publishedAt": "2026-09-24T14:08:57.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "publishedAt": "2026-09-24T08:12:59.000Z",
+      "excerpt": "Team Zuck is absolutely on fire."
+    },
     {
       "id": "huggingface:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
       "sourceId": "huggingface",
@@ -147,15 +202,15 @@
       "excerpt": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things wit…"
     },
     {
-      "id": "openai:https://openai.com/index/airbnb-gpt-6-astra",
+      "id": "openai:https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
       "sourceId": "openai",
       "sourceName": "OpenAI",
       "group": "ai",
       "kind": "article",
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "publishedAt": "2026-09-23T01:00:00.000Z",
-      "excerpt": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster."
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "publishedAt": "2026-09-23T02:00:00.000Z",
+      "excerpt": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries."
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
@@ -228,28 +283,6 @@
       "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
       "publishedAt": "2026-09-22T18:03:21.000Z",
       "excerpt": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird bro…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "publishedAt": "2026-09-22T17:14:55.000Z",
-      "excerpt": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "publishedAt": "2026-09-22T15:54:16.000Z",
-      "excerpt": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move …"
     },
     {
       "id": "producttalk:https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
@@ -398,7 +431,7 @@
       "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
       "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
       "publishedAt": "2026-09-20T12:32:17.000Z",
-      "excerpt": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "excerpt": "Listen now (97 mins) | Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
       "audioUrl": "https://api.substack.com/feed/podcast/213758597/ba2cef9af77bdcfe4be1afa2634bdbe6.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
@@ -425,17 +458,6 @@
       "excerpt": "Imitation is the sincerest form of Flattery"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "publishedAt": "2026-09-18T06:28:43.000Z",
-      "excerpt": "a quiet day"
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -446,17 +468,6 @@
       "url": "https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
       "publishedAt": "2026-09-17T13:00:52.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI app builder specifically for product managers&#x2014;not engineers&#x2014;inside an already crowded market? In this episode of Just Now…"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
-      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "publishedAt": "2026-09-17T07:28:25.000Z",
-      "excerpt": "A dash of cold water keeps the foomers away."
     },
     {
       "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
@@ -529,17 +540,6 @@
       "url": "https://www.svpg.com/strong-opinions-loosely-held/",
       "publishedAt": "2026-09-11T14:56:15.000Z",
       "excerpt": "Note: This is the narrative version of a keynote talk for the Lenny &#38; Friends Summit. Recently I was asked a question that I haven’t been able to get out of my head: “In light of all that has changed, what are the th…"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "excerpt": ""
     },
     {
       "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
