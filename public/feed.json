@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-09-24T22:58:08.461Z",
+  "generatedAt": "2026-09-25T23:01:54.225Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/proaction",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
+    },
+    {
+      "id": "svpg:https://www.svpg.com/experts-lead-experts/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "kind": "article",
+      "title": "Experts Lead Experts",
+      "url": "https://www.svpg.com/experts-lead-experts/",
+      "publishedAt": "2026-09-25T18:17:29.000Z",
+      "excerpt": "We are still early in the journey to learn the long-term impact of AI, but one trend that continues to capture attention is that managers and other leaders will be much less important, and that all we really need are ski…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/25/john-gruber/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting John Gruber",
+      "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+      "publishedAt": "2026-09-25T17:22:01.000Z",
+      "excerpt": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-ins…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "publishedAt": "2026-09-25T05:37:00.000Z",
+      "excerpt": "A quiet day lets us discuss the work behind the scenes - now open for business!"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+      "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+      "publishedAt": "2026-09-25T02:07:04.000Z",
+      "excerpt": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that s…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/runway",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "publishedAt": "2026-09-25T01:30:57.000Z",
+      "excerpt": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "audioUrl": "https://api.substack.com/feed/podcast/217289983/80ecbf8ba268d83a6cde12d5f719e123.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/24/harder/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Note on 24th September 2026",
+      "url": "https://simonwillison.net/2026/Sep/24/harder/",
+      "publishedAt": "2026-09-24T23:31:08.000Z",
+      "excerpt": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary dis…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/24/commit-rewriter/",
       "sourceId": "simonw",
@@ -202,28 +282,6 @@
       "excerpt": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things wit…"
     },
     {
-      "id": "openai:https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "publishedAt": "2026-09-23T02:00:00.000Z",
-      "excerpt": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "publishedAt": "2026-09-22T23:46:41.000Z",
-      "excerpt": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to …"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -261,28 +319,6 @@
       "excerpt": "Watch now (25 mins) | &#127897;&#65039; I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agenti…",
       "audioUrl": "https://api.substack.com/feed/podcast/216949144/18479e36b6288c9b1639e0f61d72a7ab.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/22/llm/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "llm 0.36",
-      "url": "https://simonwillison.net/2026/Sep/22/llm/",
-      "publishedAt": "2026-09-22T18:48:37.000Z",
-      "excerpt": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises l…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/22/therealcornpop/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting @therealcornpop",
-      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-      "publishedAt": "2026-09-22T18:03:21.000Z",
-      "excerpt": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird bro…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
@@ -350,19 +386,6 @@
       "url": "https://huggingface.co/blog/omlx",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/jev",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
-      "url": "https://www.latent.space/p/jev",
-      "publishedAt": "2026-09-21T22:13:49.000Z",
-      "excerpt": "The definitive Jev podcast with its lead creator.",
-      "audioUrl": "https://api.substack.com/feed/podcast/216783460/cdf8e02436aa264178bb2aa2c85db57c.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
@@ -445,17 +468,6 @@
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
       "publishedAt": "2026-09-19T19:42:24.000Z",
       "excerpt": "Community Wisdom 299"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
-      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "publishedAt": "2026-09-19T05:48:28.000Z",
-      "excerpt": "Imitation is the sincerest form of Flattery"
     },
     {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
@@ -743,18 +755,6 @@
       "url": "https://www.svpg.com/commercial-vs-internal-products/",
       "publishedAt": "2026-04-09T19:52:26.000Z",
       "excerpt": "Internal Products Are Hard; Commercial Products Are Harder We have spent a lot of time trying to convince product people and especially product leaders of the importance of internal products. We’re talking about services…"
-    },
-    {
-      "id": "svpg:https://www.svpg.com/product-coaching-and-ai/",
-      "sourceId": "svpg",
-      "sourceName": "SVPG — Marty Cagan",
-      "group": "guru",
-      "authorId": "cagan",
-      "kind": "article",
-      "title": "Product Coaching and AI",
-      "url": "https://www.svpg.com/product-coaching-and-ai/",
-      "publishedAt": "2026-02-04T19:28:20.000Z",
-      "excerpt": "This article represents a significant change to what we have been advocating for the past two decades.&#160; But hopefully you will agree it is necessary, and that it also represents a substantial step forward. We have b…"
     },
     {
       "id": "donuts:https://www.bringthedonuts.com/essays/books-for-product-managers.html",
