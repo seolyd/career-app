@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-09-26T07:54:17.177Z",
+  "generatedAt": "2026-09-26T22:19:45.795Z",
   "items": [
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🧠 Community Wisdom: AI doomerism, speeding up discovery in a big org, verifying engineering answers as a new PM, where analytics adds the most value, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
+      "publishedAt": "2026-09-26T17:54:02.000Z",
+      "excerpt": "Community Wisdom 300"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
+      "publishedAt": "2026-09-26T12:27:00.000Z",
+      "excerpt": "Parag Agrawal is the Co-Founder and CEO of Parallel, building web search infrastructure for AI agents. Parallel has announced $230M in funding from Sequoia, Khosla, and First Round Capital. Previously, he was CEO of Twit…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Product__Parag_Agrawal__Parallel_Web_Systems.mp3?dest-id=240976",
+      "durationSec": 3410,
+      "imageUrl": "https://static.libsyn.com/p/assets/7/8/9/4/78943ac00fd13441e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_16.13.47.jpeg"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/openrouter",
       "sourceId": "latentspace",
@@ -591,19 +616,6 @@
       "excerpt": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this p…"
     },
     {
-      "id": "lenny:https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "Muse review: The personal AI agent that gets consumer UX right",
-      "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-      "publishedAt": "2026-09-16T12:02:14.000Z",
-      "excerpt": "Watch now (38 mins) | &#127897;&#65039; I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
-      "audioUrl": "https://api.substack.com/feed/podcast/215710078/f0a34674483a4a7ee6a05d4ec88e3ffe.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -728,20 +740,6 @@
       "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
       "publishedAt": "2026-09-07T12:26:31.000Z",
       "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI ag…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-100-billion-ai-assistant-race-town-vs-instinct-vs-grokbot-we-spend-75k-per-engineer-on-ai-tools-why-the-ai-assistant-market-is-not-a-bubble-ai-assistants-will-replace-every-app-on-your-phone-with-jd-founder-of-town",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: The $100 Billion AI Assistant Race: Town vs Instinct vs GrokBot | We Spend $75K Per Engineer on AI Tools | Why the AI Assistant Market Is Not a Bubble & AI Assistants Will Replace Every App on Your Phone with JD, Founder of Town",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-the-100-billion-ai-assistant-race-town-vs-instinct-vs-grokbot-we-spend-75k-per-engineer-on-ai-tools-why-the-ai-assistant-market-is-not-a-bubble-ai-assistants-will-replace-every-app-on-your-phone-with-jd-founder-of-town",
-      "publishedAt": "2026-09-07T07:07:00.000Z",
-      "excerpt": "Jean-Denis \"JD\" Grèze is the Co-Founder and CEO of Town, the AI work assistant reportedly in talks to raise funding at a $1BN valuation. Before founding Town, JD spent seven years as CTO of Plaid. Before Plaid, he was Di…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Jean-Denis_Greze__Town.mp3?dest-id=240976",
-      "durationSec": 4254,
-      "imageUrl": "https://static.libsyn.com/p/assets/9/2/f/b/92fb6814e9d5e90ed959afa2a1bf1c87/WhatsApp_Image_2026-09-04_at_20.57.57.jpeg"
     },
     {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19741274-anthropic-member-of-technical-staff-on-leading-forward-deployed-engineers-turning-down-2x-pay-and-why-leaders-are-becoming-ics-again-amandeep-khurana-e310.mp3",
@@ -1389,7 +1387,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 5,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
