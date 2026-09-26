@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-09-25T23:01:54.225Z",
+  "generatedAt": "2026-09-26T06:29:49.019Z",
   "items": [
+    {
+      "id": "latentspace:https://www.latent.space/p/openrouter",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
+      "publishedAt": "2026-09-25T23:14:41.000Z",
+      "excerpt": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "audioUrl": "https://api.substack.com/feed/podcast/217456046/69e6d188059a812b68e47c97b6495374.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
     {
       "id": "openai:https://openai.com/index/proaction",
       "sourceId": "openai",
@@ -135,6 +148,20 @@
       "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
       "publishedAt": "2026-09-24T08:12:59.000Z",
       "excerpt": "Team Zuck is absolutely on fire."
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
+      "publishedAt": "2026-09-24T07:07:00.000Z",
+      "excerpt": "AGENDA: 04:35 Anthropic's $2 Trillion IPO Delayed. Cracks in the AI Boom? 10:30 OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028? 12:55 Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival? 17:05 Amazon Blocks AI…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.75.mp3?dest-id=240976",
+      "durationSec": 4834,
+      "imageUrl": "https://static.libsyn.com/p/assets/d/9/0/b/d90ba3ef0594008ce5bbc093207a2619/WhatsApp_Image_2026-09-23_at_16.31.48.jpeg"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
@@ -344,17 +371,6 @@
       "excerpt": "Why you should never skip error discovery"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-      "publishedAt": "2026-09-22T06:30:56.000Z",
-      "excerpt": "crowning a new Chinese frontier lab"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/evaleval-aisi",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -435,6 +451,20 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
+      "publishedAt": "2026-09-21T07:07:00.000Z",
+      "excerpt": "Daniel Dines is one of the greatest European founders of the last decade. As the Co-Founder of UiPath, he has scaled the business to a market cap high of $ 44BN in 2021, with the company now generating $1.72BN in revenue…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Daniel_Dines__UiPath_3.mp3?dest-id=240976",
+      "durationSec": 4271,
+      "imageUrl": "https://static.libsyn.com/p/assets/8/2/9/0/829042fc775095ffe5bbc093207a2619/WhatsApp_Image_2026-09-18_at_12.41.29.jpeg"
+    },
+    {
       "id": "huggingface:https://huggingface.co/blog/tokenizers-v1",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -470,6 +500,20 @@
       "excerpt": "Community Wisdom 299"
     },
     {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-anti-data-centres-is-a-chinese-psyop-how-many-planned-data-centers-will-actually-get-built-is-energy-ais-biggest-bottleneck-with-thomas-sohmers-co-founder-positron",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-anti-data-centres-is-a-chinese-psyop-how-many-planned-data-centers-will-actually-get-built-is-energy-ais-biggest-bottleneck-with-thomas-sohmers-co-founder-positron",
+      "publishedAt": "2026-09-19T07:07:00.000Z",
+      "excerpt": "Thomas Sohmers is the co-founder and chairman of Positron AI, building chips to make running AI dramatically cheaper and more energy-efficient. The company recently announced an $875 million Series C at a $5 billion valu…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Memo__Thomas_Sohmers__Positron_AI.mp3?dest-id=240976",
+      "durationSec": 4302,
+      "imageUrl": "https://static.libsyn.com/p/assets/2/c/2/1/2c2172c45315d9ca88c4a68c3ddbc4f2/WhatsApp_Image_2026-09-17_at_17.31.42.jpeg"
+    },
+    {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -480,6 +524,20 @@
       "url": "https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
       "publishedAt": "2026-09-17T13:00:52.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI app builder specifically for product managers&#x2014;not engineers&#x2014;inside an already crowded market? In this episode of Just Now…"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-why-pacing-the-frontier-is-bs-instinct-raising-1bn-at-10bn-meta-launches-muse-miro-sells-for-135bn-after-a-175bn-valuation-mistral-raises-3bn-could-sam-bankman-fried-win-his-freedom",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-why-pacing-the-frontier-is-bs-instinct-raising-1bn-at-10bn-meta-launches-muse-miro-sells-for-135bn-after-a-175bn-valuation-mistral-raises-3bn-could-sam-bankman-fried-win-his-freedom",
+      "publishedAt": "2026-09-17T07:07:00.000Z",
+      "excerpt": "AGENDA: 03:40 Dario Calls to \"Pace the Frontier\" 11:30 Why the Fed Will Raid Anthropic if Needed 21:50 Meta Launches Muse to Take On Instinct 28:30 Instinct Raising $1BN at $10BN—Would You Invest? 39:55 Miro Sells for $1…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.74_2.mp3?dest-id=240976",
+      "durationSec": 4534,
+      "imageUrl": "https://static.libsyn.com/p/assets/e/b/4/c/eb4c88a910c1da60e55e3c100dce7605/WhatsApp_Image_2026-09-16_at_15.41.20.jpeg"
     },
     {
       "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
@@ -542,6 +600,34 @@
       "excerpt": "Today we introduce the Jupiter release of Galileo® , the world’s AI intelligence for HR. For the firsts time companies can embed Galileo’s massive intelligence into any AI agent, unleashing its insights, data, and proble…"
     },
     {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-how-lps-allocate-to-venture-in-2026-what-they-want-what-they-do-not-want-why-fund-multiple-does-not-matter-without-a-timeline-why-velocity-of-cashback-is-the-most-important-thing-with-david-morehead-cio-baylor",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-how-lps-allocate-to-venture-in-2026-what-they-want-what-they-do-not-want-why-fund-multiple-does-not-matter-without-a-timeline-why-velocity-of-cashback-is-the-most-important-thing-with-david-morehead-cio-baylor",
+      "publishedAt": "2026-09-14T07:07:00.000Z",
+      "excerpt": "David Morehead is one of the most respected CIOs in the endowment fund world as Chief Investment Officer at Baylor University, overseeing its $2.6BN endowment. Before joining Baylor in 2011, he was a senior portfolio man…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/David_Morehead__Baylor_University.mp3?dest-id=240976",
+      "durationSec": 4135,
+      "imageUrl": "https://static.libsyn.com/p/assets/d/0/d/a/d0da4fd59f97c065d959afa2a1bf1c87/WhatsApp_Image_2026-09-11_at_11.58.36-20260913-pt5rprljdj.jpeg"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
+      "publishedAt": "2026-09-12T07:07:00.000Z",
+      "excerpt": "AGENDA: 04:30 How Do You Hire Exceptional People in the AI Era? 08:00 What Actually Works in Growth—and Why Can't You Trust Meta's Numbers? 17:00 How to Run Hundreds of Millions in Marketing with Zero Employees 19:30 \"Ou…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Matteo_Franceschetti__Eight_Sleep_2.mp3?dest-id=240976",
+      "durationSec": 4543,
+      "imageUrl": "https://static.libsyn.com/p/assets/2/5/f/4/25f4c74c1bf7c958d959afa2a1bf1c87/WhatsApp_Image_2026-09-11_at_11.45.57.jpeg"
+    },
+    {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
       "sourceId": "svpg",
       "sourceName": "SVPG — Marty Cagan",
@@ -554,6 +640,20 @@
       "excerpt": "Note: This is the narrative version of a keynote talk for the Lenny &#38; Friends Summit. Recently I was asked a question that I haven’t been able to get out of my head: “In light of all that has changed, what are the th…"
     },
     {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
+      "publishedAt": "2026-09-10T07:07:00.000Z",
+      "excerpt": "AGENDA: 00:00 Jensen Huang Declares AGI Has Arrived 04:05 Instinct and GrokBot Ignite the AI Assistant War 13:32 OpenAI's GPT Astra Redefines What AGI Means 26:00 GPT Astra and Fable 5.1 Accelerate the Model Race 30:38 O…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.73.mp3?dest-id=240976",
+      "durationSec": 4687,
+      "imageUrl": "https://static.libsyn.com/p/assets/2/b/1/0/2b1072dcf5bfcf93d959afa2a1bf1c87/WhatsApp_Image_2026-09-09_at_17.14.28.jpeg"
+    },
+    {
       "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -564,6 +664,20 @@
       "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-08T13:00:35.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn't a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle a que…"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-100-billion-ai-assistant-race-town-vs-instinct-vs-grokbot-we-spend-75k-per-engineer-on-ai-tools-why-the-ai-assistant-market-is-not-a-bubble-ai-assistants-will-replace-every-app-on-your-phone-with-jd-founder-of-town",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: The $100 Billion AI Assistant Race: Town vs Instinct vs GrokBot | We Spend $75K Per Engineer on AI Tools | Why the AI Assistant Market Is Not a Bubble & AI Assistants Will Replace Every App on Your Phone with JD, Founder of Town",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-the-100-billion-ai-assistant-race-town-vs-instinct-vs-grokbot-we-spend-75k-per-engineer-on-ai-tools-why-the-ai-assistant-market-is-not-a-bubble-ai-assistants-will-replace-every-app-on-your-phone-with-jd-founder-of-town",
+      "publishedAt": "2026-09-07T07:07:00.000Z",
+      "excerpt": "Jean-Denis \"JD\" Grèze is the Co-Founder and CEO of Town, the AI work assistant reportedly in talks to raise funding at a $1BN valuation. Before founding Town, JD spent seven years as CTO of Plaid. Before Plaid, he was Di…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Jean-Denis_Greze__Town.mp3?dest-id=240976",
+      "durationSec": 4254,
+      "imageUrl": "https://static.libsyn.com/p/assets/9/2/f/b/92fb6814e9d5e90ed959afa2a1bf1c87/WhatsApp_Image_2026-09-04_at_20.57.57.jpeg"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
@@ -673,6 +787,20 @@
       "excerpt": "We’ve been writing a lot lately about product teams that are clearly leveraging AI to deliver faster, yet their outcomes are not improving. Today, this phenomenon, known as the “AI Productivity Paradox,” has been recogni…"
     },
     {
+      "id": "productpod:https://prdct.school/3y8omC0",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "ServiceNow President & CPO on Why the Market Can't Tell AI Winners From Losers, and How to Transform Before It Kills You | Amit Zavery | E305",
+      "url": "https://prdct.school/3y8omC0",
+      "publishedAt": "2026-07-22T19:00:00.000Z",
+      "excerpt": "In this episode of The Product Podcast by Product School, Carlos González de Villaumbrosia sits down with Amit Zavery, President and Chief Product Officer at ServiceNow. The platform runs more than 75 billion workflows a…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19503174-servicenow-president-cpo-on-why-the-market-can-t-tell-ai-winners-from-losers-and-how-to-transform-before-it-kills-you-amit-zavery-e305.mp3",
+      "durationSec": 3251,
+      "imageUrl": "https://storage.buzzsprout.com/ry0dw68xqej3zo2u72pb903jwzg0?.jpg"
+    },
+    {
       "id": "bersin:https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
       "sourceId": "bersin",
       "sourceName": "Josh Bersin",
@@ -721,6 +849,62 @@
       "excerpt": "The explosive AI market is changing everything, and even Handshake , the leader in university recruiting and early career growth, is taking the bait. Today Handshake acquired Uplimit , one of the pioneers in AI-native co…"
     },
     {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-271-The-Gap-Between-AI-Adoption-and-AI-Strategy-e3l5tvm",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 271: The Gap Between AI Adoption and AI Strategy",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-271-The-Gap-Between-AI-Adoption-and-AI-Strategy-e3l5tvm",
+      "publishedAt": "2026-06-24T07:00:00.000Z",
+      "excerpt": "In this solo episode of the Product Thinking Podcast, Melissa Perri shares the results of the State of AI in Product 2026 survey of 309 product leaders, co-published with Product Circle. The tools are everywhere, but the…",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/121877942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F426673634-44100-2-a152bc55aa735.mp3",
+      "durationSec": 680,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
+    },
+    {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-270-How-Experimentation-Becomes-Culture-e3k6rm1",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 270: How Experimentation Becomes Culture",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-270-How-Experimentation-Becomes-Culture-e3k6rm1",
+      "publishedAt": "2026-06-03T06:59:00.000Z",
+      "excerpt": "What does it actually take for experimentation to stick inside a product organization? In this compilation episode of the Product Thinking Podcast, Melissa Perri brings together three perspectives on the leadership behav…",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/120859777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-1%2F425313350-44100-2-3555720bbbe6b.mp3",
+      "durationSec": 859,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
+    },
+    {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-269-Continuous-Discovery-Habits-That-Actually-Work-e3jjcaf",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 269: Continuous Discovery Habits That Actually Work",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-269-Continuous-Discovery-Habits-That-Actually-Work-e3jjcaf",
+      "publishedAt": "2026-05-20T07:15:00.000Z",
+      "excerpt": "Continuous discovery sounds simple and breaks down constantly in practice. In this compilation episode of the Product Thinking Podcast, Melissa Perri brings together three perspectives on what it actually takes to build …",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/120221455/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F424462062-44100-2-79e5c050fde46.mp3",
+      "durationSec": 929,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
+    },
+    {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-268-Rethinking-What-Done-Means-in-Product-Ops-e3ith1h",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 268: Rethinking What Done Means in Product Ops",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-268-Rethinking-What-Done-Means-in-Product-Ops-e3ith1h",
+      "publishedAt": "2026-05-06T07:33:57.000Z",
+      "excerpt": "What does it mean for a product to actually be “done”? Not code in production, but customers buying, using, and loving it. In this compilation episode of the Product Thinking Podcast, Melissa Perri brings together three …",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/119505393/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423495775-44100-2-578101ddf5f19.mp3",
+      "durationSec": 1517,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
+    },
+    {
       "id": "svpg:https://www.svpg.com/build-to-learn-faq/",
       "sourceId": "svpg",
       "sourceName": "SVPG — Marty Cagan",
@@ -731,6 +915,20 @@
       "url": "https://www.svpg.com/build-to-learn-faq/",
       "publishedAt": "2026-04-27T21:16:33.000Z",
       "excerpt": "In our last article, we argued that especially in the age of AI, we are all builders, but that there is a very meaningful difference between building to learn (known as product discovery) versus building to earn (known a…"
+    },
+    {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-267-How-OKRs-Become-Outputs-Instead-of-Outcomes-e3i8ms5",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 267: How OKRs Become Outputs Instead of Outcomes",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-267-How-OKRs-Become-Outputs-Instead-of-Outcomes-e3i8ms5",
+      "publishedAt": "2026-04-22T07:00:00.000Z",
+      "excerpt": "OKRs are one of the most misunderstood frameworks in product. They turn into renamed roadmaps, copy-paste cascades, and measures of output instead of real outcomes. In this Product Thinking Podcast compilation, Melissa P…",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/118823237/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-21%2F422559888-44100-2-ea0775921dc89.mp3",
+      "durationSec": 1226,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
     },
     {
       "id": "svpg:https://www.svpg.com/build-to-learn-vs-build-to-earn/",
@@ -757,6 +955,34 @@
       "excerpt": "Internal Products Are Hard; Commercial Products Are Harder We have spent a lot of time trying to convince product people and especially product leaders of the importance of internal products. We’re talking about services…"
     },
     {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-266-Building-for-Builders-e3hj2rk",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 266: Building for Builders",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-266-Building-for-Builders-e3hj2rk",
+      "publishedAt": "2026-04-08T07:00:00.000Z",
+      "excerpt": "What does it take to keep product teams focused on meaningful work? In this compilation episode, Melissa Perri brings together three product leaders to explore how to cut through overhead, dig into real problems, and res…",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/118114612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421616418-44100-2-b719b994b956e.mp3",
+      "durationSec": 983,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
+    },
+    {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-261-AI-Implementation-in-Regulated-and-High-Trust-Industries-e3e3d4r",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 261: AI Implementation in Regulated and High-Trust Industries",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-261-AI-Implementation-in-Regulated-and-High-Trust-Industries-e3e3d4r",
+      "publishedAt": "2026-01-28T08:00:00.000Z",
+      "excerpt": "AI is moving quickly from experimentation into real products, but in regulated and high-trust environments the stakes are much higher. In this compilation episode of the Product Thinking Podcast, host Melissa Perri bring…",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/114455131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-23%2F416705765-44100-2-ce2bef0021c46.mp3",
+      "durationSec": 1194,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
+    },
+    {
       "id": "donuts:https://www.bringthedonuts.com/essays/books-for-product-managers.html",
       "sourceId": "donuts",
       "sourceName": "Bring the Donuts — Ken Norton",
@@ -766,6 +992,20 @@
       "url": "https://www.bringthedonuts.com/essays/books-for-product-managers.html",
       "publishedAt": "2026-01-07T08:00:00.000Z",
       "excerpt": "Essential product management reading - Updated for 2026. There are lots of excellent books about product management and product leadership, but these are the 44 books I&#8217;d consider essential to any PM’s bookshelf. B…"
+    },
+    {
+      "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-260-Avoiding-Common-Mistakes-in-Org-Design-e3c4003",
+      "sourceId": "productthinking",
+      "sourceName": "Product Thinking — Melissa Perri",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Episode 260: Avoiding Common Mistakes in Org Design",
+      "url": "https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-260-Avoiding-Common-Mistakes-in-Org-Design-e3c4003",
+      "publishedAt": "2025-12-10T07:45:00.000Z",
+      "excerpt": "In this episode of the Product Thinking Podcast, Melissa Perri delves into the intricate world of organizational design for product management teams. She explores how to structure teams effectively around value streams, …",
+      "audioUrl": "https://anchor.fm/s/ff7e9014/podcast/play/112377283/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-9%2F414057600-44100-2-69bda53f3259e.mp3",
+      "durationSec": 540,
+      "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42764845/42764845-1769188923632-fcadbbf16c9fd.jpg"
     },
     {
       "id": "donuts:https://www.bringthedonuts.com/essays/how-to-hire-a-pm-retrospective/",
@@ -984,7 +1224,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 3,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
@@ -1001,6 +1241,27 @@
         "episodes": 0,
         "videos": 0,
         "withViews": 0
+      },
+      {
+        "id": "productthinking",
+        "count": 8,
+        "episodes": 8,
+        "videos": 0,
+        "withViews": 0
+      },
+      {
+        "id": "20vc",
+        "count": 8,
+        "episodes": 8,
+        "videos": 0,
+        "withViews": 0
+      },
+      {
+        "id": "productpod",
+        "count": 8,
+        "episodes": 8,
+        "videos": 0,
+        "withViews": 0
       }
     ],
     "failed": [
@@ -1008,6 +1269,26 @@
         "id": "importai",
         "url": "https://importai.substack.com/feed",
         "error": "HTTP 403"
+      },
+      {
+        "id": "lennypod",
+        "url": "https://api.substack.com/feed/podcast/10845.rss",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "yc",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxIJaCMEptJjxmmQgGFsnCg",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "a16z",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ1VQj-37kl2yS_VUhfQHsw",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "twominutepapers",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "error": "HTTP 404"
       }
     ]
   }
