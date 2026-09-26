@@ -10,6 +10,8 @@
  */
 import { XMLParser } from 'fast-xml-parser'
 import { readFileSync, writeFileSync, existsSync } from 'node:fs'
+import { stripHtml, excerpt, parseDuration } from './feed-text.mjs'
+import { isYouTubeChannel, readYouTubeChannel } from './youtube-channel.mjs'
 
 const MAX_PER_SOURCE = 8
 const MAX_TOTAL = 160
@@ -29,42 +31,6 @@ const parser = new XMLParser({
 })
 
 const asArray = (v) => (v == null ? [] : Array.isArray(v) ? v : [v])
-
-/**
- * 엔티티를 먼저 풀고 나서 태그를 벗깁니다. 순서가 중요합니다 — 팟캐스트 쇼노트는
- * 보통 HTML을 &lt;p&gt; 형태로 escape해서 보내는데, 태그부터 벗기면 그게 그대로 남습니다.
- * &amp;만 마지막에 푸는 이유는 &amp;lt;가 태그로 되살아나는 걸 막기 위해서입니다.
- */
-function stripHtml(s) {
-  return String(s ?? '')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#0?39;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&#8217;/g, '\u2019')
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
-
-function excerpt(s, max = 220) {
-  const flat = stripHtml(s)
-  return flat.length > max ? `${flat.slice(0, max)}…` : flat
-}
-
-/** itunes:duration은 "3600" · "45:30" · "1:02:03" 세 형태로 옵니다. */
-function parseDuration(value) {
-  const raw = String(value ?? '').trim()
-  if (!raw) return undefined
-  if (/^\d+$/.test(raw)) return Number(raw)
-  const parts = raw.split(':').map((p) => Number(p.trim()))
-  if (!parts.length || parts.some((p) => !Number.isFinite(p))) return undefined
-  const sec = parts.reduce((acc, p) => acc * 60 + p, 0)
-  return sec > 0 ? Math.round(sec) : undefined
-}
 
 /** 오디오 enclosure가 있으면 에피소드입니다. type이 없는 피드도 있어 확장자로 한 번 더 봅니다. */
 function pickAudio(item) {
@@ -169,17 +135,23 @@ function readItems(xml) {
 }
 
 async function fetchSource(source) {
+  const youtube = isYouTubeChannel(source.url)
   const res = await fetch(source.url, {
     headers: {
       'user-agent':
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36',
-      accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+      accept: youtube
+        ? 'text/html,application/xhtml+xml'
+        : 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+      // 상대 시각("3 days ago")을 파싱해야 해서 언어를 고정합니다.
+      ...(youtube ? { 'accept-language': 'en-US,en;q=0.9' } : {}),
     },
     signal: AbortSignal.timeout(TIMEOUT_MS),
     redirect: 'follow',
   })
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  const items = readItems(await res.text())
+  const body = await res.text()
+  const items = youtube ? readYouTubeChannel(body) : readItems(body)
   if (!items.length) throw new Error('no items parsed')
   const picked = items.filter((i) => i.title && i.url).slice(0, MAX_PER_SOURCE)
   // 주소는 그대로 열쇠로 씁니다 — 앱이 읽음 표시와 재생 위치를 이 id로 붙들고 있어서,
