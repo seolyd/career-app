@@ -70,6 +70,48 @@
       "group": "ai",
       "name": "Import AI — Jack Clark",
       "url": "https://importai.substack.com/feed"
+    },
+    {
+      "id": "lennypod",
+      "group": "guru",
+      "name": "Lenny's Podcast",
+      "url": "https://api.substack.com/feed/podcast/10845.rss"
+    },
+    {
+      "id": "productthinking",
+      "group": "guru",
+      "name": "Product Thinking — Melissa Perri",
+      "url": "https://anchor.fm/s/ff7e9014/podcast/rss"
+    },
+    {
+      "id": "20vc",
+      "group": "guru",
+      "name": "The Twenty Minute VC",
+      "url": "https://rss.libsyn.com/shows/61840/destinations/240976.xml"
+    },
+    {
+      "id": "productpod",
+      "group": "guru",
+      "name": "The Product Podcast — Product School",
+      "url": "https://rss.buzzsprout.com/90361.rss"
+    },
+    {
+      "id": "yc",
+      "group": "guru",
+      "name": "Y Combinator",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxIJaCMEptJjxmmQgGFsnCg"
+    },
+    {
+      "id": "a16z",
+      "group": "guru",
+      "name": "a16z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ1VQj-37kl2yS_VUhfQHsw"
+    },
+    {
+      "id": "twominutepapers",
+      "group": "ai",
+      "name": "Two Minute Papers",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
     }
   ]
 }
