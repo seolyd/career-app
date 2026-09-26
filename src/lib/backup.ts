@@ -3,7 +3,7 @@ import type { BackupFile, Entry } from '../types'
 import { ENTRY_TYPES, AXES } from '../types'
 
 export async function buildBackup(): Promise<BackupFile> {
-  const [entries, profile, vision, phases, yearGoals, weekGoals, advisors, sessions, asks, challengeLogs, feedStates] =
+  const [entries, profile, vision, phases, yearGoals, weekGoals, advisors, sessions, asks, challengeLogs, stories, reps, feedStates] =
     await Promise.all([
       db.entries.toArray(),
       db.profile.toArray(),
@@ -15,6 +15,8 @@ export async function buildBackup(): Promise<BackupFile> {
       db.sessions.toArray(),
       db.asks.toArray(),
       db.challengeLogs.toArray(),
+      db.stories.toArray(),
+      db.reps.toArray(),
       db.feedStates.toArray(),
     ])
   return {
@@ -31,6 +33,8 @@ export async function buildBackup(): Promise<BackupFile> {
     sessions,
     asks,
     challengeLogs,
+    stories,
+    reps,
     feedStates,
   }
 }
@@ -108,6 +112,8 @@ export async function importBackup(raw: string): Promise<ImportResult> {
     db.sessions,
     db.asks,
     db.challengeLogs,
+    db.stories,
+    db.reps,
     db.feedStates,
   ] as const
   const payloads: unknown[][] = [
@@ -121,6 +127,8 @@ export async function importBackup(raw: string): Promise<ImportResult> {
     file.sessions ?? [],
     file.asks ?? [],
     file.challengeLogs ?? [],
+    file.stories ?? [],
+    file.reps ?? [],
     file.feedStates ?? [],
   ]
 

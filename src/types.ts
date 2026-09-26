@@ -230,6 +230,44 @@ export interface ChallengeLog {
 /* ── 읽기 ─────────────────────────────────────────────── */
 
 /** 피드 항목의 읽음 상태. 항목 자체는 feed.json에 있고 여기엔 내 흔적만 남습니다. */
+/**
+ * 말하기 재고. 한 시간을 채우는 사람은 한 시간짜리를 외운 게 아니라,
+ * 꺼내 끼울 모듈 스무 개를 갖고 있습니다. 이게 그 모듈입니다.
+ */
+export interface Story {
+  id: string
+  title: string
+  /** 요점 한 줄 — 이 이야기로 무엇을 남기려는가 */
+  point: string
+  /** 90초 버전 */
+  telling: string
+  tags: string[]
+  /** 저널에서 수확한 경우 원본 */
+  entryId?: string
+  createdAt: number
+  updatedAt: number
+  /** 마지막으로 소리 내어 말한 때. 안 쓰면 굳습니다. */
+  lastToldAt?: number
+  timesTold: number
+}
+
+/** 소리 내어 한 번 말한 기록. 이게 이 탭의 중심입니다. */
+export interface Rep {
+  id: string
+  /** 씨드 질문 id — 직접 쓴 질문이면 없습니다 */
+  promptId?: string
+  prompt: string
+  structureId?: string
+  /** 스토리를 리허설한 경우 */
+  storyId?: string
+  targetSec: number
+  spokenSec: number
+  /** 받아쓰기. 선택입니다 — 타이머만 돌려도 rep으로 칩니다. */
+  transcript?: string
+  critique?: string
+  createdAt: number
+}
+
 export interface FeedState {
   feedItemId: string
   readAt: number
@@ -255,5 +293,7 @@ export interface BackupFile {
   sessions: Session[]
   asks: Ask[]
   challengeLogs: ChallengeLog[]
+  stories?: Story[]
+  reps?: Rep[]
   feedStates: FeedState[]
 }

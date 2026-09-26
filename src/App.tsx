@@ -7,6 +7,7 @@ import { Journal } from './pages/Journal'
 import { EntryEdit } from './pages/EntryEdit'
 import { Board } from './pages/Board'
 import { Feed } from './pages/Feed'
+import { Literacy } from './pages/Literacy'
 import { Plan } from './pages/Plan'
 import { Settings } from './pages/Settings'
 import { BottomNav } from './components/BottomNav'
@@ -45,6 +46,7 @@ export function App() {
           <Route path="/ai" element={<Feed section="ai" />} />
           {/* 홈화면에 저장된 옛 주소가 깨지지 않게 남겨둡니다 */}
           <Route path="/reading" element={<Navigate to="/pm" replace />} />
+          <Route path="/literacy" element={<Literacy />} />
           <Route path="/plan" element={<Plan />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<Navigate to="/" replace />} />
