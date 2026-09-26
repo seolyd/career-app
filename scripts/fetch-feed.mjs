@@ -94,6 +94,19 @@ function pickImage(item, channelImage) {
   return ep || channelImage || undefined
 }
 
+function isUrl(value) {
+  return /^https?:\/\//i.test(String(value ?? '').trim())
+}
+
+/**
+ * 항목을 가리는 열쇠입니다. 주소로만 가리면, 모든 회차의 link가 같은 피드에서
+ * 8개가 1개로 합쳐집니다 — guid가 있으면 그것이 회차마다 다릅니다.
+ */
+function uidOf(guid, link, audioUrl) {
+  const g = String(guid ?? '').trim()
+  return g || link || audioUrl || ''
+}
+
 /** Atom의 link는 배열이거나 속성에 들어 있습니다. */
 function pickLink(entry) {
   if (typeof entry.link === 'string') return entry.link
@@ -116,9 +129,14 @@ function readItems(xml) {
     const channelImage = channel?.['itunes:image']?.['@_href'] ?? channel?.image?.url ?? undefined
     return rss.map((i) => {
       const audioUrl = pickAudio(i)
+      const link = typeof i.link === 'string' ? i.link : pickLink(i)
+      const guid = typeof i.guid === 'object' ? i.guid['#text'] : i.guid
       return {
         title: stripHtml(i.title),
-        url: typeof i.link === 'string' ? i.link : pickLink(i),
+        // Buzzsprout 같은 일부 피드는 모든 회차의 link가 쇼 홈페이지 하나입니다.
+        // 그래서 회차를 가리키는 주소를 link → guid → 오디오 순으로 찾습니다.
+        url: link || (isUrl(guid) ? String(guid).trim() : '') || audioUrl || '',
+        uid: uidOf(guid, link, audioUrl),
         publishedAt: toISO(i.pubDate ?? i['dc:date']),
         excerpt: excerpt(i.description ?? i['content:encoded'] ?? i['itunes:summary']),
         ...(audioUrl
@@ -134,9 +152,11 @@ function readItems(xml) {
   const atom = asArray(doc?.feed?.entry)
   return atom.map((e) => {
     const video = e['yt:videoId'] ? readYouTube(e) : null
+    const link = pickLink(e)
     return {
       title: stripHtml(typeof e.title === 'object' ? e.title['#text'] : e.title),
-      url: pickLink(e),
+      url: link,
+      uid: uidOf(e.id, link, undefined),
       publishedAt: toISO(e.published ?? e.updated),
       excerpt:
         video?.excerpt ||
@@ -161,11 +181,15 @@ async function fetchSource(source) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   const items = readItems(await res.text())
   if (!items.length) throw new Error('no items parsed')
-  return items
-    .filter((i) => i.title && i.url)
-    .slice(0, MAX_PER_SOURCE)
+  const picked = items.filter((i) => i.title && i.url).slice(0, MAX_PER_SOURCE)
+  // 주소는 그대로 열쇠로 씁니다 — 앱이 읽음 표시와 재생 위치를 이 id로 붙들고 있어서,
+  // 멀쩡한 소스의 id를 바꾸면 읽은 글이 다시 안 읽음으로 돌아옵니다.
+  // 한 소스 안에서 주소가 겹칠 때만(모든 회차의 link가 쇼 홈페이지인 피드) guid로 갈라냅니다.
+  const seen = new Map()
+  for (const i of picked) seen.set(i.url, (seen.get(i.url) ?? 0) + 1)
+  return picked
     .map((i) => ({
-      id: `${source.id}:${i.url}`,
+      id: `${source.id}:${seen.get(i.url) > 1 ? i.uid || i.url : i.url}`,
       sourceId: source.id,
       sourceName: source.name,
       group: source.group,

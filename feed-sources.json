@@ -69,13 +69,7 @@
       "id": "importai",
       "group": "ai",
       "name": "Import AI — Jack Clark",
-      "url": "https://importai.substack.com/feed"
-    },
-    {
-      "id": "lennypod",
-      "group": "guru",
-      "name": "Lenny's Podcast",
-      "url": "https://api.substack.com/feed/podcast/10845.rss"
+      "url": "https://jack-clark.net/feed/"
     },
     {
       "id": "productthinking",
