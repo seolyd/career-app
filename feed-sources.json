@@ -1,5 +1,5 @@
 {
-  "comment": "group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트와 유튜브 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요.",
+  "comment": "group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브 채널 RSS는 여기 쓰지 마세요 — youtube.com/feeds/videos.xml이 GitHub 러너에 404를 냅니다(채널 페이지는 200). 채널 다섯 개로 확인했습니다.",
   "sources": [
     {
       "id": "svpg",
@@ -88,24 +88,6 @@
       "group": "guru",
       "name": "The Product Podcast — Product School",
       "url": "https://rss.buzzsprout.com/90361.rss"
-    },
-    {
-      "id": "yc",
-      "group": "guru",
-      "name": "Y Combinator",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxIJaCMEptJjxmmQgGFsnCg"
-    },
-    {
-      "id": "a16z",
-      "group": "guru",
-      "name": "a16z",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ1VQj-37kl2yS_VUhfQHsw"
-    },
-    {
-      "id": "twominutepapers",
-      "group": "ai",
-      "name": "Two Minute Papers",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
     }
   ]
 }
