@@ -412,3 +412,78 @@ Do not take my side. If I have missed nothing, you may say so.
 ${BREVITY}`,
   }
 }
+
+/* ── 말하기 훈련 ───────────────────────────────────────── */
+
+/**
+ * 말한 것을 비평받습니다. 받아쓰기는 아이폰 키보드 마이크로 들어오므로
+ * 문장부호가 엉성합니다 — 그걸 지적하지 말라고 미리 못을 박습니다.
+ */
+export function askCritique(
+  prompt: string,
+  structureName: string | undefined,
+  targetSec: number,
+  spokenSec: number,
+  transcript: string,
+): Draft {
+  return {
+    kind: 'digest',
+    title: `Critique — ${prompt.slice(0, 40)}`,
+    prompt: `${me()}
+
+I am training to speak well in meetings — the kind of person who can be handed a microphone and hold the room. I just said the following out loud, once, without a script.
+
+Question I was answering:
+"""
+${prompt}
+"""
+${structureName ? `Structure I was trying to follow: ${structureName}` : 'I did not pick a structure.'}
+Target length: ${targetSec}s. I actually spoke for ${spokenSec}s.
+
+What I said (dictated, so punctuation is rough — ignore that entirely):
+"""
+${transcript.trim()}
+"""
+
+Judge the speaking, not the writing:
+1. **Landing** — how many seconds before my actual point arrived? Quote the sentence where it lands.
+2. **Structure** — did it hold${structureName ? ` to ${structureName}` : ''}, or did it wander? Name the beat I skipped.
+3. **Filler** — quote the two worst stretches of padding, hedging or throat-clearing.
+4. **Ending** — is the last sentence worth remembering, or did I trail off?
+5. Rewrite **only the opening 15 seconds**, in my voice, as spoken words.
+
+Be blunt. I improve faster from one sharp correction than from encouragement.
+${BREVITY}${JSON_TAIL(`{ "secondsToPoint": 0, "worst": "the single weakest habit, in five words", "opener": "rewritten first 15 seconds" }`)}`,
+  }
+}
+
+/** 저널 항목을 스토리 재고로 수확합니다. 빈 서랍에서 시작하지 않기 위해. */
+export function askStoryFromEntry(
+  title: string,
+  body: string,
+  extras: Record<string, string | undefined>,
+): Draft {
+  const facts = Object.entries(extras)
+    .filter(([, v]) => v?.trim())
+    .map(([k, v]) => `${k}: ${v}`)
+    .join('\n')
+  return {
+    kind: 'digest',
+    title: `Story — ${title}`,
+    prompt: `${me()}
+
+Below is something that actually happened to me, from my work journal. I want to turn it into a story I can tell out loud — one of the twenty or so I keep ready for meetings, interviews and talks.
+
+Title: ${title}
+${body.trim() ? `\n${body.trim()}\n` : ''}${facts ? `\n${facts}\n` : ''}
+
+Give me:
+1. A **title** I would actually say — not the journal's wording, but how I would introduce it ("the time we almost bought instead of built").
+2. The **point** in one sentence: what this story is *for*. A story with no point is an anecdote.
+3. A **90-second telling**, written as speech, not prose. Short sentences. Concrete details — names of things, numbers, what someone said. Tension before resolution.
+
+Rules: use only what is above. Invent no numbers, no quotes, no outcomes. If a detail is missing that the story needs, write [?] where it belongs so I can fill it in.
+${BREVITY}${JSON_TAIL(`{ "title": "how I would introduce it", "point": "one sentence", "telling": "90 seconds of speech" }`)}`,
+  }
+}
+

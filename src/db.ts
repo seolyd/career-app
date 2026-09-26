@@ -7,7 +7,9 @@ import type {
   FeedState,
   Phase,
   Profile,
+  Rep,
   Session,
+  Story,
   Vision,
   WeekGoal,
   YearGoal,
@@ -32,6 +34,8 @@ export const db = new Dexie('career-app') as Dexie & {
   asks: EntityTable<Ask, 'id'>
   challengeLogs: EntityTable<ChallengeLog, 'id'>
   feedStates: EntityTable<FeedState, 'feedItemId'>
+  stories: EntityTable<Story, 'id'>
+  reps: EntityTable<Rep, 'id'>
 }
 
 /** v1: 성과/회고/학습/피드백 4타입 + goals 테이블 (첫 프로토타입) */
@@ -77,6 +81,12 @@ db.version(3).stores({ feedStates: 'feedItemId, readAt' })
 
 /** v4: LLM 페르소나를 코드에서 빼고 기기 안으로 */
 db.version(4).stores({ profile: 'id' })
+
+/** v5: 말하기 훈련 — 스토리 재고와 리허설 기록 */
+db.version(5).stores({
+  stories: 'id, updatedAt, lastToldAt, entryId',
+  reps: 'id, createdAt, promptId, storyId',
+})
 
 /** 첫 실행에 좌석과 플래너 초안을 깔아둡니다. 이미 있으면 건드리지 않습니다. */
 export async function seedIfEmpty(): Promise<void> {
