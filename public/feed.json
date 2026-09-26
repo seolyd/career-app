@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T06:29:49.019Z",
+  "generatedAt": "2026-09-26T06:38:43.777Z",
   "items": [
     {
       "id": "latentspace:https://www.latent.space/p/openrouter",
@@ -24,6 +24,20 @@
       "url": "https://openai.com/index/proaction",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
+    },
+    {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19862286-toast-vp-of-product-on-building-agents-into-pre-ai-saas-shipping-ai-into-a-14-year-old-platform-and-building-for-the-real-economy.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Toast VP of Product on Building Agents Into Pre-AI SaaS; Shipping AI Into a 14-Year-Old Platform and Building for the Real Economy",
+      "url": "https://www.buzzsprout.com/90361/episodes/19862286-toast-vp-of-product-on-building-agents-into-pre-ai-saas-shipping-ai-into-a-14-year-old-platform-and-building-for-the-real-economy.mp3",
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "excerpt": "Toast was built long before generative AI existed. So how do you weave AI agents into a platform that thousands of restaurants already run their business on, without breaking the thing that works? In this episode of The …",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19862286-toast-vp-of-product-on-building-agents-into-pre-ai-saas-shipping-ai-into-a-14-year-old-platform-and-building-for-the-real-economy.mp3",
+      "durationSec": 1845,
+      "imageUrl": "https://storage.buzzsprout.com/w7hppn22c98fv6azjsr08l2dohxg?.jpg"
     },
     {
       "id": "svpg:https://www.svpg.com/experts-lead-experts/",
@@ -438,6 +452,17 @@
       "excerpt": "Continuous Discovery Habits* turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the m…"
     },
     {
+      "id": "importai:https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "publishedAt": "2026-09-21T12:31:04.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for t…"
+    },
+    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -538,6 +563,20 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.74_2.mp3?dest-id=240976",
       "durationSec": 4534,
       "imageUrl": "https://static.libsyn.com/p/assets/e/b/4/c/eb4c88a910c1da60e55e3c100dce7605/WhatsApp_Image_2026-09-16_at_15.41.20.jpeg"
+    },
+    {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19810142-hinge-cpto-on-building-an-app-designed-to-be-deleted-merging-the-cpo-and-cto-roles-chasing-1b-in-revenue-without-chasing-engagement-ben-celebicic-e312.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Hinge CPTO on Building an App Designed to Be Deleted, Merging the CPO and CTO Roles, Chasing $1B in Revenue Without Chasing Engagement | Ben Celebicic | E312",
+      "url": "https://www.buzzsprout.com/90361/episodes/19810142-hinge-cpto-on-building-an-app-designed-to-be-deleted-merging-the-cpo-and-cto-roles-chasing-1b-in-revenue-without-chasing-engagement-ben-celebicic-e312.mp3",
+      "publishedAt": "2026-09-16T19:00:00.000Z",
+      "excerpt": "Most apps optimize for time on screen. Hinge optimizes for you leaving. In this episode of The Product Podcast, Carlos (CEO at Product School) sits down with Ben Celebicic, Chief Product and Technology Officer at Hinge, …",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19810142-hinge-cpto-on-building-an-app-designed-to-be-deleted-merging-the-cpo-and-cto-roles-chasing-1b-in-revenue-without-chasing-engagement-ben-celebicic-e312.mp3",
+      "durationSec": 1575,
+      "imageUrl": "https://storage.buzzsprout.com/2cyntotc54mnq0tfru0wmodkuaiz?.jpg"
     },
     {
       "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
@@ -654,6 +693,20 @@
       "imageUrl": "https://static.libsyn.com/p/assets/2/b/1/0/2b1072dcf5bfcf93d959afa2a1bf1c87/WhatsApp_Image_2026-09-09_at_17.14.28.jpeg"
     },
     {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19778345-bolt-ceo-on-turning-ai-prototypes-into-production-code-engineers-trust-the-story-behind-a-5m-to-20m-arr-ramp-in-two-months-eric-simons-e311.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Bolt CEO on Turning AI Prototypes Into Production Code Engineers Trust, the Story Behind a 5M-to-20M ARR Ramp in Two Months | Eric Simons | E311",
+      "url": "https://www.buzzsprout.com/90361/episodes/19778345-bolt-ceo-on-turning-ai-prototypes-into-production-code-engineers-trust-the-story-behind-a-5m-to-20m-arr-ramp-in-two-months-eric-simons-e311.mp3",
+      "publishedAt": "2026-09-09T20:00:00.000Z",
+      "excerpt": "One month before Bolt exploded, Eric Simons was preparing to wind the company down. In this episode of The Product Podcast, Carlos (CEO at Product School) sits down with Eric Simons, CEO of Bolt, to tell the story behind…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19778345-bolt-ceo-on-turning-ai-prototypes-into-production-code-engineers-trust-the-story-behind-a-5m-to-20m-arr-ramp-in-two-months-eric-simons-e311.mp3",
+      "durationSec": 1906,
+      "imageUrl": "https://storage.buzzsprout.com/rhjg9rwdfnv875146nsmc9n3agyx?.jpg"
+    },
+    {
       "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -664,6 +717,17 @@
       "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-08T13:00:35.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn't a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle a que…"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+      "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+      "publishedAt": "2026-09-07T12:26:31.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI ag…"
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-100-billion-ai-assistant-race-town-vs-instinct-vs-grokbot-we-spend-75k-per-engineer-on-ai-tools-why-the-ai-assistant-market-is-not-a-bubble-ai-assistants-will-replace-every-app-on-your-phone-with-jd-founder-of-town",
@@ -678,6 +742,20 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Jean-Denis_Greze__Town.mp3?dest-id=240976",
       "durationSec": 4254,
       "imageUrl": "https://static.libsyn.com/p/assets/9/2/f/b/92fb6814e9d5e90ed959afa2a1bf1c87/WhatsApp_Image_2026-09-04_at_20.57.57.jpeg"
+    },
+    {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19741274-anthropic-member-of-technical-staff-on-leading-forward-deployed-engineers-turning-down-2x-pay-and-why-leaders-are-becoming-ics-again-amandeep-khurana-e310.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Anthropic Member of Technical Staff on Leading Forward-Deployed Engineers, Turning Down 2x Pay, and Why Leaders Are Becoming ICs Again | Amandeep Khurana | E310",
+      "url": "https://www.buzzsprout.com/90361/episodes/19741274-anthropic-member-of-technical-staff-on-leading-forward-deployed-engineers-turning-down-2x-pay-and-why-leaders-are-becoming-ics-again-amandeep-khurana-e310.mp3",
+      "publishedAt": "2026-09-02T19:00:00.000Z",
+      "excerpt": "What do you do after you've founded a company, sold it to Databricks, and could coast? Amandeep Khurana went back to being hands-on. In this episode of The Product Podcast, Carlos Gonzalez de Villaumbrosia (CEO at Produc…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19741274-anthropic-member-of-technical-staff-on-leading-forward-deployed-engineers-turning-down-2x-pay-and-why-leaders-are-becoming-ics-again-amandeep-khurana-e310.mp3",
+      "durationSec": 1556,
+      "imageUrl": "https://storage.buzzsprout.com/m1yme5ue4ls39qx5tk8hhbvyc4ah?.jpg"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
@@ -716,6 +794,17 @@
       "excerpt": "AI evals tell you whether your AI product or workflow is any good. A hands-on guide to error analysis, the four types of evals, and your first experiment."
     },
     {
+      "id": "importai:https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+      "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+      "publishedAt": "2026-08-31T13:31:06.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming ev…"
+    },
+    {
       "id": "bersin:https://joshbersin.com/2026/08/the-great-decoupling-how-workers-became-disconnected-from-companies-and-ai-will-accelerate-this-trend/",
       "sourceId": "bersin",
       "sourceName": "Josh Bersin",
@@ -728,6 +817,56 @@
       "excerpt": "I have spent almost 30 years studying organizations, work, jobs, and HR, and every year there’s a new theme. There was digital transformation, employee wellbeing, hybrid work, diversity and inclusion, women’s rights, and…"
     },
     {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19706502-mural-cpo-on-how-to-put-ai-in-multi-player-mode-for-your-team-why-ai-made-work-lonelier-not-better-elaina-o-mahoney.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Mural CPO on How to Put AI in Multi-Player Mode for Your Team; Why AI Made Work Lonelier, Not Better | Elaina O'Mahoney",
+      "url": "https://www.buzzsprout.com/90361/episodes/19706502-mural-cpo-on-how-to-put-ai-in-multi-player-mode-for-your-team-why-ai-made-work-lonelier-not-better-elaina-o-mahoney.mp3",
+      "publishedAt": "2026-08-26T20:00:00.000Z",
+      "excerpt": "Visual collaboration is missing from the AI era. That's the provocation Elaina O'Mahoney, Chief Product Officer at Mural, brings to this episode of The Product Podcast with Carlos (CEO at Product School). We spend all da…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19706502-mural-cpo-on-how-to-put-ai-in-multi-player-mode-for-your-team-why-ai-made-work-lonelier-not-better-elaina-o-mahoney.mp3",
+      "durationSec": 1906,
+      "imageUrl": "https://storage.buzzsprout.com/cuve55bfmz36umnmyfgmbtafk9ub?.jpg"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
+      "publishedAt": "2026-08-24T13:12:40.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progr…"
+    },
+    {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19672333-square-global-head-of-product-on-how-to-build-ai-agents-people-actually-use-why-49b-company-got-rid-of-general-managers-willem-ave.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Square Global Head of Product on: How to Build AI Agents People Actually Use, Why $49B Company Got Rid of General Managers | Willem Avé",
+      "url": "https://www.buzzsprout.com/90361/episodes/19672333-square-global-head-of-product-on-how-to-build-ai-agents-people-actually-use-why-49b-company-got-rid-of-general-managers-willem-ave.mp3",
+      "publishedAt": "2026-08-19T18:00:00.000Z",
+      "excerpt": "Two years ago, Square tore up its general-manager model and rebuilt the entire company around functional excellence. In this episode of The Product Podcast, Carlos (CEO at Product School) sits down with Willem Avé, Globa…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19672333-square-global-head-of-product-on-how-to-build-ai-agents-people-actually-use-why-49b-company-got-rid-of-general-managers-willem-ave.mp3",
+      "durationSec": 1725,
+      "imageUrl": "https://storage.buzzsprout.com/vwhm8t8r1rr3ly07hgd3dnci20dh?.jpg"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays so…"
+    },
+    {
       "id": "bersin:https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
       "sourceId": "bersin",
       "sourceName": "Josh Bersin",
@@ -738,6 +877,20 @@
       "url": "https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
       "publishedAt": "2026-08-13T13:48:06.000Z",
       "excerpt": "I’ve been an HR analyst and consultant for 30 years and there’s always a story that HR is “useless” or “a waste of time” or “going away.” And this will always continue, because most managers really do believe they are al…"
+    },
+    {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19635346-how-skydio-ships-flying-robots-with-just-20-product-managers.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "How Skydio Ships Flying Robots With Just 20 Product Managers",
+      "url": "https://www.buzzsprout.com/90361/episodes/19635346-how-skydio-ships-flying-robots-with-just-20-product-managers.mp3",
+      "publishedAt": "2026-08-12T20:00:00.000Z",
+      "excerpt": "Most people think of drones as toys. Alden Jones thinks of them as infrastructure. In this episode of The Product Podcast, Carlos (CEO at Product School) visits Skydio's California office to sit down with Alden Jones, VP…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19635346-how-skydio-ships-flying-robots-with-just-20-product-managers.mp3",
+      "durationSec": 1947,
+      "imageUrl": "https://storage.buzzsprout.com/kkym75c5rsp6nsn9kjj2xul9z3jz?.jpg"
     },
     {
       "id": "donuts:https://www.bringthedonuts.com/essays/designing-better-working-relationships/",
@@ -763,6 +916,28 @@
       "excerpt": "I’m just guessing here, but I’d say over the years I’ve seen at least one hundred different definitions of the product role (i.e. product manager/product owner).&#160; I’m pretty sure that anyone reading this would have …"
     },
     {
+      "id": "importai:https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+      "publishedAt": "2026-08-10T12:32:20.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here…"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating A…"
+    },
+    {
       "id": "bersin:https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
       "sourceId": "bersin",
       "sourceName": "Josh Bersin",
@@ -775,6 +950,31 @@
       "excerpt": "Wages play a huge role in frontline work. The 70%+ of employees who work in these roles often jump from job to job, employer to employer, just to make a few more dollars per hour. Here’s the dynamic: a typical restaurant…"
     },
     {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "How to Know Your AI Feature Actually Works (n8n's Founder's Metric) | Jan Oberhauser, CEO n8n",
+      "url": "https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
+      "publishedAt": "2026-07-29T14:00:00.000Z",
+      "excerpt": "n8n's founder puts the company's GitHub repo, nearly 200,000 stars, right next to the paid signup button, and he's genuinely fine if you never pay. In this episode of The Product Podcast, Carlos (CEO at Product School) s…",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
+      "durationSec": 2780,
+      "imageUrl": "https://storage.buzzsprout.com/f4ugklyxpqbjqd4vr3io1cph7t8u?.jpg"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker",
+      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+      "publishedAt": "2026-07-27T13:30:53.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a b…"
+    },
+    {
       "id": "svpg:https://www.svpg.com/the-ai-productivity-paradox/",
       "sourceId": "svpg",
       "sourceName": "SVPG — Marty Cagan",
@@ -785,20 +985,6 @@
       "url": "https://www.svpg.com/the-ai-productivity-paradox/",
       "publishedAt": "2026-07-23T18:22:04.000Z",
       "excerpt": "We’ve been writing a lot lately about product teams that are clearly leveraging AI to deliver faster, yet their outcomes are not improving. Today, this phenomenon, known as the “AI Productivity Paradox,” has been recogni…"
-    },
-    {
-      "id": "productpod:https://prdct.school/3y8omC0",
-      "sourceId": "productpod",
-      "sourceName": "The Product Podcast — Product School",
-      "group": "guru",
-      "kind": "episode",
-      "title": "ServiceNow President & CPO on Why the Market Can't Tell AI Winners From Losers, and How to Transform Before It Kills You | Amit Zavery | E305",
-      "url": "https://prdct.school/3y8omC0",
-      "publishedAt": "2026-07-22T19:00:00.000Z",
-      "excerpt": "In this episode of The Product Podcast by Product School, Carlos González de Villaumbrosia sits down with Amit Zavery, President and Chief Product Officer at ServiceNow. The platform runs more than 75 billion workflows a…",
-      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19503174-servicenow-president-cpo-on-why-the-market-can-t-tell-ai-winners-from-losers-and-how-to-transform-before-it-kills-you-amit-zavery-e305.mp3",
-      "durationSec": 3251,
-      "imageUrl": "https://storage.buzzsprout.com/ry0dw68xqej3zo2u72pb903jwzg0?.jpg"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
@@ -1243,6 +1429,13 @@
         "withViews": 0
       },
       {
+        "id": "importai",
+        "count": 8,
+        "episodes": 0,
+        "videos": 0,
+        "withViews": 0
+      },
+      {
         "id": "productthinking",
         "count": 8,
         "episodes": 8,
@@ -1265,16 +1458,6 @@
       }
     ],
     "failed": [
-      {
-        "id": "importai",
-        "url": "https://importai.substack.com/feed",
-        "error": "HTTP 403"
-      },
-      {
-        "id": "lennypod",
-        "url": "https://api.substack.com/feed/podcast/10845.rss",
-        "error": "HTTP 403"
-      },
       {
         "id": "yc",
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxIJaCMEptJjxmmQgGFsnCg",
