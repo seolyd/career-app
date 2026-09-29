@@ -1,6 +1,165 @@
 {
-  "generatedAt": "2026-09-27T22:46:07.477Z",
+  "generatedAt": "2026-09-29T00:08:52.833Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "publishedAt": "2026-09-28T22:07:38.000Z",
+      "excerpt": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting @joedaroo",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "publishedAt": "2026-09-28T19:11:42.000Z",
+      "excerpt": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
+      "publishedAt": "2026-09-28T15:03:13.000Z",
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny's Podcast Network"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+      "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
+      "publishedAt": "2026-09-28T12:32:03.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic spa…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/jev-for-beginners-how-to-use-it-and",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Jev for beginners: how to use it and what to build",
+      "url": "https://www.lennysnewsletter.com/p/jev-for-beginners-how-to-use-it-and",
+      "publishedAt": "2026-09-28T12:03:04.000Z",
+      "excerpt": "Watch now (26 mins) | &#127897;&#65039; Jev returns type-safe structured values instead of text, which makes it the fastest, cheapest classification layer I’ve ever put in a pipeline&#8212;and this week I shipped three r…",
+      "audioUrl": "https://api.substack.com/feed/podcast/217276787/bbbdb644d146a9502f51a217a7dcb87a.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Hcompany/holo4",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Holo4: powering generalist computer-use agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "publishedAt": "2026-09-28T09:44:05.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-1bn-arr-in-18-months-the-untold-story-of-higgsfield-spending-4m-per-month-on-models-why-moats-in-ai-are-bs-scaling-a-content-team-to-150-people-with-alex-mashrabov",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-1bn-arr-in-18-months-the-untold-story-of-higgsfield-spending-4m-per-month-on-models-why-moats-in-ai-are-bs-scaling-a-content-team-to-150-people-with-alex-mashrabov",
+      "publishedAt": "2026-09-28T07:07:00.000Z",
+      "excerpt": "Alex Mashrabov is the Founder and CEO of Higgsfield, the third fastest scaling company to $1BN in ARR behind OpenAI and Anthropic. Reports suggest their latest funding round could place an $8BN valuation on the company. …",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Alex_Mashrabov__Higgsfield.mp3?dest-id=240976",
+      "durationSec": 4174,
+      "imageUrl": "https://static.libsyn.com/p/assets/3/4/0/7/34073c0516b23917e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_13.19.00.jpeg"
+    },
+    {
+      "id": "openai:https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "excerpt": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Muse AI Agent",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+      "publishedAt": "2026-09-28T04:01:30.000Z",
+      "excerpt": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told h…"
+    },
+    {
+      "id": "openai:https://openai.com/form/codex-originals",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "excerpt": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about…"
+    },
+    {
+      "id": "openai:https://openai.com/index/basis-tax-workbook-with-astra",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "excerpt": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "publishedAt": "2026-09-27T23:54:15.000Z",
+      "excerpt": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/27/hn-49871741/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "S3 Is the Future, S3 Is the Past",
+      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
+      "publishedAt": "2026-09-27T23:09:19.000Z",
+      "excerpt": "My comment on S3 Is the Future, S3 Is the Past &mdash; Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in a full decade : 2006…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Bluesky reply bot checker",
+      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "publishedAt": "2026-09-27T18:41:44.000Z",
+      "excerpt": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automat…"
+    },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
       "sourceId": "lenny",
@@ -123,17 +282,6 @@
       "excerpt": "A quiet day lets us discuss the work behind the scenes - now open for business!"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
-      "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-      "publishedAt": "2026-09-25T02:07:04.000Z",
-      "excerpt": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that s…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/runway",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -145,39 +293,6 @@
       "excerpt": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
       "audioUrl": "https://api.substack.com/feed/podcast/217289983/80ecbf8ba268d83a6cde12d5f719e123.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/24/harder/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Note on 24th September 2026",
-      "url": "https://simonwillison.net/2026/Sep/24/harder/",
-      "publishedAt": "2026-09-24T23:31:08.000Z",
-      "excerpt": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary dis…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "commit-rewriter 0.2",
-      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-      "publishedAt": "2026-09-24T20:06:53.000Z",
-      "excerpt": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/24/datasette/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "datasette 1.0a41",
-      "url": "https://simonwillison.net/2026/Sep/24/datasette/",
-      "publishedAt": "2026-09-24T19:15:23.000Z",
-      "excerpt": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugi…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/foundries-vs-navigators-lowering",
@@ -238,28 +353,6 @@
       "excerpt": ""
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Gemini 3.8 TTS Playground",
-      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-      "publishedAt": "2026-09-23T17:12:27.000Z",
-      "excerpt": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create …"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/23/shadow-roots/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Shadow roots, explained with live examples",
-      "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
-      "publishedAt": "2026-09-23T16:37:18.000Z",
-      "excerpt": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css"
-    },
-    {
       "id": "openai:https://openai.com/index/two-years-of-openai-academy",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -315,39 +408,6 @@
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "excerpt": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-    },
-    {
-      "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "excerpt": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-    },
-    {
-      "id": "openai:https://openai.com/index/ringg",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "excerpt": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-    },
-    {
-      "id": "openai:https://openai.com/index/introducing-mentalhealthbench",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Introducing MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
-      "publishedAt": "2026-09-23T10:00:00.000Z",
-      "excerpt": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
@@ -501,19 +561,6 @@
       "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for t…"
     },
     {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
-      "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
-      "publishedAt": "2026-09-21T12:04:11.000Z",
-      "excerpt": "Watch now (47 mins) | &#127897;&#65039; Warp CEO Zach Lloyd shows how his team turns requests from Slack, Linear, and GitHub into tracked, tested pull requests, then measures and improves its cloud-based AI software fact…",
-      "audioUrl": "https://api.substack.com/feed/podcast/215710129/8d665b46d4581cf6b5b5d6a46f95ddc6.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -537,19 +584,6 @@
       "url": "https://huggingface.co/blog/tokenizers-v1",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
-      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
-      "publishedAt": "2026-09-20T12:32:17.000Z",
-      "excerpt": "Listen now (97 mins) | Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
-      "audioUrl": "https://api.substack.com/feed/podcast/213758597/ba2cef9af77bdcfe4be1afa2634bdbe6.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-anti-data-centres-is-a-chinese-psyop-how-many-planned-data-centers-will-actually-get-built-is-energy-ais-biggest-bottleneck-with-thomas-sohmers-co-founder-positron",
@@ -618,17 +652,6 @@
       "excerpt": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this p…"
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "publishedAt": "2026-09-15T16:00:44.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -691,20 +714,6 @@
       "url": "https://www.svpg.com/strong-opinions-loosely-held/",
       "publishedAt": "2026-09-11T14:56:15.000Z",
       "excerpt": "Note: This is the narrative version of a keynote talk for the Lenny &#38; Friends Summit. Recently I was asked a question that I haven’t been able to get out of my head: “In light of all that has changed, what are the th…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
-      "publishedAt": "2026-09-10T07:07:00.000Z",
-      "excerpt": "AGENDA: 00:00 Jensen Huang Declares AGI Has Arrived 04:05 Instinct and GrokBot Ignite the AI Assistant War 13:32 OpenAI's GPT Astra Redefines What AGI Means 26:00 GPT Astra and Fable 5.1 Accelerate the Model Race 30:38 O…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.73.mp3?dest-id=240976",
-      "durationSec": 4687,
-      "imageUrl": "https://static.libsyn.com/p/assets/2/b/1/0/2b1072dcf5bfcf93d959afa2a1bf1c87/WhatsApp_Image_2026-09-09_at_17.14.28.jpeg"
     },
     {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19778345-bolt-ceo-on-turning-ai-prototypes-into-production-code-engineers-trust-the-story-behind-a-5m-to-20m-arr-ramp-in-two-months-eric-simons-e311.mp3",
@@ -962,17 +971,6 @@
       "audioUrl": "https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
       "durationSec": 2780,
       "imageUrl": "https://storage.buzzsprout.com/f4ugklyxpqbjqd4vr3io1cph7t8u?.jpg"
-    },
-    {
-      "id": "importai:https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
-      "sourceId": "importai",
-      "sourceName": "Import AI — Jack Clark",
-      "group": "ai",
-      "kind": "article",
-      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker",
-      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
-      "publishedAt": "2026-07-27T13:30:53.000Z",
-      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a b…"
     },
     {
       "id": "svpg:https://www.svpg.com/the-ai-productivity-paradox/",
@@ -1389,7 +1387,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 5,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
