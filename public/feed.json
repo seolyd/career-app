@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-09-29T23:23:48.322Z",
+  "generatedAt": "2026-09-30T23:24:01.376Z",
   "items": [
+    {
+      "id": "latentspace:https://www.latent.space/p/devday-2026",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "publishedAt": "2026-09-30T22:23:40.000Z",
+      "excerpt": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
+      "audioUrl": "https://api.substack.com/feed/podcast/218243619/4623bf38297ddb16dba4460b8b439140.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "He Built This City",
+      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "publishedAt": "2026-09-30T21:54:19.000Z",
+      "excerpt": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my alrea…"
+    },
+    {
+      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19887280-hp-president-on-replacing-middle-management-and-cutting-tickets-40-with-ai-agents-faisal-masud-e314.mp3",
+      "sourceId": "productpod",
+      "sourceName": "The Product Podcast — Product School",
+      "group": "guru",
+      "kind": "episode",
+      "title": "HP President on Replacing Middle Management and Cutting Tickets 40% with AI Agents | Faisal Masud | E314",
+      "url": "https://www.buzzsprout.com/90361/episodes/19887280-hp-president-on-replacing-middle-management-and-cutting-tickets-40-with-ai-agents-faisal-masud-e314.mp3",
+      "publishedAt": "2026-09-30T19:00:00.000Z",
+      "excerpt": "HP is best known for hardware and printers. Faisal Masud is turning it into a software and AI company, and he thinks the era of stacked management layers is ending. In this episode of The Product Podcast, Carlos (CEO at …",
+      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19887280-hp-president-on-replacing-middle-management-and-cutting-tickets-40-with-ai-agents-faisal-masud-e314.mp3",
+      "durationSec": 1831,
+      "imageUrl": "https://storage.buzzsprout.com/b6i27zt6okeur32nmji9dcy1yfd9?.jpg"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "OpenAI Dev Day 2026: The releases that actually matter",
+      "url": "https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases",
+      "publishedAt": "2026-09-30T14:45:15.000Z",
+      "excerpt": "Watch now (24 mins) | &#127897;&#65039; Claire tests OpenAI’s DevDay releases, from Dots, Spaces, and Sites to AI-picked thumbnails and a $97 game, and shares what’s worth trying first",
+      "audioUrl": "https://api.substack.com/feed/podcast/218186983/9c2ff1653183e44db01f0a6716124cf3.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+      "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+      "publishedAt": "2026-09-30T12:04:27.000Z",
+      "excerpt": "Watch now (46 mins) | &#127897;&#65039; Educator and developer John Lindquist shares eight Jev demos, from live voice classification and deduplication to agent routing, showing how low costs make once-impractical ideas w…",
+      "audioUrl": "https://api.substack.com/feed/podcast/218050591/ad574beedfa0c67fe39e8b4b552ca024.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "excerpt": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation."
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "excerpt": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "publishedAt": "2026-09-30T05:53:10.000Z",
+      "excerpt": "the most confident DevDay yet."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/open-tts-leaderboard",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "excerpt": ""
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
       "sourceId": "simonw",
@@ -11,6 +119,28 @@
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
       "publishedAt": "2026-09-29T22:20:28.000Z",
       "excerpt": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so i…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "publishedAt": "2026-09-29T18:27:48.000Z",
+      "excerpt": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devd…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Photo Scrubber — local face blur & metadata removal",
+      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+      "publishedAt": "2026-09-29T16:45:27.000Z",
+      "excerpt": "Tool: Photo Scrubber — local face blur &amp; metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build …"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
@@ -134,7 +264,7 @@
       "title": "Introducing dots",
       "url": "https://openai.com/index/introducing-dots",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "excerpt": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
+      "excerpt": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
@@ -159,17 +289,6 @@
       "excerpt": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit…"
     },
     {
-      "id": "openai:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "excerpt": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-    },
-    {
       "id": "openai:https://openai.com/index/how-we-will-do-better-for-australia",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -179,6 +298,17 @@
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "excerpt": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+    },
+    {
+      "id": "openai:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "excerpt": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
@@ -261,61 +391,6 @@
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
       "publishedAt": "2026-09-28T04:01:30.000Z",
       "excerpt": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told h…"
-    },
-    {
-      "id": "openai:https://openai.com/form/codex-originals",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "excerpt": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about…"
-    },
-    {
-      "id": "openai:https://openai.com/index/basis-tax-workbook-with-astra",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "excerpt": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "2026 in LLMs (so far)",
-      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "publishedAt": "2026-09-27T23:54:15.000Z",
-      "excerpt": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/27/hn-49871741/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "S3 Is the Future, S3 Is the Past",
-      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
-      "publishedAt": "2026-09-27T23:09:19.000Z",
-      "excerpt": "My comment on S3 Is the Future, S3 Is the Past &mdash; Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in a full decade : 2006…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Bluesky reply bot checker",
-      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-      "publishedAt": "2026-09-27T18:41:44.000Z",
-      "excerpt": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automat…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
@@ -419,17 +494,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/foundries-vs-navigators-lowering",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "Foundries vs Navigators: Lowering the Cost of Science",
-      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-      "publishedAt": "2026-09-24T15:03:16.000Z",
-      "excerpt": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously."
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -439,17 +503,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "publishedAt": "2026-09-24T14:08:57.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-      "publishedAt": "2026-09-24T08:12:59.000Z",
-      "excerpt": "Team Zuck is absolutely on fire."
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
@@ -479,19 +532,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "lenny:https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "I left Claude for months. Opus 5.5 is why I'm back",
-      "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-      "publishedAt": "2026-09-22T19:06:40.000Z",
-      "excerpt": "Watch now (25 mins) | &#127897;&#65039; I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agenti…",
-      "audioUrl": "https://api.substack.com/feed/podcast/216949144/18479e36b6288c9b1639e0f61d72a7ab.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -502,17 +542,6 @@
       "url": "https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-22T13:00:04.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What if the ideas you throw away tell you more about the health of your product process than the ones you ship? In this episode of All Things Product, Petra Wille intro…"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
-      "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
-      "publishedAt": "2026-09-22T12:45:14.000Z",
-      "excerpt": "Why you should never skip error discovery"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/evaleval-aisi",
@@ -583,17 +612,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Daniel_Dines__UiPath_3.mp3?dest-id=240976",
       "durationSec": 4271,
       "imageUrl": "https://static.libsyn.com/p/assets/8/2/9/0/829042fc775095ffe5bbc093207a2619/WhatsApp_Image_2026-09-18_at_12.41.29.jpeg"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/tokenizers-v1",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "excerpt": ""
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-anti-data-centres-is-a-chinese-psyop-how-many-planned-data-centers-will-actually-get-built-is-energy-ais-biggest-bottleneck-with-thomas-sohmers-co-founder-positron",
@@ -955,20 +973,6 @@
       "url": "https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
       "publishedAt": "2026-07-29T16:53:48.000Z",
       "excerpt": "Wages play a huge role in frontline work. The 70%+ of employees who work in these roles often jump from job to job, employer to employer, just to make a few more dollars per hour. Here’s the dynamic: a typical restaurant…"
-    },
-    {
-      "id": "productpod:https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
-      "sourceId": "productpod",
-      "sourceName": "The Product Podcast — Product School",
-      "group": "guru",
-      "kind": "episode",
-      "title": "How to Know Your AI Feature Actually Works (n8n's Founder's Metric) | Jan Oberhauser, CEO n8n",
-      "url": "https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
-      "publishedAt": "2026-07-29T14:00:00.000Z",
-      "excerpt": "n8n's founder puts the company's GitHub repo, nearly 200,000 stars, right next to the paid signup button, and he's genuinely fine if you never pay. In this episode of The Product Podcast, Carlos (CEO at Product School) s…",
-      "audioUrl": "https://www.buzzsprout.com/90361/episodes/19566905-how-to-know-your-ai-feature-actually-works-n8n-s-founder-s-metric-jan-oberhauser-ceo-n8n.mp3",
-      "durationSec": 2780,
-      "imageUrl": "https://storage.buzzsprout.com/f4ugklyxpqbjqd4vr3io1cph7t8u?.jpg"
     },
     {
       "id": "svpg:https://www.svpg.com/the-ai-productivity-paradox/",
@@ -1385,7 +1389,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 4,
+        "episodes": 5,
         "videos": 0,
         "withViews": 0
       },
@@ -1406,7 +1410,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 3,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
