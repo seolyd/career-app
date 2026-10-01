@@ -1,6 +1,98 @@
 {
-  "generatedAt": "2026-09-30T23:24:01.376Z",
+  "generatedAt": "2026-10-01T23:39:11.931Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/the-eternal-complement",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "publishedAt": "2026-10-01T17:00:00.000Z",
+      "excerpt": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress."
+    },
+    {
+      "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "excerpt": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/olmocore3",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "publishedAt": "2026-10-01T15:01:43.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
+      "url": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+      "publishedAt": "2026-10-01T13:00:45.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What happens when you hand your opportunity solution tree to an AI? Vistaly rebuilt its entire product to find out&#x2014;and the agents were the easy part. In this epi…"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-instinct-raises-1b-at-10b-valuation-amd-buys-fei-fei-lis-world-labs-for-82b-meta-poaches-mongodbs-ceo-bessemer-raises-575b-oura-pulls-ipo-nubank-eyes-812b-monzo-takeover",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Instinct Raises $1B at $10B Valuation | AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B | Oura Pulls IPO & Nubank Eyes $8–12B Monzo Takeover",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-instinct-raises-1b-at-10b-valuation-amd-buys-fei-fei-lis-world-labs-for-82b-meta-poaches-mongodbs-ceo-bessemer-raises-575b-oura-pulls-ipo-nubank-eyes-812b-monzo-takeover",
+      "publishedAt": "2026-10-01T07:07:00.000Z",
+      "excerpt": "AGENDA: 00:00 Highlights: Jack Altman Joins The Trio 05:00 Anthropic's S-1 Leaks: $8B Operating Loss and $518B in Compute Commitments 10:00 Instinct Raises $1B at a $10B Valuation to Take On Meta 25:00 AMD Buys Fei-Fei L…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.76.mp3?dest-id=240976",
+      "durationSec": 4721,
+      "imageUrl": "https://static.libsyn.com/p/assets/0/b/3/f/0b3f89b81924c7e5e5bbc093207a2619/WhatsApp_Image_2026-09-30_at_14.49.16.jpeg"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "publishedAt": "2026-10-01T06:45:05.000Z",
+      "excerpt": "... but you can’t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "publishedAt": "2026-10-01T06:29:01.000Z",
+      "excerpt": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that…"
+    },
+    {
+      "id": "openai:https://openai.com/index/the-den-family-social",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "excerpt": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days."
+    },
     {
       "id": "latentspace:https://www.latent.space/p/devday-2026",
       "sourceId": "latentspace",
@@ -289,28 +381,6 @@
       "excerpt": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit…"
     },
     {
-      "id": "openai:https://openai.com/index/how-we-will-do-better-for-australia",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "excerpt": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-    },
-    {
-      "id": "openai:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "excerpt": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -369,28 +439,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Alex_Mashrabov__Higgsfield.mp3?dest-id=240976",
       "durationSec": 4174,
       "imageUrl": "https://static.libsyn.com/p/assets/3/4/0/7/34073c0516b23917e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_13.19.00.jpeg"
-    },
-    {
-      "id": "openai:https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "publishedAt": "2026-09-28T07:00:00.000Z",
-      "excerpt": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Muse AI Agent",
-      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
-      "publishedAt": "2026-09-28T04:01:30.000Z",
-      "excerpt": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told h…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
@@ -481,19 +529,6 @@
       "excerpt": "A quiet day lets us discuss the work behind the scenes - now open for business!"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/runway",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "url": "https://www.latent.space/p/runway",
-      "publishedAt": "2026-09-25T01:30:57.000Z",
-      "excerpt": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
-      "audioUrl": "https://api.substack.com/feed/podcast/217289983/80ecbf8ba268d83a6cde12d5f719e123.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -562,17 +597,6 @@
       "kind": "article",
       "title": "Transformers now runs llama.cpp quants",
       "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/omlx",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "url": "https://huggingface.co/blog/omlx",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "excerpt": ""
     },
@@ -718,20 +742,6 @@
       "imageUrl": "https://static.libsyn.com/p/assets/d/0/d/a/d0da4fd59f97c065d959afa2a1bf1c87/WhatsApp_Image_2026-09-11_at_11.58.36-20260913-pt5rprljdj.jpeg"
     },
     {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
-      "publishedAt": "2026-09-12T07:07:00.000Z",
-      "excerpt": "AGENDA: 04:30 How Do You Hire Exceptional People in the AI Era? 08:00 What Actually Works in Growth—and Why Can't You Trust Meta's Numbers? 17:00 How to Run Hundreds of Millions in Marketing with Zero Employees 19:30 \"Ou…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Matteo_Franceschetti__Eight_Sleep_2.mp3?dest-id=240976",
-      "durationSec": 4543,
-      "imageUrl": "https://static.libsyn.com/p/assets/2/5/f/4/25f4c74c1bf7c958d959afa2a1bf1c87/WhatsApp_Image_2026-09-11_at_11.45.57.jpeg"
-    },
-    {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
       "sourceId": "svpg",
       "sourceName": "SVPG — Marty Cagan",
@@ -805,18 +815,6 @@
       "url": "https://joshbersin.com/2026/09/us-workforce-in-2035-a-few-more-workers-a-lot-more-output/",
       "publishedAt": "2026-09-02T14:35:11.000Z",
       "excerpt": "Despite the talk about job losses from AI, we now know the opposite is true. The new Bureau of Labor Statistics Employment Projections: 2025-2035 . shows that we are likely to have labor shortages in the future, despite …"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/ai-evals-test-harness/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "Get My Eval Test Harness and Run Your First Experiment",
-      "url": "https://www.producttalk.org/ai-evals-test-harness/",
-      "publishedAt": "2026-09-02T13:05:45.000Z",
-      "excerpt": "My in-depth AI evals guide explains what evals are and how to build them. This post gives you the tool I use to run them. Here's the practical problem. To get a baseline, you have to run every input through your prompt, …"
     },
     {
       "id": "importai:https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
@@ -1410,7 +1408,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 4,
+        "episodes": 3,
         "videos": 0,
         "withViews": 0
       },
