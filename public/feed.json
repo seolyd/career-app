@@ -1,6 +1,85 @@
 {
-  "generatedAt": "2026-10-01T23:39:11.931Z",
+  "generatedAt": "2026-10-02T23:31:29.671Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "excerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/astabrief",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "publishedAt": "2026-10-02T15:19:50.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/airbnb",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "publishedAt": "2026-10-02T14:04:49.000Z",
+      "excerpt": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI &#8212; from how its teams develop products to how it serves guests."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "publishedAt": "2026-10-02T06:40:53.000Z",
+      "excerpt": "the minimalist harness goes stable... and TypeScript!"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "publishedAt": "2026-10-02T04:01:31.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/rlm",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/p/rlm",
+      "publishedAt": "2026-10-02T00:28:04.000Z",
+      "excerpt": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
+      "audioUrl": "https://api.substack.com/feed/podcast/218414422/044c92ee79bb60914986e42706d74969.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "openai:https://openai.com/index/chatham-financial",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
+    },
     {
       "id": "openai:https://openai.com/index/the-eternal-complement",
       "sourceId": "openai",
@@ -22,17 +101,6 @@
       "url": "https://openai.com/index/albertsons-reimagining-retail",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "excerpt": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/allenai/olmocore3",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "publishedAt": "2026-10-01T15:01:43.000Z",
-      "excerpt": ""
     },
     {
       "id": "producttalk:https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
@@ -291,17 +359,6 @@
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Is innovation the goal &#x2014; or just a byproduct of solving customer problems well? In this episode of All Things Product, Petra Wille and Teresa Torres unpack one o…"
     },
     {
-      "id": "openai:https://openai.com/index/introducing-gpt-6-1-sol",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "publishedAt": "2026-09-29T10:00:00.000Z",
-      "excerpt": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-    },
-    {
       "id": "openai:https://openai.com/index/devday-2026-recap",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -333,30 +390,6 @@
       "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
       "publishedAt": "2026-09-29T02:44:29.000Z",
       "excerpt": "a rare feature of a capability"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/thariq",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
-      "url": "https://www.latent.space/p/thariq",
-      "publishedAt": "2026-09-29T01:48:18.000Z",
-      "excerpt": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
-      "audioUrl": "https://api.substack.com/feed/podcast/217893105/b910afe71a4c96e14fd7271715a2cd15.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
-      "id": "openai:https://openai.com/index/introducing-dots",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "excerpt": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
@@ -479,19 +512,6 @@
       "imageUrl": "https://static.libsyn.com/p/assets/7/8/9/4/78943ac00fd13441e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_16.13.47.jpeg"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/openrouter",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
-      "publishedAt": "2026-09-25T23:14:41.000Z",
-      "excerpt": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
-      "audioUrl": "https://api.substack.com/feed/podcast/217456046/69e6d188059a812b68e47c97b6495374.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19862286-toast-vp-of-product-on-building-agents-into-pre-ai-saas-shipping-ai-into-a-14-year-old-platform-and-building-for-the-real-economy.mp3",
       "sourceId": "productpod",
       "sourceName": "The Product Podcast — Product School",
@@ -516,17 +536,6 @@
       "url": "https://www.svpg.com/experts-lead-experts/",
       "publishedAt": "2026-09-25T18:17:29.000Z",
       "excerpt": "We are still early in the journey to learn the long-term impact of AI, but one trend that continues to capture attention is that managers and other leaders will be much less important, and that all we really need are ski…"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-the-future-of-latent-space",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] The Future of Latent Space",
-      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-      "publishedAt": "2026-09-25T05:37:00.000Z",
-      "excerpt": "A quiet day lets us discuss the work behind the scenes - now open for business!"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
@@ -586,17 +595,6 @@
       "kind": "article",
       "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
       "url": "https://huggingface.co/blog/evaleval-aisi",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Transformers now runs llama.cpp quants",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "excerpt": ""
     },
@@ -1408,7 +1406,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 3,
+        "episodes": 2,
         "videos": 0,
         "withViews": 0
       },
