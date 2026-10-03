@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-02T23:31:29.671Z",
+  "generatedAt": "2026-10-03T22:37:30.379Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/3/newsletter/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "publishedAt": "2026-10-03T22:00:31.000Z",
+      "excerpt": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+      "publishedAt": "2026-10-03T17:00:49.000Z",
+      "excerpt": "Community Wisdom 301"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "publishedAt": "2026-10-03T08:45:15.000Z",
+      "excerpt": "a quiet day."
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
+      "publishedAt": "2026-10-03T07:07:00.000Z",
+      "excerpt": "Chase Lochmiller is the Co-founder and CEO of Crusoe. Crusoe builds and powers the data centres that companies use to train and run AI. It has raised approximately $6.4 billion in equity, including its latest $3.9 billio…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Chase_Lochmiller__Crusoe.mp3?dest-id=240976",
+      "durationSec": 3675,
+      "imageUrl": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Rex's Dino Store",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "publishedAt": "2026-10-02T22:57:38.000Z",
+      "excerpt": "Museum: Rex&#x27;s Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The densi…"
+    },
     {
       "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
       "sourceId": "openai",
@@ -381,39 +439,6 @@
       "excerpt": "Congrats team!"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Opus 5.5 is good at explainer videos",
-      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
-      "publishedAt": "2026-09-29T02:44:29.000Z",
-      "excerpt": "a rare feature of a capability"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Claude Sonnet 5.5",
-      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-      "publishedAt": "2026-09-28T22:07:38.000Z",
-      "excerpt": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be …"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting @joedaroo",
-      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "publishedAt": "2026-09-28T19:11:42.000Z",
-      "excerpt": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -561,19 +586,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.75.mp3?dest-id=240976",
       "durationSec": 4834,
       "imageUrl": "https://static.libsyn.com/p/assets/d/9/0/b/d90ba3ef0594008ce5bbc093207a2619/WhatsApp_Image_2026-09-23_at_16.31.48.jpeg"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
-      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
-      "publishedAt": "2026-09-22T23:12:49.000Z",
-      "excerpt": "Watch now (39 mins) | &#127897;&#65039; I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
-      "audioUrl": "https://api.substack.com/feed/podcast/216986081/4e28f684cb755ce703f7e39c9b492e85.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
       "id": "producttalk:https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
@@ -724,20 +736,6 @@
       "url": "https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
       "publishedAt": "2026-09-15T11:59:14.000Z",
       "excerpt": "Today we introduce the Jupiter release of Galileo® , the world’s AI intelligence for HR. For the firsts time companies can embed Galileo’s massive intelligence into any AI agent, unleashing its insights, data, and proble…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-how-lps-allocate-to-venture-in-2026-what-they-want-what-they-do-not-want-why-fund-multiple-does-not-matter-without-a-timeline-why-velocity-of-cashback-is-the-most-important-thing-with-david-morehead-cio-baylor",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-how-lps-allocate-to-venture-in-2026-what-they-want-what-they-do-not-want-why-fund-multiple-does-not-matter-without-a-timeline-why-velocity-of-cashback-is-the-most-important-thing-with-david-morehead-cio-baylor",
-      "publishedAt": "2026-09-14T07:07:00.000Z",
-      "excerpt": "David Morehead is one of the most respected CIOs in the endowment fund world as Chief Investment Officer at Baylor University, overseeing its $2.6BN endowment. Before joining Baylor in 2011, he was a senior portfolio man…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/David_Morehead__Baylor_University.mp3?dest-id=240976",
-      "durationSec": 4135,
-      "imageUrl": "https://static.libsyn.com/p/assets/d/0/d/a/d0da4fd59f97c065d959afa2a1bf1c87/WhatsApp_Image_2026-09-11_at_11.58.36-20260913-pt5rprljdj.jpeg"
     },
     {
       "id": "svpg:https://www.svpg.com/strong-opinions-loosely-held/",
@@ -1385,7 +1383,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 5,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
