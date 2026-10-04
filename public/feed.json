@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-10-03T22:37:30.379Z",
+  "generatedAt": "2026-10-04T22:40:53.438Z",
   "items": [
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "publishedAt": "2026-10-04T12:32:47.000Z",
+      "excerpt": "Listen now (37 mins) | Tibo Sottiaux on why Dots is OpenAI’s biggest bet, why agents will dominate internet traffic, and what builders are still getting wrong",
+      "audioUrl": "https://api.substack.com/feed/podcast/217274136/c23e92a6cc478dbff494fdb2430bfdd5.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "publishedAt": "2026-10-03T23:34:02.000Z",
+      "excerpt": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say…"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "publishedAt": "2026-10-03T22:56:48.000Z",
+      "excerpt": ""
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Oct/3/newsletter/",
       "sourceId": "simonw",
@@ -361,17 +396,6 @@
       "excerpt": "Tool: Photo Scrubber — local face blur &amp; metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build …"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "publishedAt": "2026-09-29T15:55:13.000Z",
-      "excerpt": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the key…"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/nvidia/kumo-tabular",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -512,17 +536,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "🧠 Community Wisdom: AI doomerism, speeding up discovery in a big org, verifying engineering answers as a new PM, where analytics adds the most value, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
-      "publishedAt": "2026-09-26T17:54:02.000Z",
-      "excerpt": "Community Wisdom 300"
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -598,17 +611,6 @@
       "url": "https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-22T13:00:04.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What if the ideas you throw away tell you more about the health of your product process than the ones you ship? In this episode of All Things Product, Petra Wille intro…"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/evaleval-aisi",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "url": "https://huggingface.co/blog/evaleval-aisi",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "excerpt": ""
     },
     {
       "id": "producttalk:https://www.producttalk.org/ch-10-testing-assumptions/",
@@ -1383,7 +1385,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 4,
+        "episodes": 5,
         "videos": 0,
         "withViews": 0
       },
