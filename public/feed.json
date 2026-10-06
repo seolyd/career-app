@@ -1,6 +1,161 @@
 {
-  "generatedAt": "2026-10-06T01:05:23.914Z",
+  "generatedAt": "2026-10-06T23:31:44.965Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "llm-mistral 0.16",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "publishedAt": "2026-10-06T21:32:34.000Z",
+      "excerpt": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "EmbeddingGemma 2",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "publishedAt": "2026-10-06T20:37:53.000Z",
+      "excerpt": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Introducing Mistral Large 4: Le chonk",
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "publishedAt": "2026-10-06T20:18:19.000Z",
+      "excerpt": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NV…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Using Parseable with Datasette for OpenTelemetry traces",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+      "publishedAt": "2026-10-06T19:07:31.000Z",
+      "excerpt": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterp…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/hn-49982139/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Mistral Large 4",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+      "publishedAt": "2026-10-06T18:20:58.000Z",
+      "excerpt": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m clau…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/datasette-atom/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette-atom 0.11a0",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+      "publishedAt": "2026-10-06T17:35:39.000Z",
+      "excerpt": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette"
+    },
+    {
+      "id": "openai:https://openai.com/index/atlassian-partnership",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "excerpt": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Scrimshaw Jukebox",
+      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "publishedAt": "2026-10-06T15:17:39.000Z",
+      "excerpt": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an arti…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/recorded-conversations-all-things-product/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Recorded Conversations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
+      "publishedAt": "2026-10-06T13:00:39.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts We now record almost everything &#x2014; every meeting has an AI note-taker, and some people wear glasses that capture every word. So what does that do to our relations…"
+    },
+    {
+      "id": "openai:https://openai.com/index/jump-trading",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "excerpt": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+    },
+    {
+      "id": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "excerpt": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+    },
+    {
+      "id": "openai:https://openai.com/index/advancing-computer-use-with-ironclad",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "excerpt": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "publishedAt": "2026-10-06T06:44:39.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "publishedAt": "2026-10-06T06:28:43.000Z",
+      "excerpt": "A small win for US open source"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
       "sourceId": "simonw",
@@ -84,17 +239,6 @@
       "imageUrl": "https://static.libsyn.com/p/assets/7/f/3/a/7f3ae5ea8946c65ee5bbc093207a2619/WhatsApp_Image_2026-10-02_at_16.52.36.jpeg"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Qwen3.8 27B addition in words",
-      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "publishedAt": "2026-10-04T23:34:00.000Z",
-      "excerpt": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasi…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -108,17 +252,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "We're going to need default hard budget caps on pretty much everything",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "publishedAt": "2026-10-03T23:34:02.000Z",
-      "excerpt": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say…"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -128,17 +261,6 @@
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "publishedAt": "2026-10-03T22:56:48.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/3/newsletter/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "September sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
-      "publishedAt": "2026-10-03T22:00:31.000Z",
-      "excerpt": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender…"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
@@ -175,17 +297,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Chase_Lochmiller__Crusoe.mp3?dest-id=240976",
       "durationSec": 3675,
       "imageUrl": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Rex's Dino Store",
-      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-      "publishedAt": "2026-10-02T22:57:38.000Z",
-      "excerpt": "Museum: Rex&#x27;s Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The densi…"
     },
     {
       "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
@@ -267,39 +378,6 @@
       "excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/1/pwasm/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "pwasm 0.2a0",
-      "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
-      "publishedAt": "2026-10-01T17:10:31.000Z",
-      "excerpt": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to…"
-    },
-    {
-      "id": "openai:https://openai.com/index/the-eternal-complement",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "publishedAt": "2026-10-01T17:00:00.000Z",
-      "excerpt": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress."
-    },
-    {
-      "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "publishedAt": "2026-10-01T16:00:00.000Z",
-      "excerpt": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -337,28 +415,6 @@
       "excerpt": "... but you can’t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/1/matthew-green/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Matthew Green",
-      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-      "publishedAt": "2026-10-01T06:29:01.000Z",
-      "excerpt": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that…"
-    },
-    {
-      "id": "openai:https://openai.com/index/the-den-family-social",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "excerpt": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days."
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/devday-2026",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -370,17 +426,6 @@
       "excerpt": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
       "audioUrl": "https://api.substack.com/feed/podcast/218243619/4623bf38297ddb16dba4460b8b439140.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "He Built This City",
-      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "publishedAt": "2026-09-30T21:54:19.000Z",
-      "excerpt": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my alrea…"
     },
     {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19887280-hp-president-on-replacing-middle-management-and-cutting-tickets-40-with-ai-agents-faisal-masud-e314.mp3",
@@ -421,17 +466,6 @@
       "excerpt": "Watch now (46 mins) | &#127897;&#65039; Educator and developer John Lindquist shares eight Jev demos, from live voice classification and deduplication to agent routing, showing how low costs make once-impractical ideas w…",
       "audioUrl": "https://api.substack.com/feed/podcast/218050591/ad574beedfa0c67fe39e8b4b552ca024.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "publishedAt": "2026-09-30T10:30:00.000Z",
-      "excerpt": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
@@ -501,17 +535,6 @@
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Is innovation the goal &#x2014; or just a byproduct of solving customer problems well? In this episode of All Things Product, Petra Wille and Teresa Torres unpack one o…"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "publishedAt": "2026-09-29T02:55:27.000Z",
-      "excerpt": "Congrats team!"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -557,17 +580,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Alex_Mashrabov__Higgsfield.mp3?dest-id=240976",
       "durationSec": 4174,
       "imageUrl": "https://static.libsyn.com/p/assets/3/4/0/7/34073c0516b23917e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_13.19.00.jpeg"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/rl-environments",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Welcome RL Environments to the hub",
-      "url": "https://huggingface.co/blog/rl-environments",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "excerpt": ""
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
@@ -773,18 +785,6 @@
       "audioUrl": "https://www.buzzsprout.com/90361/episodes/19778345-bolt-ceo-on-turning-ai-prototypes-into-production-code-engineers-trust-the-story-behind-a-5m-to-20m-arr-ramp-in-two-months-eric-simons-e311.mp3",
       "durationSec": 1906,
       "imageUrl": "https://storage.buzzsprout.com/rhjg9rwdfnv875146nsmc9n3agyx?.jpg"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "Facilitation Skills - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
-      "publishedAt": "2026-09-08T13:00:35.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn't a warning sign &#x2014; the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle a que…"
     },
     {
       "id": "importai:https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
