@@ -1,6 +1,160 @@
 {
-  "generatedAt": "2026-10-06T23:31:44.965Z",
+  "generatedAt": "2026-10-07T23:59:27.444Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/7/ben-affleck/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+      "publishedAt": "2026-10-07T23:14:58.000Z",
+      "excerpt": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "publishedAt": "2026-10-07T20:56:21.000Z",
+      "excerpt": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million in…"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/open-d1",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "publishedAt": "2026-10-07T16:54:33.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Anti-Patterns in Software Blogging",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "publishedAt": "2026-10-07T14:53:51.000Z",
+      "excerpt": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and …"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/stacklok",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "publishedAt": "2026-10-07T14:10:45.000Z",
+      "excerpt": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "publishedAt": "2026-10-07T12:45:31.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "openai:https://openai.com/index/teens-learn-and-plan",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "excerpt": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council."
+    },
+    {
+      "id": "openai:https://openai.com/index/radisson",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "excerpt": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "publishedAt": "2026-10-07T04:55:44.000Z",
+      "excerpt": "Our head hurts."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Jake Boggan",
+      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "publishedAt": "2026-10-07T04:47:55.000Z",
+      "excerpt": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years o…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "publishedAt": "2026-10-07T00:16:45.000Z",
+      "excerpt": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: Th…"
+    },
+    {
+      "id": "openai:https://openai.com/index/gpt-6-for-everyone",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "excerpt": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Victoria Kim",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "publishedAt": "2026-10-06T23:58:56.000Z",
+      "excerpt": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon […"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "publishedAt": "2026-10-06T23:04:13.000Z",
+      "excerpt": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra rea…"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Oct/6/llm-mistral/",
       "sourceId": "simonw",
@@ -13,61 +167,6 @@
       "excerpt": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/hn-49983751/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "EmbeddingGemma 2",
-      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
-      "publishedAt": "2026-10-06T20:37:53.000Z",
-      "excerpt": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/le-chonk/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Introducing Mistral Large 4: Le chonk",
-      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-      "publishedAt": "2026-10-06T20:18:19.000Z",
-      "excerpt": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NV…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Using Parseable with Datasette for OpenTelemetry traces",
-      "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
-      "publishedAt": "2026-10-06T19:07:31.000Z",
-      "excerpt": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterp…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/hn-49982139/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Mistral Large 4",
-      "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-      "publishedAt": "2026-10-06T18:20:58.000Z",
-      "excerpt": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m clau…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/datasette-atom/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "datasette-atom 0.11a0",
-      "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
-      "publishedAt": "2026-10-06T17:35:39.000Z",
-      "excerpt": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette"
-    },
-    {
       "id": "openai:https://openai.com/index/atlassian-partnership",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -77,17 +176,6 @@
       "url": "https://openai.com/index/atlassian-partnership",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "excerpt": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Scrimshaw Jukebox",
-      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-      "publishedAt": "2026-10-06T15:17:39.000Z",
-      "excerpt": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an arti…"
     },
     {
       "id": "producttalk:https://www.producttalk.org/recorded-conversations-all-things-product/",
@@ -135,17 +223,6 @@
       "excerpt": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "publishedAt": "2026-10-06T06:44:39.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -155,17 +232,6 @@
       "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
       "publishedAt": "2026-10-06T06:28:43.000Z",
       "excerpt": "A small win for US open source"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Felix Rieseberg",
-      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "publishedAt": "2026-10-05T23:56:47.000Z",
-      "excerpt": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just …"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
@@ -212,17 +278,6 @@
       "excerpt": "Watch now (36 mins) | &#127897;&#65039; Kath Korevec demos ChatGPT Sites live at OpenAI DevDay, showing how to turn Slack, Notion, and calendar data into internal tools that adapt to each person on your team",
       "audioUrl": "https://api.substack.com/feed/podcast/218411890/aa07f9195211ebc3f9d97bb380bb7bbb.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "publishedAt": "2026-10-05T10:00:00.000Z",
-      "excerpt": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-is-seed-investing-dead-without-a-1bn-fund-does-ownership-and-price-matter-when-companies-can-be-1trn-exits-are-ai-revenue-numbers-real-and-what-to-watch-out-for-with-venky-ganesan-menlo-ventures",
@@ -299,17 +354,6 @@
       "imageUrl": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg"
     },
     {
-      "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "publishedAt": "2026-10-02T16:15:00.000Z",
-      "excerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/allenai/astabrief",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -367,17 +411,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
-      "id": "openai:https://openai.com/index/chatham-financial",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -413,19 +446,6 @@
       "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
       "publishedAt": "2026-10-01T06:45:05.000Z",
       "excerpt": "... but you can’t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/devday-2026",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "url": "https://www.latent.space/p/devday-2026",
-      "publishedAt": "2026-09-30T22:23:40.000Z",
-      "excerpt": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
-      "audioUrl": "https://api.substack.com/feed/podcast/218243619/4623bf38297ddb16dba4460b8b439140.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19887280-hp-president-on-replacing-middle-management-and-cutting-tickets-40-with-ai-agents-faisal-masud-e314.mp3",
@@ -468,17 +488,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
-      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-      "publishedAt": "2026-09-30T05:53:10.000Z",
-      "excerpt": "the most confident DevDay yet."
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/open-tts-leaderboard",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -487,17 +496,6 @@
       "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
       "url": "https://huggingface.co/blog/open-tts-leaderboard",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/nvidia/kumo-tabular",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "publishedAt": "2026-09-29T15:30:38.000Z",
       "excerpt": ""
     },
     {
@@ -1404,7 +1402,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 2,
+        "episodes": 1,
         "videos": 0,
         "withViews": 0
       },
