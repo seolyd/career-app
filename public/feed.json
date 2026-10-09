@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-10-09T00:06:59.517Z",
+  "generatedAt": "2026-10-09T23:47:20.135Z",
   "items": [
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "publishedAt": "2026-10-09T22:48:37.000Z",
+      "excerpt": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno …"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/impactful-scheduling",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Impactful scheduling for GPU clusters",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "publishedAt": "2026-10-09T15:20:29.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "publishedAt": "2026-10-09T15:02:29.000Z",
+      "excerpt": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "publishedAt": "2026-10-09T12:54:06.000Z",
+      "excerpt": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almos…"
+    },
+    {
+      "id": "openai:https://openai.com/index/sophos",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "excerpt": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+    },
+    {
+      "id": "openai:https://openai.com/index/asana-browser-agent",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/9/ttok/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "ttok 1.0",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "publishedAt": "2026-10-09T00:34:43.000Z",
+      "excerpt": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instea…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/8/ttok/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "ttok 0.4",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok/",
+      "publishedAt": "2026-10-08T23:34:28.000Z",
+      "excerpt": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-…"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-60f",
       "sourceId": "latentspace",
@@ -162,17 +250,6 @@
       "excerpt": ""
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Anti-Patterns in Software Blogging",
-      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
-      "publishedAt": "2026-10-07T14:53:51.000Z",
-      "excerpt": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and …"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/stacklok",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -239,61 +316,6 @@
       "excerpt": "Our head hurts."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/7/jake-boggan/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Jake Boggan",
-      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
-      "publishedAt": "2026-10-07T04:47:55.000Z",
-      "excerpt": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years o…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-      "publishedAt": "2026-10-07T00:16:45.000Z",
-      "excerpt": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: Th…"
-    },
-    {
-      "id": "openai:https://openai.com/index/gpt-6-for-everyone",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "excerpt": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/victoria-kim/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Victoria Kim",
-      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
-      "publishedAt": "2026-10-06T23:58:56.000Z",
-      "excerpt": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon […"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "publishedAt": "2026-10-06T23:04:13.000Z",
-      "excerpt": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra rea…"
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/recorded-conversations-all-things-product/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -304,17 +326,6 @@
       "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
       "publishedAt": "2026-10-06T13:00:39.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts We now record almost everything &#x2014; every meeting has an AI note-taker, and some people wear glasses that capture every word. So what does that do to our relations…"
-    },
-    {
-      "id": "openai:https://openai.com/index/jump-trading",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "excerpt": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
@@ -435,17 +446,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Chase_Lochmiller__Crusoe.mp3?dest-id=240976",
       "durationSec": 3675,
       "imageUrl": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/allenai/astabrief",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "publishedAt": "2026-10-02T15:19:50.000Z",
-      "excerpt": ""
     },
     {
       "id": "latentspace:https://www.latent.space/p/airbnb",
