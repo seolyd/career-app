@@ -1,6 +1,88 @@
 {
-  "generatedAt": "2026-10-09T23:47:20.135Z",
+  "generatedAt": "2026-10-10T23:09:38.688Z",
   "items": [
+    {
+      "id": "latentspace:https://www.latent.space/p/nyc2026",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://www.latent.space/p/nyc2026",
+      "publishedAt": "2026-10-10T22:07:17.000Z",
+      "excerpt": "Tomorrow and Tuesday. If you see this you’re in!"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/standard-bots",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "publishedAt": "2026-10-10T14:04:11.000Z",
+      "excerpt": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments."
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "url": "https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp",
+      "publishedAt": "2026-10-10T13:33:00.000Z",
+      "excerpt": "Max Freeman is SVP of Sales at Ramp. He joined the company as its first sales hire. By 2025, he was leading more than 300 salespeople, helping build Ramp's sales organisation from the ground up. Ramp's latest reported re…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Sales__Max_Freeman__Ramp.mp3?dest-id=240976",
+      "durationSec": 4079,
+      "imageUrl": "https://static.libsyn.com/p/assets/d/f/5/8/df589da8ca48b38c88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-09_at_13.12.26.jpeg"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🧠 Community Wisdom: Community Wisdom Top Contributors Summer Class 2026 + ML recommendation systems, getting back into product after being fired, deciding when to quit a side project, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+      "publishedAt": "2026-10-10T13:01:38.000Z",
+      "excerpt": "Community Wisdom 301"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "publishedAt": "2026-10-10T06:45:57.000Z",
+      "excerpt": "Wow."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "publishedAt": "2026-10-10T02:04:12.000Z",
+      "excerpt": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applic…"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/biohub-deepmind",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "publishedAt": "2026-10-10T00:31:26.000Z",
+      "excerpt": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+      "audioUrl": "https://api.substack.com/feed/podcast/219666029/a55c7eb779368b4623e64d0933a07f0f.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
       "sourceId": "simonw",
@@ -228,17 +310,6 @@
       "excerpt": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "publishedAt": "2026-10-07T20:56:21.000Z",
-      "excerpt": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million in…"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/LiquidAI/open-d1",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -305,17 +376,6 @@
       "excerpt": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "publishedAt": "2026-10-07T04:55:44.000Z",
-      "excerpt": "Our head hurts."
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/recorded-conversations-all-things-product/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -326,17 +386,6 @@
       "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
       "publishedAt": "2026-10-06T13:00:39.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts We now record almost everything &#x2014; every meeting has an AI note-taker, and some people wear glasses that capture every word. So what does that do to our relations…"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "publishedAt": "2026-10-06T06:28:43.000Z",
-      "excerpt": "A small win for US open source"
     },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
@@ -423,17 +472,6 @@
       "excerpt": "Community Wisdom 301"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-cee",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
-      "publishedAt": "2026-10-03T08:45:15.000Z",
-      "excerpt": "a quiet day."
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -446,17 +484,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Chase_Lochmiller__Crusoe.mp3?dest-id=240976",
       "durationSec": 3675,
       "imageUrl": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg"
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/airbnb",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-      "url": "https://www.latent.space/p/airbnb",
-      "publishedAt": "2026-10-02T14:04:49.000Z",
-      "excerpt": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI &#8212; from how its teams develop products to how it serves guests."
     },
     {
       "id": "huggingface:https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -568,17 +595,6 @@
       "url": "https://www.producttalk.org/unpacking-innovation-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "publishedAt": "2026-09-29T13:00:27.000Z",
       "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Is innovation the goal &#x2014; or just a byproduct of solving customer problems well? In this episode of All Things Product, Petra Wille and Teresa Torres unpack one o…"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
-      "publishedAt": "2026-09-28T15:03:13.000Z",
-      "excerpt": "Your weekly listens from How I AI, part of the Lenny's Podcast Network"
     },
     {
       "id": "importai:https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
@@ -693,20 +709,6 @@
       "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
       "publishedAt": "2026-09-21T12:31:04.000Z",
       "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for t…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
-      "publishedAt": "2026-09-21T07:07:00.000Z",
-      "excerpt": "Daniel Dines is one of the greatest European founders of the last decade. As the Co-Founder of UiPath, he has scaled the business to a market cap high of $ 44BN in 2021, with the company now generating $1.72BN in revenue…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Daniel_Dines__UiPath_3.mp3?dest-id=240976",
-      "durationSec": 4271,
-      "imageUrl": "https://static.libsyn.com/p/assets/8/2/9/0/829042fc775095ffe5bbc093207a2619/WhatsApp_Image_2026-09-18_at_12.41.29.jpeg"
     },
     {
       "id": "producttalk:https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
@@ -1402,7 +1404,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 1,
+        "episodes": 2,
         "videos": 0,
         "withViews": 0
       },
