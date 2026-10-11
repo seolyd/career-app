@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-10-10T23:09:38.688Z",
+  "generatedAt": "2026-10-11T23:25:01.988Z",
   "items": [
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+      "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+      "publishedAt": "2026-10-11T12:31:59.000Z",
+      "excerpt": "Listen now (62 mins) | Josh Woodward of Google Labs on where great ideas come from, knowing when to kill them, and building for a world where what’s possible changes every week",
+      "audioUrl": "https://api.substack.com/feed/podcast/216810191/cd6b71ea3c31023c957a24b2c468ce30.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "publishedAt": "2026-10-11T00:52:37.000Z",
+      "excerpt": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from versi…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/10/python-actions/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "publishedAt": "2026-10-10T23:58:04.000Z",
+      "excerpt": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull…"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/nyc2026",
       "sourceId": "latentspace",
@@ -183,17 +218,6 @@
       "excerpt": "a quiet day."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/8/carson-gross/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Carson Gross",
-      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
-      "publishedAt": "2026-10-08T21:05:44.000Z",
-      "excerpt": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve probl…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/periodic",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -297,17 +321,6 @@
       "url": "https://huggingface.co/blog/building-with-ml-intern",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/7/ben-affleck/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Ben Affleck",
-      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
-      "publishedAt": "2026-10-07T23:14:58.000Z",
-      "excerpt": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has…"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/LiquidAI/open-d1",
@@ -572,17 +585,6 @@
       "url": "https://huggingface.co/blog/open-tts-leaderboard",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "All of the Lenny & Friends Summit talks are now online!",
-      "url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit",
-      "publishedAt": "2026-09-29T13:15:57.000Z",
-      "excerpt": "Plus, some reflections and takeaways from the day"
     },
     {
       "id": "producttalk:https://www.producttalk.org/unpacking-innovation-all-things-product-podcast-with-teresa-torres-petra-wille/",
@@ -1383,7 +1385,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 4,
+        "episodes": 5,
         "videos": 0,
         "withViews": 0
       },
