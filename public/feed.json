@@ -1,6 +1,142 @@
 {
-  "generatedAt": "2026-10-13T01:46:42.065Z",
+  "generatedAt": "2026-10-13T23:34:37.263Z",
   "items": [
+    {
+      "id": "bersin:https://joshbersin.com/2026/10/our-new-partnership-with-workday/",
+      "sourceId": "bersin",
+      "sourceName": "Josh Bersin",
+      "group": "guru",
+      "authorId": "bersin",
+      "kind": "article",
+      "title": "Our New Partnership With Workday",
+      "url": "https://joshbersin.com/2026/10/our-new-partnership-with-workday/",
+      "publishedAt": "2026-10-13T23:25:04.000Z",
+      "excerpt": "This week at Workday Rising we introduce our new partnership with Workday around HR 2030 . Together we will be launching a series of whitepapers, tools, education programs, and advisory services to help companies of all …"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "publishedAt": "2026-10-13T23:00:06.000Z",
+      "excerpt": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the pa…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "publishedAt": "2026-10-13T22:28:54.000Z",
+      "excerpt": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high …"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/dyna",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "episode",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/p/dyna",
+      "publishedAt": "2026-10-13T22:25:55.000Z",
+      "excerpt": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+      "audioUrl": "https://api.substack.com/feed/podcast/220234130/c77b90e7331c0fabae60105d2325e9a0.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "publishedAt": "2026-10-13T17:05:48.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "publishedAt": "2026-10-13T13:32:00.000Z",
+      "excerpt": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observ…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Training Expectations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-10-13T13:00:18.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts You've got twelve people and one hour booked at next week's offsite. Can someone teach your team to do continuous discovery in that hour? Teresa Torres's answer is a fl…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "How to tell if a startup has a moat",
+      "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+      "publishedAt": "2026-10-13T12:45:41.000Z",
+      "excerpt": "A framework for assessing whether the company you’re considering joining is built to last"
+    },
+    {
+      "id": "openai:https://openai.com/index/higgsfield-longer-videos-voice",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "publishedAt": "2026-10-13T12:00:00.000Z",
+      "excerpt": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "publishedAt": "2026-10-13T09:37:04.000Z",
+      "excerpt": "MSL’s emergence as a frontier lab is finally complete."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/13/web-edit/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "publishedAt": "2026-10-13T01:40:05.000Z",
+      "excerpt": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "publishedAt": "2026-10-12T23:58:46.000Z",
+      "excerpt": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as …"
+    },
     {
       "id": "latentspace:https://www.latent.space/p/claude-dynamic-workflows",
       "sourceId": "latentspace",
@@ -22,6 +158,17 @@
       "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
       "publishedAt": "2026-10-12T18:15:38.000Z",
       "excerpt": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported P…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "publishedAt": "2026-10-12T16:58:00.000Z",
+      "excerpt": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a…"
     },
     {
       "id": "simonw:https://simonwillison.net/2026/Oct/12/web-edit/",
@@ -96,17 +243,6 @@
       "imageUrl": "https://static.libsyn.com/p/assets/f/3/b/d/f3bd264c3558be8288c4a68c3ddbc4f2/WhatsApp_Image_2026-10-09_at_13.12.59.jpeg"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "datasette-ports 0.4",
-      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "publishedAt": "2026-10-12T04:57:07.000Z",
-      "excerpt": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to…"
-    },
-    {
       "id": "lenny:https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
       "sourceId": "lenny",
       "sourceName": "Lenny's Newsletter",
@@ -118,28 +254,6 @@
       "excerpt": "Listen now (62 mins) | Josh Woodward of Google Labs on where great ideas come from, knowing when to kill them, and building for a world where what’s possible changes every week",
       "audioUrl": "https://api.substack.com/feed/podcast/216810191/cd6b71ea3c31023c957a24b2c468ce30.mp3",
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "publishedAt": "2026-10-11T00:52:37.000Z",
-      "excerpt": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from versi…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/10/python-actions/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "publishedAt": "2026-10-10T23:58:04.000Z",
-      "excerpt": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/nyc2026",
@@ -200,17 +314,6 @@
       "excerpt": "Wow."
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting The New York Times",
-      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-      "publishedAt": "2026-10-10T02:04:12.000Z",
-      "excerpt": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applic…"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/biohub-deepmind",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -224,17 +327,6 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Deno is joining Cloudflare",
-      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "publishedAt": "2026-10-09T22:48:37.000Z",
-      "excerpt": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno …"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/allenai/impactful-scheduling",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -244,17 +336,6 @@
       "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
       "publishedAt": "2026-10-09T15:20:29.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Quoting Matthew Green",
-      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "publishedAt": "2026-10-09T15:02:29.000Z",
-      "excerpt": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence…"
     },
     {
       "id": "openai:https://openai.com/index/sophos",
@@ -288,19 +369,6 @@
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
       "publishedAt": "2026-10-08T23:29:43.000Z",
       "excerpt": "a quiet day."
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/periodic",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "episode",
-      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
-      "url": "https://www.latent.space/p/periodic",
-      "publishedAt": "2026-10-08T16:27:54.000Z",
-      "excerpt": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
-      "audioUrl": "https://api.substack.com/feed/podcast/219146438/4de3baad7036438bcc048cc532556c6a.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
     },
     {
       "id": "openai:https://openai.com/index/oracle",
@@ -348,17 +416,6 @@
       "excerpt": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically."
     },
     {
-      "id": "latentspace:https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
-      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-      "publishedAt": "2026-10-08T07:27:51.000Z",
-      "excerpt": "yay small models"
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -395,17 +452,6 @@
       "excerpt": ""
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/LiquidAI/open-d1",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "publishedAt": "2026-10-07T16:54:33.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/tiiuae/falcon-asr",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -437,17 +483,6 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "excerpt": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council."
-    },
-    {
-      "id": "openai:https://openai.com/index/radisson",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "publishedAt": "2026-10-07T07:00:00.000Z",
-      "excerpt": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
     },
     {
       "id": "producttalk:https://www.producttalk.org/recorded-conversations-all-things-product/",
@@ -533,17 +568,6 @@
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "publishedAt": "2026-10-03T22:56:48.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "article",
-      "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
-      "publishedAt": "2026-10-03T17:00:49.000Z",
-      "excerpt": "Community Wisdom 301"
     },
     {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
@@ -770,18 +794,6 @@
       "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
       "publishedAt": "2026-09-16T13:00:36.000Z",
       "excerpt": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this p…"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "Delivery Isn’t Free - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "publishedAt": "2026-09-15T13:00:58.000Z",
-      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts Everyone's saying it: \"Now that AI makes delivery free&#x2026;\" But is it? In this episode of All Things Product, Petra Wille and Teresa Torres pull apart one of the mo…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
@@ -1015,18 +1027,6 @@
       "url": "https://joshbersin.com/2026/07/affordability-is-not-just-inflation-its-time-for-a-historic-shift-in-wages/",
       "publishedAt": "2026-07-16T19:01:28.000Z",
       "excerpt": "Fuel, transportation, housing, and food costs go up, but wage growth is far behind. Is this episodic or is there something bigger going on? A NYT article explains that in San Francisco a combined salary of $370,000 is no…"
-    },
-    {
-      "id": "bersin:https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
-      "sourceId": "bersin",
-      "sourceName": "Josh Bersin",
-      "group": "guru",
-      "authorId": "bersin",
-      "kind": "article",
-      "title": "Multi-Agent AI For Talent Acquisition Arrives: Eightfold, Paradox, Maki, Radancy, And More",
-      "url": "https://joshbersin.com/2026/07/multi-agent-ai-for-talent-acquisition-arrives-eightfold-paradox-maki-radancy-and-more/",
-      "publishedAt": "2026-07-15T17:57:39.000Z",
-      "excerpt": "Today Eightfold introduced its AI powered Candidate Agent , which fits together with its AI Interview agent. Not only is this an important announcement for Eightfold as it goes after the red-hot high volume hiring market…"
     },
     {
       "id": "svpg:https://www.svpg.com/great-products-bad-companies/",
