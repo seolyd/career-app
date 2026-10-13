@@ -1,6 +1,111 @@
 {
-  "generatedAt": "2026-10-11T23:25:01.988Z",
+  "generatedAt": "2026-10-13T01:46:42.065Z",
   "items": [
+    {
+      "id": "latentspace:https://www.latent.space/p/claude-dynamic-workflows",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "publishedAt": "2026-10-12T18:18:17.000Z",
+      "excerpt": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "publishedAt": "2026-10-12T18:15:38.000Z",
+      "excerpt": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported P…"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/12/web-edit/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "publishedAt": "2026-10-12T15:54:36.000Z",
+      "excerpt": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Code…"
+    },
+    {
+      "id": "svpg:https://www.svpg.com/predictability-vs-outcomes/",
+      "sourceId": "svpg",
+      "sourceName": "SVPG — Marty Cagan",
+      "group": "guru",
+      "authorId": "cagan",
+      "kind": "article",
+      "title": "Predictability vs Outcomes",
+      "url": "https://www.svpg.com/predictability-vs-outcomes/",
+      "publishedAt": "2026-10-12T15:24:29.000Z",
+      "excerpt": "I was first taught about the importance of outcome over output way back when I was an engineer getting coached to become a tech lead, and I was explicitly told that it was no longer enough to just build and ship, I had t…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🎙️ How I AI: How Meta designed Muse with Alex Cornell",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "publishedAt": "2026-10-12T15:00:38.000Z",
+      "excerpt": "Your weekly listens from How I AI, part of the Lenny's Podcast Network"
+    },
+    {
+      "id": "importai:https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+      "sourceId": "importai",
+      "sourceName": "Import AI — Jack Clark",
+      "group": "ai",
+      "kind": "article",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+      "publishedAt": "2026-10-12T12:30:39.000Z",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack…"
+    },
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "episode",
+      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+      "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+      "publishedAt": "2026-10-12T12:03:55.000Z",
+      "excerpt": "Listen now | &#127897;&#65039;Alex Cornell explains how Muse serves your mom and an engineer with the same interface, and demos a SkyMall-style catalog, golf recaps, and a blog turned podcast",
+      "audioUrl": "https://api.substack.com/feed/podcast/219332317/4404418704e8f2d872514c6b545013a7.mp3",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-atlassian-ceo-on-why-agents-wont-replace-interfaces-why-enterprises-wont-trust-chinese-models-why-the-jury-is-still-out-on-the-benefits-of-specialised-models-with-mike-cannon-brookes",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-atlassian-ceo-on-why-agents-wont-replace-interfaces-why-enterprises-wont-trust-chinese-models-why-the-jury-is-still-out-on-the-benefits-of-specialised-models-with-mike-cannon-brookes",
+      "publishedAt": "2026-10-12T07:07:00.000Z",
+      "excerpt": "Mike Cannon-Brookes is the Co-Founder and CEO of Atlassian, the company behind Jira, Confluence, Trello and Loom. Atlassian generated $6.5BN in ARR in 2026, and serves more than 350,000 customers, including over 85% of t…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Mike_Cannon-Brookes__Atlassian_2.mp3?dest-id=240976",
+      "durationSec": 3329,
+      "imageUrl": "https://static.libsyn.com/p/assets/f/3/b/d/f3bd264c3558be8288c4a68c3ddbc4f2/WhatsApp_Image_2026-10-09_at_13.12.59.jpeg"
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "publishedAt": "2026-10-12T04:57:07.000Z",
+      "excerpt": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to…"
+    },
     {
       "id": "lenny:https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
       "sourceId": "lenny",
@@ -152,17 +257,6 @@
       "excerpt": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence…"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "A new feature for my blog, built using my voice",
-      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "publishedAt": "2026-10-09T12:54:06.000Z",
-      "excerpt": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almos…"
-    },
-    {
       "id": "openai:https://openai.com/index/sophos",
       "sourceId": "openai",
       "sourceName": "OpenAI",
@@ -183,28 +277,6 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/9/ttok/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "ttok 1.0",
-      "url": "https://simonwillison.net/2026/Oct/9/ttok/",
-      "publishedAt": "2026-10-09T00:34:43.000Z",
-      "excerpt": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instea…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/8/ttok/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "ttok 0.4",
-      "url": "https://simonwillison.net/2026/Oct/8/ttok/",
-      "publishedAt": "2026-10-08T23:34:28.000Z",
-      "excerpt": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-not-much-happened-today-60f",
@@ -332,17 +404,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/open-d1",
       "publishedAt": "2026-10-07T16:54:33.000Z",
       "excerpt": ""
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/stacklok",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-      "url": "https://www.latent.space/p/stacklok",
-      "publishedAt": "2026-10-07T14:10:45.000Z",
-      "excerpt": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud."
     },
     {
       "id": "huggingface:https://huggingface.co/blog/tiiuae/falcon-asr",
@@ -550,32 +611,6 @@
       "imageUrl": "https://storage.buzzsprout.com/b6i27zt6okeur32nmji9dcy1yfd9?.jpg"
     },
     {
-      "id": "lenny:https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "OpenAI Dev Day 2026: The releases that actually matter",
-      "url": "https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases",
-      "publishedAt": "2026-09-30T14:45:15.000Z",
-      "excerpt": "Watch now (24 mins) | &#127897;&#65039; Claire tests OpenAI’s DevDay releases, from Dots, Spaces, and Sites to AI-picked thumbnails and a $97 game, and shares what’s worth trying first",
-      "audioUrl": "https://api.substack.com/feed/podcast/218186983/9c2ff1653183e44db01f0a6716124cf3.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
-      "id": "lenny:https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
-      "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
-      "publishedAt": "2026-09-30T12:04:27.000Z",
-      "excerpt": "Watch now (46 mins) | &#127897;&#65039; Educator and developer John Lindquist shares eight Jev demos, from live voice classification and deduplication to agent routing, showing how low costs make once-impractical ideas w…",
-      "audioUrl": "https://api.substack.com/feed/podcast/218050591/ad574beedfa0c67fe39e8b4b552ca024.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
       "id": "huggingface:https://huggingface.co/blog/open-tts-leaderboard",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
@@ -662,20 +697,6 @@
       "url": "https://www.svpg.com/experts-lead-experts/",
       "publishedAt": "2026-09-25T18:17:29.000Z",
       "excerpt": "We are still early in the journey to learn the long-term impact of AI, but one trend that continues to capture attention is that managers and other leaders will be much less important, and that all we really need are ski…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
-      "publishedAt": "2026-09-24T07:07:00.000Z",
-      "excerpt": "AGENDA: 04:35 Anthropic's $2 Trillion IPO Delayed. Cracks in the AI Boom? 10:30 OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028? 12:55 Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival? 17:05 Amazon Blocks AI…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.75.mp3?dest-id=240976",
-      "durationSec": 4834,
-      "imageUrl": "https://static.libsyn.com/p/assets/d/9/0/b/d90ba3ef0594008ce5bbc093207a2619/WhatsApp_Image_2026-09-23_at_16.31.48.jpeg"
     },
     {
       "id": "producttalk:https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
@@ -960,17 +981,6 @@
       "excerpt": "I’m just guessing here, but I’d say over the years I’ve seen at least one hundred different definitions of the product role (i.e. product manager/product owner).&#160; I’m pretty sure that anyone reading this would have …"
     },
     {
-      "id": "importai:https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
-      "sourceId": "importai",
-      "sourceName": "Import AI — Jack Clark",
-      "group": "ai",
-      "kind": "article",
-      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
-      "publishedAt": "2026-08-10T12:32:20.000Z",
-      "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here…"
-    },
-    {
       "id": "bersin:https://joshbersin.com/2026/07/how-no-tax-on-tips-disrupts-frontline-first-companies-and-workers/",
       "sourceId": "bersin",
       "sourceName": "Josh Bersin",
@@ -1123,18 +1133,6 @@
       "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
       "publishedAt": "2026-04-16T18:48:19.000Z",
       "excerpt": "We have long argued that there have always been at least two major ways to develop product.&#160;&#160; The most common way, even today in the age of AI, is the project model, which is all about output.&#160; This is whe…"
-    },
-    {
-      "id": "svpg:https://www.svpg.com/commercial-vs-internal-products/",
-      "sourceId": "svpg",
-      "sourceName": "SVPG — Marty Cagan",
-      "group": "guru",
-      "authorId": "cagan",
-      "kind": "article",
-      "title": "Commercial vs Internal Products",
-      "url": "https://www.svpg.com/commercial-vs-internal-products/",
-      "publishedAt": "2026-04-09T19:52:26.000Z",
-      "excerpt": "Internal Products Are Hard; Commercial Products Are Harder We have spent a lot of time trying to convince product people and especially product leaders of the importance of internal products. We’re talking about services…"
     },
     {
       "id": "productthinking:https://podcasters.spotify.com/pod/show/melissa-perri/episodes/Episode-261-AI-Implementation-in-Regulated-and-High-Trust-Industries-e3e3d4r",
@@ -1385,7 +1383,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 5,
+        "episodes": 4,
         "videos": 0,
         "withViews": 0
       },
