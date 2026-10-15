@@ -1,6 +1,131 @@
 {
-  "generatedAt": "2026-10-14T22:56:36.933Z",
+  "generatedAt": "2026-10-15T22:51:57.099Z",
   "items": [
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "publishedAt": "2026-10-15T20:34:01.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Chirp Pong",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "publishedAt": "2026-10-15T19:47:52.000Z",
+      "excerpt": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seem…"
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "publishedAt": "2026-10-15T13:04:03.000Z",
+      "excerpt": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lot…"
+    },
+    {
+      "id": "producttalk:https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk — Teresa Torres",
+      "group": "guru",
+      "authorId": "torres",
+      "kind": "article",
+      "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
+      "url": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "excerpt": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI voice agent that people will talk to for 44 minutes about their own blind spots? Your360 AI found out, one call at a time. In this epis…"
+    },
+    {
+      "id": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "excerpt": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+      "publishedAt": "2026-10-15T10:08:08.000Z",
+      "excerpt": "Sandboxes are all you need."
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-pro-rata-battle-valar-atomics-sues-day-one-ventures-meta-returns-to-the-ai-frontier-with-muse-wonder-nvidia-eyes-30b-reflection-deal-jev-raises-870m-at-a-75b-valuation",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-the-pro-rata-battle-valar-atomics-sues-day-one-ventures-meta-returns-to-the-ai-frontier-with-muse-wonder-nvidia-eyes-30b-reflection-deal-jev-raises-870m-at-a-75b-valuation",
+      "publishedAt": "2026-10-15T07:07:00.000Z",
+      "excerpt": "AGENDA: 04:00 Valar Atomics Sues Seed Investor Day One Ventures Over Pro Rata 17:00 Meta Returns to the AI Frontier With Muse Wonder 20:00 NVIDIA Eyes $30B Reflection Deal as Amazon Circles Decart 26:00 Jev Raises $870M …",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Trio_EP.78.mp3?dest-id=240976",
+      "durationSec": 4400,
+      "imageUrl": "https://static.libsyn.com/p/assets/3/e/7/c/3e7c39b4c7cb008b5f2e77a3093c12a1/WhatsApp_Image_2026-10-14_at_16.57.59.jpeg"
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/meta-muse-spark-open",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/flux-3",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "group": "ai",
+      "kind": "article",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "excerpt": ""
+    },
     {
       "id": "latentspace:https://www.latent.space/p/crossing-the-threshold",
       "sourceId": "latentspace",
@@ -11,6 +136,17 @@
       "url": "https://www.latent.space/p/crossing-the-threshold",
       "publishedAt": "2026-10-14T21:40:52.000Z",
       "excerpt": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control."
+    },
+    {
+      "id": "simonw:https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "group": "ai",
+      "kind": "article",
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "publishedAt": "2026-10-14T21:23:01.000Z",
+      "excerpt": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree app…"
     },
     {
       "id": "latentspace:https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
@@ -106,6 +242,17 @@
       "url": "https://openai.com/index/third-moment-research",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "excerpt": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+    },
+    {
+      "id": "openai:https://openai.com/index/block-ai-powered-security",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "excerpt": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
@@ -255,17 +402,6 @@
       "excerpt": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects"
     },
     {
-      "id": "simonw:https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "publishedAt": "2026-10-12T23:58:46.000Z",
-      "excerpt": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as …"
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/claude-dynamic-workflows",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -275,28 +411,6 @@
       "url": "https://www.latent.space/p/claude-dynamic-workflows",
       "publishedAt": "2026-10-12T18:18:17.000Z",
       "excerpt": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers."
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "publishedAt": "2026-10-12T18:15:38.000Z",
-      "excerpt": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported P…"
-    },
-    {
-      "id": "simonw:https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "sourceId": "simonw",
-      "sourceName": "Simon Willison",
-      "group": "ai",
-      "kind": "article",
-      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "publishedAt": "2026-10-12T16:58:00.000Z",
-      "excerpt": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a…"
     },
     {
       "id": "svpg:https://www.svpg.com/predictability-vs-outcomes/",
@@ -384,17 +498,6 @@
       "excerpt": "Tomorrow and Tuesday. If you see this you’re in!"
     },
     {
-      "id": "latentspace:https://www.latent.space/p/standard-bots",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-      "url": "https://www.latent.space/p/standard-bots",
-      "publishedAt": "2026-10-10T14:04:11.000Z",
-      "excerpt": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments."
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -418,39 +521,6 @@
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
       "publishedAt": "2026-10-10T13:01:38.000Z",
       "excerpt": "Community Wisdom 301"
-    },
-    {
-      "id": "openai:https://openai.com/index/asana-browser-agent",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
-    },
-    {
-      "id": "openai:https://openai.com/index/sophos",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "excerpt": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
-    },
-    {
-      "id": "openai:https://openai.com/index/oracle",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "excerpt": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
     },
     {
       "id": "bersin:https://joshbersin.com/2026/10/introducing-the-leaders-guide-to-multi-agent-ai-architecture/",
@@ -498,17 +568,6 @@
       "title": "Introducing Falcon ASR",
       "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
       "publishedAt": "2026-10-07T13:21:03.000Z",
-      "excerpt": ""
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "publishedAt": "2026-10-07T12:45:31.000Z",
       "excerpt": ""
     },
     {
@@ -573,17 +632,6 @@
       "imageUrl": "https://static.libsyn.com/p/assets/7/f/3/a/7f3ae5ea8946c65ee5bbc093207a2619/WhatsApp_Image_2026-10-02_at_16.52.36.jpeg"
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "publishedAt": "2026-10-03T22:56:48.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -596,17 +644,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Growth__Chase_Lochmiller__Crusoe.mp3?dest-id=240976",
       "durationSec": 3675,
       "imageUrl": "https://static.libsyn.com/p/assets/7/8/3/4/783491c80829c20f88c4a68c3ddbc4f2/WhatsApp_Image_2026-10-02_at_16.51.58.jpeg"
-    },
-    {
-      "id": "huggingface:https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "publishedAt": "2026-10-02T04:01:31.000Z",
-      "excerpt": ""
     },
     {
       "id": "producttalk:https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
@@ -649,17 +686,6 @@
       "imageUrl": "https://storage.buzzsprout.com/b6i27zt6okeur32nmji9dcy1yfd9?.jpg"
     },
     {
-      "id": "huggingface:https://huggingface.co/blog/open-tts-leaderboard",
-      "sourceId": "huggingface",
-      "sourceName": "Hugging Face",
-      "group": "ai",
-      "kind": "article",
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "excerpt": ""
-    },
-    {
       "id": "producttalk:https://www.producttalk.org/unpacking-innovation-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "sourceId": "producttalk",
       "sourceName": "Product Talk — Teresa Torres",
@@ -695,20 +721,6 @@
       "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Alex_Mashrabov__Higgsfield.mp3?dest-id=240976",
       "durationSec": 4174,
       "imageUrl": "https://static.libsyn.com/p/assets/3/4/0/7/34073c0516b23917e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_13.19.00.jpeg"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
-      "publishedAt": "2026-09-26T12:27:00.000Z",
-      "excerpt": "Parag Agrawal is the Co-Founder and CEO of Parallel, building web search infrastructure for AI agents. Parallel has announced $230M in funding from Sequoia, Khosla, and First Round Capital. Previously, he was CEO of Twit…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/20Product__Parag_Agrawal__Parallel_Web_Systems.mp3?dest-id=240976",
-      "durationSec": 3410,
-      "imageUrl": "https://static.libsyn.com/p/assets/7/8/9/4/78943ac00fd13441e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_16.13.47.jpeg"
     },
     {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19862286-toast-vp-of-product-on-building-agents-into-pre-ai-saas-shipping-ai-into-a-14-year-old-platform-and-building-for-the-real-economy.mp3",
@@ -796,18 +808,6 @@
       "audioUrl": "https://www.buzzsprout.com/90361/episodes/19810142-hinge-cpto-on-building-an-app-designed-to-be-deleted-merging-the-cpo-and-cto-roles-chasing-1b-in-revenue-without-chasing-engagement-ben-celebicic-e312.mp3",
       "durationSec": 1575,
       "imageUrl": "https://storage.buzzsprout.com/2cyntotc54mnq0tfru0wmodkuaiz?.jpg"
-    },
-    {
-      "id": "producttalk:https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
-      "sourceId": "producttalk",
-      "sourceName": "Product Talk — Teresa Torres",
-      "group": "guru",
-      "authorId": "torres",
-      "kind": "article",
-      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
-      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
-      "publishedAt": "2026-09-16T13:00:36.000Z",
-      "excerpt": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this p…"
     },
     {
       "id": "bersin:https://joshbersin.com/2026/09/hr-intelligence-goes-enterprise-the-galileo-jupiter-release/",
