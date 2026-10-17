@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-16T22:27:05.144Z",
+  "generatedAt": "2026-10-17T21:57:09.456Z",
   "items": [
+    {
+      "id": "lenny:https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+      "sourceId": "lenny",
+      "sourceName": "Lenny's Newsletter",
+      "group": "guru",
+      "kind": "article",
+      "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+      "publishedAt": "2026-10-17T13:53:57.000Z",
+      "excerpt": "Community Wisdom 302"
+    },
+    {
+      "id": "latentspace:https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "kind": "article",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "publishedAt": "2026-10-17T07:47:38.000Z",
+      "excerpt": "a quiet day lets us pilot a new show"
+    },
+    {
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-horizontal-vs-vertical-agents-who-wins-model-routing-commodity-or-increasing-in-value-the-future-of-the-inference-market-why-founders-should-take-discounts-for-tier-1-firms-with-harrison-chase-langchain",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "kind": "episode",
+      "title": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-horizontal-vs-vertical-agents-who-wins-model-routing-commodity-or-increasing-in-value-the-future-of-the-inference-market-why-founders-should-take-discounts-for-tier-1-firms-with-harrison-chase-langchain",
+      "publishedAt": "2026-10-17T07:07:00.000Z",
+      "excerpt": "Harrison Chase is the co-founder and CEO of LangChain, which helps developers build, test and deploy AI agents. Backed by Sequoia Capital, Benchmark and IVP, LangChain has announced approximately $160 million in funding …",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Memo__Harrison_Chase__Langchain.mp3?dest-id=240976",
+      "durationSec": 3709,
+      "imageUrl": "https://static.libsyn.com/p/assets/5/7/e/3/57e3d06286258cbe5f2e77a3093c12a1/WhatsApp_Image_2026-10-16_at_14.04.46.jpeg"
+    },
     {
       "id": "simonw:https://simonwillison.net/2026/Oct/16/code-review/",
       "sourceId": "simonw",
@@ -11,6 +47,17 @@
       "url": "https://simonwillison.net/2026/Oct/16/code-review/",
       "publishedAt": "2026-10-16T22:06:37.000Z",
       "excerpt": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happe…"
+    },
+    {
+      "id": "openai:https://openai.com/index/itau-generative-ai",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "publishedAt": "2026-10-16T19:00:00.000Z",
+      "excerpt": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
     },
     {
       "id": "latentspace:https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
@@ -33,6 +80,17 @@
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "publishedAt": "2026-10-16T01:44:47.000Z",
       "excerpt": ""
+    },
+    {
+      "id": "openai:https://openai.com/index/benefit-street-partners",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "group": "ai",
+      "kind": "article",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
     },
     {
       "id": "openai:https://openai.com/index/stack-overflow-chatgpt-plugin",
@@ -299,28 +357,6 @@
       "excerpt": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
     },
     {
-      "id": "openai:https://openai.com/index/third-moment-research",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "excerpt": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
-    },
-    {
-      "id": "openai:https://openai.com/index/block-ai-powered-security",
-      "sourceId": "openai",
-      "sourceName": "OpenAI",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "excerpt": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
-    },
-    {
       "id": "latentspace:https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
       "sourceId": "latentspace",
       "sourceName": "Latent Space",
@@ -422,17 +458,6 @@
       "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
       "publishedAt": "2026-10-13T09:37:04.000Z",
       "excerpt": "MSL’s emergence as a frontier lab is finally complete."
-    },
-    {
-      "id": "latentspace:https://www.latent.space/p/claude-dynamic-workflows",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "kind": "article",
-      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
-      "url": "https://www.latent.space/p/claude-dynamic-workflows",
-      "publishedAt": "2026-10-12T18:18:17.000Z",
-      "excerpt": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers."
     },
     {
       "id": "svpg:https://www.svpg.com/predictability-vs-outcomes/",
@@ -605,19 +630,6 @@
       "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you a…"
     },
     {
-      "id": "lenny:https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
-      "sourceId": "lenny",
-      "sourceName": "Lenny's Newsletter",
-      "group": "guru",
-      "kind": "episode",
-      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
-      "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
-      "publishedAt": "2026-10-05T12:04:54.000Z",
-      "excerpt": "Watch now (36 mins) | &#127897;&#65039; Kath Korevec demos ChatGPT Sites live at OpenAI DevDay, showing how to turn Slack, Notion, and calendar data into internal tools that adapt to each person on your team",
-      "audioUrl": "https://api.substack.com/feed/podcast/218411890/aa07f9195211ebc3f9d97bb380bb7bbb.mp3",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8MSN!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-is-seed-investing-dead-without-a-1bn-fund-does-ownership-and-price-matter-when-companies-can-be-1trn-exits-are-ai-revenue-numbers-real-and-what-to-watch-out-for-with-venky-ganesan-menlo-ventures",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -707,20 +719,6 @@
       "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
       "publishedAt": "2026-09-28T12:32:03.000Z",
       "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic spa…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-1bn-arr-in-18-months-the-untold-story-of-higgsfield-spending-4m-per-month-on-models-why-moats-in-ai-are-bs-scaling-a-content-team-to-150-people-with-alex-mashrabov",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "kind": "episode",
-      "title": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-1bn-arr-in-18-months-the-untold-story-of-higgsfield-spending-4m-per-month-on-models-why-moats-in-ai-are-bs-scaling-a-content-team-to-150-people-with-alex-mashrabov",
-      "publishedAt": "2026-09-28T07:07:00.000Z",
-      "excerpt": "Alex Mashrabov is the Founder and CEO of Higgsfield, the third fastest scaling company to $1BN in ARR behind OpenAI and Anthropic. Reports suggest their latest funding round could place an $8BN valuation on the company. …",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Alex_Mashrabov__Higgsfield.mp3?dest-id=240976",
-      "durationSec": 4174,
-      "imageUrl": "https://static.libsyn.com/p/assets/3/4/0/7/34073c0516b23917e5bbc093207a2619/WhatsApp_Image_2026-09-25_at_13.19.00.jpeg"
     },
     {
       "id": "productpod:https://www.buzzsprout.com/90361/episodes/19862286-toast-vp-of-product-on-building-agents-into-pre-ai-saas-shipping-ai-into-a-14-year-old-platform-and-building-for-the-real-economy.mp3",
@@ -1383,7 +1381,7 @@
       {
         "id": "lenny",
         "count": 8,
-        "episodes": 4,
+        "episodes": 3,
         "videos": 0,
         "withViews": 0
       },
