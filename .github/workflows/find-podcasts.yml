@@ -30,6 +30,10 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+          cache: npm
+      # feeds 확인은 실제 수집기를 돌리므로 fast-xml-parser가 필요합니다.
+      - run: npm ci
+        if: inputs.feeds != ''
       # 후보 RSS 주소가 실제로 열리고 파싱되는지 봅니다. 200이 떠도 발행처가
       # 엉뚱할 수 있으니 출력의 최신 제목을 꼭 확인하세요.
       - name: Check candidate feeds
