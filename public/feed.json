@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:37:34.705Z",
+  "generatedAt": "2026-10-18T13:42:19.711Z",
   "items": [
     {
       "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=216380",
@@ -292,18 +292,6 @@
       "excerpt": "“꿈꾸던 어른이 되었나요? 어릴 적 몰랐던 고민들이 하나둘씩 어깨에 조용히 내려앉아 나를 짓누르네요.”어른이 된 뒤 마주한 삶의 무게를 절절하게 토해내는 목소리. 진성과 가성을 넘나드는 호소력 짙은 가창이 인상적인 노래 ‘꿈꾸던 어른이 되었나요?’ 하지만 정작 이 노래를 부른 가수는 현실에 존재하지 않는다. 생성형 인공지능(AI)이 만들어낸 목소리이기 때문이다.최근 국내에서 AI로 만든 노래…"
     },
     {
-      "id": "etnews:https://www.etnews.com/20261018000076",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "카카오페이, 청년 100명과 '우리 동네 금융 불편' 해결 나서",
-      "url": "https://www.etnews.com/20261018000076",
-      "publishedAt": "2026-10-18T07:07:03.000Z",
-      "excerpt": "카카오페이가 청년 디지털 금융 리더 '사각사각 서포터즈' 1기 100명과 해커톤을 개최했다. 카카오페이는 지난 17일 경기도 용인시 카카오 AI캠퍼스에서 '사각사각 서포터즈 디지털 금융 서비스 아이디어 해커톤'을 진행했다. 이번 해커톤에는 서포터즈 100명이 5명씩 총 20개 팀으로 참여했다. 참가자들은 '우리 동네의 결제·금융 불편을 해결하라'를 주제로 다양한 아이디어를 제안했다. 이번 해…"
-    },
-    {
       "id": "etnews:https://www.etnews.com/20261016000222",
       "sourceId": "etnews",
       "sourceName": "전자신문",
@@ -355,18 +343,6 @@
       "id": "donga-sci:https://www.donga.com/news/Economy/article/all/20261018/134860742/1",
       "sourceId": "donga-sci",
       "sourceName": "동아일보 과학",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "中, AI·태양광·바이오 40개 핵심기술 수출 추가 통제",
-      "url": "https://www.donga.com/news/Economy/article/all/20261018/134860742/1",
-      "publishedAt": "2026-10-18T05:51:00.000Z",
-      "excerpt": "중국 정부가 인공지능(AI), 바이오의약, 태양광 분야 핵심 기술 40개의 수출을 금지하거나 제한하겠다고 16일 밝혔다. 로이터통신은 “미국과의 AI 기술 패권 경쟁 속에서 중국이 국가안보에 중요한 기술의 해외 이전에 대한 통제를 강화하고 있다”고 진단했다. 관영 신화통신에 따르면 중국 상무부와 과학기술부는 이날 ‘중국 수출 금지·제한 기술목록’ 개정안을 공개했다. 이전 목록과 비교해 새로 …"
-    },
-    {
-      "id": "donga-eco:https://www.donga.com/news/Economy/article/all/20261018/134860742/1",
-      "sourceId": "donga-eco",
-      "sourceName": "동아일보 경제",
       "group": "ai",
       "lang": "ko",
       "kind": "article",
@@ -586,18 +562,6 @@
       "id": "donga-sci:https://www.donga.com/news/Economy/article/all/20261016/134857680/2",
       "sourceId": "donga-sci",
       "sourceName": "동아일보 과학",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "애플 새 CEO “메모리 부족, 절대적 위기” 中CXMT 칩 도입 시사",
-      "url": "https://www.donga.com/news/Economy/article/all/20261016/134857680/2",
-      "publishedAt": "2026-10-16T16:40:00.000Z",
-      "excerpt": "일론 머스크 테슬라 최고경영자(CEO)에 이어 존 터너스 신임 애플 CEO도 메모리 반도체 공급난과 가격 급등에 공개적으로 불만을 드러냈다. 인공지능(AI) 산업의 급성장으로 메모리 공급이 부족해지자 글로벌 빅테크 기업들의 불만이 커지고 있는 것이다. 터너스 CEO는 15일(현지 시간) 미국 시사주간지 타임과의 인터뷰에서 “메모리 공급 제약은 절대적인 위기”라며 “모든 선택지를 테이블 위에 …"
-    },
-    {
-      "id": "donga-eco:https://www.donga.com/news/Economy/article/all/20261016/134857680/2",
-      "sourceId": "donga-eco",
-      "sourceName": "동아일보 경제",
       "group": "ai",
       "lang": "ko",
       "kind": "article",
@@ -2790,7 +2754,7 @@
       },
       {
         "id": "etnews",
-        "count": 8,
+        "count": 7,
         "filter": "ai",
         "beforeFilter": 30,
         "episodes": 0,
