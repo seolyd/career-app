@@ -183,22 +183,30 @@ function readItems(xml) {
  * detail이 전부 걸립니다. 한글은 띄어쓰기가 경계가 아니라서 그냥 포함으로 봅니다.
  */
 function matcher(words) {
-  const tests = words.map((w) => {
-    const word = String(w).trim()
-    if (!word) return null
-    if (/[\uac00-\ud7a3]/.test(word)) {
+  const counters = words
+    .map((w) => {
+      const word = String(w).trim()
+      if (!word) return null
       const lower = word.toLowerCase()
-      return (hay) => hay.includes(lower)
-    }
-    const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    const re = new RegExp(`(^|[^a-z0-9])${escaped.toLowerCase()}([^a-z0-9]|$)`)
-    return (hay) => re.test(hay)
-  })
-  const checks = tests.filter(Boolean)
+      if (/[\uac00-\ud7a3]/.test(word)) {
+        return (hay) => hay.split(lower).length - 1
+      }
+      const escaped = lower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      const re = new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'g')
+      return (hay) => (hay.match(re) ?? []).length
+    })
+    .filter(Boolean)
+
+  const hits = (hay) => counters.reduce((n, count) => n + count(hay), 0)
+
   return (item) => {
-    if (!checks.length) return true
-    const hay = `${item.title ?? ''} ${item.excerpt ?? ''}`.toLowerCase()
-    return checks.some((test) => test(hay))
+    if (!counters.length) return true
+    // 제목에 있으면 그 기사의 주제입니다. 바로 통과.
+    if (hits(String(item.title ?? '').toLowerCase()) > 0) return true
+    // 발췌에만 있으면 한 번으로는 모자랍니다. "카카오페이 해커톤"은 장소가
+    // 'AI캠퍼스'였을 뿐이고, 증시 기사는 본문 어딘가에 한 번 스쳐 갑니다.
+    // 반대로 주제가 AI인 기사는 'AI'와 '인공지능'을 같이 쓰거나 여러 번 씁니다.
+    return hits(String(item.excerpt ?? '').toLowerCase()) >= 2
   }
 }
 
@@ -274,9 +282,17 @@ const failed = results.filter((r) => r.error)
 const keptIds = new Set(failed.map((r) => r.source.id))
 const kept = (previous.items ?? []).filter((i) => keptIds.has(i.sourceId))
 
+// 주소까지 봅니다. 신문은 같은 기사를 여러 섹션에 싣는데, id가 소스마다 달라서
+// id만 보면 같은 기사가 두 번 들어옵니다.
+const seenKeys = new Set()
 const items = [...ok.flatMap((r) => r.items), ...kept]
-  .filter((item, i, arr) => arr.findIndex((x) => x.id === item.id) === i)
   .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+  .filter((item) => {
+    if (seenKeys.has(item.id) || seenKeys.has(item.url)) return false
+    seenKeys.add(item.id)
+    seenKeys.add(item.url)
+    return true
+  })
   .slice(0, MAX_TOTAL)
 
 writeFileSync(
