@@ -55,9 +55,12 @@ if (!data.report) {
   process.exit(1)
 }
 const byId = new Map(urls.map((url, i) => [`c${String(i + 1).padStart(2, '0')}`, url]))
+// 제목 하나로는 발행처는 알아도 섹션 성격은 모릅니다. 몇 개는 봐야 합니다.
+const TITLES_SHOWN = 3
 const newest = new Map()
 for (const item of data.items ?? []) {
-  if (!newest.has(item.sourceId)) newest.set(item.sourceId, item)
+  const list = newest.get(item.sourceId) ?? []
+  if (list.length < TITLES_SHOWN) newest.set(item.sourceId, [...list, item])
 }
 
 console.log(`\n${'─'.repeat(78)}`)
@@ -65,11 +68,11 @@ console.log(`열림 ${data.report.ok.length}개 · 막힘 ${data.report.failed.l
 console.log('─'.repeat(78))
 
 for (const r of data.report.ok) {
-  const top = newest.get(r.id)
+  const top = newest.get(r.id) ?? []
   const kinds = [r.episodes && `에피소드 ${r.episodes}`, r.videos && `영상 ${r.videos}`].filter(Boolean).join(' · ')
   console.log(`\n✓ ${byId.get(r.id)}`)
   console.log(`    항목 ${r.count}개${kinds ? ` (${kinds})` : ''}`)
-  if (top) console.log(`    최신: ${top.publishedAt?.slice(0, 10)} — ${top.title}`)
+  for (const item of top) console.log(`    ${item.publishedAt?.slice(0, 10)} — ${item.title}`)
 }
 
 for (const r of data.report.failed) {
