@@ -174,6 +174,34 @@ function readItems(xml) {
   })
 }
 
+/**
+ * 낱말 거르개. 신문 섹션 피드는 범위가 넓어서(동아 과학, 매경 경제) 그대로 받으면
+ * AI 기사가 한 건도 안 들어오는 날이 생깁니다 — 소스당 8개를 축구·정책 기사가
+ * 먼저 채워버리기 때문입니다. 그래서 상한을 먹이기 **전에** 거릅니다.
+ *
+ * 라틴 낱말은 경계를 봅니다. "AI"를 그냥 품은 글자열로 찾으면 Thailand·email·
+ * detail이 전부 걸립니다. 한글은 띄어쓰기가 경계가 아니라서 그냥 포함으로 봅니다.
+ */
+function matcher(words) {
+  const tests = words.map((w) => {
+    const word = String(w).trim()
+    if (!word) return null
+    if (/[\uac00-\ud7a3]/.test(word)) {
+      const lower = word.toLowerCase()
+      return (hay) => hay.includes(lower)
+    }
+    const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const re = new RegExp(`(^|[^a-z0-9])${escaped.toLowerCase()}([^a-z0-9]|$)`)
+    return (hay) => re.test(hay)
+  })
+  const checks = tests.filter(Boolean)
+  return (item) => {
+    if (!checks.length) return true
+    const hay = `${item.title ?? ''} ${item.excerpt ?? ''}`.toLowerCase()
+    return checks.some((test) => test(hay))
+  }
+}
+
 async function fetchSource(source) {
   const res = await fetch(source.url, {
     headers: {
@@ -187,13 +215,21 @@ async function fetchSource(source) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   const items = readItems(await res.text())
   if (!items.length) throw new Error('no items parsed')
-  const picked = items.filter((i) => i.title && i.url).slice(0, MAX_PER_SOURCE)
+  // 거르개는 상한보다 먼저입니다. 순서가 바뀌면 넓은 섹션에서 AI 기사가
+  // 8칸 밖으로 밀려나 한 건도 안 남습니다.
+  const usable = items.filter((i) => i.title && i.url)
+  const words = source.filter ? (config.filters?.[source.filter] ?? []) : []
+  if (source.filter && !words.length) {
+    throw new Error(`filter "${source.filter}"가 feed-sources.json의 filters에 없습니다`)
+  }
+  const kept = words.length ? usable.filter(matcher(words)) : usable
+  const picked = kept.slice(0, MAX_PER_SOURCE)
   // 주소는 그대로 열쇠로 씁니다 — 앱이 읽음 표시와 재생 위치를 이 id로 붙들고 있어서,
   // 멀쩡한 소스의 id를 바꾸면 읽은 글이 다시 안 읽음으로 돌아옵니다.
   // 한 소스 안에서 주소가 겹칠 때만(모든 회차의 link가 쇼 홈페이지인 피드) guid로 갈라냅니다.
   const seen = new Map()
   for (const i of picked) seen.set(i.url, (seen.get(i.url) ?? 0) + 1)
-  return picked
+  const rows = picked
     .map((i) => ({
       id: `${source.id}:${seen.get(i.url) > 1 ? i.uid || i.url : i.url}`,
       sourceId: source.id,
@@ -212,6 +248,8 @@ async function fetchSource(source) {
       ...(i.viewCount ? { viewCount: i.viewCount } : {}),
       ...(i.imageUrl ? { imageUrl: i.imageUrl } : {}),
     }))
+  // seen은 거르개를 먹이기 전 개수입니다. 리포트에서 0개의 이유를 가립니다.
+  return { rows, seen: usable.length }
 }
 
 const previous = existsSync(OUT_PATH)
@@ -221,7 +259,8 @@ const previous = existsSync(OUT_PATH)
 const results = await Promise.all(
   config.sources.map(async (source) => {
     try {
-      return { source, items: await fetchSource(source) }
+      const { rows, seen } = await fetchSource(source)
+      return { source, items: rows, seen }
     } catch (err) {
       return { source, error: err instanceof Error ? err.message : String(err) }
     }
@@ -250,6 +289,9 @@ writeFileSync(
         ok: ok.map((r) => ({
           id: r.source.id,
           count: r.items.length,
+          // 거르개가 달린 소스가 0개를 내면, 피드가 죽은 건지 낱말이 안 맞은 건지
+          // 이 숫자로 갈립니다.
+          ...(r.source.filter ? { filter: r.source.filter, beforeFilter: r.seen } : {}),
           episodes: r.items.filter((i) => i.kind === 'episode').length,
           videos: r.items.filter((i) => i.kind === 'video').length,
           // 유튜브 RSS가 조회수를 아직 싣는지 확인용. 0이면 안 싣는 것입니다.

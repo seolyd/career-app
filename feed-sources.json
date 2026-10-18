@@ -1,5 +1,31 @@
 {
-  "comment": "lang이 상단 한글/영문 토글을 결정합니다 — 안 쓰면 영문입니다. group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브는 넣지 않습니다 — 채널 RSS는 GitHub 러너에 404를 내고, 채널 페이지를 읽는 쪽은 유튜브가 렌더러를 lockupViewModel로 바꿔 유지 비용이 커서 접었습니다.",
+  "comment": "lang이 상단 한글/영문 토글을 결정합니다 — 안 쓰면 영문입니다. filter를 쓰면 위 filters의 낱말이 제목이나 발췌에 있는 항목만 들어옵니다 — 신문 섹션처럼 범위가 넓은 피드에 씁니다. group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브는 넣지 않습니다 — 채널 RSS는 GitHub 러너에 404를 내고, 채널 페이지를 읽는 쪽은 유튜브가 렌더러를 lockupViewModel로 바꿔 유지 비용이 커서 접었습니다.",
+  "filters": {
+    "ai": [
+      "인공지능",
+      "생성형",
+      "딥러닝",
+      "머신러닝",
+      "언어모델",
+      "거대언어",
+      "초거대",
+      "챗봇",
+      "휴머노이드",
+      "앤스로픽",
+      "오픈AI",
+      "챗GPT",
+      "제미나이",
+      "딥시크",
+      "AI",
+      "LLM",
+      "GPT",
+      "OpenAI",
+      "Anthropic",
+      "Gemini",
+      "AGI",
+      "Copilot"
+    ]
+  },
   "sources": [
     {
       "id": "svpg",
@@ -165,6 +191,30 @@
       "lang": "ko",
       "name": "바이라인네트워크",
       "url": "https://byline.network/feed/"
+    },
+    {
+      "id": "donga-sci",
+      "group": "ai",
+      "lang": "ko",
+      "name": "동아일보 과학",
+      "url": "https://rss.donga.com/science.xml",
+      "filter": "ai"
+    },
+    {
+      "id": "donga-eco",
+      "group": "ai",
+      "lang": "ko",
+      "name": "동아일보 경제",
+      "url": "https://rss.donga.com/economy.xml",
+      "filter": "ai"
+    },
+    {
+      "id": "etnews",
+      "group": "ai",
+      "lang": "ko",
+      "name": "전자신문",
+      "url": "https://rss.etnews.com/Section902.xml",
+      "filter": "ai"
     }
   ]
 }
