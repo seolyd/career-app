@@ -201,19 +201,113 @@
       "filter": "ai"
     },
     {
-      "id": "donga-eco",
-      "group": "ai",
-      "lang": "ko",
-      "name": "동아일보 경제",
-      "url": "https://rss.donga.com/economy.xml",
-      "filter": "ai"
-    },
-    {
       "id": "etnews",
       "group": "ai",
       "lang": "ko",
       "name": "전자신문",
       "url": "https://rss.etnews.com/Section902.xml",
+      "filter": "ai"
+    },
+    {
+      "id": "naverd2",
+      "group": "guru",
+      "lang": "ko",
+      "name": "네이버 D2",
+      "url": "https://d2.naver.com/d2.atom"
+    },
+    {
+      "id": "banksalad",
+      "group": "guru",
+      "lang": "ko",
+      "name": "뱅크샐러드",
+      "url": "https://blog.banksalad.com/rss.xml"
+    },
+    {
+      "id": "ly",
+      "group": "guru",
+      "lang": "ko",
+      "name": "LY(라인)",
+      "url": "https://techblog.lycorp.co.jp/ko/feed/index.xml"
+    },
+    {
+      "id": "inflab",
+      "group": "guru",
+      "lang": "ko",
+      "name": "인프랩",
+      "url": "https://tech.inflab.com/rss.xml"
+    },
+    {
+      "id": "devsisters",
+      "group": "guru",
+      "lang": "ko",
+      "name": "데브시스터즈",
+      "url": "https://tech.devsisters.com/rss.xml"
+    },
+    {
+      "id": "hyperconnect",
+      "group": "guru",
+      "lang": "ko",
+      "name": "하이퍼커넥트",
+      "url": "https://hyperconnect.github.io/feed.xml"
+    },
+    {
+      "id": "spoqa",
+      "group": "guru",
+      "lang": "ko",
+      "name": "스포카",
+      "url": "https://spoqa.github.io/rss"
+    },
+    {
+      "id": "gccompany",
+      "group": "guru",
+      "lang": "ko",
+      "name": "여기어때",
+      "url": "https://techblog.gccompany.co.kr/feed"
+    },
+    {
+      "id": "watcha",
+      "group": "guru",
+      "lang": "ko",
+      "name": "왓챠",
+      "url": "https://medium.com/feed/watcha"
+    },
+    {
+      "id": "platum",
+      "group": "guru",
+      "lang": "ko",
+      "name": "플래텀",
+      "url": "https://platum.kr/feed"
+    },
+    {
+      "id": "bloter",
+      "group": "ai",
+      "lang": "ko",
+      "name": "블로터",
+      "url": "https://www.bloter.net/rss/allArticle.xml",
+      "filter": "ai"
+    },
+    {
+      "id": "inews24",
+      "group": "ai",
+      "lang": "ko",
+      "name": "아이뉴스24",
+      "url": "https://www.inews24.com/rss/news_it.xml",
+      "filter": "ai"
+    },
+    {
+      "id": "techm",
+      "group": "ai",
+      "lang": "ko",
+      "name": "테크M",
+      "url": "https://techm.kr/rss/allArticle.xml",
+      "filter": "ai"
+    },
+    {
+      "id": "hani-sci",
+      "group": "ai",
+      "lang": "ko",
+      "name": "한겨레 과학",
+      "url": "https://www.hani.co.kr/rss/science/",
       "filter": "ai"
     }
   ]
