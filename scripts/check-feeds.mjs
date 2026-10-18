@@ -38,16 +38,22 @@ writeFileSync(
 )
 writeFileSync(out, JSON.stringify({ items: [] }))
 
-await new Promise((resolve) => {
+const code = await new Promise((resolve) => {
   const child = spawn('node', [new URL('fetch-feed.mjs', import.meta.url).pathname], {
     env: { ...process.env, FEED_SOURCES: cfg, FEED_OUT: out },
     stdio: ['ignore', 'ignore', 'inherit'],
   })
-  // 전부 실패하면 수집기가 1로 끝납니다. 그래도 리포트는 읽습니다.
+  // 후보가 전부 막히면 수집기가 1로 끝납니다. 그건 정상이고, 리포트는 그대로 읽습니다.
   child.on('exit', resolve)
 })
 
 const data = JSON.parse(readFileSync(out, 'utf8'))
+if (!data.report) {
+  // 수집기가 리포트를 쓰기 전에 죽었습니다 — 후보 문제가 아니라 실행 문제입니다.
+  // (처음 돌릴 때 러너에 npm ci를 안 해서 fast-xml-parser가 없었습니다.)
+  console.error(`수집기가 리포트를 쓰지 못했습니다 (exit ${code}). 위의 오류를 보세요.`)
+  process.exit(1)
+}
 const byId = new Map(urls.map((url, i) => [`c${String(i + 1).padStart(2, '0')}`, url]))
 const newest = new Map()
 for (const item of data.items ?? []) {
