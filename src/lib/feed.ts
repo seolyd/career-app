@@ -6,9 +6,29 @@ export const FEED_GROUPS = ['guru', 'hrtech', 'ai'] as const
 export type FeedGroup = (typeof FEED_GROUPS)[number]
 
 export const GROUP_LABEL: Record<FeedGroup, string> = {
-  guru: 'PM gurus',
+  // 'PM gurus'였는데, 같은 칸에 토스·우아한형제들 같은 국내 제품/기술 블로그가
+  // 들어오면서 맞지 않게 됐습니다. 두 쪽을 다 담는 말로 바꿨습니다.
+  guru: 'Product',
   hrtech: 'HR tech',
   ai: 'PM · AI',
+}
+
+/**
+ * 언어는 주제와 따로 걸러집니다 — 국내 글을 기본으로 보고, 버튼 하나로 영문으로
+ * 넘어갑니다. 소스가 선언하고(feed-sources.json의 lang), 항목이 그대로 물려받습니다.
+ */
+export const FEED_LANGS = ['ko', 'en'] as const
+export type FeedLang = (typeof FEED_LANGS)[number]
+
+export const LANG_LABEL: Record<FeedLang, string> = {
+  ko: '한글',
+  en: 'English',
+}
+
+/** 세그먼트 버튼에 들어갈 짧은 이름 — 두 칸이 좁습니다. */
+export const LANG_SHORT: Record<FeedLang, string> = {
+  ko: '한글',
+  en: 'EN',
 }
 
 /**
@@ -23,6 +43,8 @@ export interface FeedItem {
   sourceName: string
   group: FeedGroup
   kind: FeedKind
+  /** 없으면 영문입니다 — lang을 붙이기 전의 feed.json이 전부 영문 소스였습니다. */
+  lang?: FeedLang
   /** Board 좌석 id와 연결됩니다 */
   authorId?: string
   title: string
@@ -41,6 +63,35 @@ export interface FeedItem {
 /** 아직 kind가 없던 시절의 feed.json도 읽습니다 — Action이 한 번 더 돌면 채워집니다. */
 export function kindOf(item: FeedItem): FeedKind {
   return item.kind ?? (item.audioUrl ? 'episode' : 'article')
+}
+
+export function langOf(item: FeedItem): FeedLang {
+  return item.lang ?? 'en'
+}
+
+/**
+ * 고른 언어는 기기에 남습니다 — 탭을 옮길 때마다 되돌아가면 토글이 무용지물입니다.
+ * Today도 같은 값을 읽습니다. 영문을 보기로 해 놓고 Today만 국내 글을 내밀면
+ * 토글이 거짓말이 됩니다.
+ *
+ * 저장이 막힌 브라우저(사생활 보호 창 등)에서도 앱이 멈추지 않게 전부 감쌉니다.
+ */
+const LANG_KEY = 'feedLang'
+
+export function storedLang(): FeedLang {
+  try {
+    return window.localStorage.getItem(LANG_KEY) === 'en' ? 'en' : 'ko'
+  } catch {
+    return 'ko'
+  }
+}
+
+export function rememberLang(lang: FeedLang): void {
+  try {
+    window.localStorage.setItem(LANG_KEY, lang)
+  } catch {
+    // 저장이 막혀 있으면 이번 세션에만 적용됩니다. 그걸로 충분합니다.
+  }
 }
 
 /**

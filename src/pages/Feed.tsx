@@ -7,21 +7,27 @@ import { askDigest, type Draft } from '../lib/ask'
 import {
   GROUP_LABEL,
   KIND_LABEL,
+  LANG_LABEL,
   SECTIONS,
   LENGTH_BUCKETS,
   formatDuration,
   kindOf,
+  langOf,
   loadFeed,
+  rememberLang,
+  storedLang,
   type FeedFile,
   type FeedGroup,
   type FeedItem,
   type FeedKind,
+  type FeedLang,
   type LengthBucket,
   type SectionId,
 } from '../lib/feed'
 import { Button, Card, Chip, Input, Label, SectionTitle, Textarea } from '../components/ui'
 import { EntryCard } from '../components/EntryCard'
 import { Header } from '../components/Header'
+import { LangToggle } from '../components/LangToggle'
 import { AskButton, AskSheet } from '../components/AskSheet'
 import { EpisodePlayer } from '../components/EpisodePlayer'
 
@@ -35,6 +41,8 @@ export function Feed({ section }: { section: SectionId }) {
   const { label, groups } = SECTIONS[section]
   const [feed, setFeed] = useState<FeedFile | null>(null)
   const [loading, setLoading] = useState(true)
+  // 국내 글이 기본입니다. 영문은 토글로 그대로 볼 수 있습니다.
+  const [lang, setLang] = useState<FeedLang>(storedLang)
   const [group, setGroup] = useState<FeedGroup | null>(null)
   const [kind, setKind] = useState<FeedKind | null>(null)
   const [length, setLength] = useState<LengthBucket | null>(null)
@@ -63,7 +71,10 @@ export function Feed({ section }: { section: SectionId }) {
   }, [])
 
   // 섹션 경계가 먼저입니다. PM 탭에 AI 소스가, AI 탭에 PM 소스가 새는 일은 없어야 합니다.
-  const mine = (feed?.items ?? []).filter((i) => groups.includes(i.group))
+  const inSection = (feed?.items ?? []).filter((i) => groups.includes(i.group))
+  // 그 다음이 언어입니다. 아래의 개수·빈 상태·실패 목록이 모두 "지금 보는 언어"
+  // 기준이어야 해서, 종류·주제·길이 필터보다 앞에 둡니다.
+  const mine = inSection.filter((i) => langOf(i) === lang)
 
   const items = mine.filter((i) => {
     // 지금 재생 중인 건 어떤 필터로도 숨기지 않습니다. 듣는 도중에 카드가 사라지면 안 됩니다.
@@ -84,6 +95,18 @@ export function Feed({ section }: { section: SectionId }) {
   const countOf = (k: FeedKind) => mine.filter((i) => kindOf(i) === k).length
   const episodeCount = countOf('episode')
   const unreadCount = mine.filter((i) => !readIds.has(i.id)).length
+  const unreadByLang = {
+    ko: inSection.filter((i) => langOf(i) === 'ko' && !readIds.has(i.id)).length,
+    en: inSection.filter((i) => langOf(i) === 'en' && !readIds.has(i.id)).length,
+  }
+  const other: FeedLang = lang === 'ko' ? 'en' : 'ko'
+
+  function switchLang(next: FeedLang) {
+    setLang(next)
+    // 언어가 바뀌면 이전 언어에만 있던 주제 칩이 남아 빈 목록이 됩니다.
+    setGroup(null)
+    rememberLang(next)
+  }
   const failed = feed?.report?.failed ?? []
 
   async function saveInput(fields: { title: string; url: string; body: string; soWhat?: string; feedItemId?: string }) {
@@ -114,13 +137,20 @@ export function Feed({ section }: { section: SectionId }) {
       <Header
         title={label}
         action={
-          <button
-            type="button"
-            onClick={() => setManual((v) => !v)}
-            className="px-2 py-1 text-[19px] font-semibold text-blue-600 dark:text-blue-400"
-          >
-            {manual ? 'Close' : 'Add'}
-          </button>
+          <div className="flex items-center gap-1.5">
+            <LangToggle
+              value={lang}
+              counts={unreadByLang}
+              onChange={switchLang}
+            />
+            <button
+              type="button"
+              onClick={() => setManual((v) => !v)}
+              className="px-1.5 py-1 text-[19px] font-semibold text-blue-600 dark:text-blue-400"
+            >
+              {manual ? 'Close' : 'Add'}
+            </button>
+          </div>
         }
       />
 
@@ -253,16 +283,24 @@ export function Feed({ section }: { section: SectionId }) {
               ) : (
                 <Card>
                   <p className="text-[18px] text-slate-700 dark:text-slate-400">
-                    {kind === 'episode' && episodeCount === 0
-                      ? 'No podcast sources in this feed yet. Episodes show up once a source that publishes audio is added to feed-sources.json.'
-                      : kind === 'episode' && length
-                        ? 'No episodes that length. Podcast feeds are the only ones that report duration.'
-                        : kind === 'video' && countOf('video') === 0
-                          ? 'No YouTube sources in this feed yet. Channel feeds need the UC… channel id — the “Find feeds” Action looks them up.'
-                          : hideRead
-                            ? 'Nothing unread. One a day is enough.'
-                            : 'Nothing here yet.'}
+                    {mine.length === 0 && unreadByLang[other] > 0
+                      ? `${LANG_LABEL[lang]} 소스가 이 탭에 없습니다. ${LANG_LABEL[other]}에 ${unreadByLang[other]}개 있습니다.`
+                      : kind === 'episode' && episodeCount === 0
+                        ? 'No podcast sources in this feed yet. Episodes show up once a source that publishes audio is added to feed-sources.json.'
+                        : kind === 'episode' && length
+                          ? 'No episodes that length. Podcast feeds are the only ones that report duration.'
+                          : kind === 'video' && countOf('video') === 0
+                            ? 'No video sources in this feed. YouTube is not collected — its RSS returns 404 from the build runner.'
+                            : hideRead
+                              ? 'Nothing unread. One a day is enough.'
+                              : 'Nothing here yet.'}
                   </p>
+                  {/* 다른 언어에 글이 있을 때만 건너가는 버튼을 붙입니다 */}
+                  {mine.length === 0 && unreadByLang[other] > 0 && (
+                    <div className="mt-3">
+                      <Button onClick={() => switchLang(other)}>{LANG_LABEL[other]}로 보기</Button>
+                    </div>
+                  )}
                 </Card>
               )}
 

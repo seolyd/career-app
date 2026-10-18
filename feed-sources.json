@@ -1,93 +1,170 @@
 {
-  "comment": "group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브는 넣지 않습니다 — 채널 RSS는 GitHub 러너에 404를 내고, 채널 페이지를 읽는 쪽은 유튜브가 렌더러를 lockupViewModel로 바꿔 유지 비용이 커서 접었습니다.",
+  "comment": "lang이 상단 한글/영문 토글을 결정합니다 — 안 쓰면 영문입니다. group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브는 넣지 않습니다 — 채널 RSS는 GitHub 러너에 404를 내고, 채널 페이지를 읽는 쪽은 유튜브가 렌더러를 lockupViewModel로 바꿔 유지 비용이 커서 접었습니다.",
   "sources": [
     {
       "id": "svpg",
       "group": "guru",
       "authorId": "cagan",
       "name": "SVPG — Marty Cagan",
-      "url": "https://www.svpg.com/articles/feed/"
+      "url": "https://www.svpg.com/articles/feed/",
+      "lang": "en"
     },
     {
       "id": "producttalk",
       "group": "guru",
       "authorId": "torres",
       "name": "Product Talk — Teresa Torres",
-      "url": "https://www.producttalk.org/feed/"
+      "url": "https://www.producttalk.org/feed/",
+      "lang": "en"
     },
     {
       "id": "bersin",
       "group": "guru",
       "authorId": "bersin",
       "name": "Josh Bersin",
-      "url": "https://joshbersin.com/feed/"
+      "url": "https://joshbersin.com/feed/",
+      "lang": "en"
     },
     {
       "id": "biddle",
       "group": "guru",
       "authorId": "biddle",
       "name": "Gibson Biddle",
-      "url": "https://gibsonbiddle.medium.com/feed"
+      "url": "https://gibsonbiddle.medium.com/feed",
+      "lang": "en"
     },
     {
       "id": "lenny",
       "group": "guru",
       "name": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/feed"
+      "url": "https://www.lennysnewsletter.com/feed",
+      "lang": "en"
     },
     {
       "id": "donuts",
       "group": "guru",
       "name": "Bring the Donuts — Ken Norton",
-      "url": "https://www.bringthedonuts.com/feed.xml"
+      "url": "https://www.bringthedonuts.com/feed.xml",
+      "lang": "en"
     },
     {
       "id": "simonw",
       "group": "ai",
       "name": "Simon Willison",
-      "url": "https://simonwillison.net/atom/everything/"
+      "url": "https://simonwillison.net/atom/everything/",
+      "lang": "en"
     },
     {
       "id": "latentspace",
       "group": "ai",
       "name": "Latent Space",
-      "url": "https://www.latent.space/feed"
+      "url": "https://www.latent.space/feed",
+      "lang": "en"
     },
     {
       "id": "openai",
       "group": "ai",
       "name": "OpenAI",
-      "url": "https://openai.com/news/rss.xml"
+      "url": "https://openai.com/news/rss.xml",
+      "lang": "en"
     },
     {
       "id": "huggingface",
       "group": "ai",
       "name": "Hugging Face",
-      "url": "https://huggingface.co/blog/feed.xml"
+      "url": "https://huggingface.co/blog/feed.xml",
+      "lang": "en"
     },
     {
       "id": "importai",
       "group": "ai",
       "name": "Import AI — Jack Clark",
-      "url": "https://jack-clark.net/feed/"
+      "url": "https://jack-clark.net/feed/",
+      "lang": "en"
     },
     {
       "id": "productthinking",
       "group": "guru",
       "name": "Product Thinking — Melissa Perri",
-      "url": "https://anchor.fm/s/ff7e9014/podcast/rss"
+      "url": "https://anchor.fm/s/ff7e9014/podcast/rss",
+      "lang": "en"
     },
     {
       "id": "20vc",
       "group": "guru",
       "name": "The Twenty Minute VC",
-      "url": "https://rss.libsyn.com/shows/61840/destinations/240976.xml"
+      "url": "https://rss.libsyn.com/shows/61840/destinations/240976.xml",
+      "lang": "en"
     },
     {
       "id": "productpod",
       "group": "guru",
       "name": "The Product Podcast — Product School",
-      "url": "https://rss.buzzsprout.com/90361.rss"
+      "url": "https://rss.buzzsprout.com/90361.rss",
+      "lang": "en"
+    },
+    {
+      "id": "outstanding",
+      "group": "guru",
+      "lang": "ko",
+      "name": "아웃스탠딩",
+      "url": "https://outstanding.kr/feed"
+    },
+    {
+      "id": "mobiinside",
+      "group": "guru",
+      "lang": "ko",
+      "name": "모비인사이드",
+      "url": "https://www.mobiinside.co.kr/feed"
+    },
+    {
+      "id": "toss",
+      "group": "guru",
+      "lang": "ko",
+      "name": "토스 기술블로그",
+      "url": "https://toss.tech/rss.xml"
+    },
+    {
+      "id": "kakaotech",
+      "group": "guru",
+      "lang": "ko",
+      "name": "카카오 기술블로그",
+      "url": "https://tech.kakao.com/feed/"
+    },
+    {
+      "id": "daangn",
+      "group": "guru",
+      "lang": "ko",
+      "name": "당근 기술블로그",
+      "url": "https://medium.com/feed/daangn"
+    },
+    {
+      "id": "musinsa",
+      "group": "guru",
+      "lang": "ko",
+      "name": "무신사 테크",
+      "url": "https://medium.com/feed/musinsa-tech"
+    },
+    {
+      "id": "geeknews",
+      "group": "ai",
+      "lang": "ko",
+      "name": "GeekNews",
+      "url": "https://news.hada.io/rss/news"
+    },
+    {
+      "id": "aitimes",
+      "group": "ai",
+      "lang": "ko",
+      "name": "AI타임스",
+      "url": "https://www.aitimes.com/rss/allArticle.xml"
+    },
+    {
+      "id": "byline",
+      "group": "ai",
+      "lang": "ko",
+      "name": "바이라인네트워크",
+      "url": "https://byline.network/feed/"
     }
   ]
 }

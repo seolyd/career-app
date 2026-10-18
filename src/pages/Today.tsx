@@ -7,7 +7,7 @@ import { daysLeftInWeek, formatKo, relativeKo, today, weekOf } from '../lib/date
 import { dueToday, oneYearAgo, weakestAxes } from '../lib/stats'
 import { pickChallenge } from '../lib/challenge'
 import { askClassify, askDigest, type Draft } from '../lib/ask'
-import { loadFeed, type FeedItem } from '../lib/feed'
+import { langOf, loadFeed, storedLang, type FeedItem } from '../lib/feed'
 import { isDefaultProfile } from '../seed/profile'
 import { Button, Card, SectionTitle, Textarea } from '../components/ui'
 import { EntryCard, TypeBadge } from '../components/EntryCard'
@@ -52,7 +52,13 @@ export function Today() {
     void loadFeed().then((f) => setFeedItems(f?.items ?? []))
   }, [])
   const todaysRead = useMemo(() => {
-    const unread = feedItems.filter((i) => !readIds?.has(i.id))
+    // 오늘의 읽을거리도 피드 탭에서 고른 언어를 따릅니다. 영문으로 보기로 해 놓고
+    // 여기만 국내 글을 내밀면 토글이 거짓말이 됩니다.
+    const lang = storedLang()
+    const sameLang = feedItems.filter((i) => langOf(i) === lang)
+    // 그 언어에 아무것도 없으면 빈 화면보다 다른 언어라도 내미는 편이 낫습니다.
+    const pool = sameLang.length ? sameLang : feedItems
+    const unread = pool.filter((i) => !readIds?.has(i.id))
     if (!unread.length) return undefined
     let hash = 0
     for (let i = 0; i < iso.length; i += 1) hash = (hash * 31 + iso.charCodeAt(i)) >>> 0

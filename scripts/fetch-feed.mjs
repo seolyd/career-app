@@ -12,7 +12,13 @@ import { XMLParser } from 'fast-xml-parser'
 import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 
 const MAX_PER_SOURCE = 8
-const MAX_TOTAL = 160
+/**
+ * 전체 상한은 파일 크기를 묶어두려고 둔 것이고, 목록을 골라내는 장치가 아닙니다.
+ * 소스 수 × MAX_PER_SOURCE 보다 낮으면 날짜순으로 잘려나가는데, 국내 소스가 영문보다
+ * 자주 발행하기 때문에 잘리는 쪽은 늘 영문이 됩니다 — 상단 한글/영문 토글이
+ * 영문으로 넘겼을 때 목록이 비어 보이는 길입니다. 그래서 넉넉히 둡니다.
+ */
+const MAX_TOTAL = 320
 const TIMEOUT_MS = 20_000
 
 // 테스트에서 다른 소스 목록/출력 경로를 물릴 수 있게 열어둡니다.
@@ -193,6 +199,8 @@ async function fetchSource(source) {
       sourceId: source.id,
       sourceName: source.name,
       group: source.group,
+      // 소스가 선언한 언어를 그대로 물려줍니다. 안 쓰면 영문입니다.
+      lang: source.lang === 'ko' ? 'ko' : 'en',
       ...(source.authorId ? { authorId: source.authorId } : {}),
       kind: i.audioUrl ? 'episode' : i.isVideo ? 'video' : 'article',
       title: i.title,
@@ -254,6 +262,13 @@ writeFileSync(
     2,
   )}\n`,
 )
+
+if (ok.length * MAX_PER_SOURCE + kept.length > MAX_TOTAL) {
+  console.warn(
+    `상한(${MAX_TOTAL})이 소스 수(${config.sources.length} × ${MAX_PER_SOURCE})보다 낮습니다 —` +
+      ' 오래된 쪽이 잘려나가고, 그쪽은 보통 영문입니다. MAX_TOTAL을 올리세요.',
+  )
+}
 
 const count = (k) => items.filter((i) => i.kind === k).length
 console.log(
