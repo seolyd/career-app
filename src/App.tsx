@@ -44,6 +44,7 @@ export function App() {
           <Route path="/board" element={<Board />} />
           <Route path="/pm" element={<Feed section="pm" />} />
           <Route path="/ai" element={<Feed section="ai" />} />
+          <Route path="/news" element={<Feed section="news" />} />
           {/* 홈화면에 저장된 옛 주소가 깨지지 않게 남겨둡니다 */}
           <Route path="/reading" element={<Navigate to="/pm" replace />} />
           <Route path="/literacy" element={<Literacy />} />

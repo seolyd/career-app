@@ -15,6 +15,7 @@ const TABS: Array<{ to: string; label: string; icon: ReactNode }> = [
   { to: '/board', label: 'Board', icon: <Icon d="M12 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6M5 20a7 7 0 0 1 14 0M4 11a2.5 2.5 0 1 1 0-5M20 11a2.5 2.5 0 1 0 0-5" /> },
   { to: '/pm', label: 'PM', icon: <Icon d="M12 6.5S9.5 4.5 4 5v13c5.5-.5 8 1.5 8 1.5s2.5-2 8-1.5V5c-5.5-.5-8 1.5-8 1.5zM12 6.5v13" /> },
   { to: '/ai', label: 'AI', icon: <Icon d="M5 7h14v10H5zM9 11v2M15 11v2M12 3v4M8 21h8" /> },
+  { to: '/news', label: 'News', icon: <Icon d="M4 6l8 6 8-6M4 6h16v12H4z" /> },
   { to: '/literacy', label: 'Literacy', icon: <Icon d="M12 18v3M8 21h8M5 4h14v9a7 7 0 0 1-14 0zM9.5 9.5h5M9.5 13h3" /> },
   { to: '/plan', label: 'Plan', icon: <Icon d="M4 20V8M10 20V4M16 20v-7M22 20H2" /> },
 ]

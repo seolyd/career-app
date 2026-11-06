@@ -1,5 +1,5 @@
 {
-  "comment": "lang이 상단 한글/영문 토글을 결정합니다 — 안 쓰면 영문입니다. filter를 쓰면 위 filters의 낱말이 제목이나 발췌에 있는 항목만 들어옵니다 — 신문 섹션처럼 범위가 넓은 피드에 씁니다. group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed로 갑니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브는 넣지 않습니다 — 채널 RSS는 GitHub 러너에 404를 내고, 채널 페이지를 읽는 쪽은 유튜브가 렌더러를 lockupViewModel로 바꿔 유지 비용이 커서 접었습니다.",
+  "comment": "lang이 상단 한글/영문 토글을 결정합니다 — 안 쓰면 영문입니다. filter를 쓰면 위 filters의 낱말이 제목이나 발췌에 있는 항목만 들어옵니다 — 신문 섹션처럼 범위가 넓은 피드에 씁니다. group이 탭을 결정합니다 — guru·hrtech는 PM Feed, ai는 AI Feed, newsletter는 News 탭으로 갑니다 — News 탭은 발행처마다 최신 호 하나만 보여줍니다. RSS가 없는 메일 전용 뉴스레터(뉴닉·미라클레터 등)는 kill-the-newsletter.com에서 받은 수신 주소로 구독하고, 거기서 준 Atom 주소를 url에 넣으면 됩니다. authorId가 있는 소스는 Board 좌석(src/seed/advisors.ts의 id)과 연결되어, 그 사람의 새 글이 좌석에 배지로 뜹니다. 종류(글·에피소드·영상)는 선언하지 않습니다 — 오디오 첨부가 있으면 episode, 유튜브 채널 피드면 video로 fetcher가 판별합니다. 주소가 죽으면 scripts/fetch-feed.mjs가 리포트하고 나머지는 그대로 갱신합니다. 팟캐스트 주소를 모르면 Actions 탭의 \"Find feeds\"를 돌리세요. 유튜브는 넣지 않습니다 — 채널 RSS는 GitHub 러너에 404를 내고, 채널 페이지를 읽는 쪽은 유튜브가 렌더러를 lockupViewModel로 바꿔 유지 비용이 커서 접었습니다.",
   "filters": {
     "ai": [
       "인공지능",
@@ -309,6 +309,69 @@
       "name": "한겨레 과학",
       "url": "https://www.hani.co.kr/rss/science/",
       "filter": "ai"
+    },
+    {
+      "id": "uppity",
+      "group": "newsletter",
+      "lang": "ko",
+      "name": "어피티 머니레터",
+      "url": "https://uppity.co.kr/feed/"
+    },
+    {
+      "id": "tldr",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "TLDR Tech",
+      "url": "https://tldr.tech/api/rss/tech"
+    },
+    {
+      "id": "stratechery",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "Stratechery — Ben Thompson",
+      "url": "https://stratechery.com/feed/"
+    },
+    {
+      "id": "platformer",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "Platformer — Casey Newton",
+      "url": "https://www.platformer.news/rss/"
+    },
+    {
+      "id": "pragmatic",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "id": "exponentialview",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "Exponential View",
+      "url": "https://www.exponentialview.co/feed"
+    },
+    {
+      "id": "thediff",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "The Diff — Byrne Hobart",
+      "url": "https://www.thediff.co/archive/rss/"
+    },
+    {
+      "id": "noahpinion",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "Noahpinion",
+      "url": "https://www.noahpinion.blog/feed"
+    },
+    {
+      "id": "benevans",
+      "group": "newsletter",
+      "lang": "en",
+      "name": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss"
     }
   ]
 }

@@ -8,6 +8,7 @@ A personal PM career system, built as a local-first PWA for iPhone. Five pillars
 | **Journal** | Six entry types, axis distribution, prediction calibration, principle extraction |
 | **Board** | Seven PM thinkers seated as your C-level. Answer their questions yourself first; escalate to an LLM only if stuck |
 | **Reading** | Three feed groups (PM gurus, HR tech, PM·AI), refreshed daily by a GitHub Action |
+| **News** | Newsletters, latest issue per publisher only — a feed that ends, as the alternative to an endless one |
 | **Plan** | 10-year vision → 4 phases → yearly goals → weekly goals, plus "declared vs done" |
 
 ## Principles
@@ -39,6 +40,18 @@ Only title, link, date and a short excerpt are stored — reading goes to the or
 that dies keeps its previous items and gets listed in `report.failed`, which the Reading tab
 surfaces; feeds break eventually, so that report is permanent furniture. Sources carrying an
 `authorId` are matched to Board seats by id.
+
+### Newsletters
+
+The News tab shows one item per publisher: its latest issue. Back issues are not kept on
+screen, so the tab runs out — that is the point. It exists as a replacement for opening an
+infinite video feed to "catch up on news".
+
+Newsletters that publish RSS go straight into `feed-sources.json` with `"group": "newsletter"`.
+Email-only ones (뉴닉, 미라클레터 and most Korean newsletters) need one manual step: create a
+feed at kill-the-newsletter.com, subscribe to the newsletter with the email address it gives you,
+and add the Atom URL it gives you as the source `url`. Verify any new address with the
+"Find feeds" Action before adding it.
 
 ## Where the LLM is called
 

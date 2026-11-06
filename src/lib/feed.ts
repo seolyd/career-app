@@ -2,7 +2,7 @@
  * 피드는 GitHub Action이 만들어 둔 같은 출처의 정적 파일 하나입니다.
  * 서버도 CORS도 없고, 읽음 상태만 기기에 남습니다.
  */
-export const FEED_GROUPS = ['guru', 'hrtech', 'ai'] as const
+export const FEED_GROUPS = ['guru', 'hrtech', 'ai', 'newsletter'] as const
 export type FeedGroup = (typeof FEED_GROUPS)[number]
 
 export const GROUP_LABEL: Record<FeedGroup, string> = {
@@ -11,6 +11,7 @@ export const GROUP_LABEL: Record<FeedGroup, string> = {
   guru: 'Product',
   hrtech: 'HR tech',
   ai: 'PM · AI',
+  newsletter: 'Newsletter',
 }
 
 /**
@@ -61,6 +62,16 @@ export interface FeedItem {
 }
 
 /** 아직 kind가 없던 시절의 feed.json도 읽습니다 — Action이 한 번 더 돌면 채워집니다. */
+/** 발행처마다 가장 최근 항목 하나만 남깁니다. 입력 순서와 무관하게 날짜로 고릅니다. */
+export function latestPerSource(items: FeedItem[]): FeedItem[] {
+  const best = new Map<string, FeedItem>()
+  for (const item of items) {
+    const prev = best.get(item.sourceId)
+    if (!prev || item.publishedAt > prev.publishedAt) best.set(item.sourceId, item)
+  }
+  return [...best.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+}
+
 export function kindOf(item: FeedItem): FeedKind {
   return item.kind ?? (item.audioUrl ? 'episode' : 'article')
 }
@@ -99,8 +110,14 @@ export function rememberLang(lang: FeedLang): void {
  * 최신 AI면 다 받습니다 — 성격이 달라서 한 목록에 섞으면 둘 다 탁해집니다.
  */
 export const SECTIONS = {
-  pm: { label: 'PM Feed', groups: ['guru', 'hrtech'] as FeedGroup[] },
-  ai: { label: 'AI Feed', groups: ['ai'] as FeedGroup[] },
+  pm: { label: 'PM Feed', groups: ['guru', 'hrtech'] as FeedGroup[], latestOnly: false },
+  ai: { label: 'AI Feed', groups: ['ai'] as FeedGroup[], latestOnly: false },
+  /**
+   * 뉴스레터 탭은 끝이 있어야 합니다 — 무한 스크롤의 대안으로 만든 칸이라서요.
+   * 그래서 발행처마다 가장 최근 호 하나만 보여줍니다. 다 읽으면 그날 볼 게 없습니다.
+   * 지난 호를 쌓아 두면 다시 "밀린 피드"가 되고, 그건 유튜브 홈과 같은 압박입니다.
+   */
+  news: { label: 'Newsletters', groups: ['newsletter'] as FeedGroup[], latestOnly: true },
 } as const
 export type SectionId = keyof typeof SECTIONS
 

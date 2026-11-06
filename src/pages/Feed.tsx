@@ -13,6 +13,7 @@ import {
   formatDuration,
   kindOf,
   langOf,
+  latestPerSource,
   loadFeed,
   rememberLang,
   storedLang,
@@ -38,7 +39,7 @@ interface DigestReply {
 
 export function Feed({ section }: { section: SectionId }) {
   const navigate = useNavigate()
-  const { label, groups } = SECTIONS[section]
+  const { label, groups, latestOnly } = SECTIONS[section]
   const [feed, setFeed] = useState<FeedFile | null>(null)
   const [loading, setLoading] = useState(true)
   // 국내 글이 기본입니다. 영문은 토글로 그대로 볼 수 있습니다.
@@ -71,7 +72,10 @@ export function Feed({ section }: { section: SectionId }) {
   }, [])
 
   // 섹션 경계가 먼저입니다. PM 탭에 AI 소스가, AI 탭에 PM 소스가 새는 일은 없어야 합니다.
-  const inSection = (feed?.items ?? []).filter((i) => groups.includes(i.group))
+  const grouped = (feed?.items ?? []).filter((i) => groups.includes(i.group))
+  // 뉴스레터 탭은 발행처마다 최신 호 하나뿐입니다. 언어·읽음 필터보다 먼저 줄여야
+  // "최신 호를 읽었더니 지난 호가 올라오는" 일이 없습니다.
+  const inSection = latestOnly ? latestPerSource(grouped) : grouped
   // 그 다음이 언어입니다. 아래의 개수·빈 상태·실패 목록이 모두 "지금 보는 언어"
   // 기준이어야 해서, 종류·주제·길이 필터보다 앞에 둡니다.
   const mine = inSection.filter((i) => langOf(i) === lang)
@@ -283,7 +287,9 @@ export function Feed({ section }: { section: SectionId }) {
               ) : (
                 <Card>
                   <p className="text-[18px] text-slate-700 dark:text-slate-400">
-                    {mine.length === 0 && unreadByLang[other] > 0
+                    {inSection.length === 0
+                      ? '이 탭의 소스가 아직 수집되지 않았습니다. 다음 아침 Refresh feed가 돌면 채워집니다.'
+                      : mine.length === 0 && unreadByLang[other] > 0
                       ? `${LANG_LABEL[lang]} 소스가 이 탭에 없습니다. ${LANG_LABEL[other]}에 ${unreadByLang[other]}개 있습니다.`
                       : kind === 'episode' && episodeCount === 0
                         ? 'No podcast sources in this feed yet. Episodes show up once a source that publishes audio is added to feed-sources.json.'
@@ -292,7 +298,9 @@ export function Feed({ section }: { section: SectionId }) {
                           : kind === 'video' && countOf('video') === 0
                             ? 'No video sources in this feed. YouTube is not collected — its RSS returns 404 from the build runner.'
                             : hideRead
-                              ? 'Nothing unread. One a day is enough.'
+                              ? latestOnly
+                                ? '오늘 올 호는 다 읽었습니다. 여기서 끝입니다.'
+                                : 'Nothing unread. One a day is enough.'
                               : 'Nothing here yet.'}
                   </p>
                   {/* 다른 언어에 글이 있을 때만 건너가는 버튼을 붙입니다 */}
