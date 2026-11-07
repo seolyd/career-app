@@ -1,6 +1,270 @@
 {
-  "generatedAt": "2026-11-06T23:55:35.048Z",
+  "generatedAt": "2026-11-07T23:22:45.471Z",
   "items": [
+    {
+      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=677932",
+      "sourceId": "bloter",
+      "sourceName": "블로터",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "[디깅노트] AI를 향한 '빚투'의 무모함과 도전 사이",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=677932",
+      "publishedAt": "2026-11-08T07:00:00.000Z",
+      "excerpt": "빚에 대한 두려움은 역설적으로 투자와 연결됐을 때 '도전'으로 읽힌다. 빚을 지는 것에 대한 당장의 공포심을 이겨내고 기꺼이 불확실한 미래에 베팅하는 용기가 필요하기 때문이다. 베팅이 맞으면 레버리지의 수익으로, 틀리면 이자와 원금의 부담으로 돌아온다. 무모한 투자자와 성공한 투자자의 차이는 수익률이라는 한 끗이다.기업 입장에서도 별반 다르지 않다. 최근 글로벌 증시를 달구는 화두는 빅테크 …"
+    },
+    {
+      "id": "hani-sci:https://www.hani.co.kr/arti/science/future/1283797.html",
+      "sourceId": "hani-sci",
+      "sourceName": "한겨레 과학",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "AI 시대에 ‘일상을 꾸미는 행위’는 특별한 의미가 있다",
+      "url": "https://www.hani.co.kr/arti/science/future/1283797.html",
+      "publishedAt": "2026-11-07T23:22:43.522Z",
+      "excerpt": ""
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36779&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "Show HN: Coldframe, 슈퍼마켓 냉장 제어기로 위장하는 허니팟",
+      "url": "https://news.hada.io/topic?id=36779&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T22:38:27.000Z",
+      "excerpt": "Coldframe 은 냉장 제어기를 흉내 내 접속 출처, 시도한 비밀번호, 사용한 공개 익스플로잇을 기록하며, 실제 장비나 제어 기능은 제공하지 않는 허니팟임 Danfoss AK-SM 800A 와 Copeland/Dixell XWEB EVO 두 가지 장비를 모방하며, 로그인 화면뿐 아니라 HTTP 헤더, 인증 흐름 등 실제 장비의 웹 지문을 재현함 취약한 계정이나 특정 인증 우회로 로그인하면…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36778&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "모든 Windows 11 앱은 Electron을 버려야 한다, Discord가 그 이유를 보여줬다",
+      "url": "https://news.hada.io/topic?id=36778&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T22:35:27.000Z",
+      "excerpt": "Discord가 Rust와 GPUI 기반 클라이언트 로 Electron을 대체하고 있으며, 공개한 콜드 스타트 영상에서는 기존 앱이 로딩을 마치기 전에 새 앱의 친구 목록이 표시됨 새 클라이언트는 계정 2개를 동시 실행하면서 RAM 290.2MB 를 사용함. 1GB보다 약 70% 적지만, 초기 빌드의 한 시점 측정이며 동일 조건 비교 벤치마크는 없음 빠른 초기화와 새 아키텍처 덕분에 “Sta…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36777&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "산마리노 여행 노트",
+      "url": "https://news.hada.io/topic?id=36777&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T21:51:56.000Z",
+      "excerpt": "이탈리아에 둘러싸인 인구 약 3만 3,500명의 산마리노는 작고 위협적이지 않은 국가라는 지위와 외교 를 활용해 수백 년간 독립을 유지해 왔음 세계에서 가장 오래 지속된 공화국을 자처하지만 301년 건국설은 근거가 희박 하며, 실제 정치체제도 과두정, 파시즘, 공산당 참여 연립정부를 거쳐 변화해 왔음 이탈리아와의 관계는 생존뿐 아니라 경제도 좌우함. 전후 좌파 정부의 카지노 실험 은 이탈리아…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36776&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "10달러짜리 OpenStick 홈랩에서 돌리는 것들",
+      "url": "https://news.hada.io/topic?id=36776&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T21:48:55.000Z",
+      "excerpt": "배송비 포함 10달러에 구매한 OpenStick 에서 Debian과 Podman을 이용해 DNS 차단, AI 에이전트, 모니터링, RSS 등 여러 서비스를 직접 운영함 하드웨어는 RAM 512MB, 1GHz ARM Cortex-A53 4코어 와 4GB eMMC를 갖췄으며, 설치 과정은 다소 복잡하지만 적은 전력으로 소음 없이 홈 서버를 운영할 수 있음 AdGuard Home 으로 DNS 수준…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36775&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "에이전트 메모리 설계 - 무엇을 기억하고, 잘못된 기억은 어떻게 고칠까",
+      "url": "https://news.hada.io/topic?id=36775&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T20:51:20.000Z",
+      "excerpt": "Anthropic은 AI 에이전트가 다음 세션을 위해 무엇을 기억하고, 쌓인 기억을 어떻게 정리할지 Claude로 실험함 에이전트는 검증된 해결법이나 이어서 할 일을 노트로 남겨 다음 세션에서 다시 활용 할 수 있음 드리밍(dreaming) 은 세션 사이에 메모를 원본 대화 로그와 대조해 오류를 고치고, 여러 세션에 흩어진 노트를 주제별로 연결하는 과정임. 관련 내용을 위키로 묶어 나중에 찾…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36774&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "요즘은 이런 걸 만들지 않는다: Borland Turbo Pascal 7",
+      "url": "https://news.hada.io/topic?id=36774&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T20:48:20.000Z",
+      "excerpt": "Turbo Pascal 7 은 Windows용 객체 지향 라이브러리, 그래픽 UI 설계 도구, 소스 수준 디버거를 하나의 IDE로 통합해 당시 복잡했던 Windows 프로그래밍의 진입 장벽을 낮춤 Object Windows Library 는 Windows C API를 객체 지향 방식으로 감싸 UI 모델에 맞게 개발할 수 있도록 했으며, 통합 환경은 명령줄 도구와 복잡한 정의 파일을 직접 다루…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36773&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "Apple의 그레이 리스트: iPhone이 철자 입력을 도와주지 않는 단어와 문구들",
+      "url": "https://news.hada.io/topic?id=36773&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T20:45:20.000Z",
+      "excerpt": "Apple 운영체제에서 10만 개가 넘는 단어와 문구 의 예측 입력 완성을 제한하는 그레이 리스트 가 발견됨 제한된 문구는 예측 입력에 나타나지 않으며, 스와이프 입력 에서도 “United Ireland”가 “United Iceland”로 바뀌는 등 다른 표현으로 대체되는 경우가 있음 목록에는 마약과 성행위 관련 표현뿐 아니라 정치적으로 민감한 문구 , “iMessage isn’t worki…"
+    },
+    {
+      "id": "geeknews:https://news.hada.io/topic?id=36772&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "Microsoft Research의 AI Frontiers 그룹이 막을 내림",
+      "url": "https://news.hada.io/topic?id=36772&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+      "publishedAt": "2026-11-07T20:42:20.000Z",
+      "excerpt": "AI Frontiers(AIF) 가 Microsoft AI로 재편된 뒤 막을 내림. 공동 설립에 참여한 John Langford는 팀원들의 거취를 최대한 정리하고 회사를 떠남 약 50명 규모 의 AIF는 개인 연구만으로 경쟁하기 어려워진 AI 환경에 대응해 조직적인 연구를 추진했으며, 에이전트와 새로운 모델 역량을 개발함 Langford가 경험한 Microsoft AI의 규모 확장 중심 전략…"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217134",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "오픈AI, '클로드 코드' 성공 주역 캣 우 영입…핵심 제품 총괄 맡아",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217134",
+      "publishedAt": "2026-11-07T19:05:17.000Z",
+      "excerpt": "오픈AI가 앤트로픽의 AI 코딩 에이전트 '클로드 코드'를 성공적인 상용 제품으로 키운 핵심 인물을 영입했다. '코워크'의 제품 개발에도 참여한 캣 우(Cat Wu)로, 오픈AI의 코덱스와 기업용 AI 에이전트 경쟁력을 강화하는 데 중요한 역할을 맡을 전망이다.비즈니스인사이더는 5일(현지시간) 앤트로픽의 클로드 코드 제품 책임자였던 캣 우가 오픈AI에 합류해 핵심 제품(Core Product…"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217133",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "삼성 첫 AI 안경 출시 임박…젠틀몬스터·워비파커, 12일 예약 시작",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217133",
+      "publishedAt": "2026-11-07T18:14:54.000Z",
+      "excerpt": "삼성전자와 구글이 공동 개발한 첫 AI 안경이 오는 12일 예약 판매를 시작한다. 국내 젠틀몬스터와 미국 워비파커가 각각 디자인하고 구글의 '제미나이'를 탑재한 제품으로, 12월 정식 출시할 예정이다.젠틀몬스터와 워비파커는 오는 12일부터 '인텔리전트 아이웨어(Intelligent Eyewear)'의 예약 판매를 시작한다고 발표했다. 젠틀몬스터는 6일 공식 홈페이지에 예약 판매 일정을 공개했…"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217132",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "씽킹 머신스, 성능 대폭 높인 '잉클링 2' 공개…중국 오픈 모델에 도전",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217132",
+      "publishedAt": "2026-11-07T17:45:42.000Z",
+      "excerpt": "오픈AI 출신 미라 무라티가 이끄는 씽킹 머신스 랩(Thinking Machines Lab)이 기존 모델보다 성능을 크게 높인 새로운 AI 모델을 공개했다. 중국 주요 오픈웨이트 모델과 경쟁할 수 있는 수준으로 평가되며, 기업이 자체 업무에 맞춰 AI를 개발할 수 있도록 모델 가중치도 공개할 계획이다.씽킹 머신스는 5일(현지시간) 공식 블로그를 통해 2세대 모델 '잉클링 2 스몰(Inklin…"
+    },
+    {
+      "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157050",
+      "sourceId": "techm",
+      "sourceName": "테크M",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "[라그나로크 페스타] 그라비티, AI·숏폼 결합한 '아이완' 공개...내년 1분기 글로벌 게임 플랫폼 띄운다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=157050",
+      "publishedAt": "2026-11-07T17:31:42.000Z",
+      "excerpt": "그라비티가 다운로드 없이 즉시 게임을 즐길 수 있는 새로운 플랫폼 '아이완(Aiwan)'을 선보인다. 숏폼 콘텐츠와 AI 기반 개인화 추천, 크로스 플랫폼 기능 등을 결합해 새로운 게임 플레이 경험을 제공한다는 구상이다. 최성욱 아이완 사장은 7일(현지시간) 태국 방콕 엠스피어 몰 내 UOB 라이브에서 열린 '라그나로크 페스타 2026'에 참석해 \"아이완은 라그나로크 IP의 저력을 바탕으로 …"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217131",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "바이두, 딥시크 앞선 '어니 5.5' 베이스 모델 공개…한국·유럽 사용 제한",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217131",
+      "publishedAt": "2026-11-07T17:08:12.000Z",
+      "excerpt": "중국 바이두가 딥시크와 텐센트, 샤오미의 경쟁 모델을 주요 성능 평가에서 앞서는 대형언어모델(LLM)을 공개했다. 특히 사전학습만 마친 모델의 가중치를 공개해 개발자들이 독자적인 AI를 만들도록 지원한다. 그러나 한국과 유럽을 사용 허가 지역에서 제외했다.바이두는 5일 공식 블로그와 허깅페이스를 통해 '어니 5.5 플래시 베이스(ERNIE 5.5 Flash Base)'의 가중치를 공개했다. …"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217130",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "미 중간선거 후폭풍…민주당, 빅테크 대대적 조사·AI 규제 추진",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217130",
+      "publishedAt": "2026-11-07T16:43:57.000Z",
+      "excerpt": "미국 중간선거에서 상·하원을 모두 장악한 민주당이 빅테크 기업에 대한 대규모 조사와 AI 규제 입법을 준비하고 있다. 트럼프 행정부와 긴밀한 관계를 맺어온 기업들의 정부 거래를 조사하는 동시에 AI 모델의 안전성, 데이터센터 전력 비용, 엔비디아의 중국 AI 칩 수출까지 규제 대상으로 삼을 계획이다.워싱턴포스트(WP)와 로이터, 블룸버그는 6일(현지시간) 민주당이 내년 1월 의회 운영권을 확…"
+    },
+    {
+      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=677950",
+      "sourceId": "bloter",
+      "sourceName": "블로터",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "'모닝스타' 띄운 조현준의 승부수…AI 전력망 타고 100년 기업 목표",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=677950",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "excerpt": "창립 60주년과 조현준 회장의 취임 10주년을 맞이한 효성그룹이 '모닝스타(새벽별)' 정신을 앞세워 100년 기업을 향한 전면적인 체질 개선에 나섰다. 조 회장은 '악착·치밀·신뢰'라는 3대 경영원칙을 천명하고, AI(인공지능) 전력 인프라 확대·초고압 송전망 기술 고도화·글로벌 영토 확장 등으로 이어지는 삼각편대를 미래 100년을 열 핵심 승부수라고 강조했다.조현준 회장은 최근 창립 60주…"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217128",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "메타, AI로 맞춤형 앱 만드는 '뮤즈 스페이스' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217128",
+      "publishedAt": "2026-11-07T15:39:27.000Z",
+      "excerpt": "메타가 AI 에이전트 '뮤즈(Muse)'와 협업할 수 있는 맞춤형 작업 공간 '스페이스(Spaces)'를 출시했다. 사용자가 자연어로 원하는 기능을 설명하면 여행 계획표나 쇼핑 관리 도구, 일정 추적기 등 목적에 맞는 앱 형태의 작업 공간을 자동으로 만들어준다. 외부 서비스와 연동해 관련 정보도 백그라운드에서 갱신할 수 있다.메타는 6일(현지시간) 뮤즈 앱에 스페이스 기능을 도입했다고 밝혔다…"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217129",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "[AI 이슈트렌드] 강호동 구속영장 1위…미 중간선거·바이낸스 해킹 뒤이어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217129",
+      "publishedAt": "2026-11-07T15:08:35.000Z",
+      "excerpt": "AI타임스와 이스트에이드의 11월 첫째 주(10월30일~11월5일) 이슈 분석 결과, 농협중앙회장 구속영장 신청을 포함해 민주당이 석권한 미국 중간선거와 역대 최대 규모의 바이낸스 해킹 소식 등이 상위권을 차지했다.이번 주 검색량 1위는 '강호동 구속영장(7.74%)'이 차지했다. 서서울경찰청 반부패수사대는 강 회장이 2024년 농협중앙회장 선거를 전후해 계열사 거래처 대표로부터 1억 원이 …"
+    },
+    {
+      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217126",
+      "sourceId": "aitimes",
+      "sourceName": "AI타임스",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "유럽 16개국서 데이터센터 반대 공동 행동…MS 건설 현장 난입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217126",
+      "publishedAt": "2026-11-07T10:57:42.000Z",
+      "excerpt": "미국 중간선거에서 데이터센터 건설에 반대하는 후보들이 잇따라 승리한 데 이어 유럽에서도 데이터센터 반대 운동이 본격화하고 있다. 유럽 16개국의 시민단체 100여곳이 데이터센터 건설 중단을 요구하는 공동 행동에 나섰으며, 네덜란드에서는 시위대가 마이크로소프트(MS)의 AI 데이터센터 건설 현장에 진입하는 사태까지 벌어졌다.로이터와 가디언 등은 6일(현지시간) 네덜란드 암스테르담에서 시위대가 …"
+    },
+    {
+      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=678029",
+      "sourceId": "bloter",
+      "sourceName": "블로터",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "[피지컬 AI 생태계] PwC가 로봇을? 리얼월드와 로보월드에 온 까닭",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=678029",
+      "publishedAt": "2026-11-07T09:51:13.000Z",
+      "excerpt": "현장에서 본 국내 피지컬 AI 생태계의 현재를 짚어봅니다.로봇을 사면 공장이 바로 돌아갈까. 어떤 일을 맡길지, 투자한 만큼 효과가 날지부터 따져야 한다. 이 질문에 답하겠다며 이달 5일 경기 고양시 일산서구 킨텍스에서 열린 '로보월드 2026'에 온 곳이 있다. 회계감사로 익숙한 이름 PwC다.\"진단으로 끝내지 않습니다. 로봇이 실제로 움직이는 데까지 함께합니다.\"이날 현장에서 만난 김혜수…"
+    },
+    {
+      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=678026",
+      "sourceId": "bloter",
+      "sourceName": "블로터",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "美민주당, 데이터센터 규제 강화 예고…백악관 \"AI 인프라 확충 지속\"",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=678026",
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "excerpt": "미국 민주당이 내년 1월 미국 의회 주도권을 확보하면 인공지능(AI) 시스템과 데이터센터 개발을 겨냥한 입법을 대거 추진한다는 계획이다. 도널드 트럼프 행정부는 AI 인프라 투자 기조를 이어나가겠다는 입장을 밝혔다.6일(현지시간) 로이터통신에 따르면 민주당은 데이터센터로 인한 전기요금 상승에 대한 소비자 보호, 첨단 AI 시스템에 대한 독립적인 안전성 평가 의무화, AI 기업의 법적 책임 강…"
+    },
     {
       "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=678025",
       "sourceId": "bloter",
@@ -14,40 +278,115 @@
       "excerpt": "현장에서 본 국내 피지컬 AI 생태계의 현재를 짚어봅니다. 두 다리로 선 휴머노이드(인간형 로봇)가 음악에 맞춰 사람과 춤을 추더니 림보 대결에서는 이겼다. 이달 5일 경기 고양시 일산서구 킨텍스에서 열린 '로보월드 2026' 로보티즈 부스의 이족보행 휴머노이드 'AI 사피엔스'가 선보인 장면이다.\"시작부터 끝까지 전부 저희가 직접 만듭니다. 진정한 메이드 인 코리아 휴머노이드죠.\"이날 현장…"
     },
     {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217091",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
+      "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157030",
+      "sourceId": "techm",
+      "sourceName": "테크M",
       "group": "ai",
       "lang": "ko",
       "kind": "article",
-      "title": "[11월6일] \"AI에 AI 안전 맡겼더니 일하는 척만\"…오픈AI도 원인 못 찾아",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217091",
-      "publishedAt": "2026-11-07T07:00:00.000Z",
-      "excerpt": "AI에 다른 AI의 안전성을 높이기 위한 연구를 맡겼더니 일부 작업을 제대로 수행하지 않고도 그 사실을 알리지 않는 현상이 발견됐습니다. 여기에 안전하게 행동하라는 지시까지 추가하자 성능이 더 떨어졌습니다. 특히 이전 모델에서는 거의 나타나지 않았던 현상이 최신 모델에서 두드러지면서, AI가 발전할수록 예상하지 못한 행동이 나타날 수 있다는 문제가 제기됐습니다.오픈AI는 4일(현지시간) 공식…"
+      "title": "[카드뉴스] 1000만원짜리 노트북의 등장...엔비디아가 AI에 베팅한 이유",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=157030",
+      "publishedAt": "2026-11-07T08:00:00.000Z",
+      "excerpt": "인터넷 연결 없이도 AI를 사용할 수 있는 시대가 다가오고 있습니다. 엔비디아는 'RTX 스파크' 기자간담회에서 AI가 외부 서버를 거치지 않고 PC에서 직접 작동하는 '로컬 AI'의 가능성을 강조했습니다. 최대 128GB 메모리와 강력한 AI 연산 성능을 앞세워 개발과 콘텐츠 제작, 로봇 분야까지 활용 범위를 넓히겠다는 전략인데요. 다만 높은 제품 가격은 대중화의 걸림돌로 꼽힙니다.엔비디아…"
     },
     {
-      "id": "hani-sci:https://www.hani.co.kr/arti/science/future/1283797.html",
-      "sourceId": "hani-sci",
-      "sourceName": "한겨레 과학",
+      "id": "etnews:https://www.etnews.com/20261107000027",
+      "sourceId": "etnews",
+      "sourceName": "전자신문",
       "group": "ai",
       "lang": "ko",
       "kind": "article",
-      "title": "AI 시대에 ‘일상을 꾸미는 행위’는 특별한 의미가 있다",
-      "url": "https://www.hani.co.kr/arti/science/future/1283797.html",
-      "publishedAt": "2026-11-06T23:55:28.203Z",
-      "excerpt": ""
+      "title": "수능 앞두고 대통령도 경계한 AI안경 부정행위…뿔테 수험생 “안경 빼앗기면 어떡하나”",
+      "url": "https://www.etnews.com/20261107000027",
+      "publishedAt": "2026-11-07T07:50:00.000Z",
+      "excerpt": "2027학년도 대학수학능력시험(수능)을 앞두고 인공지능(AI) 스마트안경을 이용한 부정행위 우려가 확산하면서 시험장에 때아닌 '안경 소동'이 벌어지고 있다. 교육당국이 첨단기기를 활용한 부정행위 차단에 나선 가운데 일부 수험생은 일반 안경이 스마트안경으로 오인될 가능성을 걱정하고 있다. 시험 감독을 맡는 교사들도 기기 식별과 민원 대응에 부담을 호소하고 있다. 7일 교육계에 따르면 서울시교육…"
     },
     {
-      "id": "hani-sci:https://www.hani.co.kr/arti/science/science_general/1283581.html",
-      "sourceId": "hani-sci",
-      "sourceName": "한겨레 과학",
+      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-from-8bn-to-19bn-inside-washus-endowment-fund-spacex-made-up-20-of-our-aum-why-europe-and-china-has-so-much-opportunity-the-reckoning-that-is-coming-for-ai-companies-with-scott-wilson",
+      "sourceId": "20vc",
+      "sourceName": "The Twenty Minute VC",
+      "group": "guru",
+      "lang": "en",
+      "kind": "episode",
+      "title": "20VC: From $8BN to $19BN: Inside WashU's Endowment Fund | SpaceX Made Up 20% of Our AUM | Why Europe and China Has So Much Opportunity | The Reckoning That is Coming for AI Companies with Scott Wilson",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-from-8bn-to-19bn-inside-washus-endowment-fund-spacex-made-up-20-of-our-aum-why-europe-and-china-has-so-much-opportunity-the-reckoning-that-is-coming-for-ai-companies-with-scott-wilson",
+      "publishedAt": "2026-11-07T07:07:00.000Z",
+      "excerpt": "Scott Wilson is the CIO of WashU, one of the best-performing endowment funds in the world. Under his leadership, Scott has grown the endowment from $8BN to $19BN today. At one point, SpaceX was over 20% of the entire val…",
+      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Scott_Wilson__WashU.mp3?dest-id=240976",
+      "durationSec": 3484,
+      "imageUrl": "https://static.libsyn.com/p/assets/8/a/3/1/8a313c4d709abaed5f2e77a3093c12a1/WhatsApp_Image_2026-11-06_at_12.19.13.jpeg"
+    },
+    {
+      "id": "donga-sci:https://www.donga.com/news/It/article/all/20261106/134979694/2",
+      "sourceId": "donga-sci",
+      "sourceName": "동아일보 과학",
       "group": "ai",
       "lang": "ko",
       "kind": "article",
-      "title": "‘얼굴 사진 한 장’으로 암 환자 사망 위험 맞혀…생존율 예측 AI 나와",
-      "url": "https://www.hani.co.kr/arti/science/science_general/1283581.html",
-      "publishedAt": "2026-11-06T23:55:28.203Z",
-      "excerpt": ""
+      "title": "반복 작업은 정확, 스스로 판단은 아직…휴머노이드 현장 투입 ‘시작 단계’",
+      "url": "https://www.donga.com/news/It/article/all/20261106/134979694/2",
+      "publishedAt": "2026-11-07T04:30:00.000Z",
+      "excerpt": "휴머노이드 로봇이 공장과 물류센터에 투입되기 시작했지만, 사람처럼 스스로 판단해 일하는 단계까지는 아직 갈 길이 멀다. 정해진 동작을 반복하는 작업은 정확도가 높지만, 인공지능(AI)이 주변 상황을 인식하고 작업 방법을 판단하는 과정에서는 오류가 잦아 사람의 개입이 필요하다.“미리 입력한 명령을 반복 수행하는 작업은 오류가 거의 없습니다. 하지만 로봇이 스스로 판단하는 단계에서는 전 세계 어…"
+    },
+    {
+      "id": "latentspace:https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "sourceId": "latentspace",
+      "sourceName": "Latent Space",
+      "group": "ai",
+      "lang": "en",
+      "kind": "article",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "publishedAt": "2026-11-07T03:04:53.000Z",
+      "excerpt": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails."
+    },
+    {
+      "id": "etnews:https://www.etnews.com/20261107000017",
+      "sourceId": "etnews",
+      "sourceName": "전자신문",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "라이너, 글쓰기 AI '취업 준비' 기능 강화…“이용자 53%가 청년층”",
+      "url": "https://www.etnews.com/20261107000017",
+      "publishedAt": "2026-11-07T02:28:13.000Z",
+      "excerpt": "라이너가 인공지능(AI) 글쓰기 서비스의 취업 준비 기능을 강화했다. 기존 자기소개서 초안 작성에서 강점·약점 분석과 직무별 면접 연습까지 지원 범위를 확대했다. 7일 업계에 따르면 라이너는 AI 글쓰기 서비스 '라이너 라이트'에 자기소개서 분석과 면접 준비 기능을 추가했다. AI가 채용 공고를 분석해 자기소개서·이력서의 강점과 개선점을 분석하고 지원 직무별 예상 면접 질문과 답변 전략을 제…"
+    },
+    {
+      "id": "byline:https://byline.network/2026/11/6-475/",
+      "sourceId": "byline",
+      "sourceName": "바이라인네트워크",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "‘로컬 AI 시대’, 엔비디아 ‘RTX 스파크’가 그리는 미래",
+      "url": "https://byline.network/2026/11/6-475/",
+      "publishedAt": "2026-11-07T02:02:10.000Z",
+      "excerpt": "“올해는 로컬 AI 에이전트의 해라고 할 수 있을 만큼 중요한 변곡점이었다. AI는 우리가 PC와 상호작용하는 방식과 사용하는 방법을 바꿔놓고 있다. 로컬 에이전트의 지능도 상당히 향상돼 고성능 프런티어 모델에 가까운 수준으로 발전하고 있다. 앞으로 AI 에이전트가 실행되는 PC에 대한 요구사항도 달라질 것이라고 보고 있다.” 제프 옌 엔비디아 아시아태평양(APAC) 테크니컬 마케팅 디렉터는…"
+    },
+    {
+      "id": "byline:https://byline.network/2026/11/06_291872773/",
+      "sourceId": "byline",
+      "sourceName": "바이라인네트워크",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "앱 홍수 시대, 이용자에게 어떻게 닿을까 (feat. 몰로코)",
+      "url": "https://byline.network/2026/11/06_291872773/",
+      "publishedAt": "2026-11-07T02:01:06.000Z",
+      "excerpt": "AI 덕분에 개발자가 아니어도 아이디어만 있으면 앱을 만들 수 있게 됐다. 그 결과 올해 새로 나온 앱은 지난해보다 2배 이상 늘었다. 하지만 같은 기간 앱 다운로드는 2% 느는 데 그쳤다. 하루에도 수많은 앱이 쏟아지는 시장에서, 새 서비스는 어떻게 이용자의 눈에 띌 수 있을까?"
+    },
+    {
+      "id": "donga-sci:https://www.donga.com/news/Economy/article/all/20261106/134971335/1",
+      "sourceId": "donga-sci",
+      "sourceName": "동아일보 과학",
+      "group": "ai",
+      "lang": "ko",
+      "kind": "article",
+      "title": "AI가 AI를 만드는 단계 왔다…“시스템 종료 거부할 수도”[김현지의 with AI]",
+      "url": "https://www.donga.com/news/Economy/article/all/20261106/134971335/1",
+      "publishedAt": "2026-11-07T02:00:00.000Z",
+      "excerpt": "기업 공개(IPO)를 앞둔 미국 AI 개발사 앤스로픽이 “곧 공개할 모델이 AI가 AI를 만드는 단계에 다가섰다”고 밝혔다. 업계에서 ‘재귀적 자기개선(RSI)’이라 부르는 단계에 가까워졌다는 뜻이다. 앤스로픽은 11월 2일(현지시간) 미 증권거래위원회(SEC)에 제출한 수정 증권신고서(S-1/A)에서 이 모델이 자사 안전 정책(RSP)이 정한 ‘AI 주도의 비약적 발전’ 기준에 해당할 수 …"
     },
     {
       "id": "donga-sci:https://www.donga.com/news/It/article/all/20261107/134982999/1",
@@ -60,42 +399,6 @@
       "url": "https://www.donga.com/news/It/article/all/20261107/134982999/1",
       "publishedAt": "2026-11-06T23:10:00.000Z",
       "excerpt": "물리Ⅰ 35점, 4등급수학(선택과목 미적분) 73점, 3등급한국사 44점, 1등급기자가 직접 인공지능(AI) 안경을 사용해 2026학년도 대학수학능력시험(수능) 문제를 풀고 받은 성적표다. 최근 토익이나 대학 시험장에서 AI 안경을 사용해 부정행위를 저지르다가 적발되는 사례가 잇따랐다. 정말 AI 안경은 시험장에서 큰 위력을 발휘할까. 과목과 시험 유형을 가리지 않고 실력을 뽐낼 수 있을까.…"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36727&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "UEFI를 활용한 베어메탈 프로그래밍 첫걸음",
-      "url": "https://news.hada.io/topic?id=36727&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T22:43:38.000Z",
-      "excerpt": "Linux 워크스테이션 에서 UEFI 펌웨어를 사용하는 PC용 베어메탈 애플리케이션을 개발하는 연재임 숙련된 Linux 개발자 를 대상으로 하며, UEFI 사전 지식은 필요하지 않음 개발에 필요한 소프트웨어 도구와 컴파일/링크 방법 을 다룸 EFI 시스템 파티션 , 부팅 가능한 디스크 제작, 기본 파일 관리까지 다룸 각 편이 앞선 편의 내용을 전제로 하므로 순서대로 읽어야 하며, 순서를 건너…"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36726&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "Anthropic IPO 투자자들, 기업가치를 낮게는 약 1,430조원으로 예상",
-      "url": "https://news.hada.io/topic?id=36726&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T22:40:38.000Z",
-      "excerpt": "Anthropic 의 잠재 IPO 투자자 일부가 기업가치를 낮게는 1조 1,000억 달러($1,100b) 로 검토 중인 것으로 관계자를 통해 전해짐 선거 이후 거센 매도세 에 부딪히면서 잠재 투자자들이 예상 기업가치를 재검토하고 있음 사안에 정통한 관계자들에 따르면, 잠재 투자자들은 1조 2,000억~1조 3,000억 달러 수준의 기업가치를 논의 중임 Anthropic은 다음 주 공식 IPO…"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36725&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "불확실한 사례만 Opus에 맡긴 Jev, 비용은 4분의 1로",
-      "url": "https://news.hada.io/topic?id=36725&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T22:37:38.000Z",
-      "excerpt": "서로 다른 사람의 고객 기록을 잘못 합쳤는지 판별하는 작업 에 저렴한 결정 모델 Jev를 먼저 사용하고, 판단 점수가 애매한 사례만 Opus에 넘기는 방식을 시험함. 평가는 합성 데이터로 진행 쉬운 테스트에서는 전체의 22%만 Opus로 재검토해 정확도 98.8% 를 기록. Opus 단독의 99.0%에 근접하면서, 1,000건당 비용은 3.86달러에서 0.88달러 로 줄어듦 핵심은 틀릴 가능…"
     },
     {
       "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=678002",
@@ -122,66 +425,6 @@
       "excerpt": "미국 중간선거에서 민주당이 압승하면서 인공지능(AI) 데이터센터 투자에 제동이 걸릴 수 있다는 우려가 나오는 가운데 배경훈 부총리 겸 과학기술정보통신부(과기정통부) 장관이 AI 인프라에 대한 투자를 지속 확대해야 한다는 입장을 내놨다. 미국이 AI 투자에 주춤하더라도 중국·프랑스·캐나다 등 다른 국가들은 오히려 이를 기회로 삼을 수 있는 만큼 우리나라 역시 긴장감을 낮추면 안 된다는 취지다.…"
     },
     {
-      "id": "geeknews:https://news.hada.io/topic?id=36724&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "2000년대 초, 게임을 만드는 아이로 산다는 것",
-      "url": "https://news.hada.io/topic?id=36724&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T21:40:50.000Z",
-      "excerpt": "The Games Factory 는 대규모 전문가 팀만 게임을 만들 수 있다고 생각하던 어린 Jay Tholen에게 직접 가상 세계를 만드는 길을 열어줌 학교생활의 어려움과 잦은 이사 속에서 Klik 커뮤니티 가 사회생활의 중심이 됐고, 게임과 그림을 공유하며 인정받고 싶다는 마음이 창작을 이끌었음 2001~2003년 여러 게임을 공개했지만, 기본 이동 기능의 버그 와 부족한 구현 지식 때문…"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36723&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "생존의 한계를 넘어 살아가기: 거대한 구덩이 함정에 갇힌 숲개미들 (2016)",
-      "url": "https://news.hada.io/topic?id=36723&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T21:37:50.000Z",
-      "excerpt": "생존의 한계를 넘어 살아가기: 거대한 구덩이 함정에 갇힌 숲개미들 (2016)"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36722&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "Ask HN: Ubuntu는 도대체 왜 이렇게 오래 걸리는 건가요?",
-      "url": "https://news.hada.io/topic?id=36722&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T20:37:23.000Z",
-      "excerpt": "Ubuntu가 CVE-2026-98432 의 심각도를 9.8 로 표시했지만, 거의 일주일째 수정 업데이트 없이 “work in progress” 상태이며 이제는 완화 조치가 안내되어 있음 완화 조치를 적용한 지 일주일이 됐지만, 대응 지연으로 Ubuntu에 대한 신뢰 가 흔들리고 있음. 지원하는 커널이 너무 많은지, 빌드/테스트 파이프라인의 자동화가 부족한지, 엔지니어들이 과부하 상태인지 등…"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36721&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "미국 FAA, 2028년까지 항공교통관제에서 플로피 디스크 단계적 퇴출 계획",
-      "url": "https://news.hada.io/topic?id=36721&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T20:34:22.000Z",
-      "excerpt": "미국 연방항공청(FAA)이 전국 400곳 이상의 항공교통관제 시설 에서 기상 등 핵심 정보 처리에 사용하는 플로피 디스크를 2028년 말까지 교체 할 계획임 Enterprise Information Display System 이 1980년대부터 사용한 시스템 4개를 대체하고, 관제사가 운항 정보를 한곳에서 확인하며 중요 경보를 즉시 공유할 수 있도록 할 예정임 노후 관제 시스템 개선을 위해 …"
-    },
-    {
-      "id": "geeknews:https://news.hada.io/topic?id=36720&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "sourceId": "geeknews",
-      "sourceName": "GeekNews",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "이제 모든 것이 AI 사기다",
-      "url": "https://news.hada.io/topic?id=36720&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-      "publishedAt": "2026-11-06T19:36:38.000Z",
-      "excerpt": "20일 만에 근육질 몸을 만든다는 태극권, 무제한 무료 인터넷 USB, 방을 90초 만에 식힌다는 책 크기의 에어컨 까지, YouTube에 비현실적인 효능을 내세운 광고가 이어짐 스팸 메일도 작품 소개 문구를 재활용해 실제로 읽고 감상한 듯한 제안 을 보내옴. 무료 PDF로 배포하는 시집에 평점과 마케팅을 들먹이며 접근한 메일도 있었음 대부분의 사람이 가짜임을 알아채더라도 아주 적은 비율만 …"
-    },
-    {
       "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=678014",
       "sourceId": "bloter",
       "sourceName": "블로터",
@@ -194,54 +437,6 @@
       "excerpt": "CJ올리브네트웍스의 올해 3분기 성장을 이끈 것은 주력 사업이 아닌 스마트스페이스 인공지능전환(AX)이었다. 전체 매출에서 차지하는 비중은 8%에 불과하지만 매출 증가분의 46%를 책임졌다.스마트스페이스 AX는 공장·물류센터·데이터센터와 콘텐츠 제작시설 등 산업 공간을 구축·운영하며 인공지능(AI) 전환을 지원하는 사업이다. CJ올리브네트웍스는 AI 팩토리와 방송·미디어 시설 구축 수주를 확…"
     },
     {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217107",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "구글 출신 연구진, 65B 모델로 8배 큰 AI 코딩 성능 추월…개발비도 10분의 1",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217107",
-      "publishedAt": "2026-11-06T17:44:08.000Z",
-      "excerpt": "구글 출신 연구진이 설립한 리커시브 인텔리전스(Ricursive Intelligence)가 매개변수 규모가 8배 가까이 큰 AI 모델을 코딩 성능 평가에서 앞서는 오픈웨이트 모델을 공개했다. 기존 선두 모델보다 개발 비용은 약 10분의 1에 불과하다고 밝혀, 대형 모델에 맞먹는 성능을 적은 비용으로 구현한 사례로 주목받고 있다.리커시브 인텔리전스는 최근 650억개 매개변수를 갖춘 오픈웨이트 …"
-    },
-    {
-      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=678009",
-      "sourceId": "bloter",
-      "sourceName": "블로터",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "티맥스티베로·티맥스소프트, 박경희 총괄대표 선임",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=678009",
-      "publishedAt": "2026-11-06T17:30:54.000Z",
-      "excerpt": "티맥스티베로와 티맥스소프트가 박경희 대표를 양사 총괄대표이사로 선임했다. 양사는 데이터베이스(DB)와 미들웨어 분야에서 축적한 기술력을 바탕으로 인공지능(AI) 기반 제품을 고도화하고 신규 사업 기회를 발굴할 계획이다.티맥스티베로·티맥스소프트는 6일 박경희 티맥스티베로 대표를 양사 총괄대표로 선임했다고 밝혔다. 박 총괄대표는 30년간 DB 분야에서 경력을 쌓아온 기업용 정보기술(IT) 전문가…"
-    },
-    {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217096",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "엔비디아, 미국 노후 전화국 130곳 AI 데이터센터로 전환 추진",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217096",
-      "publishedAt": "2026-11-06T17:25:00.000Z",
-      "excerpt": "엔비디아가 미국의 노후 전화국 건물을 AI 데이터센터로 개조해 20개 주에 걸친 분산형 네트워크를 구축하는 방안을 추진하고 있다. 신규 데이터센터 건설에 필요한 시간과 비용, 인허가 부담을 줄이고 기존 통신시설에 남아 있는 전력과 통신 인프라를 활용하려는 전략이다.디 인포메이션은 5일(현지시간) 엔비디아가 사모펀드 아폴로 글로벌 매니지먼트와 손잡고 아폴로가 소유한 광대역 통신업체 브라이트스피…"
-    },
-    {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217080",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "앤트로픽, AI 자기개선 가속 징후…개발 속도 2배·미공개 모델 3개 확인",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217080",
-      "publishedAt": "2026-11-06T17:21:04.000Z",
-      "excerpt": "앤트로픽이 AI를 활용해 차세대 모델의 성능 개선 속도를 약 2배 높였다는 연구 결과가 나왔다. 최근 훈련을 마친 미공개 모델 3개도 확인돼, AI가 더 뛰어난 AI를 개발하는 재귀적 자기개선(RSI)이 현실화할 가능성에 관심이 쏠리고 있다.AI 안전 연구기관 METR은 5일(현지시간) 앤트로픽의 AI 연구개발 가속에 대한 독립 평가 보고서를 공개하고, 지난해 10월 이후 앤트로픽의 모델 성…"
-    },
-    {
       "id": "simonw:https://simonwillison.net/2026/Nov/6/nilay-patel/",
       "sourceId": "simonw",
       "sourceName": "Simon Willison",
@@ -252,18 +447,6 @@
       "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
       "publishedAt": "2026-11-06T17:13:12.000Z",
       "excerpt": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop i…"
-    },
-    {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217115",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "앤트로픽, '클로드' 게임 복제 제한 완화…\"비슷한 게임 만들 수 있어\"",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217115",
-      "publishedAt": "2026-11-06T17:10:00.000Z",
-      "excerpt": "앤트로픽이 '클로드 코드'의 게임 복제 금지 조치를 완화했다. 기존 게임을 그대로 복제하는 것은 계속 금지하지만, 특정 게임을 참고해 비슷한 장르의 독창적인 게임을 만드는 작업은 허용하기로 했다.앤트로픽은 4일(현지시간) 최근 게임 개발 관련 요청을 지나치게 제한한다는 이용자들의 지적에 따라 '클로드 오퍼스 5.5'의 지침을 수정했다. 기존 게임의 복제를 요청받더라도 단순히 거부하는 대신, …"
     },
     {
       "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157031",
@@ -290,42 +473,6 @@
       "excerpt": "범정부 데이터 파이프라인을 구축하려는 정부에 시급한 보안 대책이 필요하다는 지적이 나왔다. 최근 AI를 이용한 사이버 공격이 국민 생활과 밀접한 기반시설까지 목표로 하면서 국가 차원의 대응을 서둘러야 한다는 것이다.전종홍 국가인공지능전략위원회 글로벌협력 분과위원은 6일 서울 중구 국가인공지능전략위에서 열린 제3차 전체회의에서 범정부 데이터 파이프라인 구축 안건에 보안 대책이 충분히 반영되지 …"
     },
     {
-      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=677785",
-      "sourceId": "bloter",
-      "sourceName": "블로터",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "[미래에셋운용 자본의 궤적]⑤ 스톡스팟 주식·CB, 미국에 모은 이유는",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=677785",
-      "publishedAt": "2026-11-06T17:01:20.000Z",
-      "excerpt": "미래에셋자산운용이 호주 로보어드바이저 업체 스톡스팟의 주식과 전환사채(CB)를 미국 웰스스팟 계열로 모았다. 스톡스팟 과반 지분을 보유한 미국 계열로 호주법인의 CB까지 넘긴 거래다. 주식 투자와 채권의 전환·회수 판단을 같은 사업 계열에서 조율하려는 재편으로 풀이된다. 미국의 인공지능(AI) 투자기술과 호주의 고객 자산관리 기반을 연결하겠다는 사업전략과도 맞물린다.6일 미래에셋운용 반기보고…"
-    },
-    {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217113",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "[게시판] 리얼월드, 로봇 파운데이션 모델 ‘리얼덱스’ 시연 등 단신",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217113",
-      "publishedAt": "2026-11-06T17:00:00.000Z",
-      "excerpt": "■ 리얼월드(대표 류중희)는 중국 상하이에서 열리는 중국국제수입박람회(CIIE 2026)에 참가해 로봇 파운데이션 모델(RFM) ‘리얼덱스’를 시연한다고 밝혔다. 한국과 일본 제조 현장의 실데이터로 학습해 다섯 손가락 로봇 핸드의 정밀 조작을 지원한다. 현장에서는 휴머노이드 로봇이 움직이는 컨베이어 벨트 위에서 서로 다른 형태의 물체를 집어 옮기는 모습을 선보인다.■ 도구로보틱스(대표 김진효…"
-    },
-    {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217084",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "앤트로픽, 클로드에 개인 금융 기능 추가…계좌 연결해 지출 분석",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217084",
-      "publishedAt": "2026-11-06T16:47:12.000Z",
-      "excerpt": "앤트로픽이 '클로드'에 은행 계좌와 신용카드를 연결해 개인 재무 상태를 분석할 수 있는 '개인 금융(Personal Finance)' 기능을 추가했다. 여러 금융 계좌의 거래 내역을 종합해 소비 패턴과 예정 지출을 파악하고, 중복 결제나 불필요한 수수료까지 찾아준다.앤트로픽은 5일(현지시간) 개인 금융 기능의 베타 서비스를 미국 내 유료 구독자를 대상으로 출시한다고 밝혔다. 프로, 맥스, 울…"
-    },
-    {
       "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157026",
       "sourceId": "techm",
       "sourceName": "테크M",
@@ -336,18 +483,6 @@
       "url": "https://www.techm.kr/news/articleView.html?idxno=157026",
       "publishedAt": "2026-11-06T16:42:47.000Z",
       "excerpt": "임종룡 우리금융그룹 회장이 헨리 페르난데스 MSCI 회장 겸 최고경영자(CEO)와 만나 기후변화와 인공지능(AI)이 금융산업에 미치는 영향과 대응 방향을 논의했다. 임 회장은 기업의 저탄소 전환을 지원하고 AI를 활용한 업무 혁신과 생산성 향상을 지속 추진하겠다고 밝혔다.우리금융그룹은 임 회장이 지난 5일 서울 중구 본사에서 페르난데스 회장과 면담했다고 6일 밝혔다. MSCI는 주가지수 산출…"
-    },
-    {
-      "id": "aitimes:https://www.aitimes.com/news/articleView.html?idxno=217104",
-      "sourceId": "aitimes",
-      "sourceName": "AI타임스",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "구글, 15초 영상 생성 '제미나이 옴니 1.2' 출시…가격 30% 인하",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217104",
-      "publishedAt": "2026-11-06T16:41:41.000Z",
-      "excerpt": "구글이 동영상 생성 AI의 최대 영상 길이를 15초로 늘리고 가격을 30% 인하했다. 기존 영상을 대화로 수정하는 기능과 참조 이미지의 일관성도 개선해 광고 등 상업용 영상 제작에 활용할 수 있도록 했다.구글은 5일(현지시간) 동영상 생성 AI 모델 ‘제미나이 옴니 1.2 플래시(Gemini Omni 1.2 Flash)’를 출시했다.이번 모델은 제미나이 API와 기업용 서비스에서 정식 제공된…"
     },
     {
       "id": "donga-sci:https://www.donga.com/news/Economy/article/all/20261107/134981413/2",
@@ -386,18 +521,6 @@
       "excerpt": "미국에서 인공지능(AI) 데이터센터 건설 지연 우려가 커지면서 한국 메모리 기업들의 중장기 투자 및 공급 확대 전략에도 제동이 걸릴 수 있다는 관측이 제기된다. 삼성전자와 SK하이닉스가 향후 1∼3년 치 메모리가 완판됐다고 밝히고 있으나, 데이터센터 건설 확대에 ‘브레이크’가 걸리면 메모리 기업들도 증설 속도 조절이 불가피하다는 것이다. 5일(현지 시간) AP통신은 AI 데이터센터 건설이 조…"
     },
     {
-      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=677962",
-      "sourceId": "bloter",
-      "sourceName": "블로터",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "롯데이노베이트, 체질 개선 승부수로 '장기 운영' 택한 이유",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=677962",
-      "publishedAt": "2026-11-06T16:27:51.000Z",
-      "excerpt": "롯데이노베이트가 인공지능(AI) 플랫폼과 데이터센터 사업을 통해 장기 운영 매출 확대에 나섰다. 기존 정보시스템 구축 사업에서 확보한 기술과 고객 기반을 활용해 시스템 구축 이후의 서비스 제공과 운영까지 사업 범위를 넓히는 전략이다.주목할 부분은 매출이 발생하는 방식의 변화다. 시스템통합(SI)은 대형 프로젝트 수행 실적에 따라 수익성이 달라지는 반면 시스템유지보수(SM)는 지속적인 운영계약…"
-    },
-    {
       "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157022",
       "sourceId": "techm",
       "sourceName": "테크M",
@@ -420,18 +543,6 @@
       "url": "https://www.techm.kr/news/articleView.html?idxno=157020",
       "publishedAt": "2026-11-06T16:20:37.000Z",
       "excerpt": "네이버가 엔비디아로부터 10억달러(약 1조3412억원) 규모의 전략적 지분 투자 유치를 완료하며 글로벌 인공지능(AI) 인프라 사업 확대에 속도를 낸다. 이번 투자로 엔비디아가 네이버의 3대 주주에 오르면서 양사의 자본·기술 협력 관계도 한층 강화됐다. 앞서 네이버는 글로벌 자산운용사 브룩필드와도 90억달러 규모의 컴퓨팅 인프라 확보 계약을 체결했다. 네이버는 이를 바탕으로 엔비디아·브룩필드…"
-    },
-    {
-      "id": "bloter:https://www.bloter.net/news/articleView.html?idxno=677974",
-      "sourceId": "bloter",
-      "sourceName": "블로터",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "씨앤엠, 車 모터 수주잔고 1.5조 발판…피지컬 AI로 확장 [현장+]",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=677974",
-      "publishedAt": "2026-11-06T16:18:40.000Z",
-      "excerpt": "\"45년 업력의 검증된 기술을 바탕으로 피지컬 인공지능(AI)의 움직임을 만드는 글로벌 모션 솔루션 기업이 되겠습니다.\"김형가 씨앤엠 대표는 6일 서울 여의도 CCMM에서 열린 기업공개(IPO) 기자간담회에서 이같이 말했다. 이어 \"유럽 유명 완성차 브랜드에는 우리 모터가 다 들어간다\"며 \"가전에서 다진 기술과 원가 경쟁력으로 자동차에 자리 잡았듯 로봇에서도 차별화된 경쟁력을 보여주겠다\"고 …"
     },
     {
       "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157017",
@@ -459,30 +570,6 @@
       "audioUrl": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3",
       "durationSec": 3050,
       "imageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818"
-    },
-    {
-      "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157011",
-      "sourceId": "techm",
-      "sourceName": "테크M",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "[글로벌] 오픈AI, 해킹 막는 'GPT-6 사이버' 공개.. 취약점 탐지부터 공격 검증까지",
-      "url": "https://www.techm.kr/news/articleView.html?idxno=157011",
-      "publishedAt": "2026-11-06T14:28:03.000Z",
-      "excerpt": "오픈AI가 사이버보안에 특화된 인공지능(AI) 모델 'GPT-6 사이버'를 공개했다. 소프트웨어의 보안 취약점을 찾아내고 실제 공격 가능성을 검증하는 것이 특징이다. AI의 보안 역량이 높아지는 만큼 사이버 공격에 악용될 가능성도 함께 커지고 있다.6일 주요 외신보도에 따르면 오픈AI는 GPT-6 사이버를 일부 승인된 고객에게 제한적으로 제공하기 시작했다. 해당 모델은 보안 취약점을 분석하고…"
-    },
-    {
-      "id": "techm:https://www.techm.kr/news/articleView.html?idxno=157009",
-      "sourceId": "techm",
-      "sourceName": "테크M",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "\"올해는 로컬 에이전트의 해\"...엔비디아 고가 AI PC 누가 쓰나 했더니",
-      "url": "https://www.techm.kr/news/articleView.html?idxno=157009",
-      "publishedAt": "2026-11-06T14:23:11.000Z",
-      "excerpt": "\"올해는 '로컬 에이전트의 해'라고 할 정도의 변곡점에 해당하는 시기였다.\"제프 옌 엔비디아 아시아태평양(APAC) 테크니컬 마케팅 디렉터는 6일 서울 서초구 JW 메리어트 호텔 서울에서 열린 엔비디아 RTX 스파크 기자간담회에 참석해 제품 출시 배경을 설명하며 이같이 밝혔다.RTX 스파크는 엔비디아가 지난달 16일 출시한 제품이다. 젠슨 황 엔비디아 창립자 겸 최고경영자(CEO)가 올해 6…"
     },
     {
       "id": "huggingface:https://huggingface.co/blog/allenai/toyblocks",
@@ -725,18 +812,6 @@
       "excerpt": "기후위기로 인한 이상기후 현상은 전 세계적인 식량 부족을 초래해 식품 가격을 상승시키는 원인으로 지목된다. 이에 따라 외부 자연환경과 별개로 안정적인 환경에서 농사를 지을 수 있는 실내 수직농장은 기후위기의 대안으로 주목받고 있다. 그러나 농업 기술을 개발하는 수많은 애그테크(AgTech) 스타트업은 여전히 현장에서 수익화에 어려움을 겪는 중이다."
     },
     {
-      "id": "donga-sci:https://www.donga.com/news/Inter/article/all/20261106/134979233/1",
-      "sourceId": "donga-sci",
-      "sourceName": "동아일보 과학",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "‘AI 해킹 비상’에 日정부, 사이버 공격 대책에 860억원 투입",
-      "url": "https://www.donga.com/news/Inter/article/all/20261106/134979233/1",
-      "publishedAt": "2026-11-06T06:40:19.000Z",
-      "excerpt": "최근 인공지능(AI)을 활용한 사이버 공격이 잇따르는 가운데 일본 정부가 대책 마련을 위해 100억엔(약 860억 원)을 투입할 계획이다. 6일 현지 공영 NHK, 니혼게이자이신문(닛케이) 등에 따르면 일본 정부는 이날 각의(국무회의)에서 올해 예산의 예비비 중 100억엔을 경찰 시스템 정비 등 사이버 공격 대책에 투입하기로 결정했다. 구체적으로 ▲경찰이 공격 서버 등에 접근해 무력화 조치를…"
-    },
-    {
       "id": "byline:https://byline.network/2026/11/6-462/",
       "sourceId": "byline",
       "sourceName": "바이라인네트워크",
@@ -747,18 +822,6 @@
       "url": "https://byline.network/2026/11/6-462/",
       "publishedAt": "2026-11-06T06:36:07.000Z",
       "excerpt": "유닉스의 오픈소스 텍스트 에디터 ‘이맥스(EMACS)’가 탄생 50주년을 맞았다. 기술전문가 심슨 가핀켈은 지난달 20일 MIT테크놀로지리뷰에 게재한 글을 통해 EMACS의 역사적 의미를 자유 소프트웨어 운동의 탄생이라고 평가했다."
-    },
-    {
-      "id": "donga-sci:https://www.donga.com/news/Inter/article/all/20261106/134978818/2",
-      "sourceId": "donga-sci",
-      "sourceName": "동아일보 과학",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "“2조5000억 달러 증발”…나스닥 폭락시킨 AI 데이터센터의 역설",
-      "url": "https://www.donga.com/news/Inter/article/all/20261106/134978818/2",
-      "publishedAt": "2026-11-06T06:21:00.000Z",
-      "excerpt": "미국 중간선거 이후 AI 데이터센터 건설 지연 우려로 나스닥이 5.5% 폭락하고 시가총액 2조5000억 달러가 증발했다. 엔비디아·AMD 등 반도체주 급락과 레버리지 매도, AI 투자 수익성에 대한 월가의 우려를 분석했다."
     },
     {
       "id": "mobiinside:https://www.mobiinside.co.kr/2026/11/06/netflix-engagement-ip-monetization-growth-strategy/",
@@ -943,18 +1006,6 @@
       "excerpt": "NOTE: This is a narrative form of a keynote for the 2026 Product Leader Summit.&#160; Overview Most people in the industry realize that the job definition and responsibilities of the people in the product role can vary w…"
     },
     {
-      "id": "etnews:https://www.etnews.com/20261106000052",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "카카오, 카나나2 오픈소스 공개 “텍스트·이미지 보고 바로 판단”",
-      "url": "https://www.etnews.com/20261106000052",
-      "publishedAt": "2026-11-06T00:25:18.000Z",
-      "excerpt": "카카오가 인공지능(AI) 에이전트의 반복 판단을 빠르게 처리하는 자체 멀티모달 의사결정 모델 카나나2를 오픈소스를 풀었다. 카카오는 'Kanana-2-v-decide'를 허깅페이스에 오픈소스로 공개했다고 6일 밝혔다. 의사결정 모델은 이용자의 질문에 문장으로 답변하는 대신 확률, 선택, 점수 등 규격화된 형태로 판단 결과를 제공하는 모델이다. 서비스가 이 결과를 바로 활용하도록 설계돼 자연어…"
-    },
-    {
       "id": "outstanding:https://outstanding.kr/performancereviews20261106/",
       "sourceId": "outstanding",
       "sourceName": "아웃스탠딩",
@@ -965,54 +1016,6 @@
       "url": "https://outstanding.kr/performancereviews20261106/",
       "publishedAt": "2026-11-06T00:20:00.000Z",
       "excerpt": "&#160; *이 글은 외부 필자인 김도영 님의 기고입니다. &#160; 연말, 한 팀장이 평가표 앞에서 두 팀원의 성과를 살펴봅니다. &#160; 올해 A는 회사가 새롭게 추진한 사업을 맡았습니다. &#160; 여러 부서와 협업해 계획한 일정에 [&#8230;]"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261106000048",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "아톤, 日 핀테크 알코즈와 협력…현지 보안시장 공략",
-      "url": "https://www.etnews.com/20261106000048",
-      "publishedAt": "2026-11-06T00:19:30.000Z",
-      "excerpt": "아톤이 일본 핀테크 기업 알코즈(ALQOUZ)와 손잡고 일본 보안시장을 공략한다. 양자내성암호(PQC) 기반 인증 기술과 피싱 방지 서비스를 앞세워 현지 금융권과 기업 고객을 확보한다는 구상이다. 아톤은 일본 핀테크 기업 알코즈(ALQOUZ)와 일본 시장 진출을 위한 업무협약(MOU)을 체결했다고 6일 밝혔다. 알코즈는 일본 금융당국에 등록된 핀테크 기업이다. 금융기관에 인공지능(AI)·빅데…"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261106000047",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "AI 리서치 커뮤니티 '오랩실' 출범…첫 오프라인 세미나 '오락실' 성료",
-      "url": "https://www.etnews.com/20261106000047",
-      "publishedAt": "2026-11-06T00:16:58.000Z",
-      "excerpt": "AI 리서치 커뮤니티 '오랩실'(리더 오세용)이 지난 5일 서울 마포구 공덕 프론트원에서 첫 오프라인 세미나 '오락실'을 열었다. 이날 세미나는 논문 발표 4편, 지도교수 특강, 패널 토크 순으로 진행됐다. 오랩실은 'AI의 사용자에서, 저자로'를 슬로건으로 내건 AI 리서치 커뮤니티다. 2026년 9월 시작해 논문 발제와 AI 트렌드를 상시 공유하고, 분기마다 오프라인 세미나 '오락실'을 …"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261106000045",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "인텔리빅스, 수소충전소 대기차량 AI로 집계…전국 15곳 구축",
-      "url": "https://www.etnews.com/20261106000045",
-      "publishedAt": "2026-11-06T00:16:10.000Z",
-      "excerpt": "인텔리빅스가 인공지능(AI) 영상분석 기술을 활용해 수소충전소의 대기차량 현황을 실시간으로 파악하는 시스템을 구축한다. 인텔리빅스는 한국석유관리원이 발주한 '영상분석장비 설치지원을 통한 디지털고객만족센터 개선 사업'을 수주했다고 6일 밝혔다. 인텔리빅스는 AI 영상분석 기술을 기반으로 지능형 영상관제와 산업·공공 안전관리 솔루션을 개발·공급하는 기업이다. 오는 12월까지 전국 수소충전소 15…"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261106000037",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "플래티어, 국제 품질 테스팅 콘퍼런스서 AI 테스트 관리 솔루션 'XGEN TMS' 첫선",
-      "url": "https://www.etnews.com/20261106000037",
-      "publishedAt": "2026-11-06T00:08:21.000Z",
-      "excerpt": "플래티어(대표 이상훈)는 지난 5일 서울 삼성동 코엑스에서 열린 '제12회 국제 품질 테스팅 콘퍼런스(Better Software Testing Conference 2026·이하 베스트콘 2026)'에 참가했다고 밝혔다. 이날 플래티어는 사내 AI 모델을 활용 및 폐쇄망 구성을 지원하는 AI 기반 테스트 관리 시스템 'XGEN TMS(엑스젠 TMS)'를 공개하고, 테스트 설계와 실행 결과를 …"
     },
     {
       "id": "openai:https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
@@ -1085,66 +1088,6 @@
       "url": "https://corp.banksalad.com/blog/news/bs1502/",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "excerpt": "- AI 에이전트 판단·실행 제어 기술…고객 안전망 구축 초점- 금융 정보∙계산 등 검증 이어가…AI 에이전트 신뢰도 제고 뱅크샐러드가 AI 에이전트(AI agent)의 판단과 실행을 제어하는 기술을 개발했다. AI 에이전트가 금융 서비스를 제공하는 과정에서 발생할 수 있는 오류를 통…"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261105000444",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "'아이콘' 12월 공식 오픈하는 시그마… “중소기업 AI 연산자원 부담 완화 목표”",
-      "url": "https://www.etnews.com/20261105000444",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "excerpt": "인공지능(AI) 인프라 전문기업 시그마 주식회사(대표 이지아)가 고성능 GPU·NPU 연산자원을 효율적으로 공유할 수 있는 클라우드 플랫폼 'AICON(아이콘)'을 오는 12월 공식 출시한다고 밝혔다. 대구에 소재한 시그마가 개발한 AICON은 대학과 연구기관, 기업 등이 보유한 GPU·NPU 장비의 유휴 연산자원을 AI 개발자와 중소기업에 제공하는 플랫폼이다. 기존에 구축된 고성능 컴퓨팅 …"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261106000031",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "IoT 혁신융합대학사업단, '미래 AIoT COSS 포럼 2026' 개최",
-      "url": "https://www.etnews.com/20261106000031",
-      "publishedAt": "2026-11-05T23:51:03.000Z",
-      "excerpt": "사물인터넷 혁신융합대학사업단이 자율형 사물인터넷(IoT)과 피지컬 인공지능(AI) 등 차세대 기술 발전 방향을 논의하고, 산업계와 연계한 인재양성 협력을 확대한다. 사물인터넷 혁신융합대학사업단은 지난 3일 서울 코엑스에서 '미래 AIoT COSS 포럼 2026'을 개최했다고 밝혔다. 이번 포럼은 AI와 IoT 융합 기술의 발전 방향을 공유하고, 대학과 기업, 지역 간 협력 방안을 모색하기 위…"
-    },
-    {
-      "id": "etnews:https://www.etnews.com/20261106000030",
-      "sourceId": "etnews",
-      "sourceName": "전자신문",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "하루 만에 4300조 증발…AI 규제 공포가 뉴욕증시 덮쳤다",
-      "url": "https://www.etnews.com/20261106000030",
-      "publishedAt": "2026-11-05T23:44:53.000Z",
-      "excerpt": "인공지능(AI) 투자 열풍에 사상 최고치를 경신하던 미국 뉴욕증시가 하루 만에 급락했다. 미국 중간선거에서 민주당이 의회 권력을 장악하면서 AI 산업 규제 강화와 데이터센터 투자 위축 우려가 확산한 탓이다. AI 관련 기업들의 막대한 설비투자가 예상보다 둔화할 수 있다는 경계감까지 겹치면서 미국 증시에서 약 3조2000억달러(약 4288조원)의 시가총액이 사라졌다. 5일(현지시간) 뉴욕증권거…"
-    },
-    {
-      "id": "byline:https://byline.network/2026/11/5-480/",
-      "sourceId": "byline",
-      "sourceName": "바이라인네트워크",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "넥슨 ‘템빨: 오버기어드’ 미리보기",
-      "url": "https://byline.network/2026/11/5-480/",
-      "publishedAt": "2026-11-05T21:29:58.000Z",
-      "excerpt": "넥슨이 오는 26일 신작 다중접속역할수행게임(MMORPG) ‘템빨: 오버기어드’를 선보인다. 동명 웹소설을 원작으로 한 작품으로, 장비 중심 성장 시스템과 서버의 경계를 넘어 협력하고 경쟁하는 콘텐츠를 앞세운 작품이다. 넥슨은 정식 출시를 앞두고 게임의 전반적인 특징과 서비스 운영 방향을 공개하며 본격적인 출시 준비에 나섰다."
-    },
-    {
-      "id": "byline:https://byline.network/2026/11/05_398172-2/",
-      "sourceId": "byline",
-      "sourceName": "바이라인네트워크",
-      "group": "ai",
-      "lang": "ko",
-      "kind": "article",
-      "title": "AI 에이전트 제휴사 늘리지 못하던 카카오의 해법은?",
-      "url": "https://byline.network/2026/11/05_398172-2/",
-      "publishedAt": "2026-11-05T20:49:33.000Z",
-      "excerpt": "카카오가 인공지능(AI) 서비스 확산 속도가 시장 기대에 미치지 못했다고 인정했다. 카카오톡을 중심으로 에이전틱 AI 사업을 추진하고 있지만, 실제 외부 서비스를 연결하는 과정에서 예상보다 많은 어려움을 확인했다. 이에 카카오는 카카오톡 AI 에이전트가 이용할 수 있는 외부 서비스를 빠르게 늘리기 위해 연동 전략을 바꾸기로 했다. 기존에는 외부 기업과 시스템을 직접 연결하는 방식을 우선 추진…"
     },
     {
       "id": "openai:https://openai.com/index/cultfit-builds-with-codex",
@@ -1800,21 +1743,6 @@
       "excerpt": "Community Wisdom 304"
     },
     {
-      "id": "latentspace:https://latent.space/p/arca/",
-      "sourceId": "latentspace",
-      "sourceName": "Latent Space",
-      "group": "ai",
-      "lang": "en",
-      "kind": "episode",
-      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
-      "url": "https://latent.space/p/arca/",
-      "publishedAt": "2026-10-31T16:05:00.000Z",
-      "excerpt": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
-      "audioUrl": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a18ea6-9508-712c-b5ff-54536059aced/01a18eb9-7b8e-7f04-b56a-8580cdb8c207.mp3",
-      "durationSec": 1565,
-      "imageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/e87a2a97-4814-4bc4-b4a8-5e837f414b06/Screenshot_2026-10-27_at_16.45.55.jpg?t=1793396012"
-    },
-    {
       "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-david-tisch-on-why-high-ownership-and-concentration-is-bs-why-no-manager-actually-wants-to-stay-small-why-competing-with-the-mega-platforms-is-a-losing-game-why-the-lean-startup-is-a-fake",
       "sourceId": "20vc",
       "sourceName": "The Twenty Minute VC",
@@ -2251,21 +2179,6 @@
       "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
       "publishedAt": "2026-10-19T12:31:37.000Z",
       "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the…"
-    },
-    {
-      "id": "20vc:https://thetwentyminutevc.libsyn.com/20vc-you-need-1bn-to-do-seed-today-the-untold-truths-of-venture-who-wins-and-who-loses-in-the-next-decade-of-vc-why-margin-and-price-matter-less-in-a-world-of-ai-with-sameer-dholakia-bessemer",
-      "sourceId": "20vc",
-      "sourceName": "The Twenty Minute VC",
-      "group": "guru",
-      "lang": "en",
-      "kind": "episode",
-      "title": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-you-need-1bn-to-do-seed-today-the-untold-truths-of-venture-who-wins-and-who-loses-in-the-next-decade-of-vc-why-margin-and-price-matter-less-in-a-world-of-ai-with-sameer-dholakia-bessemer",
-      "publishedAt": "2026-10-19T07:07:00.000Z",
-      "excerpt": "Sameer Dholakia is a Partner @ Bessemer, the first that has just raised $5.75BN across a $1.75BN seed fund and $4BN growth fund. Sameer has led investments into the likes of Anthropic, Fireworks and Legora to name a few.…",
-      "audioUrl": "https://traffic.libsyn.com/secure/thetwentyminutevc/Sameer_Dholakia__Bessemer_Venture_Partners.mp3?dest-id=240976",
-      "durationSec": 4515,
-      "imageUrl": "https://static.libsyn.com/p/assets/0/e/d/0/0ed0259c0d48c11e5f2e77a3093c12a1/WhatsApp_Image_2026-10-16_at_14.05.10.jpeg"
     },
     {
       "id": "toss:https://toss.tech/article/nic-interrupt-bottleneck",
@@ -3849,7 +3762,7 @@
       {
         "id": "latentspace",
         "count": 8,
-        "episodes": 3,
+        "episodes": 2,
         "videos": 0,
         "withViews": 0
       },
@@ -3968,6 +3881,15 @@
         "withViews": 0
       },
       {
+        "id": "etnews",
+        "count": 2,
+        "filter": "ai",
+        "beforeFilter": 30,
+        "episodes": 0,
+        "videos": 0,
+        "withViews": 0
+      },
+      {
         "id": "naverd2",
         "count": 8,
         "episodes": 0,
@@ -4066,7 +3988,7 @@
       },
       {
         "id": "hani-sci",
-        "count": 2,
+        "count": 1,
         "filter": "ai",
         "beforeFilter": 30,
         "episodes": 0,
@@ -4074,12 +3996,6 @@
         "withViews": 0
       }
     ],
-    "failed": [
-      {
-        "id": "etnews",
-        "url": "https://rss.etnews.com/Section902.xml",
-        "error": "fetch failed"
-      }
-    ]
+    "failed": []
   }
 }
